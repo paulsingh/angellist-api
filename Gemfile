@@ -10,5 +10,13 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-# To use debugger
-# gem 'ruby-debug'
+gem 'rake'
+
+platforms :mri_18 do
+  gem 'ruby-debug'
+end
+
+platforms :mri_19 do
+  gem 'ruby-debug19', :require => 'ruby-debug' if RUBY_VERSION < '1.9.3'
+end
+

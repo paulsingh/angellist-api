@@ -2,10 +2,6 @@
 *.gem
 log/*.log
 pkg/
-test/dummy/db/*.sqlite3
-test/dummy/log/*.log
-test/dummy/tmp/
-coverage
 .rvmrc
 Gemfile.lock
 coverage/
