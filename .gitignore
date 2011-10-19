@@ -8,3 +8,7 @@ test/dummy/tmp/
 coverage
 .rvmrc
 Gemfile.lock
+coverage/
+doc/
+.yardoc/
+
