@@ -39,7 +39,7 @@ module AngellistApi
       # @option options [String] :order May be one of popularity, asc or desc. Startups will be ordered by number of followers, ascending id or descending id, respectively. Defaults to desc
       # @example Returns Returns startups that are tagged with the given tag or a child of the given tag. Results are paginated and ordered according to the order parameter.
       #   AngellistApi.get_tag_startups
-      def get_tag_startups(options = {})
+      def get_tag_startups(id, options = {})
         get("1/tags/#{id}/startups", options, :format => :json, :phoenix => true)
       end
     end

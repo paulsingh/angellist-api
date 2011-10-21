@@ -2,14 +2,14 @@ require 'spec_helper'
 
 describe AngellistApi do
   
-  describe "#new" do
+  describe ".new" do
     it "should be an alias for AngellistApi::Client.new" do
       options = { :some => "option" }
       AngellistApi.new(options).class.name.should == "AngellistApi::Client"
     end
   end
   
-  describe "#method_missing" do
+  describe ".method_missing" do
     context "with a method known to AngellistApi::Client" do
       it "should pass the method call to AngellistApi::Client" do
         expected_result = {:some => "result"}
@@ -25,7 +25,7 @@ describe AngellistApi do
     end
   end
   
-  describe "#respond_to?" do
+  describe ".respond_to?" do
     it "should return true if AngellistApi::Client responds to the method" do
       AngellistApi.respond_to?(:startup_search).should be_true
     end

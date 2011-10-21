@@ -55,7 +55,7 @@ module AngellistApi
       # @example Return objects that the given user is following, paginated and ordered by most recent follow first. See the type parameter to specify which class of objects to return.
       #   AngellistApi.get_user_following
       def get_user_following(id, options={})
-        get("1/users/#{id}/following ", options, :format => :json, :phoenix => true)
+        get("1/users/#{id}/following", options, :format => :json, :phoenix => true)
       end
       
       # Return ids of objects that the given user is following, paginated and ordered by most recent follow first. See the type parameter to specify which class of objects to return. Responds like GET /users/:id/followers/ids.
@@ -67,7 +67,7 @@ module AngellistApi
       # @example Return ids of objects that the given user is following, paginated and ordered by most recent follow first. See the type parameter to specify which class of objects to return. Responds like GET /users/:id/followers/ids.
       #   AngellistApi.get_user_following_ids
       def get_user_following_ids(id, options={})
-        get("1/users/#{id}/following/ids ", options, :format => :json, :phoenix => true)
+        get("1/users/#{id}/following/ids", options, :format => :json, :phoenix => true)
       end
       
       # Returns the given startup's followers, paginated and ordered by most recent follower first. Responds like GET /users/:id/followers.
