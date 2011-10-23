@@ -26,4 +26,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec",     "~> 2.7.0"
   s.add_development_dependency "mocha",     "~> 0.10.0"
   s.add_development_dependency "simplecov", "~> 0.5.4"
+  s.add_development_dependency "timecop",   "~> 0.3.5"
 end

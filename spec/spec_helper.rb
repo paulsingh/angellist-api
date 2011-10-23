@@ -3,6 +3,7 @@ SimpleCov.start
 
 require 'rspec'
 require 'angellist_api'
+require 'timecop'
 
 RSpec.configure do |config|
   config.mock_with :mocha
