@@ -16,20 +16,17 @@ describe AngellistApi::Configuration do
     it "should allow configuration variables to be set in a block" do
       object = IncludedClass.new
       object.configure do |o|
-        o.oauth_token = "my oauth token"
-        o.oauth_token_secret = "some super secret token"
+        o.access_token = "my oauth token"
       end
-      object.oauth_token.should == "my oauth token"
-      object.oauth_token_secret.should == "some super secret token"
+      object.access_token.should == "my oauth token"
     end
   end
   
   describe "#options" do
     it "should return a hash of all configuration options" do
       object = IncludedClass.new
-      config = { :oauth_token => "123-token", :oauth_token_secret => "345-secret" }
+      config = { :access_token => "123-token" }
       config.each { |k,v| object.send("#{k.to_s}=", v) }
-      
       config.each { |k,v| object.options[k].should == v }
     end
   end
