@@ -39,13 +39,11 @@ describe AngellistApi::Request do
   end
   
   describe "#formatted_path" do
-    it "should return a string with the path and the given format appended" do
-      @dummy.expects(:format).returns(:something)
-      @dummy.send(:formatted_path, @sample_path, {:format => 'json'}).should == "/index.json"
+    it "should return a string with the path without the given format appended" do
+      @dummy.send(:formatted_path, @sample_path, {:format => 'json'}).should == "/index"
     end
     
     it "should not throw an error options[:format] is not provided" do
-      @dummy.expects(:format).returns(:json)
       lambda { @dummy.send(:formatted_path, @sample_path) }.should_not raise_error
     end
   end
