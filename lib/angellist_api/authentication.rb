@@ -8,10 +8,7 @@ module AngellistApi
     # @return [Hash]
     def authentication
       {
-        :consumer_key => consumer_key,
-        :consumer_secret => consumer_secret,
-        :token => oauth_token,
-        :token_secret => oauth_token_secret,
+        :access_token => respond_to?(:access_token) ? access_token : nil,
       }
     end
 

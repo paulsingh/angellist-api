@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'faraday', '~> 0.7.4'
   s.add_dependency 'faraday_middleware', '~> 0.7.0'
   s.add_dependency 'multi_json', '~> 1.0.0'
-  s.add_dependency 'simple_oauth', '~> 0.1.5'
   
   s.name        = "angellist_api"
   s.version     = AngellistApi::VERSION
@@ -21,9 +20,10 @@ Gem::Specification.new do |s|
   s.description = "Ruby wrapper for the Angellist API. The AngelList API provides developers with a RESTful interface to the AngelList data set. Some endpoints are public and require no authentication."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
-  s.test_files = Dir["test/**/*"]
+  s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rails", "~> 3.0.10"
-
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec",     "~> 2.7.0"
+  s.add_development_dependency "mocha",     "~> 0.10.0"
+  s.add_development_dependency "simplecov", "~> 0.5.4"
+  s.add_development_dependency "timecop",   "~> 0.3.5"
 end

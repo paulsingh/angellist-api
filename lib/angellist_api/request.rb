@@ -37,7 +37,7 @@ module AngellistApi
     end
 
     def formatted_path(path, options={})
-      [path, options.fetch(:format, format)].compact.join('.')
+      path
     end
   end
 end
