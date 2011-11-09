@@ -6,6 +6,7 @@ module AngellistApi
     # Require client method modules after initializing the Client class in
     # order to avoid a superclass mismatch error, allowing those modules to be
     # Client-namespaced.
+    require 'angellist_api/client/activity_feeds'
     require 'angellist_api/client/follows'
     require 'angellist_api/client/reviews'
     require 'angellist_api/client/startups'
@@ -16,6 +17,7 @@ module AngellistApi
 
     alias :api_endpoint :endpoint
 
+    include AngellistApi::Client::ActivityFeeds
     include AngellistApi::Client::Follows
     include AngellistApi::Client::Reviews
     include AngellistApi::Client::Startups
