@@ -7,7 +7,7 @@ describe AngellistApi::Configuration do
   describe "#extended" do
     it "should have all configuration variables set to the default values by default" do
       AngellistApi::Configuration::VALID_OPTIONS_KEYS.each do |key|
-        ExtendedClass.send(key).should == AngellistApi::Configuration.const_get("DEFAULT_#{key.upcase}")
+        ExtendedClass.send(key).should == AngellistApi::Configuration.const_get("DEFAULT_#{key.to_s.upcase}")
       end
     end
   end
@@ -42,7 +42,7 @@ describe AngellistApi::Configuration do
       object.reset
       
       AngellistApi::Configuration::VALID_OPTIONS_KEYS.each_with_index do |key, i|
-        object.send(key).should == AngellistApi::Configuration.const_get("DEFAULT_#{key.upcase}")
+        object.send(key).should == AngellistApi::Configuration.const_get("DEFAULT_#{key.to_s.upcase}")
       end
     end
   end
