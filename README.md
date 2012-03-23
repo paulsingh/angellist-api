@@ -2,7 +2,7 @@
 A Ruby wrapper for the AngelList REST APIs
 
 ## <a name="installation">Installation</a>
-    gem install angellist-api
+    gem install angellist_api
 
 ## <a name="pulls">Submitting a Pull Request</a>
 1. Fork the project.
