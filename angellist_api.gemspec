@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Ruby wrapper for the Angellist API."
   s.description = "Ruby wrapper for the Angellist API. The AngelList API provides developers with a RESTful interface to the AngelList data set. Some endpoints are public and require no authentication."
 
-  s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md", "CHANGELOG.md"]
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency 'hashie', '>= 1.1.0'
