@@ -6,9 +6,10 @@ require 'angellist_api'
 require 'timecop'
 
 RSpec.configure do |config|
-  config.mock_with :mocha
+  config.mock_with :rspec
 
   config.filter_run :focus => true
   config.run_all_when_everything_filtered = true
   config.color_enabled = true
 end
+

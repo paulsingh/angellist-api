@@ -1,23 +1,22 @@
 require 'spec_helper'
 
 describe AngellistApi::Client::Startups do
-  before(:each) do
-    @client = AngellistApi::Client.new
-  end
-  
+  let(:client) { AngellistApi::Client.new }
+
   describe "#get_startup" do
-    it "should get 1/startups/<id>" do
+    it "gets 1/startups/<id>" do
       id = "123"
-      @client.expects(:get).with("1/startups/#{id}", :format => :json, :phoenix => true).returns("success")
-      @client.get_startup(id).should == "success"
+      client.should_receive(:get).with("1/startups/#{id}", :format => :json, :phoenix => true).and_return("success")
+      client.get_startup(id).should == "success"
     end
   end
-  
+
   describe "#startup_search" do
-    it "should get 1/startups/search" do
+    it "gets 1/startups/search" do
       options = { :some => "options" }
-      @client.expects(:get).with("1/startups/search", options, :format => :json, :phoenix => true).returns("success")
-      @client.startup_search(options).should == "success"
+      client.should_receive(:get).with("1/startups/search", options, :format => :json, :phoenix => true).and_return("success")
+      client.startup_search(options).should == "success"
     end
   end
 end
+

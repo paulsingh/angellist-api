@@ -1,16 +1,14 @@
 require 'spec_helper'
 
 describe AngellistApi::Client::StartupRoles do
-  before(:each) do
-    @client = AngellistApi::Client.new
-  end
-  
+  let(:client) { AngellistApi::Client.new }
+
   describe "#get_startup_roles" do
-    it "should get to 1/follows" do
+    it "gets to 1/follows" do
       options = { :some => "options" }
-      @client.expects(:get).with("1/startup_roles", options, :format => :json, :phoenix => true).returns("success")
-      @client.get_startup_roles(options).should == "success"
+      client.should_receive(:get).with("1/startup_roles", options, :format => :json, :phoenix => true).and_return("success")
+      client.get_startup_roles(options).should == "success"
     end
   end
-  
 end
+
