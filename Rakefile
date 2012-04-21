@@ -14,6 +14,15 @@ RSpec::Core::RakeTask.new(:spec)
 task :test => :spec
 task :default => :spec
 
+namespace :spec do
+  [:integration, :unit].each do |type|
+    desc "Run the code examples in spec/#{type}"
+    RSpec::Core::RakeTask.new(type) do |t|
+      t.pattern = "./spec/#{type}/**/*_spec.rb"
+    end
+  end
+end
+
 YARD::Rake::YardocTask.new do |t|
   t.files   = ['lib/**/*.rb', 'README.md']
 end

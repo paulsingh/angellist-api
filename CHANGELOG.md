@@ -1,3 +1,8 @@
+## Master
+
+- YARD cleanup.
+- Integration specs added using VCR, for unauthenticated calls so far.
+
 ## 1.0.1 - 22 March, 2012
 
 - Doh, we bungled a version number -- no changes.

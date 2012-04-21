@@ -7,8 +7,9 @@ module AngellistApi
       # Given a startup_id, returns the users involved in that startup. Given a
       # user_id, returns the startups that user is involved in. If neither
       # parameter is given, the authenticated user is used. Possible roles
-      # include team_member, past_investor, advisor and referrer. Roles are
-      # paginated and ordered by most recently declared first.
+      # include founder, employee, past_investor, advisor, incubator and
+      # referrer. Roles are paginated and ordered by most recently declared
+      # first.
       #
       # @requires_authentication Optional
       # @response_format `json`

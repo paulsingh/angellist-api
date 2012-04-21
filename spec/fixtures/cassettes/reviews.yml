@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.angel.co/1/reviews?user_id=2850
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+      X-Phx:
+      - 'true'
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 21:53:37 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '984'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '85'
+      etag:
+      - ! '"53c6326f9c809fef0b1f41a9db32a5c2"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"reviews":[{"id":123,"rating":1,"created_at":"2011-06-26T22:04:46Z","note":"There''s
+        simply no organization or angel in the world that is this supportive and active
+        for startups.  I''m so thrilled to be part of their network.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":322,"rating":1,"created_at":"2011-07-19T19:16:34Z","note":"","relationship_to_reviewer":"unknown"},{"id":432,"rating":1,"created_at":"2011-07-25T22:26:21Z","note":"","relationship_to_reviewer":"unknown"},{"id":528,"rating":1,"created_at":"2011-07-25T22:49:12Z","note":"","relationship_to_reviewer":"unknown"},{"id":639,"rating":1,"created_at":"2011-07-26T01:11:12Z","note":"Dave
+        really cares about startups as illustrated by the many 10pm Friday night calls
+        I''ve had with him.  He''s got an unparalleled network and is an invaluable
+        addition to any team.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":711,"rating":1,"created_at":"2011-07-26T02:38:01Z","note":"","relationship_to_reviewer":"unknown"},{"id":847,"rating":1,"created_at":"2011-07-27T01:34:12Z","note":"We
+        enjoy every second with this family, and benefit greatly from been part of
+        it. ","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":956,"rating":1,"created_at":"2011-08-02T02:26:05Z","note":"Exceptional
+        understanding of the \"science\" and repeatable processes that produce great
+        products and great companies. ","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":1180,"rating":1,"created_at":"2011-08-20T16:45:02Z","note":"They
+        took a chance on my company when potentially nobody else would.  This program
+        literally changed my life and I struggle finding words to describe my gratitude.  Trying
+        to imagine where I''d be without the 500Startups accelerator program is like
+        finding your soul-mate and trying to recall what  life was like before.  The
+        team and mentor network are quite arguably superhuman.  I will forever be
+        #500Strong and know I''m truly part of a family.  Thank you so much.","relationship_to_reviewer":"unknown"},{"id":1234,"rating":1,"created_at":"2011-08-27T18:26:17Z","note":"The
+        best thing we could have done for our startup. Being tech and product-focused
+        people, it was good to have someone on our shoulder telling us to worry about
+        design, data, and distribution. Also, the network is massive and _incredibly_
+        helpful.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":1257,"rating":1,"created_at":"2011-08-29T16:23:48Z","note":"I
+        love what 500Startups is doing - smart help + booster rockets for entrepreneurs.  In
+        addition, they tell you yes or no quickly and don''t waste your time.  Awesome.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":1333,"rating":1,"created_at":"2011-09-06T00:34:47Z","note":"Smart,
+        quick to make decisions, and amazing value add especially via access to the
+        500 network of founders and mentors. You''d be an idiot not to take their
+        money.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":1381,"rating":1,"created_at":"2011-09-16T04:31:34Z","note":"The
+        500 Family regularly exceeds our expectations.  It''s impossible to do more
+        for entrepreneurs than what Dave, the 500 Team, and the incredibly active
+        mentor + founder network do regularly.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":1382,"rating":1,"created_at":"2011-09-16T04:51:21Z","note":"These
+        guys are great. There''s a lot of talk out there about value add investors,
+        or people who are entrepreneur friendly. At the end of the day, these guys
+        are one of the few who are legit on both fronts. If they offer, say yes. ","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":1415,"rating":1,"created_at":"2011-09-24T17:35:30Z","note":"Despite
+        the fact that 500 startups has a proven track record of launching successful
+        companies, joining 500 startups is probably the most fun and the most rewarding
+        experience I have ever had.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":1481,"rating":1,"created_at":"2011-10-01T21:41:15Z","note":"Great
+        exposure","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":1989,"rating":1,"created_at":"2011-11-16T09:41:10Z","note":"Great
+        network.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":2655,"rating":1,"created_at":"2012-01-24T19:13:06Z","note":"I''m
+        a coinvestor with them on a variety of deals and always try to bring them
+        in when I can. Love their team, philosophy, and network","relationship_to_reviewer":{"as":"investor","relationship":"investor"}},{"id":2770,"rating":1,"created_at":"2012-01-30T21:22:53Z","note":"Focus
+        on what''s important: community, teamwork and strength through collaboration.
+        ","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":2960,"rating":1,"created_at":"2012-02-16T04:37:36Z","note":"Helpful,
+        smart, great to have on your team.","relationship_to_reviewer":{"as":"founder","relationship":"investor"}},{"id":3354,"rating":1,"created_at":"2012-03-27T17:51:36Z","note":"Dave
+        McClure is an incredibly gifted marketer, and so good at what he does.  ","relationship_to_reviewer":{"as":"founder","relationship":"investor"}}],"total_positive":21,"total":21,"per_page":50,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 21:53:37 GMT
+recorded_with: VCR 2.1.0

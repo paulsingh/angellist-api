@@ -1,0 +1,129 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.angel.co/1/status_updates?user_id=2850
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+      X-Phx:
+      - 'true'
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 22:24:02 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '990'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '12'
+      etag:
+      - ! '"67ba16a7fe85de9157fdc2f2ba11d424"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"status_updates":[{"id":31163,"message":"Fear is the Mind Killer.
+        I will face my fear, let\u00a0it pass over & through me. Where fear has gone
+        there will be nothing; only I will remain.","created_at":"2011-11-13T00:36:50Z"},{"id":22690,"message":"500
+        Startups fall accelerator program begins October 10, with ~30 companies participating
+        from all over the world.","created_at":"2011-10-05T07:31:14Z"},{"id":10904,"message":"watch
+        500 Startups Demo Days: August 16-17, Mountain View, CA (info & livestream:
+        http://plancast.com/p/6q4q)","created_at":"2011-08-06T00:55:58Z"},{"id":6136,"message":"There
+        is no Try. Only DO.","created_at":"2011-07-10T00:31:07Z"}],"total":4,"per_page":50,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 22:24:02 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/status_updates?startup_id=1124
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+      X-Phx:
+      - 'true'
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 22:24:03 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '989'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '18'
+      etag:
+      - ! '"901fd76984d3a6c46216c8bd82ffa3ce"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"status_updates":[{"id":53746,"message":".@500 Startups by the #''s
+        (infographic): companies, exits, countries, team, process, languages, mentors,
+        events, etc: http://bit.ly/500info","created_at":"2012-04-12T23:57:59Z"},{"id":52798,"message":"Blowing
+        Up Startups Since 2010 -- WE ARE 500.","created_at":"2012-04-06T02:36:39Z"},{"id":52554,"message":"Pres.
+        Obama set to sign JOBS Act on THURSDAY, April 5th: see http://en.wikipedia.org/wiki/Jumpstart_Our_Business_Startups_Act","created_at":"2012-04-04T18:24:37Z"},{"id":51002,"message":"500
+        Startups begins our 4th batch of accelerator companies starting on April 2nd.
+        Looking forward to an awesome spring & summer @500!","created_at":"2012-03-25T14:46:42Z"},{"id":48164,"message":"Make
+        Shit Better. Make Better Shit. SHIT, Better MAKE!","created_at":"2012-03-05T08:24:02Z"},{"id":26754,"message":"Volatility
+        is the friend, not the enemy, of the intelligent investor and experienced
+        entrepreneur. ","created_at":"2011-10-24T13:51:21Z"},{"id":22687,"message":"According
+        to our moms, we''re kind of a Big Deal.","created_at":"2011-10-05T07:11:18Z"},{"id":13969,"message":"The
+        Spice Must Flow.","created_at":"2011-08-20T11:07:05Z"},{"id":10604,"message":"500
+        Startups Demo Days: August 16-17, Mountain View  (info & livestream: http://plancast.com/p/6q4q)","created_at":"2011-08-05T04:14:13Z"},{"id":9556,"message":"Hey
+        look mom -- i only dropped one f-bomb on Bloomberg TV! (video clip of my intvw
+        by Emily Chang: http://bit.ly/500startupsBigDeal)","created_at":"2011-07-30T10:06:25Z"},{"id":6131,"message":"The
+        Spice Must Flow.","created_at":"2011-07-09T23:28:10Z"},{"id":1743,"message":"Welcome
+        to Silicon Valley, for all our new 500 Startups summer batch of accelerator
+        companies... let''s get to work!","created_at":"2011-05-22T23:08:59Z"}],"total":12,"per_page":50,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 22:24:03 GMT
+recorded_with: VCR 2.1.0

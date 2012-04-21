@@ -1,0 +1,464 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.angel.co/1/tags/856?format=json&phoenix=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 22:51:45 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '982'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '16'
+      etag:
+      - ! '"cafb875be4d8daf1d341da8df5bb0d1d"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"id":856,"tag_type":"MarketTag","name":"venture capital","display_name":"Venture
+        Capital","angellist_url":"http://angel.co/venture-capital","statistics":{"all":{"investor_followers":10,"followers":310,"startups":66},"direct":{"investor_followers":7,"followers":304,"startups":65}}}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 22:51:45 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/tags/856/children?format=json&phoenix=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 22:51:47 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '981'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '23'
+      etag:
+      - ! '"a670d72917f5f099a9f75766d4d0e36a"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"children":[{"id":879,"tag_type":"MarketTag","name":"venture hacks","display_name":"Venture
+        Hacks","angellist_url":"http://angel.co/venture-hacks-2","statistics":{"all":{"investor_followers":10,"followers":311,"startups":1},"direct":{"investor_followers":0,"followers":5,"startups":1}}}],"total":1,"per_page":50,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 22:51:47 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/tags/856/parents?format=json&phoenix=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 22:51:48 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '980'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '105'
+      etag:
+      - ! '"235c5c28306482d1091ac99809236fbc"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"parents":[{"id":854,"tag_type":"MarketTag","name":"organized crime","display_name":"Organized
+        Crime","angellist_url":"http://angel.co/organized-crime","statistics":{"all":{"investor_followers":3,"followers":6,"startups":67},"direct":{"investor_followers":1,"followers":2,"startups":1}}}],"total":1,"per_page":50,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 22:51:48 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/tags/856/startups
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+      X-Phx:
+      - 'true'
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 22:51:50 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '979'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '547'
+      etag:
+      - ! '"cb2d9fee9015e1fc0f8b498f986d367a"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"startups":[{"id":83386,"hidden":false,"community_profile":false,"name":"eZecute","angellist_url":"http://angel.co/ezecute-1","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/83386-198e3420f083741ff1567380485e9d0e-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/83386-198e3420f083741ff1567380485e9d0e-thumb.jpg","product_desc":"The
+        Roman hub to an international community of entrepreneurs,  investors, incubators,
+        professionals, developers and academics.\n\nSupporting startups, from very
+        early stage to full expansion, operating in the IT and media industry.\n\nLinked
+        to fast growing startups and Internet global players.\n","high_concept":"The
+        Startup Enabler","follower_count":1,"company_url":"http://www.ezecute.com","twitter_url":null,"blog_url":null,"video_url":null,"markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":1973,"tag_type":"MarketTag","name":"pre
+        seed","display_name":"Pre Seed","angellist_url":"http://angel.co/pre-seed"},{"id":11722,"tag_type":"MarketTag","name":"incubators","display_name":"Incubators","angellist_url":"http://angel.co/incubators-1"}],"locations":[{"id":2137,"tag_type":"LocationTag","name":"rome","display_name":"Rome","angellist_url":"http://angel.co/rome"}],"status":null,"screenshots":[]},{"id":82661,"hidden":false,"community_profile":false,"name":"miAuhost","angellist_url":"http://angel.co/miauhost","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/82661-a2b8c20b4dd20002d4b9a9cf26c2394f-medium.gif","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/82661-a2b8c20b4dd20002d4b9a9cf26c2394f-thumb.gif","product_desc":"Web
+        Development, Web Solution, Social Media, Digital Campaign","high_concept":"Web
+        Full Service from Web Development to Social Media","follower_count":2,"company_url":"http://miauhost.com","twitter_url":"http://twitter.com/actworks","blog_url":"http://miauhost.com","video_url":"","markets":[{"id":29,"tag_type":"MarketTag","name":"e-commerce","display_name":"E-Commerce","angellist_url":"http://angel.co/e-commerce"},{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":841,"tag_type":"MarketTag","name":"software","display_name":"Software","angellist_url":"http://angel.co/software"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[],"status":{"id":53776,"message":"Right
+        hosting for your company!","created_at":"2012-04-13T03:51:35Z"},"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/cf/82661/cd106cd3a86786791b7094e2dbfbf7ef-thumb.gif","original":"https://s3.amazonaws.com/screenshots.angel.co/cf/82661/cd106cd3a86786791b7094e2dbfbf7ef-original.gif"}]},{"id":82659,"hidden":false,"community_profile":false,"name":"Act!","angellist_url":"http://angel.co/act","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/82659-8d062155c3b5f505570eb5dde694bf3f-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/82659-8d062155c3b5f505570eb5dde694bf3f-thumb.jpg","product_desc":"Digital
+        Agency with passion! we provide full services from marketing communications,
+        strategic campaigns, new media, web services, social media, brand activation.","high_concept":"Full
+        Services Digital Agency for startups","follower_count":2,"company_url":"http://actdisain.com","twitter_url":"http://twitter.com/actworks","blog_url":"http://actdisain.com","video_url":null,"markets":[{"id":169,"tag_type":"MarketTag","name":"business
+        information systems","display_name":"Business Information Systems","angellist_url":"http://angel.co/business-information-systems"},{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":841,"tag_type":"MarketTag","name":"software","display_name":"Software","angellist_url":"http://angel.co/software"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[],"status":{"id":53768,"message":"Start
+        small act! now","created_at":"2012-04-13T02:53:33Z"},"screenshots":[]},{"id":81296,"hidden":false,"community_profile":false,"name":"Research
+        Square","angellist_url":"http://angel.co/research-square","logo_url":"http://angel.co/images/icons/startup-nopic.png","thumb_url":"http://angel.co/images/icons/startup-nopic.png","product_desc":"Research
+        Square provides tools for the Fund CFO of VC''s, Private Equity and Fund of
+        Fund Managers to create an entire operations infrastructure in just a few
+        clicks. It helps you manage your investments and follow ons, track all cash
+        flows, publish returns and be responsive to your investors.\n\nForm PF, IRR''s,
+        Capital calls, Liquidity we make it easy.\n","high_concept":"Revolutionizing
+        Fund Management","follower_count":3,"company_url":"http://www.researchsqr.com","twitter_url":null,"blog_url":null,"video_url":null,"markets":[{"id":17,"tag_type":"MarketTag","name":"financial
+        services","display_name":"Financial Services","angellist_url":"http://angel.co/financial-services-3"},{"id":321,"tag_type":"MarketTag","name":"finance","display_name":"Finance","angellist_url":"http://angel.co/finance"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":1409,"tag_type":"MarketTag","name":"hedge
+        funds","display_name":"Hedge Funds","angellist_url":"http://angel.co/hedge-funds"}],"locations":[{"id":1664,"tag_type":"LocationTag","name":"new
+        york, ny","display_name":"New York City","angellist_url":"http://angel.co/new-york-ny-1"}],"status":null,"screenshots":[]},{"id":81026,"hidden":false,"community_profile":false,"name":"Venture
+        Intelligence","angellist_url":"http://angel.co/venture-intelligence-2","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/81026-07b9407d826561250365ac57c9414a60-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/81026-07b9407d826561250365ac57c9414a60-thumb.jpg","product_desc":null,"high_concept":"VentureSource
+        Equivalent in India. Tracking PE/VC Deals since 1998.","follower_count":2,"company_url":"","twitter_url":null,"blog_url":null,"video_url":null,"markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":1145,"tag_type":"MarketTag","name":"legal","display_name":"Legal","angellist_url":"http://angel.co/legal"}],"locations":[{"id":8581,"tag_type":"LocationTag","name":"madras","display_name":"Chennai","angellist_url":"http://angel.co/madras-1"}],"status":null,"screenshots":[]},{"id":80840,"hidden":false,"community_profile":false,"name":"EntireCloud","angellist_url":"http://angel.co/entirecloud","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80840-8e0ee80ce337c98860447f54187fe770-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80840-8e0ee80ce337c98860447f54187fe770-thumb.jpg","product_desc":"A
+        self provisioning tool that allows users to set up a Virtual Desktop in the
+        cloud within minutes. We can have your business ready in days as opposed to
+        months with ALL of the software that a company needs to be competitve in any
+        environment. We offer Expertise at all levels, from choosing products that
+        are the right fit for your company, to taking control of your IT in whole
+        or in part. Make use of free trials to try before you buy with any software
+        you choose!","high_concept":"Total IT Management in the Cloud","follower_count":3,"company_url":"http://www.entirecloud.com","twitter_url":"http://twitter.com/@entirecloud","blog_url":"","video_url":null,"markets":[{"id":12,"tag_type":"MarketTag","name":"enterprise
+        software","display_name":"Enterprise Software","angellist_url":"http://angel.co/enterprise-software"},{"id":340,"tag_type":"MarketTag","name":"small
+        and medium businesses","display_name":"Small and Medium Businesses","angellist_url":"http://angel.co/small-and-medium-businesses"},{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":2251,"tag_type":"LocationTag","name":"boca
+        raton","display_name":"Boca Raton","angellist_url":"http://angel.co/boca-raton"}],"status":null,"screenshots":[]},{"id":79339,"hidden":false,"community_profile":false,"name":"PitchInferno","angellist_url":"http://angel.co/pitchinferno","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79339-aeca11e398bcc4bf438b7ce7c518f9c1-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79339-aeca11e398bcc4bf438b7ce7c518f9c1-thumb.png","product_desc":"PitchInferno
+        is a tube site for startup pitches. Users can upload a free video of their
+        startup pitch","high_concept":"A tube for startup pitches","follower_count":7,"company_url":"http://www.pitchinferno.com","twitter_url":"","blog_url":"","video_url":null,"markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":1474,"tag_type":"MarketTag","name":"entrepreneur","display_name":"Entrepreneur","angellist_url":"http://angel.co/entrepreneur-3"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[],"status":null,"screenshots":[]},{"id":79154,"hidden":false,"community_profile":false,"name":"StartupVision","angellist_url":"http://angel.co/startupvision","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79154-91f84474a316daf92aaa144636fcdbc3-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79154-91f84474a316daf92aaa144636fcdbc3-thumb.png","product_desc":"StartupVision
+        is the online business accelerator that connects startups, investors, service
+        providers and talents. \nWe offer four different products: \n1.) A financing
+        options database, where startups can find everything about investors. \n2.)
+        A marketplace where service providers can educate an clearly defined target
+        group. \n3.) An investors relation channel where investors find highly structured
+        startup profiles. \n4.) A job market where open positions for talents and
+        freelancers are published.\n","high_concept":"The online Business Accelerator.","follower_count":3,"company_url":"http://www.startupvision.de/Home.html","twitter_url":"https://twitter.com/startup_vision","blog_url":"http://startupvision.tumblr.com/","video_url":"","markets":[{"id":468,"tag_type":"MarketTag","name":"recruiting","display_name":"Recruiting","angellist_url":"http://angel.co/recruiting"},{"id":494,"tag_type":"MarketTag","name":"internet
+        service providers","display_name":"Internet Service Providers","angellist_url":"http://angel.co/internet-service-providers"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":1914,"tag_type":"LocationTag","name":"berlin","display_name":"Berlin","angellist_url":"http://angel.co/berlin"}],"status":null,"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/28/79154/7acc67b2c59ef64291d95207683da435-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/28/79154/7acc67b2c59ef64291d95207683da435-original.jpg"}]},{"id":77289,"hidden":false,"community_profile":false,"name":"WEDC","angellist_url":"http://angel.co/wedc","logo_url":"http://angel.co/images/icons/startup-nopic.png","thumb_url":"http://angel.co/images/icons/startup-nopic.png","product_desc":null,"high_concept":"","follower_count":2,"company_url":"http://wedc.org","twitter_url":null,"blog_url":null,"video_url":null,"markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":1474,"tag_type":"MarketTag","name":"entrepreneur","display_name":"Entrepreneur","angellist_url":"http://angel.co/entrepreneur-3"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":1655,"tag_type":"LocationTag","name":"madison","display_name":"Madison","angellist_url":"http://angel.co/madison"}],"status":null,"screenshots":[]},{"id":76650,"hidden":false,"community_profile":false,"name":"Derivatas","angellist_url":"http://angel.co/derivatas","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/76650-12e91a666e6c245b2689eaf42bf67872-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/76650-12e91a666e6c245b2689eaf42bf67872-thumb.png","product_desc":null,"high_concept":"SaaS
+        platform to perform 409A valuations","follower_count":2,"company_url":"http://www.derivatas.com","twitter_url":"","blog_url":"","video_url":null,"markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1653,"tag_type":"LocationTag","name":"los
+        angeles","display_name":"Los Angeles","angellist_url":"http://angel.co/los-angeles"}],"status":null,"screenshots":[]},{"id":73243,"hidden":false,"community_profile":false,"name":"Bink
+        Business Incubator","angellist_url":"http://angel.co/bink-business-incubator","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/73243-52a6cf573c81fa16fc826a4751a782ef-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/73243-52a6cf573c81fa16fc826a4751a782ef-thumb.jpg","product_desc":null,"high_concept":"","follower_count":4,"company_url":"","twitter_url":null,"blog_url":null,"video_url":null,"markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":11722,"tag_type":"MarketTag","name":"incubators","display_name":"Incubators","angellist_url":"http://angel.co/incubators-1"}],"locations":[{"id":1772,"tag_type":"LocationTag","name":"krakow","display_name":"Krakow","angellist_url":"http://angel.co/krakow"}],"status":null,"screenshots":[]},{"id":72626,"hidden":false,"community_profile":false,"name":"Spring
+        Ventures","angellist_url":"http://angel.co/spring-ventures-2","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/72626-60fb2ba9e811487b44a76bb004e94623-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/72626-60fb2ba9e811487b44a76bb004e94623-thumb.png","product_desc":"Spring
+        Ventures is a San Francisco venture capital firm that invented the \"cleanweb\"
+        category - applying the powerful leverage of infotech to energy and resource
+        constraints.\n\nRecent IPOs: LinkedIn, Solazyme\n\nActive Investments: Solar
+        Mosaic, Zeachem, EOS, ShepherdIS, OneRoof Energy, Honest Buildings, Munchery,
+        NanoSolar, Xtreme Power, OrchestratorMail, Flutter, FlipTop","high_concept":"cleanweb
+        investors","follower_count":45,"company_url":"http://spring.vc","twitter_url":"","blog_url":"","video_url":null,"markets":[{"id":3,"tag_type":"MarketTag","name":"mobile","display_name":"Mobile","angellist_url":"http://angel.co/mobile-4"},{"id":8,"tag_type":"MarketTag","name":"internet","display_name":"Internet","angellist_url":"http://angel.co/internet"},{"id":26,"tag_type":"MarketTag","name":"clean
+        technology","display_name":"Clean Technology","angellist_url":"http://angel.co/clean-technology"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"http://angel.co/san-francisco"}],"status":null,"screenshots":[]},{"id":72605,"hidden":true},{"id":71614,"hidden":false,"community_profile":false,"name":"Startup
+        Riot","angellist_url":"http://angel.co/startup-riot","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/71614-613d20eab0cdeab407a90bcb461e25e9-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/71614-613d20eab0cdeab407a90bcb461e25e9-thumb.png","product_desc":null,"high_concept":"","follower_count":34,"company_url":"http://startupriot.com","twitter_url":"http://twitter.com/startupriot","blog_url":"","video_url":"","markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":556,"tag_type":"MarketTag","name":"events","display_name":"Events","angellist_url":"http://angel.co/events"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[],"status":null,"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/fe/71614/9ccd1b7a2df8524dcb670b40df926e6b-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/fe/71614/9ccd1b7a2df8524dcb670b40df926e6b-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/fe/71614/a1df9a84ea921ebdae93d2a1eca8632b-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/fe/71614/a1df9a84ea921ebdae93d2a1eca8632b-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/fe/71614/77622c17abf741067ee9d2ae4dc37689-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/fe/71614/77622c17abf741067ee9d2ae4dc37689-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/fe/71614/a451ae080aef06c79f861a8147910fa5-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/fe/71614/a451ae080aef06c79f861a8147910fa5-original.jpg"}]},{"id":71303,"hidden":false,"community_profile":false,"name":"Relationship
+        Status","angellist_url":"http://angel.co/relationship-status","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/71303-7bc556f42a9e2ff819d2666f16ed13f8-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/71303-7bc556f42a9e2ff819d2666f16ed13f8-thumb.jpg","product_desc":"Relationship
+        Status is a thoughtful romantic comedy feature film project about a technophobic
+        guy living in a town with no internet that suddenly becomes a trendy Wi-Fi
+        hot spot. It''s a story next in line behind You\u2019ve Got Mail and Shop
+        Around the Corner to reflect how man and woman communicate.\n\nWith the soulful
+        music of Iron & Wine (Twilight), veteren producers (Kids Are All Right), and
+        guaranteed 40% back on investment by shooting in Michigan, this film is a
+        great project to get involved in.","high_concept":"In a town the internet
+        forgot, true love begins with a friend request.","follower_count":1,"company_url":"http://www.myrelationshipstatus.com","twitter_url":"https://twitter.com/RSthemovie","blog_url":"","video_url":"http://www.youtube.com/watch?v=JSrBhIBS8hA&feature=youtu.be","markets":[{"id":85,"tag_type":"MarketTag","name":"film","display_name":"Film","angellist_url":"http://angel.co/film"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":2395,"tag_type":"MarketTag","name":"film
+        production","display_name":"Film Production","angellist_url":"http://angel.co/film-production"},{"id":12893,"tag_type":"MarketTag","name":"film
+        distribution","display_name":"Film Distribution","angellist_url":"http://angel.co/film-distribution"}],"locations":[{"id":1851,"tag_type":"LocationTag","name":"michigan","display_name":"Michigan","angellist_url":"http://angel.co/michigan"}],"status":null,"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/dd/71303/86be76dc28bb5ba739933223b1f1b6cc-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/dd/71303/86be76dc28bb5ba739933223b1f1b6cc-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/dd/71303/855912022e7374cdc49e66ed0af71d44-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/dd/71303/855912022e7374cdc49e66ed0af71d44-original.jpg"}]},{"id":70928,"hidden":false,"community_profile":false,"name":"plugg-ed","angellist_url":"http://angel.co/plugg-ed","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/70928-5c8d212b49bd08f34ef0523a915bf90c-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/70928-5c8d212b49bd08f34ef0523a915bf90c-thumb.png","product_desc":"A
+        FREE For Equity Crowd Funding Platform with Team Building and Idea Protection
+        Capabilities.\n\nProviding a Start-up Eco-system to help Founders, Investors
+        and anyone else who would like to be involved in the exciting world of Start-ups.","high_concept":"For
+        Equity Crowdfunding + Idea Protection + Team Building (AngelList + Kickstarter)
+        ","follower_count":1,"company_url":"http://www.plugg-ed.com","twitter_url":"http://twitter.com/@plugg_ed","blog_url":"","video_url":"https://vimeo.com/40192704","markets":[{"id":1,"tag_type":"MarketTag","name":"consumer
+        internet","display_name":"Consumer Internet","angellist_url":"http://angel.co/consumer-internet"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":3010,"tag_type":"MarketTag","name":"crowdfunding","display_name":"Crowdfunding","angellist_url":"http://angel.co/crowdfunding"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":1626,"tag_type":"LocationTag","name":"chicago","display_name":"Chicago","angellist_url":"http://angel.co/chicago"}],"status":{"id":54634,"message":"Hello
+        World!","created_at":"2012-04-19T20:50:39Z"},"screenshots":[]},{"id":70385,"hidden":true},{"id":69465,"hidden":false,"community_profile":false,"name":"ZAM
+        Legal","angellist_url":"http://angel.co/zam-legal","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69465-ffe683be39e57d6950e2141aa1faed60-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69465-ffe683be39e57d6950e2141aa1faed60-thumb.png","product_desc":"The
+        average legal costs that start-ups accrue from incorporation through a Series
+        A financing is a staggering $85,000.\n\nZAM Legal can help you dramatically
+        reduce this expense while still delivering the stellar work product you\u2019d
+        expect from a big firm.\n\nWhether it\u2019s supplementing the legal team
+        you already have, serving as your exclusive legal services provider, or consulting
+        on general business decisions, ZAM Legal can perform a variety of functions
+        for your business.","high_concept":"Big Firm Lawyers, Boutique Firm Feel","follower_count":2,"company_url":"http://zamlegal.com","twitter_url":null,"blog_url":null,"video_url":null,"markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":1145,"tag_type":"MarketTag","name":"legal","display_name":"Legal","angellist_url":"http://angel.co/legal"}],"locations":[{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"http://angel.co/san-francisco"}],"status":null,"screenshots":[]},{"id":68718,"hidden":false,"community_profile":false,"name":"Train
+        to Fame","angellist_url":"http://angel.co/train-to-fame","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/68718-6d2d6c236d9cb961ee5c9b869d8f3c57-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/68718-6d2d6c236d9cb961ee5c9b869d8f3c57-thumb.png","product_desc":"I
+        was riding Metro North recently, and thought: the people who ride this train
+        between New Haven and Manhattan represent one of the most concentrated collection
+        of investors and entrepreneurs anywhere in the world. But it doesn''t always
+        feel that way.\n\nFrom the CT side of the line, this area hasn''t had the
+        networking to match its talent. We plan to fix that, first by creating a brand
+        and stream of news online, and second by creating events, tools and content
+        that bring talent and money together.","high_concept":"Connecticut investors,
+        meet NYC entrepreneurs (and vice versa)","follower_count":3,"company_url":"http://www.traintofame.com","twitter_url":null,"blog_url":null,"video_url":"","markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":1000,"tag_type":"MarketTag","name":"private
+        social networking","display_name":"Private Social Networking","angellist_url":"http://angel.co/private-social-networking"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":2263,"tag_type":"LocationTag","name":"westport","display_name":"Westport","angellist_url":"http://angel.co/westport"}],"status":null,"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/52/68718/1ec16e2a4358000256f8bdaede459712-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/52/68718/1ec16e2a4358000256f8bdaede459712-original.png"}]},{"id":68479,"hidden":true},{"id":68044,"hidden":false,"community_profile":false,"name":"StartupStats","angellist_url":"http://angel.co/startupstats","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/68044-3d13b343ae66b4f8716c8cd12ba0a47b-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/68044-3d13b343ae66b4f8716c8cd12ba0a47b-thumb.png","product_desc":"We''re
+        in the process of building a dashboard for investors to track the early-stage
+        startup ecosystem. We provide metrics that help investors track those startups
+        that are in the process of breaking out, and also monitor how their existing
+        portfolio is performing on a variety of metrics.\n\nWe''re starting things
+        off with a blog that tracks the early-stage startup ecosystem which you can
+        find at http://startupstats.com.  Our dashboard will be released very soon!","high_concept":"Bloomberg
+        for startups","follower_count":791,"company_url":"http://startupstats.com","twitter_url":"https://twitter.com/#!/startupstats","blog_url":"http://startupstats.com","video_url":null,"markets":[{"id":198,"tag_type":"MarketTag","name":"big
+        data","display_name":"Big Data","angellist_url":"http://angel.co/big-data"},{"id":342,"tag_type":"MarketTag","name":"market
+        research","display_name":"Market Research","angellist_url":"http://angel.co/market-research"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"http://angel.co/san-francisco"}],"status":{"id":53871,"message":"Sign
+        up for our email to get hot startups in your inbox http://startupstats.com/","created_at":"2012-04-13T21:26:39Z"},"screenshots":[]},{"id":67983,"hidden":false,"community_profile":false,"name":"BlackCamp","angellist_url":"http://angel.co/blackcamp","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/67983-b49fb338ff30e5a8eaae72e0e84bfe86-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/67983-b49fb338ff30e5a8eaae72e0e84bfe86-thumb.png","product_desc":"BlackCamp
+        manages your entire investment/project workflow. From the recording of initial
+        pitch meetings to the management of all components of your investment interests.\n\nBlackCamp
+        includes comparisons of target projections to actuals to the reporting and
+        controlling of tasks/performance reports of your various portfolio companies.\n\nWith
+        BlackCamp, the days are gone when it was necessary to laboriously set-up Excel
+        spreadsheets to track your investments and projects. ","high_concept":"Company
+        Portfolio Tracking ","follower_count":7,"company_url":"http://blackcamp.co","twitter_url":null,"blog_url":null,"video_url":"","markets":[{"id":8,"tag_type":"MarketTag","name":"internet","display_name":"Internet","angellist_url":"http://angel.co/internet"},{"id":304,"tag_type":"MarketTag","name":"investment
+        management","display_name":"Investment Management","angellist_url":"http://angel.co/investment-management"},{"id":310,"tag_type":"MarketTag","name":"project
+        management","display_name":"Project Management","angellist_url":"http://angel.co/project-management"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":16628,"tag_type":"LocationTag","name":"zug","display_name":"Zug","angellist_url":"http://angel.co/zug"}],"status":{"id":44211,"message":"We\u2019d
+        love to increase your productivity. Sign up for a 14-day free trial.","created_at":"2012-02-07T16:21:59Z"},"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/033256463cdaa477742a704b99859ba5-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/033256463cdaa477742a704b99859ba5-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/e5a8695004aa048754c2f32fc89796a0-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/e5a8695004aa048754c2f32fc89796a0-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/1a894b0fe0ece2817e61e6adc3803819-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/1a894b0fe0ece2817e61e6adc3803819-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/57a0a8410540a3902a14ea7b00cdb7ca-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/57a0a8410540a3902a14ea7b00cdb7ca-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/33cfa229996f0afb97e5a66bdd2113d1-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/50/67983/33cfa229996f0afb97e5a66bdd2113d1-original.png"}]},{"id":67444,"hidden":true},{"id":65297,"hidden":false,"community_profile":false,"name":"merrickhanna
+        ventures","angellist_url":"http://angel.co/merrickhanna-ventures","logo_url":"http://angel.co/images/icons/startup-nopic.png","thumb_url":"http://angel.co/images/icons/startup-nopic.png","product_desc":null,"high_concept":"","follower_count":42,"company_url":"http://merrickhanna.com","twitter_url":"http://twitter.com/@merrickhanna","blog_url":"","video_url":null,"markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1673,"tag_type":"LocationTag","name":"portland","display_name":"Portland","angellist_url":"http://angel.co/portland"}],"status":null,"screenshots":[]},{"id":56862,"hidden":false,"community_profile":false,"name":"Kii
+        Capital","angellist_url":"http://angel.co/kii-capital","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/56862-abfcbb7c085451bd4aa04707625edcdb-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/56862-abfcbb7c085451bd4aa04707625edcdb-thumb.png","product_desc":null,"high_concept":"Mobile-focused
+        Venture Capital","follower_count":7,"company_url":"http://www.kii.com/capital","twitter_url":"http://www.twitter.com/kiicapital","blog_url":"http://kiicapital.tumblr.com/","video_url":null,"markets":[{"id":3,"tag_type":"MarketTag","name":"mobile","display_name":"Mobile","angellist_url":"http://angel.co/mobile-4"},{"id":836,"tag_type":"MarketTag","name":"apps","display_name":"Apps","angellist_url":"http://angel.co/apps"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"http://angel.co/san-francisco"}],"status":null,"screenshots":[]},{"id":56604,"hidden":false,"community_profile":false,"name":"36Kr","angellist_url":"http://angel.co/36kr","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/56604-36fe76f03975afab7b2c58a2d0ff312b-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/56604-36fe76f03975afab7b2c58a2d0ff312b-thumb.","product_desc":"\"TechCrunch\"
+        & \"Angellist\" of China","high_concept":"\"TechCrunch\" & \"Angellist\" of
+        China","follower_count":20,"company_url":"http://36kr.com","twitter_url":"","blog_url":"","video_url":"","markets":[{"id":4,"tag_type":"MarketTag","name":"digital
+        media","display_name":"Digital Media","angellist_url":"http://angel.co/digital-media"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":24471,"tag_type":"LocationTag","name":"peking","display_name":"Peking","angellist_url":"http://angel.co/peking"}],"status":null,"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/7c/56604/f469569a88bcde911a091efeef5e2311-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/7c/56604/f469569a88bcde911a091efeef5e2311-original.png"}]},{"id":39489,"hidden":false,"community_profile":false,"name":"Foundry
+        Group","angellist_url":"http://angel.co/foundry-group","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/39489-f45a0a2eea5ed5ff08f249c19028b2d7-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/39489-f45a0a2eea5ed5ff08f249c19028b2d7-thumb.jpg","product_desc":"Foundry
+        Group is a venture capital firm focused on making investments in early-stage
+        information technology, Internet and software startups. Our passion is working
+        alongside entrepreneurs to give birth to new technologies and to build those
+        technologies into industry-leading companies. We\u2019re centrally located
+        in Boulder, CO, but we invest in companies across North America.","high_concept":"Investing
+        in early-stage information technology companies","follower_count":18,"company_url":"http://www.foundrygroup.com/","twitter_url":"","blog_url":"http://www.foundrygroup.com/blog/","video_url":null,"markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1621,"tag_type":"LocationTag","name":"boulder","display_name":"Boulder","angellist_url":"http://angel.co/boulder"}],"status":null,"screenshots":[]},{"id":35048,"hidden":false,"community_profile":false,"name":"StartupCharts","angellist_url":"http://angel.co/startupcharts","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/35048-10af8a1f747b6b1ae2b94e4de7fe41d6-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/35048-10af8a1f747b6b1ae2b94e4de7fe41d6-thumb.png","product_desc":"StartupCharts
+        maps local startup activity by following twitter lists curated by carefully
+        selected local editors. A StartupChart enables a startup to enter new market
+        and get to know the local domain experts.","high_concept":"StartupCharts maps
+        the startup activity in your area.","follower_count":6,"company_url":"http://startupcharts.com/","twitter_url":null,"blog_url":null,"video_url":"","markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":10277,"tag_type":"MarketTag","name":"office
+        space","display_name":"Office Space","angellist_url":"http://angel.co/office-space"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":1695,"tag_type":"LocationTag","name":"london","display_name":"London","angellist_url":"http://angel.co/london"}],"status":null,"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/9f/35048/a865c49d8f015e60e5cb90f3079e21a7-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/9f/35048/a865c49d8f015e60e5cb90f3079e21a7-original.png"}]},{"id":31522,"hidden":false,"community_profile":false,"name":"Startup
+        XChange","angellist_url":"http://angel.co/startup-xchange","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31522-2f04207f70432fddecbd605528273b8a-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31522-2f04207f70432fddecbd605528273b8a-thumb.jpg","product_desc":"StartupXChange,
+        Inc. has developed a unique platform for connecting investors in real time
+        to some of the world\u2019s highest impact and innovative solutions. www.StartupXChange.org
+        is a vibrant virtual incubator that provides crucial resources and community
+        support to companies at all stages of development, while creating an efficient
+        pipeline of aggregated, vetted, and investment-ready startups. (Target Launch
+        Date: May 2012) ","high_concept":"The world''s most efficient startup incubator","follower_count":16,"company_url":"http://startupxchange.org","twitter_url":"","blog_url":"","video_url":"http://www.youtube.com/watch?v=Wq4mQSE6idw","markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":11722,"tag_type":"MarketTag","name":"incubators","display_name":"Incubators","angellist_url":"http://angel.co/incubators-1"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":1620,"tag_type":"LocationTag","name":"boston","display_name":"Boston","angellist_url":"http://angel.co/boston"}],"status":{"id":43746,"message":"SXC
+        seeks to combine the approaches of incubators and angel investment communities
+        by creating an efficient \u201cXChange.","created_at":"2012-02-03T22:42:58Z"},"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/0b/31522/41dfe10441db9cb40a5f8013f8b81bb6-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/0b/31522/41dfe10441db9cb40a5f8013f8b81bb6-original.jpg"}]},{"id":31484,"hidden":true},{"id":31427,"hidden":false,"community_profile":false,"name":"Startup
+        Garage","angellist_url":"http://angel.co/startup-garage","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31427-607f9b0bd28227349960bd6dd7e3877f-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31427-607f9b0bd28227349960bd6dd7e3877f-thumb.png","product_desc":"Our
+        goal is a Swedish startup accelerator with tentacles in all major tech hubs
+        in the US. Why? Because we (as in Sweden and Europe) have the talent but not
+        the risk willing capital. ","high_concept":"The European launch pad for startups.","follower_count":15,"company_url":"http://www.startupgarage.se","twitter_url":"http://twitter.com/startupgarage","blog_url":"http://blog.startupgarage.se","video_url":null,"markets":[{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":11722,"tag_type":"MarketTag","name":"incubators","display_name":"Incubators","angellist_url":"http://angel.co/incubators-1"}],"locations":[{"id":2311,"tag_type":"LocationTag","name":"malmo","display_name":"Malmo","angellist_url":"http://angel.co/malmo"}],"status":null,"screenshots":[]},{"id":29980,"hidden":true},{"id":29926,"hidden":true},{"id":29739,"hidden":false,"community_profile":false,"name":"OpenView
+        Venture Partners","angellist_url":"http://angel.co/openview-venture-partners","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29739-cf62b98802a2cd2cef21094173d55231-medium.gif","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29739-cf62b98802a2cd2cef21094173d55231-thumb.gif","product_desc":"OpenView
+        VEnture Partners is an expansion stage venture capital fund, with a focus
+        on high-growth software, internet, and technology-enabled companies.  Much
+        of the team''s success has been driven by its active role in providing its
+        portfolio companies with strategic value-add services and highly practical
+        operating expertise.  The OpenView Labs team provides hands-on assistance
+        to OpenView Venture Partners'' portfolio companies, executing various projects
+        and helping young software companies grow","high_concept":"Venture Capital
+        Firm, Expansion Stage","follower_count":5,"company_url":"http://www.openviewpartners.com","twitter_url":"","blog_url":"","video_url":null,"markets":[{"id":10,"tag_type":"MarketTag","name":"SaaS","display_name":"SaaS","angellist_url":"http://angel.co/saas"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1620,"tag_type":"LocationTag","name":"boston","display_name":"Boston","angellist_url":"http://angel.co/boston"}],"status":null,"screenshots":[]},{"id":29383,"hidden":false,"community_profile":false,"name":"Conjecta","angellist_url":"http://angel.co/conjecta-2","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29383-b88490e7bc6e00789909725e82a18e63-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29383-b88490e7bc6e00789909725e82a18e63-thumb.jpg","product_desc":"A
+        communication tool for companies to provide Option-Holders with online access
+        to real-time vesting and cost-to-exercise for their options grants.  \n\nEliminates
+        employee questions, reduces legal fees, increases transparency. Free for less
+        than 20 Holders.\n\nSupports flexible vesting schedules, employee terminations,
+        online exercises, and shared administration.  \n\nHolders can view holdings
+        from multiple companies under the same account.","high_concept":"Providing
+        option-holders with real-time vesting for all their option grants","follower_count":6,"company_url":"http://www.conjecta.com","twitter_url":"https://twitter.com/#!/conjecta","blog_url":"http://blog.conjecta.com","video_url":"http://www.youtube.com/watch?v=8-vvzQZBSiM","markets":[{"id":340,"tag_type":"MarketTag","name":"small
+        and medium businesses","display_name":"Small and Medium Businesses","angellist_url":"http://angel.co/small-and-medium-businesses"},{"id":879,"tag_type":"MarketTag","name":"venture
+        hacks","display_name":"Venture Hacks","angellist_url":"http://angel.co/venture-hacks-2"},{"id":15805,"tag_type":"MarketTag","name":"angel
+        investing","display_name":"Angel Investing","angellist_url":"http://angel.co/angel-investing"}],"locations":[{"id":2086,"tag_type":"LocationTag","name":"charlotte","display_name":"Charlotte","angellist_url":"http://angel.co/charlotte"}],"status":null,"screenshots":[]},{"id":29367,"hidden":true},{"id":29187,"hidden":true},{"id":28930,"hidden":true},{"id":28751,"hidden":true},{"id":28653,"hidden":true},{"id":27831,"hidden":false,"community_profile":false,"name":"99-fahrenheit","angellist_url":"http://angel.co/99-fahrenheit","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/27831-03b7f5215be8c7972cbb9ede9ff1f599-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/27831-03b7f5215be8c7972cbb9ede9ff1f599-thumb.jpg","product_desc":"Venture
+        Incubator; our mission is to accelerate the development of Internet startups
+        via a combination of seed investment and incubation services","high_concept":"Venture
+        Capital Incubator","follower_count":15,"company_url":"http://www.99-f.com","twitter_url":"","blog_url":"","video_url":"","markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":11722,"tag_type":"MarketTag","name":"incubators","display_name":"Incubators","angellist_url":"http://angel.co/incubators-1"}],"locations":[{"id":2187,"tag_type":"LocationTag","name":"milan","display_name":"Milan","angellist_url":"http://angel.co/milan-1"}],"status":null,"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/8d/27831/91300ab45babc88b538ccb4abfdcdc94-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/8d/27831/91300ab45babc88b538ccb4abfdcdc94-original.jpg"}]},{"id":27212,"hidden":true},{"id":25901,"hidden":false,"community_profile":false,"name":"Blueseed","angellist_url":"http://angel.co/blueseed","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25901-90850931718290a08a55a0c7e23ce0dd-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25901-90850931718290a08a55a0c7e23ce0dd-thumb.png","product_desc":"Blueseed
+        is the visa-free startup incubator and venture fund that will be situated
+        on a ship anchored half an hour from the coast of Silicon Valley, in international
+        waters outside the jurisdiction of the United States.\n\nNon-US entrepreneurs
+        can start or scale their businesses without US work visa requirements, and
+        easily visit the mainland via daily ferries, using easier to obtain business
+        or tourist visas. Interested parties from Silicon Valley can also visit the
+        Blueseed ship at any time.\n","high_concept":"Visa-free floating incubator
+        on a ship 30 minutes from Silicon Valley, in intl. waters","follower_count":125,"company_url":"http://blueseed.co","twitter_url":"http://twitter.com/BlueseedProject","blog_url":"http://blueseed.co/news.html","video_url":"http://www.youtube.com/watch?v=HEIldtHgRJo","markets":[{"id":340,"tag_type":"MarketTag","name":"small
+        and medium businesses","display_name":"Small and Medium Businesses","angellist_url":"http://angel.co/small-and-medium-businesses"},{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":11722,"tag_type":"MarketTag","name":"incubators","display_name":"Incubators","angellist_url":"http://angel.co/incubators-1"}],"locations":[{"id":1681,"tag_type":"LocationTag","name":"silicon
+        valley","display_name":"Silicon Valley","angellist_url":"http://angel.co/silicon-valley"}],"status":{"id":54531,"message":"We
+        just qualified to present on stage at Founder Showcase on April 24th!","created_at":"2012-04-19T02:46:06Z"},"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/a1e0fbd33aaa1f173ffeb2c38be45d5d-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/a1e0fbd33aaa1f173ffeb2c38be45d5d-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/00c62419a95a8827a7db788deb5fb18c-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/00c62419a95a8827a7db788deb5fb18c-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/ea8c7c547b7c84402c914f0dc9f5a559-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/ea8c7c547b7c84402c914f0dc9f5a559-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/46cd5942197bab9a3baa1744cd6f0e04-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/46cd5942197bab9a3baa1744cd6f0e04-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/930da54c49e3c67f154e6bfd74d1ec69-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/930da54c49e3c67f154e6bfd74d1ec69-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/8fa17475696f9d25f7867f79c8433c22-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/8fa17475696f9d25f7867f79c8433c22-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/0bb3b4106fabfe7b2e35014d8ce38467-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/0bb3b4106fabfe7b2e35014d8ce38467-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/8b689f38ab7804756dc6eb449710857c-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/2c/25901/8b689f38ab7804756dc6eb449710857c-original.png"}]},{"id":24195,"hidden":false,"community_profile":false,"name":"BetaLtd","angellist_url":"http://angel.co/betaltd","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/24195-86046a38231674fcac7a350db6120de8-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/24195-86046a38231674fcac7a350db6120de8-thumb.png","product_desc":"Beta
+        Ltd. produces the worldwide #beta series of social startup competitions, while
+        incubating, advising, and launching new projects, startups, and events along
+        the way.\n\n#beta is the fastest-growing startup event in the world, built
+        by some of its most amazing technologists.\n\nAt the start of 2011, Beta Ltd.
+        grew from a single event, SF Beta, to a worldwide series. Currently in seven
+        cities, and expanding ten by the end of 2012, Beta Ltd is revolutionizing
+        the world''s startup ecology.","high_concept":"The vanguard of the internet.","follower_count":36,"company_url":"http://betaltd.org","twitter_url":"http://twitter.com/betalimited","blog_url":"http://betavanguard.com","video_url":"http://video214.com/play/CVyN1q4E0ds4b6jN7y5gpw/s/dark","markets":[{"id":6,"tag_type":"MarketTag","name":"social
+        media","display_name":"Social Media","angellist_url":"http://angel.co/social-media"},{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":556,"tag_type":"MarketTag","name":"events","display_name":"Events","angellist_url":"http://angel.co/events"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"http://angel.co/san-francisco"}],"status":null,"screenshots":[]},{"id":23283,"hidden":false,"community_profile":false,"name":"AmVic
+        Entertainment","angellist_url":"http://angel.co/amvic-entertainment","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/23283-3fa9ed47ed7254bcfebe34fb50fd7ff1-medium.PNG","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/23283-3fa9ed47ed7254bcfebe34fb50fd7ff1-thumb.PNG","product_desc":"Current
+        movie is Soul Ties to show the quality of our work.  Password to view the
+        teaser is: soulties2011\ngut wrenching dramas, docu-drama telvision shows,
+        sci-fi action thrillers, faith based.  We believe in movies and shows that
+        will portray a strong and positive message across the screen to the viewers
+        and at the same time intrigue the viewers to want and hope for more.  ","high_concept":"feature
+        films, television series","follower_count":9,"company_url":"http://www.amvicent.com","twitter_url":"","blog_url":"","video_url":null,"markets":[{"id":4,"tag_type":"MarketTag","name":"digital
+        media","display_name":"Digital Media","angellist_url":"http://angel.co/digital-media"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"},{"id":2812,"tag_type":"MarketTag","name":"entertainment
+        industry","display_name":"Entertainment Industry","angellist_url":"http://angel.co/entertainment-industry"}],"locations":[{"id":1624,"tag_type":"LocationTag","name":"california","display_name":"California","angellist_url":"http://angel.co/california"}],"status":null,"screenshots":[]},{"id":22936,"hidden":false,"community_profile":false,"name":"planurday","angellist_url":"http://angel.co/planurday","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/22936-27ab8ff2ac1cb09944962f74a4da0c46-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/22936-27ab8ff2ac1cb09944962f74a4da0c46-thumb.jpg","product_desc":"planurday
+        let you plan your day in most efficient and optimized way. planurday recommend
+        places based upon your search and most optimized places to fit in your driving
+        requirements. It also allows you to export your favorite route to your personal
+        GPS device. planurday bring the best deals from Groupon, LivingSocial, etc.
+        to rich graphical interface to find where those deals are located and purchase
+        them directly from us.","high_concept":"changing the way you plan","follower_count":8,"company_url":"http://www.planurday.com","twitter_url":"","blog_url":"","video_url":"http://youtu.be/8XOPQH3tqyw","markets":[{"id":200,"tag_type":"MarketTag","name":"artificial
+        intelligence","display_name":"Artificial Intelligence","angellist_url":"http://angel.co/artificial-intelligence"},{"id":368,"tag_type":"MarketTag","name":"product
+        design","display_name":"Product Design","angellist_url":"http://angel.co/product-design"},{"id":448,"tag_type":"MarketTag","name":"startups","display_name":"Startups","angellist_url":"http://angel.co/startups-1"},{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1688,"tag_type":"LocationTag","name":"united
+        states","display_name":"United States","angellist_url":"http://angel.co/united-states"}],"status":{"id":32094,"message":"how
+        many start-ups actually get benefit from it? looks like limited connectivity
+        doesn''t help any start-up for finding investment and VCs :(","created_at":"2011-11-17T21:11:39Z"},"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/e7/22936/2c684985a32d630868299cf3a0de7ba1-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/e7/22936/2c684985a32d630868299cf3a0de7ba1-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/e7/22936/4124687ec24dda579e76b38b45972fc6-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/e7/22936/4124687ec24dda579e76b38b45972fc6-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/e7/22936/9a7fabe6c9f5ac0480c381b64fc3f7fc-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/e7/22936/9a7fabe6c9f5ac0480c381b64fc3f7fc-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/e7/22936/d3e0e13ef9885afefa1d69440cca4a89-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/e7/22936/d3e0e13ef9885afefa1d69440cca4a89-original.png"}]},{"id":21626,"hidden":true},{"id":21240,"hidden":true},{"id":21237,"hidden":false,"community_profile":true,"name":"BBC
+        Management","angellist_url":"http://angel.co/bbc-management","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/21237-2c98799fdd2a22251eaba575102387ca-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/21237-2c98799fdd2a22251eaba575102387ca-thumb.png","product_desc":"Boston
+        Bogota Capital Management is a Venture Capital Fund specializing in offshore
+        investments in the emerging market of Colombia, South America. Our primary
+        strength as a Venture Capital Fund is our opportunity in Colombia and the
+        knowledge we have of operating both effectively and efficiently within each
+        sector. \n","high_concept":"Venture Capital in Colombia","follower_count":4,"company_url":"http://www.bbcmgt.com","twitter_url":null,"blog_url":null,"video_url":"","markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1620,"tag_type":"LocationTag","name":"boston","display_name":"Boston","angellist_url":"http://angel.co/boston"}],"status":null,"screenshots":[]},{"id":20124,"hidden":true}],"total":66,"per_page":50,"page":1,"last_page":2}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 22:51:51 GMT
+recorded_with: VCR 2.1.0

@@ -73,7 +73,7 @@ module AngellistApi
       #
       # @param [Integer] id The id of the given user.
       # @param [Hash] options A customizable set of options.
-      # @option options [String] :type Must be either user or startup.
+      # @option options [String] :type ('user') Must be either user or startup.
       #
       # @example Get startups that user with ID 1234 is following.
       #   AngellistApi.get_user_following(1234, :type => :startup)
@@ -91,7 +91,7 @@ module AngellistApi
       #
       # @param [Integer] id The id of the given user.
       # @param [Hash] options A customizable set of options.
-      # @option options [String] :type Must be either user or startup.
+      # @option options [String] :type ('user') Must be either user or startup.
       #
       # @example Get IDs of startups that user with ID 1234 is following.
       #   AngellistApi.get_user_following_ids(1234, :type => :startup)
