@@ -11,6 +11,16 @@ describe AngellistApi::Client::Startups do
     end
   end
 
+  describe '#get_startups' do
+    it 'gets 1/startups/batch' do
+      ids = [1, 2, 3]
+      client.should_receive(:get).
+        with('1/startups/batch', { :ids => ids.join(',') }).
+        and_return('success')
+      client.get_startups(ids).should == 'success'
+    end
+  end
+
   describe "#startup_search" do
     it "gets 1/startups/search" do
       options = { :some => "options" }

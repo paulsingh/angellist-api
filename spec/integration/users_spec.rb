@@ -10,6 +10,11 @@ describe AngellistApi::Client::Users do
     user.angellist_url.should eq 'http://angel.co/500startups'
   end
 
+  it 'gets users in batch' do
+    users = client.get_users([15821, 100303])
+    users.map { |u| u.angellist_url }.should eq %w[http://angel.co/tchae http://angel.co/scomma]
+  end
+
   it 'gets info for a user by URL slug' do
     user = client.user_search(:slug => '500startups')
     user.linkedin_url.should eq 'http://www.linkedin.com/company/500-startups'

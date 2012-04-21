@@ -19,6 +19,16 @@ describe AngellistApi::Client::Follows do
     end
   end
 
+  describe '#get_follows' do
+    it 'gets 1/follows/batch' do
+      ids = [1, 2, 3]
+      client.should_receive(:get).
+        with("1/follows/batch", { :ids => ids.join(',') }).
+        and_return("success")
+      client.get_follows(ids).should == "success"
+    end
+  end
+
   describe "#get_user_followers" do
     it "gets 1/users/<id>/followers" do
       id = "123"

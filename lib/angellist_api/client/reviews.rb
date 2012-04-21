@@ -18,7 +18,7 @@ module AngellistApi
       #   AngellistApi.get_reviews
       #
       # @example Get reviews for a given user ID.
-      #   AngellistApi.get_reviews(1234)
+      #   AngellistApi.get_reviews(:user_id => 1234)
       def get_reviews(options={})
         get("1/reviews", options)
       end

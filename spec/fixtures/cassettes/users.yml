@@ -216,4 +216,60 @@ http_interactions:
         funds","display_name":"Seed Fund","angellist_url":"http://angel.co/seed-funds"},{"id":9306,"tag_type":"RoleTag","name":"vc","display_name":"VC","angellist_url":"http://angel.co/vc"}]}'
     http_version: !!null 
   recorded_at: Sun, 22 Apr 2012 00:35:30 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/batch?ids=15821%2C100303
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sun, 22 Apr 2012 04:01:49 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '999'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '113'
+      etag:
+      - ! '"c7acb0532fee68206b1e469e5718f06f"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '[{"name":"Tim Chae","id":15821,"bio":"CEO of PostRocket. Two profitable
+        startups before age of 18. UI/UX, BD & Hustler. Babson College Tech Entrepreneurship
+        and Design UG.","follower_count":308,"angellist_url":"http://angel.co/tchae","image":"https://s3.amazonaws.com/photos.angel.co/users/15821-medium?1327034404","blog_url":"http://www.timchae.com","online_bio_url":"http://www.timchae.com","twitter_url":"http://twitter.com/#!/tchae","facebook_url":"","linkedin_url":"http://www.linkedin.com/in/timchae","locations":[{"id":1620,"tag_type":"LocationTag","name":"boston","display_name":"Boston","angellist_url":"http://angel.co/boston"},{"id":1681,"tag_type":"LocationTag","name":"silicon
+        valley","display_name":"Silicon Valley","angellist_url":"http://angel.co/silicon-valley"},{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"http://angel.co/san-francisco"}],"roles":[{"id":14725,"tag_type":"RoleTag","name":"entrepreneur","display_name":"Entrepreneur","angellist_url":"http://angel.co/entrepreneur-1"}]},{"name":"Prathan
+        Thananart","id":100303,"bio":"Web developer. I believe computer and the Internet
+        hold key solutions to many of our present day problems, from traffic to grassroots
+        democracy.","follower_count":7,"angellist_url":"http://angel.co/scomma","image":"https://s3.amazonaws.com/photos.angel.co/users/100303-medium?1330411698","blog_url":null,"online_bio_url":"http://la.byr.in.th","twitter_url":"http://twitter.com/#!/scomma","facebook_url":null,"linkedin_url":null,"locations":[],"roles":[]}]'
+    http_version: !!null 
+  recorded_at: Sun, 22 Apr 2012 04:01:49 GMT
 recorded_with: VCR 2.1.0

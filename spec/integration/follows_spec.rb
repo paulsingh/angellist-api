@@ -5,6 +5,12 @@ describe AngellistApi::Client::Follows do
 
   let(:client) { AngellistApi::Client.new }
 
+  it 'gets follows in batch' do
+    follows = client.get_follows([4067161, 4067147])
+    follows.last.follower.angellist_url.should eq 'http://angel.co/danielle-morrill'
+    follows.last.followed.angellist_url.should eq 'http://angel.co/newco'
+  end
+
   it "gets a user's followers" do
     followers = client.get_user_followers(2850)
     followers.users.should be_an_instance_of Array

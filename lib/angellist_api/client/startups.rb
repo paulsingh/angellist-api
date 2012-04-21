@@ -16,6 +16,19 @@ module AngellistApi
         get("1/startups/#{id}")
       end
 
+      # Returns up to 50 startups at a time, given an Array of ids.
+      #
+      # @requires_authentication Optional
+      #
+      # @param ids [Array] IDs of the startups to fetch.
+      #
+      # @example Get information for a batch of startups.
+      #   AngellistApi.get_startups([1, 2, 3])
+      def get_startups(ids)
+        params = { :ids => ids.join(',') }
+        get("1/startups/batch", params)
+      end
+
       # Search for a startup given a URL slug. Responds like GET /startups/:id.
       #
       # @requires_authentication Optional

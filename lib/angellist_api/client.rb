@@ -3,7 +3,8 @@ require 'angellist_api/api'
 module AngellistApi
   # Wrapper for the AngellistApi REST API
   #
-  # @note All methods have been separated into modules and follow the same grouping used in {http://angel.co/api the Angellist API Documentation}.
+  # @note All methods have been separated into modules and follow the same
+  #   grouping used in {http://angel.co/api the Angellist API Documentation}.
   class Client < API
     # Require client method modules after initializing the Client class in
     # order to avoid a superclass mismatch error, allowing those modules to be

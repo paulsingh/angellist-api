@@ -11,6 +11,16 @@ describe AngellistApi::Client::Users do
     end
   end
 
+  describe '#get_users' do
+    it 'gets 1/users/batch?ids=<ids>' do
+      ids = [1, 2, 3]
+      client.should_receive(:get).
+        with('1/users/batch', { :ids => ids.join(',') }).
+        and_return('success')
+      client.get_users(ids).should == 'success'
+    end
+  end
+
   describe "#user_search" do
     it "gets 1/users/search" do
       options = { :some => "options "}

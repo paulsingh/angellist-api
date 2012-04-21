@@ -34,6 +34,20 @@ module AngellistApi
         delete("1/follows", options)
       end
 
+      # Returns the follower and followed information based on comma-separated
+      # follow ids, such as those from the activity feed.
+      #
+      # @requires_authentication Optional
+      #
+      # @param ids [Array] IDs of the follows to fetch.
+      #
+      # @example Get follower and followed information for a batch of follows.
+      #   AngellistApi.get_follows([1, 2, 3])
+      def get_follows(ids)
+        params = { :ids => ids.join(',') }
+        get("1/follows/batch", params)
+      end
+
       # Return the given user's followers, paginated and ordered by most recent
       # follower first.
       #

@@ -16,6 +16,19 @@ module AngellistApi
         get("1/users/#{id}")
       end
 
+      # Get information for a batch of up to 50 users given a list of user IDs.
+      #
+      # @requires_authentication No
+      #
+      # @param [Array] ids IDs of the users to fetch.
+      #
+      # @example Get information for a batch of users.
+      #   AngellistApi.get_users([1, 2, 3])
+      def get_users(ids)
+        params = { :ids => ids.join(',') }
+        get("1/users/batch", params)
+      end
+
       # Search for a user given a URL slug. Responds like GET /users/:id.
       #
       # @requires_authentication No
