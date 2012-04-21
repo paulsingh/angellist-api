@@ -6,7 +6,7 @@ describe AngellistApi::Client::Startups do
   describe "#get_startup" do
     it "gets 1/startups/<id>" do
       id = "123"
-      client.should_receive(:get).with("1/startups/#{id}", :format => :json, :phoenix => true).and_return("success")
+      client.should_receive(:get).with("1/startups/#{id}", :format => :json).and_return("success")
       client.get_startup(id).should == "success"
     end
   end
@@ -14,7 +14,7 @@ describe AngellistApi::Client::Startups do
   describe "#startup_search" do
     it "gets 1/startups/search" do
       options = { :some => "options" }
-      client.should_receive(:get).with("1/startups/search", options, :format => :json, :phoenix => true).and_return("success")
+      client.should_receive(:get).with("1/startups/search", options, :format => :json).and_return("success")
       client.startup_search(options).should == "success"
     end
   end

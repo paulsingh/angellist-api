@@ -21,7 +21,7 @@ module AngellistApi
       # @example Get status updates for the startup with ID 1234.
       #   AngellistApi.get_status_updates(:startup_id => 1234)
       def get_status_updates(options={})
-        get("1/status_updates", options, :format => :json, :phoenix => true)
+        get("1/status_updates", options, :format => :json)
       end
 
       # Creates a status update for the authenticated user or for a startup the
@@ -41,7 +41,7 @@ module AngellistApi
       # @example Update the authenticated user's status.
       #   AngellistApi.post_status_updates(:message => "Startup advice: Don't fuck up.")
       def post_status_updates(options={})
-        post("1/status_updates", options, :format => :json, :phoenix => true)
+        post("1/status_updates", options, :format => :json)
       end
 
       # Destroys the specified status update belonging to the authenticated
@@ -56,7 +56,7 @@ module AngellistApi
       # @example Destroys specified status update belonging to authenticated user.
       #   AngellistApi.delete_status_updates(1234)
       def delete_status_updates(id)
-        delete("1/status_updates/#{id}", :format => :json, :phoenix => true)
+        delete("1/status_updates/#{id}", :format => :json)
       end
     end
   end

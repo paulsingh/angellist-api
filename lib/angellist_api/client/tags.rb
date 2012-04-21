@@ -14,7 +14,7 @@ module AngellistApi
       # @example Get information on a tag.
       #   AngellistApi.get_tag(1654)
       def get_tag(id)
-        get("1/tags/#{id}", :format => :json, :phoenix => true)
+        get("1/tags/#{id}", :format => :json)
       end
 
       # Returns children of the given tag. Market and location tags form a
@@ -30,7 +30,7 @@ module AngellistApi
       # @example Get children of a tag.
       #   AngellistApi.get_tag_children(1654)
       def get_tag_children(id)
-        get("1/tags/#{id}/children", :format => :json, :phoenix => true)
+        get("1/tags/#{id}/children", :format => :json)
       end
 
       # Returns parents of the given tag. For more details, see the
@@ -45,7 +45,7 @@ module AngellistApi
       # @example Get parents of a tag.
       #   AngellistApi.get_tag_parents(1654)
       def get_tag_parents(id)
-        get("1/tags/#{id}/parents", :format => :json, :phoenix => true)
+        get("1/tags/#{id}/parents", :format => :json)
       end
 
       # Returns startups that are tagged with the given tag or a child of the
@@ -65,7 +65,7 @@ module AngellistApi
       #
       # @see http://angel.co/api/spec/startups
       def get_tag_startups(id, options = {})
-        get("1/tags/#{id}/startups", options, :format => :json, :phoenix => true)
+        get("1/tags/#{id}/startups", options, :format => :json)
       end
     end
   end

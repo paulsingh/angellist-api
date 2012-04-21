@@ -14,7 +14,7 @@ module AngellistApi
       # @example Get a user's information given an id.
       #   AngellistApi.get_user(1234)
       def get_user(id)
-        get("1/users/#{id}", :format => :json, :phoenix => true)
+        get("1/users/#{id}", :format => :json)
       end
 
       # Search for a user given a URL slug. Responds like GET /users/:id.
@@ -30,7 +30,7 @@ module AngellistApi
       # @example Search for a user by URL slug.
       #   AngellistApi.user_search(:slug => '500startups')
       def user_search(options={})
-        get("1/users/search", options, :format => :json, :phoenix => true)
+        get("1/users/search", options, :format => :json)
       end
 
       # Get the current user's information. Responds like GET /users/:id.
@@ -41,7 +41,7 @@ module AngellistApi
       # @example Get the authenticated user's information.
       #   AngellistApi.me
       def me
-        get("1/me", :format => :json, :phoenix => true)
+        get("1/me", :format => :json)
       end
     end
   end

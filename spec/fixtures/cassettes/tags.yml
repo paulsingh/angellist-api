@@ -152,7 +152,7 @@ http_interactions:
   recorded_at: Sat, 21 Apr 2012 22:51:48 GMT
 - request:
     method: get
-    uri: https://api.angel.co/1/tags/856/startups
+    uri: https://api.angel.co/1/tags/856?format=json
     body:
       encoding: US-ASCII
       string: ''
@@ -161,8 +161,6 @@ http_interactions:
       - application/json
       User-Agent:
       - AngellistApi Ruby Gem 1.0.1
-      X-Phx:
-      - 'true'
   response:
     status:
       code: 200
@@ -171,7 +169,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 22:51:50 GMT
+      - Sat, 21 Apr 2012 23:16:34 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -187,11 +185,161 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '979'
+      - '957'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
-      - '547'
+      - '13'
+      etag:
+      - ! '"cafb875be4d8daf1d341da8df5bb0d1d"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"id":856,"tag_type":"MarketTag","name":"venture capital","display_name":"Venture
+        Capital","angellist_url":"http://angel.co/venture-capital","statistics":{"all":{"investor_followers":10,"followers":310,"startups":66},"direct":{"investor_followers":7,"followers":304,"startups":65}}}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:34 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/tags/856/children?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:37 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '956'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '1548'
+      etag:
+      - ! '"a670d72917f5f099a9f75766d4d0e36a"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"children":[{"id":879,"tag_type":"MarketTag","name":"venture hacks","display_name":"Venture
+        Hacks","angellist_url":"http://angel.co/venture-hacks-2","statistics":{"all":{"investor_followers":10,"followers":311,"startups":1},"direct":{"investor_followers":0,"followers":5,"startups":1}}}],"total":1,"per_page":50,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:37 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/tags/856/parents?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:38 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '955'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '41'
+      etag:
+      - ! '"235c5c28306482d1091ac99809236fbc"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"parents":[{"id":854,"tag_type":"MarketTag","name":"organized crime","display_name":"Organized
+        Crime","angellist_url":"http://angel.co/organized-crime","statistics":{"all":{"investor_followers":3,"followers":6,"startups":67},"direct":{"investor_followers":1,"followers":2,"startups":1}}}],"total":1,"per_page":50,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:38 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/tags/856/startups
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:40 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '954'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '664'
       etag:
       - ! '"cb2d9fee9015e1fc0f8b498f986d367a"'
       cache-control:
@@ -460,5 +608,5 @@ http_interactions:
         sector. \n","high_concept":"Venture Capital in Colombia","follower_count":4,"company_url":"http://www.bbcmgt.com","twitter_url":null,"blog_url":null,"video_url":"","markets":[{"id":856,"tag_type":"MarketTag","name":"venture
         capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1620,"tag_type":"LocationTag","name":"boston","display_name":"Boston","angellist_url":"http://angel.co/boston"}],"status":null,"screenshots":[]},{"id":20124,"hidden":true}],"total":66,"per_page":50,"page":1,"last_page":2}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 22:51:51 GMT
+  recorded_at: Sat, 21 Apr 2012 23:16:41 GMT
 recorded_with: VCR 2.1.0

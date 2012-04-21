@@ -14,7 +14,7 @@ module AngellistApi
       # @example Get a startup's information given an ID.
       #   AngellistApi.get_startup(1234)
       def get_startup(id)
-        get("1/startups/#{id}", :format => :json, :phoenix => true)
+        get("1/startups/#{id}", :format => :json)
       end
 
       # Search for a startup given a URL slug. Responds like GET /startups/:id.
@@ -32,7 +32,7 @@ module AngellistApi
       # @example Search for a startup given a URL slug. Responds like GET /startups/:id.
       #   AngellistApi.startup_search(:slug => '500-startups-fund')
       def startup_search(options={})
-        get("1/startups/search", options, :format => :json, :phoenix => true)
+        get("1/startups/search", options, :format => :json)
       end
     end
   end

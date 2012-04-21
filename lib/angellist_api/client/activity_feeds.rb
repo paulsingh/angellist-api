@@ -21,7 +21,7 @@ module AngellistApi
       # @example
       #   AngellistApi.get_feed
       def get_feed(options={})
-        get("1/feed", options, :format => :json, :phoenix => true)
+        get("1/feed", options, :format => :json)
       end
 
     end

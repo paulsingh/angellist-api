@@ -192,557 +192,6 @@ http_interactions:
   recorded_at: Sat, 21 Apr 2012 21:35:59 GMT
 - request:
     method: get
-    uri: https://api.angel.co/1/users/2850/following
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-      X-Phx:
-      - 'true'
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sat, 21 Apr 2012 21:36:00 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '992'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '438'
-      etag:
-      - ! '"8840fcb89264bb594a39cc29767500c2"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"users":[{"name":"Jason Johnson","id":986,"bio":"Co-Founder of FOUNDERS
-        DEN and RETHINK BOOKS.  Former VP of marketing for DOLBY and GLOBAL IP SOLUTIONS","follower_count":693,"angellist_url":"http://angel.co/jcjohnson","image":"https://s3.amazonaws.com/photos.angel.co/users/986-medium?1311375691"},{"name":"Don
-        Dodge","id":50477,"bio":"Google, Microsoft, Groove Networks, Bowstreet, Napster,
-        AltaVista, Forte, DEC. Angel Investor.\n","follower_count":2127,"angellist_url":"http://angel.co/dondodge","image":"https://s3.amazonaws.com/photos.angel.co/users/50477-medium?1313253279"},{"name":"Jonathon
-        Perrelli","id":24221,"bio":"Dad, founder, angel, vc, technology evangelist,
-        dealmaker, Virginia Tech and UUNET Alumni, travel, motorcycle and cuisine
-        lover. Dad.","follower_count":454,"angellist_url":"http://angel.co/jonathon-perrelli","image":"https://s3.amazonaws.com/photos.angel.co/users/24221-medium?1305161315"},{"name":"Ed
-        Dua","id":31840,"bio":"Entrepreneur and Investor","follower_count":265,"angellist_url":"http://angel.co/ed-dua","image":"https://s3.amazonaws.com/photos.angel.co/users/31840-medium?1306681144"},{"name":"Jared
-        Kopf","id":46690,"bio":"entrepreneur: HomeRun, AdRoll, Slide, Justarrive;
-        soldier: PayPal, IDEO; investor: Clarium, angel","follower_count":714,"angellist_url":"http://angel.co/jhk","image":"https://s3.amazonaws.com/photos.angel.co/users/46690-medium?1311983639"},{"name":"Jody
-        Sherman","id":4059,"bio":"CEO & Co-Founder of ecomom. Sold last startup to
-        Richard Branson''s Virgin Group. Worked at Lycos, NBCi, PTC, SGI. Several
-        exits (Buydirect for $140M)","follower_count":1129,"angellist_url":"http://angel.co/jodysherman","image":"https://s3.amazonaws.com/photos.angel.co/users/4059-medium?1313091382"},{"name":"Shan
-        Mehta","id":26772,"bio":"Angel investor, Entrepreneur","follower_count":555,"angellist_url":"http://angel.co/shan-mehta","image":"https://s3.amazonaws.com/photos.angel.co/users/26772-medium?1302717678"},{"name":"Philipp
-        Moehring","id":5517,"bio":"Associate at @seedcamp, managing portfolio (60+
-        cos), operations, & connecting Seedcamp network (2000+ mentors & investors).
-        \nI answer email faster than you. ","follower_count":1178,"angellist_url":"http://angel.co/pmoe","image":"https://s3.amazonaws.com/photos.angel.co/users/5517-medium?1315902901"},{"name":"Net
-        Jacobsson","id":4555,"bio":"Founder of Opportunistic Ventures LLC & Playhopper.
-        Frmr Executive at Facebook. Advisor to OpenFeint, Crowdstar & Padworx Digital.
-        BoD at P1. Father of 3.","follower_count":386,"angellist_url":"http://angel.co/netjacobsson","image":"https://s3.amazonaws.com/photos.angel.co/users/4555-medium?1294886575"},{"name":"Kay
-        Luo","id":54835,"bio":"Startup advisor & investor.  I specialize at putting
-        startups on the map and was the first PR/communications person at Square,
-        LinkedIn, and Simply Hired. ","follower_count":125,"angellist_url":"http://angel.co/kay-luo","image":"https://s3.amazonaws.com/photos.angel.co/users/54835-medium?1314770894"},{"name":"Meyer
-        Malka","id":53147,"bio":"Entrepreneur and deal maker. Understanding how to
-        be an investor and founder. ","follower_count":237,"angellist_url":"http://angel.co/mmalka","image":"https://s3.amazonaws.com/photos.angel.co/users/53147-medium?1318976499"},{"name":"Max
-        Skibinsky","id":23302,"bio":"Executive Chairman and Founder of Inporia","follower_count":785,"angellist_url":"http://angel.co/lordmax","image":"https://s3.amazonaws.com/photos.angel.co/users/23302-medium?1301426328"},{"name":"Mike
-        Scanlin","id":19850,"bio":"CEO Born To Sell, former Partner Battery Ventures,
-        Sierra Ventures, Garage.com","follower_count":166,"angellist_url":"http://angel.co/mike-scanlin","image":"https://s3.amazonaws.com/photos.angel.co/users/19850-medium?1300767916"},{"name":"Rodrigo
-        Baer","id":8954,"bio":"General Partner at Warehouse Investimentos","follower_count":212,"angellist_url":"http://angel.co/rodrigo-baer","image":"https://s3.amazonaws.com/photos.angel.co/users/8954-medium?1299433387"},{"name":"Steven
-        Vachani","id":8533,"bio":"Serial Entrepreneur/Earliest Stage Investor-Founded
-        Freelotto/Qool/Power.com (sites founded acquired 100+ million users & reached
-        $1+ billion peak market value)","follower_count":1143,"angellist_url":"http://angel.co/vachani","image":"https://s3.amazonaws.com/photos.angel.co/users/8533-medium?1313718099"},{"name":"Yishan
-        Wong","id":3663,"bio":"Engineering Advisor","follower_count":757,"angellist_url":"http://angel.co/yishan-wong","image":"https://s3.amazonaws.com/photos.angel.co/users/3663-medium?1295392848"},{"name":"Beth
-        Ellyn McClendon","id":2581,"bio":"Angel investor, product designer. Former
-        Googler (Android, YouTube, Mapping). Cisco. Netscape.","follower_count":441,"angellist_url":"http://angel.co/bethellyn","image":"https://s3.amazonaws.com/photos.angel.co/users/2581-medium?1323632184"},{"name":"Michael
-        Yang","id":1997,"bio":"Partner at Comcast Ventures. ","follower_count":535,"angellist_url":"http://angel.co/michaelyang","image":"https://s3.amazonaws.com/photos.angel.co/users/1997-medium?1294804025"},{"name":"Pierre
-        Schurmann","id":960,"bio":"Entreperneur and angel investor in Brazil","follower_count":377,"angellist_url":"http://angel.co/pierreschurmann","image":"https://s3.amazonaws.com/photos.angel.co/users/960-medium?1294803813"},{"name":"Ryan
-        Stoner","id":43380,"bio":"Founder/CEO of MoPix. Board member at 100UE. Former
-        brand strategy professional worked w/ Academy Awards, EA, Fox, Microsoft,
-        NBC, and T-Mobile, among others.","follower_count":119,"angellist_url":"http://angel.co/ryanstoner","image":"https://s3.amazonaws.com/photos.angel.co/users/43380-medium?1317858575"},{"name":"Ryota
-        Matsuzaki","id":8549,"bio":"Former corp dev / online marketing executive at
-        Rakuten.","follower_count":51,"angellist_url":"http://angel.co/ryota-matsuzaki","image":"https://s3.amazonaws.com/photos.angel.co/users/8549-medium?1312347896"},{"name":"Kenny
-        Hawk","id":64368,"bio":"Visionary Serial Entrepreneur and Company Builder","follower_count":98,"angellist_url":"http://angel.co/kenny-hawk","image":"https://s3.amazonaws.com/photos.angel.co/users/64368-medium?1318290233"},{"name":"Greg
-        Cohn","id":39544,"bio":"Experienced entrepreneur, leader, & product- and tech-oriented
-        executive in startups and public companies. Ex-Yahoo, Waterfront Media, Away.com.","follower_count":499,"angellist_url":"http://angel.co/gregcohn","image":"https://s3.amazonaws.com/photos.angel.co/users/39544-medium?1309369294"},{"name":"Reshma
-        Sohoni","id":8251,"bio":"Investor in Kwaga, Farmeron, Patients Know Best,
-        Scoville.","follower_count":701,"angellist_url":"http://angel.co/reshma-sohoni","image":"https://s3.amazonaws.com/photos.angel.co/users/8251-medium?1298036361"},{"name":"Josh
-        Fraser","id":10002,"bio":"Founder & CEO Torbit. Founder EventVue. Computer
-        Science Clemson.","follower_count":286,"angellist_url":"http://angel.co/joshfraser","image":"https://s3.amazonaws.com/photos.angel.co/users/10002-medium?1298749869"},{"name":"Simeon
-        Simeonov","id":93,"bio":"Serial entrepreneur from half a dozen startups. Angel
-        investor. Former VC. I built the first Web application server way back in
-        the Web 1.0 days.","follower_count":990,"angellist_url":"http://angel.co/simeons","image":"https://s3.amazonaws.com/photos.angel.co/users/93-medium?1294886960"},{"name":"Marcus
-        Nelson","id":90612,"bio":"Dir of Social Media @salesforce. Co-Founded @uservoice,
-        TaskPick, Superstarch - Chili Champ","follower_count":165,"angellist_url":"http://angel.co/marcusnelson","image":"https://s3.amazonaws.com/photos.angel.co/users/90612-medium?1333171901"},{"name":"Christen
-        O''Brien","id":63611,"bio":"Partner & GM, Business Development ","follower_count":388,"angellist_url":"http://angel.co/christen-obrien","image":"https://s3.amazonaws.com/photos.angel.co/users/63611-medium?1317942291"},{"name":"Michael
-        Horn","id":10081,"bio":"Founder Craft Coffee and WhatIsFresh.com.","follower_count":63,"angellist_url":"http://angel.co/michael-horn","image":"https://s3.amazonaws.com/photos.angel.co/users/10081-medium?1298756219"},{"name":"Juney
-        Ham","id":56948,"bio":"Online Marketing at Airbnb, ex-Expedia, Experian.  Retail
-        and travel experience, focus on online marketing, product ideation, business
-        intelligence & analytics.","follower_count":21,"angellist_url":"http://angel.co/juney","image":"https://s3.amazonaws.com/photos.angel.co/users/56948-medium?1315752236"},{"name":"Justin
-        Bedecarr\u00e9","id":82693,"bio":"Commercial Real Estate | Technology ~ Media
-        ~ Venture Capital","follower_count":89,"angellist_url":"http://angel.co/justin-bedecarr","image":"https://s3.amazonaws.com/photos.angel.co/users/82693-medium?1324934571"},{"name":"Waynn
-        Lue","id":1889,"bio":"Co-founder, Coliloquy; Co-founder, unwrap (Sold to Context
-        Optional); built Google''s backend billing system; Stanford","follower_count":618,"angellist_url":"http://angel.co/waynn","image":"https://s3.amazonaws.com/photos.angel.co/users/1889-medium?1294804009"},{"name":"Julian
-        Green","id":4313,"bio":"CEO Jetpac.\nCoFounder Houzz - #1 home design iPad
-        app.\nFormer StubHub, eBay, IronPlanet, Fatbrain.\nSwam English Channel.","follower_count":482,"angellist_url":"http://angel.co/juliangreensf","image":"https://s3.amazonaws.com/photos.angel.co/users/4313-medium?1294804664"},{"name":"Matt
-        Wyndowe","id":3736,"bio":"Product Manager, Games at Facebook. Seed investor.
-        Previously, Director of BD at Facebook, Founder & CEO of KoboCafe, Stanford
-        MBA/d.school.","follower_count":591,"angellist_url":"http://angel.co/mattw","image":"https://s3.amazonaws.com/photos.angel.co/users/3736-medium?1309928410"},{"name":"Mexican
-        VC","id":84768,"bio":"Silicon Valley''s First Seed Fund for Scalable Mexican
-        Startups","follower_count":99,"angellist_url":"http://angel.co/mexican-vc","image":"https://s3.amazonaws.com/photos.angel.co/users/84768-medium?1325791745"},{"name":"Sean
-        Harper","id":2092,"bio":"FeeFighters CEO. Bootstrapped TSS-Radio to Inc500.  UChicago
-        MBA and undergrad (CS and Econ). Previously worked at BCG and Longworth Venture
-        Partners. ","follower_count":40,"angellist_url":"http://angel.co/seanharper","image":"https://s3.amazonaws.com/photos.angel.co/users/2092-medium?1315844652"},{"name":"Sherman
-        Ting","id":82166,"bio":"President and Board Director, Sand Hill Angels.\nAngel
-        Investor, Entrepreneur, High Tech Executive.","follower_count":94,"angellist_url":"http://angel.co/sherman-ting","image":"https://s3.amazonaws.com/photos.angel.co/users/82166-medium?1324694565"},{"name":"Ira
-        Weiss","id":55654,"bio":"Managing Director of Hyde Park Angels, Professor
-        at University of Chicago Booth School of Business, and former partner at RK
-        Ventures","follower_count":312,"angellist_url":"http://angel.co/ira-weiss","image":"https://s3.amazonaws.com/photos.angel.co/users/55654-medium?1315194741"},{"name":"Nathaniel
-        Whittemore","id":35527,"bio":"Investor in edu startups (Learn Capital), entrepreneur
-        (@assetmap), writer (@change, @incmagazine + more), Live in the Mission, SF.","follower_count":574,"angellist_url":"http://angel.co/nlw","image":"https://s3.amazonaws.com/photos.angel.co/users/35527-medium?1316120914"},{"name":"Steve
-        Lee","id":657,"bio":"Investor in StyleSeat, Yardbarker, Green Patch.","follower_count":367,"angellist_url":"http://angel.co/moneyball","image":"https://s3.amazonaws.com/photos.angel.co/users/657-medium?1294803738"},{"name":"Peter
-        Boboff","id":1763,"bio":"Partner at Transmedia Capital and co-founder of Kicklabs  seed
-        accelerator in San Francisco. Focused on early stage digital media & cloud
-        companies.","follower_count":782,"angellist_url":"http://angel.co/pboboff","image":"https://s3.amazonaws.com/photos.angel.co/users/1763-medium?1334169055"},{"name":"Nihal
-        Mehta","id":319,"bio":"CEO @ LocalResponse, GP @ ENIAC Ventures, Partner India
-        Internet Group. 12+ years experience investing and operating across the mobile
-        ecosystem. ","follower_count":824,"angellist_url":"http://angel.co/nihalmehta","image":"https://s3.amazonaws.com/photos.angel.co/users/319-medium?1294803625"},{"name":"Sheel
-        Mohnot","id":48589,"bio":"BizDev at FeeFighters. Early at Kiva.org, boostrapped
-        a few startups of my own. Consulting experience (BCG, Chartis), CMU undergrad,
-        Michigan MBA","follower_count":100,"angellist_url":"http://angel.co/smohnot","image":"https://s3.amazonaws.com/photos.angel.co/users/48589-medium?1312752334"},{"name":"Andy
-        Smith","id":3241,"bio":"Tech marketing executive and co-author of \"The Dragonfly
-        Effect\" (2010 book with Stanford professor Jennifer Aaker) on using social
-        media to drive social change","follower_count":167,"angellist_url":"http://angel.co/kabbenbock","image":"https://s3.amazonaws.com/photos.angel.co/users/3241-medium?1294804286"},{"name":"Peter
-        Corbett","id":5378,"bio":"CEO, iStrategyLabs","follower_count":427,"angellist_url":"http://angel.co/corbett3000","image":"https://s3.amazonaws.com/photos.angel.co/users/5378-medium?1296221668"},{"name":"Leah
-        Culver","id":13716,"bio":"Founder and CEO of Grove (grove.io). Former technical
-        co-founder of Pownce (sold to Six Apart). Co-author of OAuth and OEmbed.","follower_count":765,"angellist_url":"http://angel.co/leah","image":"https://s3.amazonaws.com/photos.angel.co/users/13716-medium?1299380145"},{"name":"StartX","id":6038,"bio":"The
-        Stanford Student Startup Accelerator","follower_count":542,"angellist_url":"http://angel.co/startx-2","image":"https://s3.amazonaws.com/photos.angel.co/users/6038-medium?1319953669"},{"name":"Gabriel
-        Weinberg","id":88,"bio":"Founded DuckDuckGo. Co-founded NamesDatabase (sold
-        to UNTD). B.S. & M.S. from MIT (Physics, Technology Policy). Angel investor.
-        Hacker. Dad.","follower_count":2477,"angellist_url":"http://angel.co/yegg","image":"https://s3.amazonaws.com/photos.angel.co/users/88-medium?1298561670"},{"name":"Sam
-        Shank","id":669,"bio":"CEO at HotelTonight; Founder & Board Member at DealBase.com;
-        VP, Business Development at SideStep; CEO and Founder at TravelPost.com","follower_count":317,"angellist_url":"http://angel.co/samshank","image":"https://s3.amazonaws.com/photos.angel.co/users/669-medium?1298447275"},{"name":"Dwipal
-        Desai","id":561,"bio":"Founder of theicebreak.com. Previously: Youtube (early
-        engineer, head of youtube mobile), Paypal.","follower_count":362,"angellist_url":"http://angel.co/dwipal","image":"https://s3.amazonaws.com/photos.angel.co/users/561-medium?1294803716"}],"total":476,"per_page":50,"page":1,"last_page":10}'
-    http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 21:36:00 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/users/2850/following?type=startup
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-      X-Phx:
-      - 'true'
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sat, 21 Apr 2012 21:36:02 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '991'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '410'
-      etag:
-      - ! '"bc8e3648045991c3323e84538b996e66"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"startups":[{"id":69820,"hidden":false,"community_profile":false,"name":"BetterDoctor","angellist_url":"http://angel.co/betterdoctor","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69820-b35d59461eac1bda66ac4bdd51afce5c-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69820-b35d59461eac1bda66ac4bdd51afce5c-thumb.png","product_desc":"Every
-        year over 70M people are struggling to find and book a new doctor. \n\nBetterDoctor
-        solves this problem by offering the best web and mobile apps that help you
-        find and book a good quality doctor in minutes instead of hours.\n\nFind and
-        Book a Better Doctor Near You!\nTry the Bay Area beta at http://BetterDoctor.com","high_concept":"OpenTable
-        for Doctors - Find and Book a Better Doctor Near You","follower_count":81,"company_url":"http://BetterDoctor.com"},{"id":26179,"hidden":false,"community_profile":false,"name":"Happy
-        Inspector","angellist_url":"http://angel.co/happy-inspector","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/26179-5bbb6f18c318c61742e2aebf4260d1d9-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/26179-5bbb6f18c318c61742e2aebf4260d1d9-thumb.png","product_desc":"Happy
-        Inspector is an iPad app for property managers that save up to 75% of time
-        it takes to perform inspections. In our first few months of launching we have
-        over 300 paying customers. Our simple, intuitive and customizable interface
-        lets our users inspect any type of assets from residential and commercial
-        property, cruise ships, aged care facilities to aviation. ","high_concept":"Revolutionizing
-        inspections of rental housing (SM12)","follower_count":139,"company_url":"http://www.happyinspector.com"},{"id":12882,"hidden":false,"community_profile":false,"name":"Sqoot","angellist_url":"http://angel.co/sqoot","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/12882-50004250482c969e2c1c63b7228c708f-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/12882-50004250482c969e2c1c63b7228c708f-thumb.png","product_desc":"We
-        power local deals in the things you use (web, mobile, desktop, etc).\n\nOur
-        local deal API helps:\n- Publishers & developers add revenue, engagement,
-        & local relevance \n- Advertisers gain targeted distribution\n\nWe serve 3,000,000+
-        deals/mo & are ramen profitable. And we''re just getting started. In Q2 we''ll
-        start selling data about our 250,000+ merchants.","high_concept":"Twilio for
-        Deals.","follower_count":145,"company_url":"http://www.sqoot.com"},{"id":26622,"hidden":true},{"id":80305,"hidden":false,"community_profile":false,"name":"UmbaBox","angellist_url":"http://angel.co/umbabox","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80305-e9c43c29e397dae19d6bb5889cc3505e-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80305-e9c43c29e397dae19d6bb5889cc3505e-thumb.jpg","product_desc":"Umba
-        Box allows people to effortlessly discover handmade products by delivering
-        monthly curated packages of women''s goods to subscribers. \n\nWe''ve appeared
-        in The Washington Post, Forbes online, and TIME.com., Mashable, and TechCrunch.
-        ","high_concept":"Birchbox for Etsy","follower_count":21,"company_url":"http://www.umbabox.com"},{"id":80321,"hidden":false,"community_profile":false,"name":"Uscoop","angellist_url":"http://angel.co/uscoop","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80321-05ada89c3980ace8eb6713ed7e0e931d-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80321-05ada89c3980ace8eb6713ed7e0e931d-thumb.jpg","product_desc":"Seen
-        in The Washington Post, AOL Small Business, Washington Business Journal, &
-        Tech Cocktail. \n\nUscoop is a social commerce platform for preps. We aggregate
-        small and large all-American brands and sell them on one platform. We are
-        disrupting the retail world, by allowing the customer to be the stylist and
-        model. We product place our items on fashionable consumers and use these images
-        to curate sales.\n\nWhy? We are more influenced by our stylish friends and
-        their lifestyles than generic models.","high_concept":"Social Commerce for
-        Preps","follower_count":32,"company_url":"http://www.uscoop.com"},{"id":58611,"hidden":false,"community_profile":false,"name":"Yogome","angellist_url":"http://angel.co/yogome","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/58611-b6a69372c3fb3fce56d817bb3abd3216-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/58611-b6a69372c3fb3fce56d817bb3abd3216-thumb.png","product_desc":"Our
-        games help kids learn, and take action!\n\nYogome is building games for iPads
-        so kids can practice Math, learn languages, know about Recycling and the Environment,
-        Nutrition, discover Science, Geography and History in a fun way that they
-        wouldn''t even notice they are learning.\n\nOur goal is to connect kids all
-        around the world playing and learning at the same time, creating knowledge
-        and developing skills for their future life.","high_concept":"Fun & educational
-        games for kids ages 6 - 12 on iPhone & iPad","follower_count":50,"company_url":"http://yogome.com"},{"id":817,"hidden":false,"community_profile":false,"name":"TeliportMe","angellist_url":"http://angel.co/teliportme","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/817-56d463b7c815caffef1a4e15c5e82d2c-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/817-56d463b7c815caffef1a4e15c5e82d2c-thumb.jpg","product_desc":"TeliportMe
-        is a travel website created using crowd sourced geotagged images and panoramas.  ","high_concept":"TeliportMe
-        is the Googlestreetview for everyplace","follower_count":36,"company_url":"http://www.teliportme.com"},{"id":21031,"hidden":false,"community_profile":false,"name":"Chalkable","angellist_url":"http://angel.co/chalkable","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/21031-c420b108c709c110caafa41974444202-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/21031-c420b108c709c110caafa41974444202-thumb.png","product_desc":"Chalkable
-        is a learning platform designed to organize, connect and report \u2013 we
-        built it to make learning better.\n\nBaked into simple user interfaces are
-        Chalkable\u2019s core functions. Things like calendar, reporting, grading
-        and messaging have all been retooled to work together seamlessly in the school
-        setting. The tight integration of Chalkable\u2019s core elements provides
-        a great platform to allow existing web apps, as well as those that have yet
-        to be built, a gateway into school.","high_concept":"App store for school
-        + the platform to allow those apps to work.","follower_count":35,"company_url":"http://www.chalkable.com"},{"id":29428,"hidden":false,"community_profile":false,"name":"Tie
-        Society","angellist_url":"http://angel.co/tie-society","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29428-79202762c1611eeac9485ac4b4b57814-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29428-79202762c1611eeac9485ac4b4b57814-thumb.png","product_desc":"Featured:
-        The Washington Post, NPR, Voice of America.\n\nA large demographic of professionals
-        are priced out of the market for high-end neckwear, yet one''s appearance
-        in the office plays a vital role in one''s professional advancement and self-esteem.\n\nSolution:
-        An affordable rental subscription service for professionals. We make it easy
-        and fun to dress well.\n\nOver 400 packages shipped in 4 months, m/m paid
-        member growth of 164%... absent traditional advertising. We''re just getting
-        started.","high_concept":"Netflix for ties. We help guys find great ties for
-        their wardrobe.","follower_count":32,"company_url":"http://www.tiesociety.com"},{"id":3204,"hidden":false,"community_profile":false,"name":"Toshl","angellist_url":"http://angel.co/toshl","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/3204-c06d02817ccd857972fae766645089eb-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/3204-c06d02817ccd857972fae766645089eb-thumb.png","product_desc":"Toshl
-        is personal finance manager that makes finance fun. It offers a light-hearted
-        quantified-self approach with serious data. It''s based on mobile apps which
-        sync to the web cloud at toshl.com. Toshl makes it easy to track, analyze
-        and save your money.\nToshl is available for iPhone, Android, Nokia Symbian^3,
-        MeeGo, WP7 and BlackBerry platforms.\nWe''re building a system to automatically
-        import online bank data and build an open financial API on top of that, accessible
-        to 3rd party developers.","high_concept":"Fun personal finance manager & financial
-        API","follower_count":111,"company_url":"http://www.toshl.com/"},{"id":80977,"hidden":false,"community_profile":false,"name":"Ingresse","angellist_url":"http://angel.co/ingresse","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80977-e1e03a7f8ac2ba4bd28c9fb265c827d6-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80977-e1e03a7f8ac2ba4bd28c9fb265c827d6-thumb.png","product_desc":"Ingresse
-        allows users to discover events they love and purchase tickets in a social
-        way. We work to extend the social experience of a real event to the web.","high_concept":"Ingresse
-        is an online social ticketing platform for Brazil","follower_count":19,"company_url":"http://www.ingres.se"},{"id":81433,"hidden":false,"community_profile":false,"name":"Monogram","angellist_url":"http://angel.co/monogram","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/81433-4d55dd98692d7097e031cdbf7ec48f9b-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/81433-4d55dd98692d7097e031cdbf7ec48f9b-thumb.png","product_desc":"Do
-        you wish you had time to browse all your favorite fashion sites regularly?\n\nAre
-        you tired of manually filtering through layers of categories, brands, colors
-        and sizes over and over and over again?\n\nDo you wish there''s an easier
-        way to keep track of new releases and deals?\n\nMonogram is your personal
-        shopper on the iPad. It''s like a personal boutique store where everything
-        caters to your unique styles.","high_concept":"Flipboard for fashion -- like
-        having your own personal shopper at Barney''s","follower_count":30,"company_url":"http://www.getmonogram.com"},{"id":65640,"hidden":false,"community_profile":false,"name":"Fontacto","angellist_url":"http://angel.co/fontacto","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/65640-9470fcc8599592146011009754e6de96-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/65640-9470fcc8599592146011009754e6de96-thumb.png","product_desc":"Fontacto
-        is a cloud platform that allows entrepreneurs and small businesses to sound
-        more professional and get calls on any phone or skype user. No hardware, no
-        long term contracts. Manage it online.\n\nEntrepreneurs get local or international
-        presence by choosing numbers from multiple cities.\n\nFontacto operates in
-        Latin America, mainly in Mexico, where it is the first service specially designed
-        for entrepreneurs & small businesses.","high_concept":"Entrepreneur''s virtual
-        phone system","follower_count":84,"company_url":"http://fontacto.com"},{"id":19119,"hidden":false,"community_profile":false,"name":"ActivityHero","angellist_url":"http://angel.co/activityhero","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19119-b2db7235a9f34834cf4006e8856a82fb-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19119-b2db7235a9f34834cf4006e8856a82fb-thumb.png","product_desc":"Yelp
-        for kids activities and summer camps.\n\nWe make life easier for busy moms.
-        It''s a pain to find that basketball camp or ballet class that fits your schedule
-        & budget without calling up each vendor.\n\nEnter http://ActivityHero.com
-        & http://SignUpForCamp.com\n\nSimply search by age, interest, zipcode, schedule;
-        plan your summer using the calendar; share with friends to carpool; and, even
-        register for classes.\n\nOver 100,000 moms from the SF Bay Area & Philly used
-        our website to find camps last year","high_concept":"Yelp for after-school
-        activities and summer camps.","follower_count":33,"company_url":"http://www.activityhero.com"},{"id":9434,"hidden":false,"community_profile":false,"name":"Teamly","angellist_url":"http://angel.co/teamly","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/9434-327673b4b503fbd1bff38b62052163f9-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/9434-327673b4b503fbd1bff38b62052163f9-thumb.png","product_desc":"Covered
-        by WSJ, The Guardian, GigaOm, Lifehacker, BusinessInsider and The Next Web.\n\nManaging
-        your productivity is hard; managing other people at work is even harder.\n\nTeamly
-        aims to help people be awesome at work, help them get the right work done,
-        keep them motivated, record their achievements and collaborate better with
-        colleagues.\n\nWe make money from company subscriptions, which provides managers
-        with enhanced reporting and a better way to manage employee performance.","high_concept":"Gamifying
-        work to make employees and companies more awesome","follower_count":418,"company_url":"http://teamly.com"},{"id":4776,"hidden":false,"community_profile":false,"name":"Groupiter","angellist_url":"http://angel.co/groupiter","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/4776-3f5660f47e9d2ed003227bda099500c0-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/4776-3f5660f47e9d2ed003227bda099500c0-thumb.png","product_desc":"A
-        new approach to file sharing that''s effortless, easy, human. Coming soon...\n","high_concept":"Chat
-        for Dropbox''s 60 million Users [500 Startups S2012]","follower_count":132,"company_url":"https://groupiter.com"},{"id":71006,"hidden":true},{"id":31917,"hidden":false,"community_profile":false,"name":"Timbuktu
-        Labs","angellist_url":"http://angel.co/timbuktu-labs","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31917-739dc29ba27e0dfc9673a9e72007562d-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31917-739dc29ba27e0dfc9673a9e72007562d-thumb.png","product_desc":"Timbuktu
-        is the iPad magazine for you and your children. We curate and deliver the
-        best contents and activities for young families and inspire them to improve
-        the quality of the time they spend together. We call this invisible education.\n\nWe
-        partner with Nintendo, Reggio Children and McSweeney''s. We won the 2012 Italian
-        Innovation Day in Berkeley and were nominated Best Italian Startup.  We were
-        featured by Apple as a New and Noteworthy App in Education (US Top 5).","high_concept":"We
-        are Flipboard for families","follower_count":101,"company_url":"http://www.timbuktu.me"},{"id":19184,"hidden":false,"community_profile":false,"name":"CardFlick","angellist_url":"http://angel.co/cardflick","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19184-b2652a86d71a675ecff437dfaabdd288-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19184-b2652a86d71a675ecff437dfaabdd288-thumb.png","product_desc":"Featured
-        on Washington Post, Mashable, PCWorld...\n\nBusiness cards are a pain to create
-        and manage.\n\nCardFlick - Create a beautiful business card on your phone.
-        Share it with a tap or a \"flick\". Keep track of when and where you met.
-        \nOther user doesn''t have the app? You can always email your card to in 1
-        tap.\n\n90,000+ downloads. A new user every 7 minutes. 15% weekly engagement.
-        Top ranked in over 60 countries. Average user sends 2.66 cards.\n\nFirst impressions
-        never looked better.","high_concept":"Create and Share Business Cards - 500
-        Startups S12","follower_count":147,"company_url":"http://cardflick.co"},{"id":19563,"hidden":false,"community_profile":false,"name":"9GAG","angellist_url":"http://angel.co/9gag","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19563-3bb24ef47482a01ad8e319328f00ca82-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19563-3bb24ef47482a01ad8e319328f00ca82-thumb.png","product_desc":"9GAG
-        is the simplest way for everyone to publish, collect and share fun. It has
-        1 billion monthly pageviews (updated Dec 2011).","high_concept":"60M Uniques
-        & 1.7B Pageviews - Fun Sharing Community","follower_count":189,"company_url":"http://9gag.com"},{"id":80126,"hidden":false,"community_profile":false,"name":"PublikDemand","angellist_url":"http://angel.co/publikdemand","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80126-f2a51b35e05748089972883aa2360ec9-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80126-f2a51b35e05748089972883aa2360ec9-thumb.png","product_desc":"Featured
-        on New York TImes, CNN, Fox and ABC and TechCrunch.\n\nHave an issue with
-        a big company that you haven''t been able to resolve on your own?\n\nUse PublikDemand
-        to share your story. Find others who have had the same problem and start a
-        viral complaint that gets your issue noticed!\n\nIf the company won''t resolve
-        your issue, opt-in to exclusive offers to switch from their competitors.\n\nOver
-        400,000 people reached by PublikDemand in the first 30 days after launch.\n","high_concept":"Better
-        Business Bureau Meets Social [500Startups S12]","follower_count":108,"company_url":"http://www.publikdemand.com"},{"id":30459,"hidden":false,"community_profile":false,"name":"Twitmusic","angellist_url":"http://angel.co/twitmusic","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/30459-6cef9b507535b7d33a02bd624fd3f328-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/30459-6cef9b507535b7d33a02bd624fd3f328-thumb.jpg","product_desc":"4,200+
-        musicians have registered & reach 23,000,000+ Twitter followers. Artists include:
-        Jason Mraz, Bow Wow, Mike Posner, MC Hammer, Bryan Adams, Jon Secada,, Goo
-        Goo Dolls.\n\nTech Crunch: \"Manila-Based Social Music Service Twitmusic Makes
-        It Into 500 Startups\" http://tcrn.ch/HZqDc6\n\nThe Next Web: \"Twitmusic
-        is socializing the Web music industry using Twitter and top artists\" http://tnw.co/HOVXKb\n\nHuffington
-        Post: \"Twitmusic - Welcome to the Music Industry''s New Order\" http://huff.to/zk6TbI
-        \n","high_concept":"Twitmusic lets musicians effectively share & promote their
-        music on Twitter.","follower_count":105,"company_url":"http://www.twitmusic.com"},{"id":79828,"hidden":false,"community_profile":false,"name":"TenderTree","angellist_url":"http://angel.co/tendertree","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79828-fa54bd7d53e110d9aab745cd0ecb0908-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79828-fa54bd7d53e110d9aab745cd0ecb0908-thumb.jpg","product_desc":"Hiring
-        a home caregiver is ridiculously expensive! It shouldn\u2019t cost $30/hr
-        to hire a caregiver who\u2019s only getting paid $10/hr. \n\nYou can see photos
-        and reviews of restaurants and hotels, but not of the person taking care of
-        your loved one. Isn\u2019t that crazy?\n \nTenderTree is changing all that.\n\nSearch
-        our trusted network of pre-screened caregivers with photos and reviews and
-        hire the best one.\n","high_concept":"Marketplace for senior care. [500Startups
-        S12]","follower_count":130,"company_url":"https://www.tendertree.com"},{"id":69181,"hidden":false,"community_profile":false,"name":"Wittlebee","angellist_url":"http://angel.co/wittlebee","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69181-e8384211b8176732d8afdd93e9f9c64d-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69181-e8384211b8176732d8afdd93e9f9c64d-thumb.jpg","product_desc":"A
-        parents fantasy in the form of a monthly assortment of high quality clothes
-        designed to grow and evolve with each child\u2019s unique lifestyle and preferences.\u000B\u000B
-        \n\n\nWe are disrupting the traditional retail experience and providing the
-        modern mom a long over-due alternative to the in-store meltdown. \n\nPut your
-        kids'' clothes on autopilot with Wittlebee.\n\nSee what our customers are
-        saying at http://facebook.com/wittlebee","high_concept":"A monthly box of
-        amazing kids clothes.","follower_count":72,"company_url":"http://wittlebee.com"},{"id":80314,"hidden":false,"community_profile":false,"name":"Bombfell","angellist_url":"http://angel.co/bombfell","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80314-6e8a59e9050370ccae85207c6fb3f3d5-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80314-6e8a59e9050370ccae85207c6fb3f3d5-thumb.png","product_desc":"Featured
-        on Techcrunch, Match.com, Glamour, Financial Times and SheKnows.\n\nClothes
-        shopping today is tuned to female buying habits - for browsing instead of
-        seek-and-destroy efficient buying.\n\nBombfell is a monthly subscription for
-        men''s clothing built to enable guys who lack time or don''t know what to
-        buy to dress well. Members tell us their wardrobe needs and we send them a
-        personalized selection every month.\n\nLaunched late 2011 and already ramen
-        profitable.","high_concept":"Shoedazzle for men''s clothing","follower_count":74,"company_url":"http://www.bombfell.com/"},{"id":25976,"hidden":false,"community_profile":false,"name":"Storypanda","angellist_url":"http://angel.co/storypanda","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25976-f8354cbb35987f31b1d68c7672da71e0-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25976-f8354cbb35987f31b1d68c7672da71e0-thumb.png","product_desc":"Making
-        kids stories collaborative. \n\nWe''ve updated the family reading experience
-        for the iPad generation by allowing kids and parents to read, create and share
-        their own stories. By using our story templates and core animations, families
-        use their creativity to create together. \n\nWe''ve partnered with major TV
-        networks, publishers and indie authors to keep new stories and story templates
-        stocked on our Storypanda bookshelf.\n\nOne app, unlimited stories and unlimited
-        creative potential!","high_concept":"Making kids stories collaborative - 500
-        Startups S12","follower_count":56,"company_url":"http://www.storypanda.com"},{"id":64339,"hidden":false,"community_profile":false,"name":"Cashie
-        Commerce","angellist_url":"http://angel.co/cashie-commerce","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/64339-61ae3b3bf19c17704324fc9b5b68e6cc-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/64339-61ae3b3bf19c17704324fc9b5b68e6cc-thumb.png","product_desc":"We''re
-        the fastest way for SMBs to start selling on any website or blog. Our dead
-        simple shopping cart service replaces existing solutions that are too hard
-        and too expensive for the 15MM smaller businesses and sole proprietors who
-        want to sell online.\n\nOur platform is live with over 10K trials and hundreds
-        of stores transacting worldwide. We''re in the EvoNexus tech incubator and
-        raising our seed round led by Tech Coast Angels with participation from Dave
-        McClure (500 Startups) and others.","high_concept":"Enabling 15M SMBs to get
-        into the $260B e-commerce game.","follower_count":49,"company_url":"http://cashiecommerce.com"},{"id":25065,"hidden":false,"community_profile":false,"name":"Retailigence","angellist_url":"http://angel.co/retailigence","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25065-329f07afa2565f913ecc3b52a0ebb468-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25065-329f07afa2565f913ecc3b52a0ebb468-thumb.png","product_desc":"Retailigence
-        increases foot-traffic and revenue for local stores by ensuring that shoppers
-        looking online (usually via mobile) for a specific product or brand (and with
-        an intent to buy), see availability in local nearby stores.  Retailigence
-        also works with product brands to infuse local path-to-purchase information
-        into various types of brand advertising.","high_concept":"Local Shopping infrastructure
-        for local product search & online-to-offline commerce","follower_count":103,"company_url":"http://www.Retailigence.com"},{"id":1639,"hidden":false,"community_profile":false,"name":"BizeeBee","angellist_url":"http://angel.co/bizeebee","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/1639-6ce3f7cce1b59cf049e86d6c36dabe77-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/1639-6ce3f7cce1b59cf049e86d6c36dabe77-thumb.","product_desc":"BizeeBee
-        simplifies memberships management, keeping memberships up-to-date, and making
-        renewing quick and easy.\n\nOffline membership based businesses around the
-        world can setup within minutes by adding services and customers. Recording
-        customer visits and purchases daily keeps memberships up-to-date. BizeeBee
-        sends members email reminders to renew memberships on the business''s BizeeBee
-        online store, which makes it easy for members to renew and faster for businesses
-        to get paid.\n\n\n","high_concept":"Memberships made easy.","follower_count":131,"company_url":"http://www.bizeebee.com"},{"id":19153,"hidden":false,"community_profile":false,"name":"Foodspotting","angellist_url":"http://angel.co/foodspotting","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19153-0dcc96509f2c6851740964fa96dd3ff0-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19153-0dcc96509f2c6851740964fa96dd3ff0-thumb.jpg","product_desc":"Share
-        a food you recommend or see what others have recommended near you!\n","high_concept":"The
-        best foods and where to find them","follower_count":275,"company_url":"http://www.foodspotting.com"},{"id":28118,"hidden":false,"community_profile":false,"name":"Pixowl","angellist_url":"http://angel.co/pixowl","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28118-002a47c9972b12d34a09530f51dee795-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28118-002a47c9972b12d34a09530f51dee795-thumb.jpg","product_desc":"Pixowl
-        makes Mobile Family Games.\n\nOur first game Doodle Grub has been downloaded
-        4 millions times in 6 months. \n\nOur future release The Sandbox is like \"Minecraft
-        for Mobile\" where you can build your own worlds using all types of elements
-        with your finger! - see exclusive preview: http://bit.ly/TSB-preview\n\nPixowl
-        team is the combination between experienced (CEO), passionate (COO), famous
-        artist (cartoonist) and talented (CTO) people.\n\nWe focus to make character-centric
-        games","high_concept":"Mobile Family Games","follower_count":197,"company_url":"http://www.pixowl.com"},{"id":20336,"hidden":false,"community_profile":false,"name":"Mile
-        High Organics","angellist_url":"http://angel.co/mile-high-organics","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/20336-c908d7741cf14df573d229e28293872f-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/20336-c908d7741cf14df573d229e28293872f-thumb.png","product_desc":"Mile
-        High Organics is Colorado''s natural online grocer.  Members order online
-        and receive convenient, scheduled home or office delivery of local, organic,
-        non-GMO (non-genetically modified) produce, dairy, meat and other groceries.","high_concept":"High
-        growth, organic e-grocer","follower_count":271,"company_url":"http://www.milehighorganics.com"},{"id":3147,"hidden":false,"community_profile":false,"name":"Trusted
-        Insight","angellist_url":"http://angel.co/trusted-insight","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/3147-c297becf01dedf0d36ef4a0fb0f21cc6-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/3147-c297becf01dedf0d36ef4a0fb0f21cc6-thumb.jpg","product_desc":"Through
-        the effective use of crowd-sourcing and social online networking, TI brings
-        efficiency and transparency to the practice of institutional investing in
-        alternative investments. \n\nTrusted Insight (TI) is a social marketplace
-        for institutional investors in alternative investments.  The TI product is
-        an invite-only web-based trust network, allowing its users to share deals,
-        make connections, and manage their portfolios in a private secure environment.  Investors
-        and funds post deals publicly or privately and make investments using the
-        TI platform.","high_concept":"A Social Marketplace for Institutional Investors","follower_count":85,"company_url":"http://thetrustedinsight.com"},{"id":70816,"hidden":false,"community_profile":false,"name":"AirPR","angellist_url":"http://angel.co/airpr","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/70816-968eb0946a8071459bffc70681b4c99f-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/70816-968eb0946a8071459bffc70681b4c99f-thumb.png","product_desc":"PR.
-        Done Better. Please see additional information section for details.","high_concept":"PR.
-        Done Better.","follower_count":619,"company_url":"http://www.airpr.com"},{"id":19040,"hidden":false,"community_profile":false,"name":"Vixely","angellist_url":"http://angel.co/vixely","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19040-3db0c1f1c87db13ed588f96efc8aaebf-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19040-3db0c1f1c87db13ed588f96efc8aaebf-thumb.png","product_desc":"Vixely
-        is where women go on the iPad to find the advice they need. We are the first
-        digital media company to produce & curate interactive media exclusively for
-        the tablet.\n\nGen Y women need a tasteful, trusted place to find quality
-        advice on topics crucial to their lives in a voice that resonates. Vixely
-        is their solution.\n\nWe are the future of media consumption combining the
-        evergreen aspects of books, the relevancy of magazines, and the e-commerce,
-        interactive, social & video of the web.","high_concept":"The future of Women''s
-        Media on the iPad","follower_count":63,"company_url":"http://www.vixely.com"},{"id":2146,"hidden":false,"community_profile":false,"name":"Nettle","angellist_url":"http://angel.co/nettle","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/2146-dbc5284b3e617f474315524ada2b3649-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/2146-dbc5284b3e617f474315524ada2b3649-thumb.png","product_desc":"..................................................","high_concept":"......","follower_count":59,"company_url":"http://nettle.com"},{"id":66690,"hidden":false,"community_profile":false,"name":"Motives","angellist_url":"http://angel.co/motives","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/66690-f83afe834260044fcf7a3dae71717645-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/66690-f83afe834260044fcf7a3dae71717645-thumb.jpg","product_desc":"We
-        are building a community of phenomenal fine artists. Artists can post their
-        work to the site, and easily promote it via FB. Our edge over the competition
-        is speed, design, and access to some of the best young artists in the country
-        (the screen shot above is a photo realistic drawing one of our power users
-        drew and submitted). Currently we are only available to students at the Rhode
-        Island School of Design. That being said most of the work that students post
-        is public, so anyone can view.","high_concept":"Dribbble for fine art and
-        all design disciplines.","follower_count":10,"company_url":"http://Motiv.es"},{"id":31846,"hidden":false,"community_profile":false,"name":"BrightNest","angellist_url":"http://angel.co/brightnest","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31846-615d7dc41814003dd6c8e37b0835ea7b-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31846-615d7dc41814003dd6c8e37b0835ea7b-thumb.png","product_desc":"BrightNest
-        is like Mint for home maintenance. We help homeowners take care of their most
-        valuable asset by providing the what, when and how of home maintenance in
-        one easy-to-navigate space. We deliver weekly reminders, customized tips and
-        step-by-step instructions in an online dashboard and email digest, too. Nowhere
-        on the web is home maintenance this easy and engaging. \n\n","high_concept":"Mint
-        for Home Maintenance","follower_count":96,"company_url":"http://brightnest.com"},{"id":119,"hidden":false,"community_profile":false,"name":"Appstores","angellist_url":"http://angel.co/appstores","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/119-54491b775cf038d4ee41f779f0b459a0-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/119-54491b775cf038d4ee41f779f0b459a0-thumb.","product_desc":"Developers
-        need relevant app distribution and consumers need a way to find apps that
-        are relevant and timely.\n\nWe are solving these problems by providing website
-        owners the tools to showcase the most relevant apps to their readers.\n\nRecent
-        Press\n\nhttp://techcrunch.com/2012/01/19/appstores-com-launches-an-adsense-for-mobile-apps/\n\nhttp://gigaom.com/2012/01/19/appstores-com-lets-anyone-build-their-own-app-store/","high_concept":"App
-        Distribution Platform","follower_count":174,"company_url":"http://appstores.com"},{"id":28625,"hidden":false,"community_profile":false,"name":"Centrally","angellist_url":"http://angel.co/centrally","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28625-f09899216e8ef25e4918a6bf8986af43-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28625-f09899216e8ef25e4918a6bf8986af43-thumb.png","product_desc":"Retailers
-        are generating sales of $20,000 a year to $2,000,0000 a year by selling their
-        products directly on their Facebook Fan Page through the Facebook comments.
-        There is no solution available to solve their payment and inventory management
-        problems. We are building that solution.\n","high_concept":"Sell Products
-        through the Facebook Comments (500S W12)","follower_count":117,"company_url":"http://central.ly"},{"id":32993,"hidden":false,"community_profile":true,"name":"Rackspace","angellist_url":"http://angel.co/rackspace","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32993-81694290c16c1db359480521324b06c3-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32993-81694290c16c1db359480521324b06c3-thumb.","product_desc":null,"high_concept":null,"follower_count":23,"company_url":"http://www.rackspace.com"},{"id":39738,"hidden":false,"community_profile":true,"name":"AOL
-        Time Warner","angellist_url":"http://angel.co/aol-time-warner","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/39738-0d4435211e4861a9188f44c9aee6a7c2-medium.txt","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/39738-0d4435211e4861a9188f44c9aee6a7c2-thumb.txt","product_desc":null,"high_concept":null,"follower_count":76,"company_url":"http://www.aol.com"},{"id":32170,"hidden":false,"community_profile":false,"name":"FanBridge","angellist_url":"http://angel.co/fanbridge","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32170-ed1d85b3f0f21c9c80b5b8ab4d8156d3-medium.jpeg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32170-ed1d85b3f0f21c9c80b5b8ab4d8156d3-thumb.jpeg","product_desc":"FanBridge
-        is the leading fan management and marketing platform for email and social
-        media. ","high_concept":"Helps grow, engage, and  monetize your fan relationships","follower_count":15,"company_url":"http://www.FanBridge.com"},{"id":32477,"hidden":false,"community_profile":true,"name":"TaskRabbit","angellist_url":"http://angel.co/taskrabbit","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32477-255b4c178cbfd00546d1768f380a475b-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32477-255b4c178cbfd00546d1768f380a475b-thumb.","product_desc":null,"high_concept":null,"follower_count":28,"company_url":"http://www.taskrabbit.com"},{"id":34257,"hidden":false,"community_profile":true,"name":"Peertransfer.com","angellist_url":"http://angel.co/peertransfer-com","logo_url":"http://angel.co/images/icons/startup-nopic.png","thumb_url":"http://angel.co/images/icons/startup-nopic.png","product_desc":null,"high_concept":null,"follower_count":10,"company_url":null},{"id":32695,"hidden":false,"community_profile":true,"name":"Flowtown","angellist_url":"http://angel.co/flowtown","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32695-8c0ba7011daa620c83aced14a506e34d-medium.txt","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32695-8c0ba7011daa620c83aced14a506e34d-thumb.txt","product_desc":null,"high_concept":null,"follower_count":19,"company_url":"http://www.flowtown.com"},{"id":34804,"hidden":false,"community_profile":true,"name":"inDinero","angellist_url":"http://angel.co/indinero","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/34804-49eec58e68462bd6cc905310cdf4460c-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/34804-49eec58e68462bd6cc905310cdf4460c-thumb.","product_desc":null,"high_concept":null,"follower_count":23,"company_url":"https://indinero.com/"},{"id":43664,"hidden":false,"community_profile":true,"name":"Affinity
-        China","angellist_url":"http://angel.co/affinity-china","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/43664-bdfb8d91690499de786d4b0d3cd1ff45-medium.txt","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/43664-bdfb8d91690499de786d4b0d3cd1ff45-thumb.txt","product_desc":null,"high_concept":null,"follower_count":5,"company_url":"http://www.affinitychina.com"},{"id":33145,"hidden":false,"community_profile":true,"name":"PixelFish","angellist_url":"http://angel.co/pixelfish","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/33145-ed5b83ce08752f9e7bf00de32f97bf3a-medium.txt","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/33145-ed5b83ce08752f9e7bf00de32f97bf3a-thumb.txt","product_desc":null,"high_concept":null,"follower_count":10,"company_url":"http://www.pixelfish.com/Images/logo.gif"}],"total":247,"per_page":50,"page":1,"last_page":5}'
-    http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 21:36:04 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/users/2850/following/ids
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-      X-Phx:
-      - 'true'
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sat, 21 Apr 2012 21:42:17 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '990'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '118'
-      etag:
-      - ! '"3fda4af33544ab64e2acbde3bc4d4c33"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"ids":[986,50477,24221,31840,46690,4059,26772,5517,4555,54835,53147,23302,19850,8954,8533,3663,2581,1997,960,43380,8549,64368,39544,8251,10002,93,90612,63611,10081,56948,82693,1889,4313,3736,84768,2092,82166,55654,35527,657,1763,319,48589,3241,5378,13716,6038,88,669,561,60943,36002,25211,7454,4015,3914,3170,879,143,6437,67409,62411,45128,1472,996,852,656,5120,602,31590,31498,57614,53209,34939,25360,31683,18876,12132,9259,8009,7443,5773,3596,2082,1841,603,1,65547,57810,20349,1206,64964,58983,45224,34628,3589,35986,42011,63661,63008,13,86,1000,62396,53748,16947,48087,44628,62554,44535,180,1530,43603,49879,54511,5261,26586,51011,19930,2192,58101,45139,58127,47466,1511,9849,1400,5987,57696,33798,5869,19278,57038,427,3795,2524,2478,1219,54672,35910,12058,556,31629,201,52011,8502,35016,5140,7609,16636,7601,51897,35461,53100,52877,52827,52818,52696,52388,48595,43132,40907,40463,39567,35941,32302,23379,1926,1065,411,50546,53768,53611,51304,37154,3621,2785,5535,6864,13430,6120,22333,1373,2894,142,2301,1887,6890,36361,394,503,1798,26285,16136,6028,4227,44891,4400,11803,1212,13727,1497,26145,40705,8148,31839,22321,7005,50343,10000,13437,5554,3864,51186,49997,48486,27619,15095,672,2249,48483,51735,18834,3433,409,43116,22368,24836,49166,187,2553,46680,9411,29533,4662,9304,3376,47435,46358,12535,206,27072,40155,35426,25074,8346,42899,29952,8947,689,1317,49,12431,21533,42082,33513,48404,9169,6373,3962,46,4963,1032,3118,26197,1329,5192,4937,31911,38616,45,2873,45294,37482,305,6669,27476,12096,595,3243,26793,8347,3007,1258,946,70,9331,1564,44,1117,968,47426,34758,45585,14995,53,9183,37811,4766,2827,4344,4647,35354,38945,45679,45407,45145,44979,43368,42169,37804,25895,22714,20718,14210,14190,9222,5372,1048,588,47421,47266,45094,45069,39885,41353,26915,4854,46185,43792,32619,25640,6243,7534,48,29163,3422,10890,43,42471,26001,31030,33330,79,18850,2306,23836,60,24650,9861,3269,1912,1690,27405,6991,1078,1779,18967,9826,51,2024,385,95,75,5196,1823,116,848,973,497,1670,138,3881,540,732,28,72,135,740,151,152,137,276,734,23113,58,9712,64,147,105,3328,123,1572,129,82,119,114,141,25409,4515,726,42,610,188,10982,67,219,131,122,1805,111,2850,9298,209,139,339,277,124,2,101,140,120,731,854,498,727,290,8869,1905,4898,30000,306,216,9578,1274,85,108,21686,92,148,208,3975,78,585,362,4121,549,1646,13688,859,730,6175,4964,12024,8797,153,128,112,300,34364,29547,2719,22676,84,17334,2726,144,154,77,743,146,19188,9531,1914,83,155],"total":476,"per_page":1000,"page":1,"last_page":1}'
-    http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 21:42:17 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/users/2850/following/ids?type=startup
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-      X-Phx:
-      - 'true'
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sat, 21 Apr 2012 21:42:19 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '989'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '31'
-      etag:
-      - ! '"5a3c62165e060f18772a42b76f7dd78f"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"ids":[69820,26179,12882,26622,80305,80321,58611,817,21031,29428,3204,80977,81433,65640,19119,9434,4776,71006,31917,19184,19563,80126,30459,79828,69181,80314,25976,64339,25065,1639,19153,28118,20336,3147,70816,19040,2146,66690,31846,119,28625,32993,39738,32170,32477,34257,32695,34804,43664,33145,41324,32423,39283,32688,32568,32203,32346,39284,32409,32694,32683,33687,35897,33397,38073,32509,25989,30627,19755,11654,3607,9580,28245,27003,23357,27226,1074,28544,25788,26750,10855,27216,2489,26190,25635,26090,26118,21821,24469,25717,26397,26102,1796,22799,26108,25025,2556,17609,14845,23064,695,23830,23479,25497,6868,312,22458,25513,22940,20249,23877,19150,16828,1249,25189,21770,19899,5980,24412,18937,19168,22038,859,24153,22246,19037,349,2752,22663,19671,21877,6468,20898,22335,2854,20715,4064,20332,21891,20944,4081,19435,21047,21048,915,746,194,3033,1124,19159,7601,20834,13766,10310,2855,19612,18275,19289,160,15481,179,18918,19614,20520,2197,1941,19946,1023,5599,3336,13174,2973,3296,19561,19003,19331,2917,15762,2276,1394,18863,4374,18604,16729,15735,4389,6548,15528,16717,16683,16626,9624,13848,3287,14641,16490,3648,3502,15486,14731,14573,13152,13097,13094,13090,13076,12694,12271,11369,4979,4380,4311,4057,3950,3921,3656,3616,3611,3463,3360,3357,3195,2867,2744,2648,2553,2500,2043,1997,1812,1680,1675,1652,1416,1410,1351,1319,1279,1242,917,674,630,238,44,11396,4104,1232],"total":247,"per_page":1000,"page":1,"last_page":1}'
-    http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 21:42:19 GMT
-- request:
-    method: get
     uri: https://api.angel.co/1/startups/1124/followers?format=json&phoenix=true
     body:
       encoding: US-ASCII
@@ -924,4 +373,918 @@ http_interactions:
       string: ! '{"ids":[63342,310,2319,3515,15213,119916,111597,119909,45206,59780,119795,8472,38254,119949,76669,110346,118517,55645,119894,119883,119878,119877,43366,46896,119871,92791,119864,118360,30941,38365,119813,34718,101303,119801,62836,119783,119775,110013,119779,119781,119745,71021,12928,118584,119729,108910,108670,38141,11209,6650,119713,119535,5159,7408,103790,50408,100628,119683,97592,12713,111441,119611,119556,14627,19623,119561,12359,119531,72172,545,115408,103125,55962,23836,119490,38018,57955,119452,27115,37321,27457,42911,112425,99860,54855,115147,468,113881,99943,100997,40073,119371,117681,47694,119329,119338,43929,119325,3195,1912,108851,119200,67732,119313,53702,46031,105112,119300,102675,15808,93963,105134,71738,119241,23690,78862,84839,119197,111976,118742,2669,5093,119167,80619,80372,119149,118821,60469,119136,108823,36348,91433,119098,107548,5517,119088,14410,58126,119059,72476,77158,101013,66561,61981,1330,22676,46361,30587,5324,83496,118832,104722,12434,59610,30182,119012,54978,73456,118993,77170,118926,51472,107991,74081,118967,113024,103683,118941,83279,87454,37226,31161,118901,118896,84260,98337,41914,72401,108505,113518,118558,118785,9427,32246,118616,118776,53220,100357,118758,118754,61147,118743,91467,101609,10076,118706,101960,118683,91938,98525,111257,60699,24174,103041,113271,48949,118655,72576,4434,106425,63747,86493,118643,61744,28980,115123,106651,64579,115023,46634,93951,45194,69663,56088,71103,114765,93606,114077,74940,6619,23981,33588,107474,56246,30489,21655,117327,114438,47448,61674,118534,22764,105218,102567,118512,46151,111090,96958,113886,110905,4206,95122,118450,603,116899,117369,23988,91120,86379,118429,118409,97647,118117,43523,58162,118402,96859,109132,4408,118358,53216,80447,118314,35618,112706,100229,416,88136,113989,32155,559,57958,118266,53958,115356,118254,103445,108757,115899,116037,113938,116865,118240,118151,101865,99722,111286,116249,69807,36172,104670,38502,48562,118193,118172,115330,90814,34221,75808,118157,118105,118156,111249,117399,102936,94638,20157,39781,99736,104916,103711,23577,107224,83174,118124,102794,103232,101942,29335,103952,118107,35573,8226,83638,80013,98999,93766,95803,31202,62097,110639,118076,110751,98811,118067,115439,20319,118055,42530,91662,117005,45868,117409,77733,57501,116869,108083,116368,91110,987,103913,94037,115284,81768,111282,117291,118016,60977,89855,24131,112211,84944,107336,117599,116504,108224,68772,107815,104967,117986,90738,103342,51905,85522,96397,109872,114426,83999,117974,113912,117973,59634,115270,65610,117509,114024,114285,99487,101599,117008,116867,117949,117342,116620,74316,116405,87369,88417,115955,60595,114894,28137,50854,97407,115865,85862,84511,38335,76408,106725,112710,101613,46606,109327,54428,67973,73387,95660,117919,18393,103011,110972,111219,108708,100370,50398,84491,109726,19084,65431,87772,73944,17224,102190,53895,70106,110111,27426,65104,72875,117903,68265,92858,107431,75019,104413,102596,57492,103615,107186,103901,105992,75893,101201,111372,104746,102471,86564,61735,103057,104709,99877,84975,100944,54944,94848,101806,48485,96058,100418,78840,102056,101279,94746,42107,96162,6321,37766,66031,93596,46396,96251,32932,60566,73991,77480,51610,10634,23745,7671,85610,91444,90557,44906,91546,40991,89547,55614,108443,79151,84597,20025,84681,10307,14203,83936,40332,79770,80752,74029,66587,81706,82609,22798,74961,73615,68160,71934,57458,76475,117842,77410,22469,68412,63788,24579,70884,7554,69876,5331,67331,66002,5992,39442,3533,4000,57384,57871,35174,16412,51344,35850,44288,18894,14359,18795,47104,48958,35468,91266,1942,69966,24300,117793,29361,111522,42072,41017,41020,83698,12733,111136,117767,15166,98115,5796,12493,28244,15138,439,116968,4325,53611,117737,117751,4551,16552,8215,11177,12410,11395,14787,12268,117732,55915,117726,32681,33978,4576,2023,117460,3937,3886,117713,22251,1760,53523,117679,50025,117703,5832,35208,117695,45050,117680,114042,116932,117530,48514,110735,117664,48279,73199,63484,2266,81047,39024,40899,117211,111952,107462,93933,6584,116767,117636,76345,86232,105263,6371,117366,117593,116418,2231,93486,17219,43715,15038,65796,28770,2531,84,24881,42844,87089,56357,56276,59631,117520,117518,2853,87900,117499,117493,113571,117489,112114,59892,109433,117477,20221,87195,38457,117463,36021,91964,72122,117449,115698,117435,115026,58836,117410,117407,117402,30330,55439,82589,117393,2873,25145,99073,111775,117371,117373,14770,25490,70168,117348,96760,117343,97582,25335,8182,5322,116913,117040,27367,91846,61977,9501,4801,31455,81754,3415,117294,4682,49340,834,43582,117287,5676,46752,100055,5272,42455,117252,97993,6304,5444,47791,112408,117242,115950,32392,103201,47538,340,23545,12999,117218,49090,98343,117162,37330,109301,83762,65580,19764,107388,41421,1204,8054,100905,90802,117167,664,24456,101384,30369,2551,117154,40308,64956,107831,37066,21556,117133,22843,81235,5554,563,60,117120,8387,45249,116907,11943,116835,10457,45423,20362,80563,114271,56569,783,4287,22009,85218,65,99067,18840,24088,5950,1230,11234,4248,117071,117078,3153,66154,11168,26001,85670,192,4601,117067,787,90218,396,20169,34595,117059,43792,89100,5740,19837,97951,28522,18047,1286,60943,4321,78691,110385,17016,2344,58375,27625,3074,20165,372,2477,29866,22671,113037,3963,528,28202,62337,40940,10709,54538,3241,6113,3155,16836,12112,4079,1032,505,36739,9646,46697,114956,31482,56703,116658,88712,117002,440,75247,47992,81092,1996,116956,116929,112824,72175,67301,44138,114878,44522,91404,116872,11949,116857,84927,113289,105669,116847,116840,51332,115726,92898,116817,97772,57495,116792,100988,116711,49920,116772,43903,115771,103304,116752,1767,377,116730,116724,116721,106496,89453,116685,99247,115792,44535,61342,48247,946,51933,76372,50020,107449,75520,116666,71840,116652,114095,116643,112514,37343,55656,114773,94597,116604,22590,113117,116601,116597,116591,46910,62283,116582,24098,116092,109341,106389,5196,19057,4193,35767,68716,9754,116491,116436,116346,85838,107354,116476,76318,109434,36026,25198,43357,40600,116416,73735,85489,6649,2659,116378,99935,26967,107676,106577,116335,10094,76363,116321,116320,116311,116310,100772,111224,44126,56612,58834,116259,596,87766,116277,115251,106045,116211,116202,48818,111474,105456,36472,52971,116164,108278,54923,103939,116190,23933,73378,80188,116153],"total":3251,"per_page":1000,"page":1,"last_page":4}'
     http_version: !!null 
   recorded_at: Sat, 21 Apr 2012 21:46:09 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/2850/followers?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:03 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '973'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '650'
+      etag:
+      - ! '"3425c7b89bede8084ffbfbe3e556e7f9"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"users":[{"name":"Rajesh Redij-Gill","id":7530,"bio":"Digital marketing
+        professional focussed on biddable media","follower_count":1,"angellist_url":"http://angel.co/rajesh-redij-gill","image":"https://s3.amazonaws.com/photos.angel.co/users/7530-medium?1335019650"},{"name":"Christien
+        Louviere","id":119835,"bio":"Director of Business Development at Vitrue, Inc.","follower_count":0,"angellist_url":"http://angel.co/clouvi","image":"https://s3.amazonaws.com/photos.angel.co/users/119835-medium?1335010661"},{"name":"Michelle
+        Sun","id":99434,"bio":"","follower_count":4,"angellist_url":"http://angel.co/michellesun","image":"https://s3.amazonaws.com/photos.angel.co/users/99434-medium?1330256462"},{"name":"Aravind
+        Chandrasekaran","id":90802,"bio":"","follower_count":0,"angellist_url":"http://angel.co/aravindc","image":"https://s3.amazonaws.com/photos.angel.co/users/90802-medium?1327739846"},{"name":"Debra
+        Farber","id":119745,"bio":"Privacy & InfoSec expert advising on product and
+        policy development & responsible info governance. Law school grad. Worked
+        at IBM, Amex, & software startups. \n","follower_count":0,"angellist_url":"http://angel.co/debra-farber-jd-cissp-cipp-us","image":"https://s3.amazonaws.com/photos.angel.co/users/119745-medium?1334990093"},{"name":"Mike
+        Oliver","id":119713,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/mikeoliveraz","image":"https://s3.amazonaws.com/photos.angel.co/users/119713-medium?1334971669"},{"name":"David
+        Panzalovi\u0107","id":112701,"bio":"Client-side engineer, bass player @wwwhbend
+        and all around unique person :)","follower_count":5,"angellist_url":"http://angel.co/loudk","image":"https://s3.amazonaws.com/photos.angel.co/users/112701-medium?1333367374"},{"name":"Zac
+        Gittens","id":77024,"bio":"CEO of Tie Society, funded by 500 Startups. Former
+        Management Consultant that focused on Thought Leadership, Business Analytics,
+        and Supply-Chain Management. ","follower_count":31,"angellist_url":"http://angel.co/zac-gittens","image":"https://s3.amazonaws.com/photos.angel.co/users/77024-medium?1332977306"},{"name":"Katherine
+        Myers","id":14627,"bio":"TBD Founder, Worked in development at CBS, DreamWorks,
+        AMC, Writer, Producer, Designer","follower_count":0,"angellist_url":"http://angel.co/katherine-myers","image":"https://s3.amazonaws.com/photos.angel.co/users/14627-medium?1334092965"},{"name":"Glenn
+        Allen","id":67105,"bio":"Co-founder, Pocket Labs. Co-founder, OpenTable. I''m
+        motivated to help Small Businesses Succeed using mobile and social.","follower_count":16,"angellist_url":"http://angel.co/glenn-allen","image":"https://s3.amazonaws.com/photos.angel.co/users/67105-medium?1319217742"},{"name":"Toozla","id":113666,"bio":"Location
+        based mobile travel audio guide (Augmented Reality). We cover 6 mobile platforms,
+        offer 2 million audio tracks - for free. SaaS for content providers.","follower_count":1,"angellist_url":"http://angel.co/toozla","image":"https://s3.amazonaws.com/photos.angel.co/users/113666-medium?1333537331"},{"name":"Josh
+        Becerra","id":99943,"bio":"Startup Entrepreneur. Builder of tools that help
+        businesses have success on Twitter. Co-founder of SMBTweet.com Localtweeps.com
+        and Follodex.com ","follower_count":9,"angellist_url":"http://angel.co/josh-becerra","image":"https://s3.amazonaws.com/photos.angel.co/users/99943-medium?1330362264"},{"name":"Anthony
+        Carroll","id":30620,"bio":"Co-founder + CTO, spotsi. 7+ years in startups.
+        Previously worked with Microsoft, Allrecipes.com. ","follower_count":37,"angellist_url":"http://angel.co/anthonyc","image":"https://s3.amazonaws.com/photos.angel.co/users/30620-medium?1326499721"},{"name":"September
+        Rinnier","id":113037,"bio":"Co-Founder at Uscoop. Strong retail and e-commerce
+        background (Urban Outfitters, Bungalow Co.). University of Pennsylvania B.A.
+        2009. ","follower_count":14,"angellist_url":"http://angel.co/september-rinnier","image":"https://s3.amazonaws.com/photos.angel.co/users/113037-medium?1333415350"},{"name":"Wesley
+        Barrow","id":119325,"bio":"Director, Eastern Sales at Buddy Media","follower_count":1,"angellist_url":"http://angel.co/wesley-barrow","image":"https://s3.amazonaws.com/photos.angel.co/users/119325-medium?1334875484"},{"name":"David
+        Smooke","id":119338,"bio":"Internet enthusiast. I work @SmartRecruiters. Views
+        expressed are my own.","follower_count":2,"angellist_url":"http://angel.co/davidsmooke","image":"https://s3.amazonaws.com/photos.angel.co/users/119338-medium?1334876817"},{"name":"Kevin
+        Segel","id":67732,"bio":"Co-Founder, Partner, Project Manager, Director of
+        Usability, UX/UI Manager, Brand Manager at idiomation","follower_count":11,"angellist_url":"http://angel.co/kevin-segel","image":"https://s3.amazonaws.com/photos.angel.co/users/67732-medium?1319504208"},{"name":"DerekDahl","id":118616,"bio":"CEO
+        of Fritter - Second startup. Strong background in customer acquisition and
+        sales. ","follower_count":0,"angellist_url":"http://angel.co/derekdahl","image":"https://s3.amazonaws.com/photos.angel.co/users/118616-medium?1334765345"},{"name":"Elena
+        Favilli","id":87195,"bio":"Founder and CEO of Timbuktu Labs. UC Berkeley Alumni.
+        Strong background in new media and publishing (La Repubblica, RAI, Colors
+        Magazine, McSweeney''s). ","follower_count":42,"angellist_url":"http://angel.co/efavilli","image":"https://s3.amazonaws.com/photos.angel.co/users/87195-medium?1326657719"},{"name":"Francesca
+        Cavallo","id":87204,"bio":"Co-founder & Creative Director of Timbuktu Labs.
+        Master of theatre & creative learning strategies. Serial social entrepreneur.
+        TEDx organizer.","follower_count":44,"angellist_url":"http://angel.co/francescavallo","image":"https://s3.amazonaws.com/photos.angel.co/users/87204-medium?1326660198"},{"name":"David
+        Conrad","id":119197,"bio":"Seattle based Studio Director, Designer, and Entrepreneur","follower_count":0,"angellist_url":"http://angel.co/david-conrad","image":"https://s3.amazonaws.com/photos.angel.co/users/119197-medium?1334853616"},{"name":"Andrew
+        H.","id":119059,"bio":"Co-founder of Groono.com, full-time grapic designer","follower_count":0,"angellist_url":"http://angel.co/andrew-h","image":"https://s3.amazonaws.com/photos.angel.co/users/119059-medium?1334871108"},{"name":"IZ
+        CORP EXCHANGE","id":118813,"bio":"","follower_count":0,"angellist_url":"http://angel.co/iz-corp-exchange","image":"https://s3.amazonaws.com/photos.angel.co/users/118813-medium?1334781941"},{"name":"Brady
+        Deaton","id":50854,"bio":"Brady Deaton, CEO: started his career in IT, founded
+        a record label, and has 10 years of experience managing concert venues and
+        arenas in the Tulsa area.","follower_count":2,"angellist_url":"http://angel.co/brady-deaton","image":"https://s3.amazonaws.com/photos.angel.co/users/50854-medium?1313444108"},{"name":"Craig
+        Sulzburgh","id":118592,"bio":"Asset Management","follower_count":0,"angellist_url":"http://angel.co/craig-sulzburgh","image":"https://s3.amazonaws.com/photos.angel.co/users/118592-medium?1334714008"},{"name":"Leo
+        Chen","id":33191,"bio":"Two-time entrepreneur. Incubating at 500 Startups.
+        Former PM @ Amazon.com and DianDian.com (China).","follower_count":72,"angellist_url":"http://angel.co/leochen","image":"https://s3.amazonaws.com/photos.angel.co/users/33191-medium?1323282571"},{"name":"Manolo
+        Diaz","id":93161,"bio":"Co-founder and Programmer @ Yogome.com","follower_count":25,"angellist_url":"http://angel.co/mdl","image":"https://s3.amazonaws.com/photos.angel.co/users/93161-medium?1328587166"},{"name":"Shannon
+        Huot","id":73045,"bio":"Founded Mle apps. MyClients is an app for hairstylists
+        to keep clientele. Founded Styletique; the first hair home party company.","follower_count":2,"angellist_url":"http://angel.co/shannon-huot","image":"https://s3.amazonaws.com/photos.angel.co/users/73045-medium?1321201567"},{"name":"Chandini
+        Ammineni","id":110705,"bio":"Full-time Co-Founder at ActivityHero, part-time
+        yoga/meditation evangelist.\n@ActivityHero @SignUpForCamp\nhttp://activityhero.com  \nhttp://signupforcamp.com","follower_count":17,"angellist_url":"http://angel.co/ammineni","image":"https://s3.amazonaws.com/photos.angel.co/users/110705-medium?1332890958"},{"name":"Jason
+        Kim","id":112844,"bio":"Co-founder of Bombfell. Lead developer at Lolapps.
+        Co-founded Foodoro (YC ''09). Developer at Microsoft and Goldman Sachs. Harvard
+        MS/BA in CS.","follower_count":19,"angellist_url":"http://angel.co/jason-kim-3","image":"https://s3.amazonaws.com/photos.angel.co/users/112844-medium?1334703904"},{"name":"Jocelyn
+        M. Gailliot","id":112849,"bio":"Co-founder, Uscoop. Incubating at 500 Startups.
+        Strong business background (Morgan Stanley, Investment Banking/Private Equity
+        in NYC and HK). Brown Univ.    ","follower_count":6,"angellist_url":"http://angel.co/jocelyn-gailliot","image":"https://s3.amazonaws.com/photos.angel.co/users/112849-medium?1333415774"},{"name":"Lauren
+        Thorp","id":112829,"bio":"Founder & CEO of Umba Box. BS Finance from Butler
+        University. Worked in finance & project management at Crown Agents, Inc.","follower_count":10,"angellist_url":"http://angel.co/laurenethorp","image":"https://s3.amazonaws.com/photos.angel.co/users/112829-medium?1333389997"},{"name":"Jeanne
+        Feldkamp","id":117369,"bio":"Content Director at TDA Group and Editor of IBM
+        Data Management magazine. Startup veteran and entrepreneur.","follower_count":0,"angellist_url":"http://angel.co/jeanne-feldkamp","image":"https://s3.amazonaws.com/photos.angel.co/users/117369-medium?1334373683"},{"name":"Corey
+        Perlmutter","id":39736,"bio":"Electrical Engineer Columbia. uChicago MBA.","follower_count":1,"angellist_url":"http://angel.co/corey-perlmutter","image":"https://s3.amazonaws.com/photos.angel.co/users/39736-medium?1309113774"},{"name":"Jean-Charles
+        Decorte","id":108083,"bio":"Co-founder & CEO at Shipii\n\nShipii.com, a French
+        social network","follower_count":2,"angellist_url":"http://angel.co/jcdeshipii","image":"https://s3.amazonaws.com/photos.angel.co/users/108083-medium?1334591458"},{"name":"Meredith
+        J. Powell","id":103790,"bio":"Fashion Pro. Start-Up Creative. CEO, Connector
+        & Advisor.","follower_count":6,"angellist_url":"http://angel.co/meredith-j-powell","image":"https://s3.amazonaws.com/photos.angel.co/users/103790-medium?1334635839"},{"name":"Jim
+        England","id":1916,"bio":"Product Design co-founder at PublikDemand. Past:
+        Keepstream (Capital Factory 2010), Infochimps Director of User Experience.","follower_count":178,"angellist_url":"http://angel.co/jimengland","image":"https://s3.amazonaws.com/photos.angel.co/users/1916-medium?1297208175"},{"name":"Pedro
+        Gutierrez","id":71121,"bio":null,"follower_count":1,"angellist_url":"http://angel.co/soyparaguayo","image":"https://s3.amazonaws.com/photos.angel.co/users/71121-medium?1320518467"},{"name":"Robert
+        W Price","id":115727,"bio":"Executive Director | Global Entrepreneurship Institute
+        | Non-profit Global Community for Educating and Supporting Entrepreneurs","follower_count":3,"angellist_url":"http://angel.co/robertwprice","image":"https://s3.amazonaws.com/photos.angel.co/users/115727-medium?1334026224"},{"name":"Young
+        Joon Cha","id":110649,"bio":"","follower_count":0,"angellist_url":"http://angel.co/young-joon-cha","image":"http://angel.co/images/nopic.png"},{"name":"Augusto
+        Terra","id":91606,"bio":"L\u00edder de Produ\u00e7\u00e3o / Chain Production
+        Leader at Agropecu\u00e1ria Tuiut\u00ed -Ltda","follower_count":2,"angellist_url":"http://angel.co/augusto-terra","image":"https://s3.amazonaws.com/photos.angel.co/users/91606-medium?1327955043"},{"name":"Jordan
+        Visco","id":74690,"bio":"CEO at Cloud Practice Inc.","follower_count":19,"angellist_url":"http://angel.co/jordan-visco","image":"https://s3.amazonaws.com/photos.angel.co/users/74690-medium?1322859305"},{"name":"Ruslan
+        Voronkov","id":77932,"bio":"Developer. Experience included. ","follower_count":0,"angellist_url":"http://angel.co/ruslan-voronkov","image":"https://s3.amazonaws.com/photos.angel.co/users/77932-medium?1323033666"},{"name":"Antoine
+        Amann","id":66587,"bio":"Founder of FrontFolio - the Spotify for News.\nMSc
+        LSE 2010, BA HSG 2009.","follower_count":0,"angellist_url":"http://angel.co/antoineamann","image":"https://s3.amazonaws.com/photos.angel.co/users/66587-medium?1319041535"},{"name":"JoesKuttan
+        (J.K)","id":36472,"bio":"Post Grad From University Of Maryland ; Worked in
+        couple of Location based Start ups in East Coast -DC/BALTIMORE ","follower_count":2,"angellist_url":"http://angel.co/josekuttan-j-k","image":"http://angel.co/images/nopic.png"},{"name":"Asher
+        Swing","id":11552,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/asher-swing","image":"http://angel.co/images/nopic.png"},{"name":"Gil
+        Katz","id":11177,"bio":"Managing Partner, Giant Step Inc.","follower_count":6,"angellist_url":"http://angel.co/gil-katz","image":"https://s3.amazonaws.com/photos.angel.co/users/11177-medium?1334444250"},{"name":"Sagar
+        Budavi","id":80572,"bio":null,"follower_count":3,"angellist_url":"http://angel.co/sagar-budavi","image":"https://s3.amazonaws.com/photos.angel.co/users/80572-medium?1323932746"},{"name":"Bert
+        Schiettecatte","id":6371,"bio":"Background in CS, music tech and HCI. Stanford,
+        CCRMA grad. Worked on signal processing and web software before. Product design
+        and content. ","follower_count":11,"angellist_url":"http://angel.co/bschiett","image":"https://s3.amazonaws.com/photos.angel.co/users/6371-medium?1299105342"},{"name":"Kazunori
+        Seki","id":117406,"bio":"Husband, dad, solution architect and business development
+        coach.  Live in Tokyo with family.  Bridge maker between innovators and early
+        adopters.\n ","follower_count":3,"angellist_url":"http://angel.co/sekisanchi","image":"https://s3.amazonaws.com/photos.angel.co/users/117406-medium?1334390451"}],"total":5560,"per_page":50,"page":1,"last_page":112}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:03 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/2850/followers/ids?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:05 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '972'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '128'
+      etag:
+      - ! '"1c6bbfb7095c5a9d7b7fb6413df45ea8"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"ids":[7530,119835,99434,90802,119745,119713,112701,77024,14627,67105,113666,99943,30620,113037,119325,119338,67732,118616,87195,87204,119197,119059,118813,50854,118592,33191,93161,73045,110705,112844,112849,112829,117369,39736,108083,103790,1916,71121,115727,110649,91606,74690,77932,66587,36472,11552,11177,80572,6371,117406,15038,114379,117343,115026,115147,116600,84603,109301,110775,112650,46697,116899,114878,88958,105303,116648,116701,51933,116626,54839,81880,69656,20627,116363,76484,115365,48203,116164,87670,41881,116069,115428,104034,47922,54146,115815,101800,108009,99035,86914,115571,103336,105370,41930,97203,93486,68513,31412,3041,115318,61954,15020,28285,4802,91033,82946,111628,114953,106111,58961,114861,114828,45669,114776,114652,114407,37542,114517,5159,112029,31635,11066,107548,57927,44644,84806,113748,113722,3170,113432,111608,113416,113491,9395,19057,72365,108670,100019,34932,39734,112403,52780,109433,57540,82263,112753,112712,96735,81291,81396,14474,107858,112286,46690,112215,5614,111141,76638,85794,88712,107713,111960,55872,103197,105227,91232,50051,57820,110740,93237,94483,56861,56440,109409,107911,77807,2191,93039,111274,58189,59499,111056,72401,110294,3786,88587,101832,105701,108966,110805,83555,110639,110776,90116,96353,2893,110574,56408,99454,110443,92209,110198,65260,44302,110280,83127,65796,86843,93263,109534,71840,103249,5517,46998,104935,109795,5025,93963,20682,13474,78245,38336,109931,58566,10870,48354,109627,55984,85634,46872,85547,109474,109435,109471,96944,87441,109321,85585,94185,95325,108851,2097,92047,108132,108276,84948,108427,105333,76606,107523,97951,84600,108036,107196,107835,63163,96429,72434,58678,29092,99338,84681,56202,56556,43025,41136,106088,107478,107394,107371,102647,51472,98505,803,104712,64672,94622,107039,106793,105734,73482,1000,66794,80123,15166,15694,106609,90308,58126,106533,66212,106347,80588,105741,106367,16372,106280,100859,103329,47303,90093,42495,105757,105919,105806,104230,105715,101722,103094,90924,105352,78131,53547,3282,93599,101210,104920,99755,104601,23158,101848,25081,104413,94471,104691,104647,85610,58142,103635,104241,104503,84977,7537,56634,75287,104211,104223,2493,103119,4555,22260,72172,32771,103129,93619,103438,103251,103379,93721,55476,98545,85588,72197,11320,8260,16912,102687,55858,86429,98119,102614,84616,102017,100642,102555,50383,90403,102381,102371,100442,102347,102333,99544,101279,102177,97909,65687,52559,95235,79196,101981,101879,70224,101738,82374,101787,6551,98850,101273,101238,98635,90740,90906,84829,83998,54642,34917,100309,99745,100146,95350,99836,86732,72142,79896,100016,100029,3401,70672,95886,99889,99919,38492,12074,99942,14405,94139,57937,58445,99818,99689,99685,82254,87047,99576,71021,87686,14770,8585,96744,99334,89584,97494,99118,93233,34246,92409,65048,39545,98730,81483,98757,88600,96110,98839,98874,98778,97834,71563,69198,98386,98350,98369,97199,85649,97521,15337,55395,60209,74830,80188,33125,97661,6647,25805,97652,23952,97516,21864,25037,5749,35805,94757,80239,45852,55924,97235,95843,97084,7122,51278,96848,96835,87707,39749,96476,91800,86264,4107,93,78898,22468,88441,89626,68460,63275,16258,48269,90028,82722,63611,94631,92328,94602,62818,93676,90974,17183,37015,94261,1577,12437,73492,22616,91879,31725,85249,74598,81330,92982,93444,77591,89875,61893,90476,18799,90011,92363,76573,92489,22253,92365,92259,79199,90612,92079,55656,92003,91987,74300,91905,91862,91512,91575,91181,13173,91719,84316,91520,91461,91328,55422,86961,80410,21210,69695,90870,68314,81,10002,90162,83554,75785,90472,80131,90376,22477,57758,90206,82094,8251,79297,40833,43715,90009,61342,89479,90008,11936,89826,75676,27072,40231,86252,72415,26793,80836,385,69364,89366,89284,88339,83802,11162,31602,89208,89191,10556,28282,44578,79310,3468,59667,88395,76152,65518,85038,88568,88008,88478,88263,64368,86203,40558,39681,71172,70700,81436,2833,34943,85359,77230,51973,34445,51866,86216,87292,87256,87251,23905,87024,32531,69143,31036,79075,55335,86959,1823,31128,43380,86496,29870,39358,2892,86251,84271,82370,23266,57056,61002,85943,82741,1984,71800,81934,85515,30019,10081,47412,33482,70599,84986,85545,50376,13017,52231,67524,85392,77339,83459,40198,84296,77844,82048,78094,84334,80951,1889,83308,72308,4313,3736,41822,84367,61063,68497,3810,72068,79169,80004,83908,71942,83808,60876,38001,83675,77336,69160,70482,72208,5610,83468,83451,83391,28140,7454,2158,46759,68112,75777,82777,82871,76661,73150,83064,83052,4964,82585,10643,82693,55654,50744,82166,81819,82271,78025,2092,81762,34962,81614,81574,81613,81556,15293,71613,81212,81288,78878,81489,81156,81374,13725,65956,81193,81182,32880,37780,56841,53915,67426,18911,23400,56884,77582,20157,76259,78431,70821,63153,80601,19714,74875,80160,80355,66823,6437,80089,70687,80255,78333,1310,6038,50232,76674,23647,76299,4347,74037,78374,73972,12427,48665,68307,77263,79788,78854,77675,77424,62546,72012,79510,4116,30284,79361,29930,79235,75982,79086,37819,79041,56970,13458,1745,20586,50511,78592,78729,78704,25503,66734,76353,73825,13716,78175,63373,5378,3241,78013,28747,77977,6323,48589,77912,77901,1220,71329,77866,70450,12328,77045,77275,55579,77667,2601,1800,65108,41637,72476,60645,72845,319,75125,77258,10258,71790,77174,67805,1376,6381,71893,13872,77065,76297,76807,71970,76818,66309,76765,76740,76721,61436,76322,74677,23793,74293,48632,74850,72837,45986,75069,37261,75821,76264,71154,65408,50817,75392,76226,76230,76194,22243,76114,1521,76095,76093,75381,75692,68044,4155,51945,430,50472,60169,57874,75709,12723,69123,22960,1078,27993,23946,75571,31870,69956,74975,27430,3198,20786,69832,67785,75437,34326,74321,74129,74705,2679,1564,1763,3187,60702,71063,22136,75016,68842,53794,55363,74767,28202,74663,74627,39543,30624,32309,73634,74474,74468,73372,74444,74029,72238,55818,44676,73943,73939,73834,69293,72714,54048,73745,68747,67297,53227,64986,29385,71980,63586,73534,68793,71159,7387,35566,72577,21720,65417,55542,38519,73346,69939,72323,73225,71357,65688,4801,73179,73129,35181,9452,49064,73017,48931,72644,5252,72986,49273,72924,72180,63543,17313,71040,72694,71944,72656,67121,46839,61792,67298,72321,56400,72250,41198],"total":5560,"per_page":1000,"page":1,"last_page":6}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:05 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/2850/following
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:07 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '971'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '444'
+      etag:
+      - ! '"ce75bb520e67bc5e3540f09db612ae3c"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"users":[{"name":"Jason Johnson","id":986,"bio":"Co-Founder of FOUNDERS
+        DEN and RETHINK BOOKS.  Former VP of marketing for DOLBY and GLOBAL IP SOLUTIONS","follower_count":694,"angellist_url":"http://angel.co/jcjohnson","image":"https://s3.amazonaws.com/photos.angel.co/users/986-medium?1311375691"},{"name":"Don
+        Dodge","id":50477,"bio":"Google, Microsoft, Groove Networks, Bowstreet, Napster,
+        AltaVista, Forte, DEC. Angel Investor.\n","follower_count":2128,"angellist_url":"http://angel.co/dondodge","image":"https://s3.amazonaws.com/photos.angel.co/users/50477-medium?1313253279"},{"name":"Jonathon
+        Perrelli","id":24221,"bio":"Dad, founder, angel, vc, technology evangelist,
+        dealmaker, Virginia Tech and UUNET Alumni, travel, motorcycle and cuisine
+        lover. Dad.","follower_count":454,"angellist_url":"http://angel.co/jonathon-perrelli","image":"https://s3.amazonaws.com/photos.angel.co/users/24221-medium?1305161315"},{"name":"Ed
+        Dua","id":31840,"bio":"Entrepreneur and Investor","follower_count":265,"angellist_url":"http://angel.co/ed-dua","image":"https://s3.amazonaws.com/photos.angel.co/users/31840-medium?1306681144"},{"name":"Jared
+        Kopf","id":46690,"bio":"entrepreneur: HomeRun, AdRoll, Slide, Justarrive;
+        soldier: PayPal, IDEO; investor: Clarium, angel","follower_count":714,"angellist_url":"http://angel.co/jhk","image":"https://s3.amazonaws.com/photos.angel.co/users/46690-medium?1311983639"},{"name":"Jody
+        Sherman","id":4059,"bio":"CEO & Co-Founder of ecomom. Sold last startup to
+        Richard Branson''s Virgin Group. Worked at Lycos, NBCi, PTC, SGI. Several
+        exits (Buydirect for $140M)","follower_count":1130,"angellist_url":"http://angel.co/jodysherman","image":"https://s3.amazonaws.com/photos.angel.co/users/4059-medium?1313091382"},{"name":"Shan
+        Mehta","id":26772,"bio":"Angel investor, Entrepreneur","follower_count":555,"angellist_url":"http://angel.co/shan-mehta","image":"https://s3.amazonaws.com/photos.angel.co/users/26772-medium?1302717678"},{"name":"Philipp
+        Moehring","id":5517,"bio":"Associate at @seedcamp, managing portfolio (60+
+        cos), operations, & connecting Seedcamp network (2000+ mentors & investors).
+        \nI answer email faster than you. ","follower_count":1180,"angellist_url":"http://angel.co/pmoe","image":"https://s3.amazonaws.com/photos.angel.co/users/5517-medium?1315902901"},{"name":"Net
+        Jacobsson","id":4555,"bio":"Founder of Opportunistic Ventures LLC & Playhopper.
+        Frmr Executive at Facebook. Advisor to OpenFeint, Crowdstar & Padworx Digital.
+        BoD at P1. Father of 3.","follower_count":386,"angellist_url":"http://angel.co/netjacobsson","image":"https://s3.amazonaws.com/photos.angel.co/users/4555-medium?1294886575"},{"name":"Kay
+        Luo","id":54835,"bio":"Startup advisor & investor.  I specialize at putting
+        startups on the map and was the first PR/communications person at Square,
+        LinkedIn, and Simply Hired. ","follower_count":125,"angellist_url":"http://angel.co/kay-luo","image":"https://s3.amazonaws.com/photos.angel.co/users/54835-medium?1314770894"},{"name":"Meyer
+        Malka","id":53147,"bio":"Entrepreneur and deal maker. Understanding how to
+        be an investor and founder. ","follower_count":237,"angellist_url":"http://angel.co/mmalka","image":"https://s3.amazonaws.com/photos.angel.co/users/53147-medium?1318976499"},{"name":"Max
+        Skibinsky","id":23302,"bio":"Executive Chairman and Founder of Inporia","follower_count":785,"angellist_url":"http://angel.co/lordmax","image":"https://s3.amazonaws.com/photos.angel.co/users/23302-medium?1301426328"},{"name":"Mike
+        Scanlin","id":19850,"bio":"CEO Born To Sell, former Partner Battery Ventures,
+        Sierra Ventures, Garage.com","follower_count":166,"angellist_url":"http://angel.co/mike-scanlin","image":"https://s3.amazonaws.com/photos.angel.co/users/19850-medium?1300767916"},{"name":"Rodrigo
+        Baer","id":8954,"bio":"General Partner at Warehouse Investimentos","follower_count":212,"angellist_url":"http://angel.co/rodrigo-baer","image":"https://s3.amazonaws.com/photos.angel.co/users/8954-medium?1299433387"},{"name":"Steven
+        Vachani","id":8533,"bio":"Serial Entrepreneur/Earliest Stage Investor-Founded
+        Freelotto/Qool/Power.com (sites founded acquired 100+ million users & reached
+        $1+ billion peak market value)","follower_count":1143,"angellist_url":"http://angel.co/vachani","image":"https://s3.amazonaws.com/photos.angel.co/users/8533-medium?1313718099"},{"name":"Yishan
+        Wong","id":3663,"bio":"Engineering Advisor","follower_count":757,"angellist_url":"http://angel.co/yishan-wong","image":"https://s3.amazonaws.com/photos.angel.co/users/3663-medium?1295392848"},{"name":"Beth
+        Ellyn McClendon","id":2581,"bio":"Angel investor, product designer. Former
+        Googler (Android, YouTube, Mapping). Cisco. Netscape.","follower_count":441,"angellist_url":"http://angel.co/bethellyn","image":"https://s3.amazonaws.com/photos.angel.co/users/2581-medium?1323632184"},{"name":"Michael
+        Yang","id":1997,"bio":"Partner at Comcast Ventures. ","follower_count":535,"angellist_url":"http://angel.co/michaelyang","image":"https://s3.amazonaws.com/photos.angel.co/users/1997-medium?1294804025"},{"name":"Pierre
+        Schurmann","id":960,"bio":"Entreperneur and angel investor in Brazil","follower_count":377,"angellist_url":"http://angel.co/pierreschurmann","image":"https://s3.amazonaws.com/photos.angel.co/users/960-medium?1294803813"},{"name":"Ryan
+        Stoner","id":43380,"bio":"Founder/CEO of MoPix. Board member at 100UE. Former
+        brand strategy professional worked w/ Academy Awards, EA, Fox, Microsoft,
+        NBC, and T-Mobile, among others.","follower_count":119,"angellist_url":"http://angel.co/ryanstoner","image":"https://s3.amazonaws.com/photos.angel.co/users/43380-medium?1317858575"},{"name":"Ryota
+        Matsuzaki","id":8549,"bio":"Former corp dev / online marketing executive at
+        Rakuten.","follower_count":51,"angellist_url":"http://angel.co/ryota-matsuzaki","image":"https://s3.amazonaws.com/photos.angel.co/users/8549-medium?1312347896"},{"name":"Kenny
+        Hawk","id":64368,"bio":"Visionary Serial Entrepreneur and Company Builder","follower_count":98,"angellist_url":"http://angel.co/kenny-hawk","image":"https://s3.amazonaws.com/photos.angel.co/users/64368-medium?1318290233"},{"name":"Greg
+        Cohn","id":39544,"bio":"Experienced entrepreneur, leader, & product- and tech-oriented
+        executive in startups and public companies. Ex-Yahoo, Waterfront Media, Away.com.","follower_count":499,"angellist_url":"http://angel.co/gregcohn","image":"https://s3.amazonaws.com/photos.angel.co/users/39544-medium?1309369294"},{"name":"Reshma
+        Sohoni","id":8251,"bio":"Investor in Kwaga, Farmeron, Patients Know Best,
+        Scoville.","follower_count":701,"angellist_url":"http://angel.co/reshma-sohoni","image":"https://s3.amazonaws.com/photos.angel.co/users/8251-medium?1298036361"},{"name":"Josh
+        Fraser","id":10002,"bio":"Founder & CEO Torbit. Founder EventVue. Computer
+        Science Clemson.","follower_count":286,"angellist_url":"http://angel.co/joshfraser","image":"https://s3.amazonaws.com/photos.angel.co/users/10002-medium?1298749869"},{"name":"Simeon
+        Simeonov","id":93,"bio":"Serial entrepreneur from half a dozen startups. Angel
+        investor. Former VC. I built the first Web application server way back in
+        the Web 1.0 days.","follower_count":991,"angellist_url":"http://angel.co/simeons","image":"https://s3.amazonaws.com/photos.angel.co/users/93-medium?1294886960"},{"name":"Marcus
+        Nelson","id":90612,"bio":"Dir of Social Media @salesforce. Co-Founded @uservoice,
+        TaskPick, Superstarch - Chili Champ","follower_count":165,"angellist_url":"http://angel.co/marcusnelson","image":"https://s3.amazonaws.com/photos.angel.co/users/90612-medium?1333171901"},{"name":"Christen
+        O''Brien","id":63611,"bio":"Partner & GM, Business Development ","follower_count":388,"angellist_url":"http://angel.co/christen-obrien","image":"https://s3.amazonaws.com/photos.angel.co/users/63611-medium?1317942291"},{"name":"Michael
+        Horn","id":10081,"bio":"Founder Craft Coffee and WhatIsFresh.com.","follower_count":63,"angellist_url":"http://angel.co/michael-horn","image":"https://s3.amazonaws.com/photos.angel.co/users/10081-medium?1298756219"},{"name":"Juney
+        Ham","id":56948,"bio":"Online Marketing at Airbnb, ex-Expedia, Experian.  Retail
+        and travel experience, focus on online marketing, product ideation, business
+        intelligence & analytics.","follower_count":21,"angellist_url":"http://angel.co/juney","image":"https://s3.amazonaws.com/photos.angel.co/users/56948-medium?1315752236"},{"name":"Justin
+        Bedecarr\u00e9","id":82693,"bio":"Commercial Real Estate | Technology ~ Media
+        ~ Venture Capital","follower_count":89,"angellist_url":"http://angel.co/justin-bedecarr","image":"https://s3.amazonaws.com/photos.angel.co/users/82693-medium?1324934571"},{"name":"Waynn
+        Lue","id":1889,"bio":"Co-founder, Coliloquy; Co-founder, unwrap (Sold to Context
+        Optional); built Google''s backend billing system; Stanford","follower_count":618,"angellist_url":"http://angel.co/waynn","image":"https://s3.amazonaws.com/photos.angel.co/users/1889-medium?1294804009"},{"name":"Julian
+        Green","id":4313,"bio":"CEO Jetpac.\nCoFounder Houzz - #1 home design iPad
+        app.\nFormer StubHub, eBay, IronPlanet, Fatbrain.\nSwam English Channel.","follower_count":482,"angellist_url":"http://angel.co/juliangreensf","image":"https://s3.amazonaws.com/photos.angel.co/users/4313-medium?1294804664"},{"name":"Matt
+        Wyndowe","id":3736,"bio":"Product Manager, Games at Facebook. Seed investor.
+        Previously, Director of BD at Facebook, Founder & CEO of KoboCafe, Stanford
+        MBA/d.school.","follower_count":592,"angellist_url":"http://angel.co/mattw","image":"https://s3.amazonaws.com/photos.angel.co/users/3736-medium?1309928410"},{"name":"Mexican
+        VC","id":84768,"bio":"Silicon Valley''s First Seed Fund for Scalable Mexican
+        Startups","follower_count":99,"angellist_url":"http://angel.co/mexican-vc","image":"https://s3.amazonaws.com/photos.angel.co/users/84768-medium?1325791745"},{"name":"Sean
+        Harper","id":2092,"bio":"FeeFighters CEO. Bootstrapped TSS-Radio to Inc500.  UChicago
+        MBA and undergrad (CS and Econ). Previously worked at BCG and Longworth Venture
+        Partners. ","follower_count":40,"angellist_url":"http://angel.co/seanharper","image":"https://s3.amazonaws.com/photos.angel.co/users/2092-medium?1315844652"},{"name":"Sherman
+        Ting","id":82166,"bio":"President and Board Director, Sand Hill Angels.\nAngel
+        Investor, Entrepreneur, High Tech Executive.","follower_count":94,"angellist_url":"http://angel.co/sherman-ting","image":"https://s3.amazonaws.com/photos.angel.co/users/82166-medium?1324694565"},{"name":"Ira
+        Weiss","id":55654,"bio":"Managing Director of Hyde Park Angels, Professor
+        at University of Chicago Booth School of Business, and former partner at RK
+        Ventures","follower_count":312,"angellist_url":"http://angel.co/ira-weiss","image":"https://s3.amazonaws.com/photos.angel.co/users/55654-medium?1315194741"},{"name":"Nathaniel
+        Whittemore","id":35527,"bio":"Investor in edu startups (Learn Capital), entrepreneur
+        (@assetmap), writer (@change, @incmagazine + more), Live in the Mission, SF.","follower_count":574,"angellist_url":"http://angel.co/nlw","image":"https://s3.amazonaws.com/photos.angel.co/users/35527-medium?1316120914"},{"name":"Steve
+        Lee","id":657,"bio":"Investor in StyleSeat, Yardbarker, Green Patch.","follower_count":367,"angellist_url":"http://angel.co/moneyball","image":"https://s3.amazonaws.com/photos.angel.co/users/657-medium?1294803738"},{"name":"Peter
+        Boboff","id":1763,"bio":"Partner at Transmedia Capital and co-founder of Kicklabs  seed
+        accelerator in San Francisco. Focused on early stage digital media & cloud
+        companies.","follower_count":782,"angellist_url":"http://angel.co/pboboff","image":"https://s3.amazonaws.com/photos.angel.co/users/1763-medium?1334169055"},{"name":"Nihal
+        Mehta","id":319,"bio":"CEO @ LocalResponse, GP @ ENIAC Ventures, Partner India
+        Internet Group. 12+ years experience investing and operating across the mobile
+        ecosystem. ","follower_count":824,"angellist_url":"http://angel.co/nihalmehta","image":"https://s3.amazonaws.com/photos.angel.co/users/319-medium?1294803625"},{"name":"Sheel
+        Mohnot","id":48589,"bio":"BizDev at FeeFighters. Early at Kiva.org, boostrapped
+        a few startups of my own. Consulting experience (BCG, Chartis), CMU undergrad,
+        Michigan MBA","follower_count":100,"angellist_url":"http://angel.co/smohnot","image":"https://s3.amazonaws.com/photos.angel.co/users/48589-medium?1312752334"},{"name":"Andy
+        Smith","id":3241,"bio":"Tech marketing executive and co-author of \"The Dragonfly
+        Effect\" (2010 book with Stanford professor Jennifer Aaker) on using social
+        media to drive social change","follower_count":167,"angellist_url":"http://angel.co/kabbenbock","image":"https://s3.amazonaws.com/photos.angel.co/users/3241-medium?1294804286"},{"name":"Peter
+        Corbett","id":5378,"bio":"CEO, iStrategyLabs","follower_count":427,"angellist_url":"http://angel.co/corbett3000","image":"https://s3.amazonaws.com/photos.angel.co/users/5378-medium?1296221668"},{"name":"Leah
+        Culver","id":13716,"bio":"Founder and CEO of Grove (grove.io). Former technical
+        co-founder of Pownce (sold to Six Apart). Co-author of OAuth and OEmbed.","follower_count":766,"angellist_url":"http://angel.co/leah","image":"https://s3.amazonaws.com/photos.angel.co/users/13716-medium?1299380145"},{"name":"StartX","id":6038,"bio":"The
+        Stanford Student Startup Accelerator","follower_count":542,"angellist_url":"http://angel.co/startx-2","image":"https://s3.amazonaws.com/photos.angel.co/users/6038-medium?1319953669"},{"name":"Gabriel
+        Weinberg","id":88,"bio":"Founded DuckDuckGo. Co-founded NamesDatabase (sold
+        to UNTD). B.S. & M.S. from MIT (Physics, Technology Policy). Angel investor.
+        Hacker. Dad.","follower_count":2477,"angellist_url":"http://angel.co/yegg","image":"https://s3.amazonaws.com/photos.angel.co/users/88-medium?1298561670"},{"name":"Sam
+        Shank","id":669,"bio":"CEO at HotelTonight; Founder & Board Member at DealBase.com;
+        VP, Business Development at SideStep; CEO and Founder at TravelPost.com","follower_count":317,"angellist_url":"http://angel.co/samshank","image":"https://s3.amazonaws.com/photos.angel.co/users/669-medium?1298447275"},{"name":"Dwipal
+        Desai","id":561,"bio":"Founder of theicebreak.com. Previously: Youtube (early
+        engineer, head of youtube mobile), Paypal.","follower_count":362,"angellist_url":"http://angel.co/dwipal","image":"https://s3.amazonaws.com/photos.angel.co/users/561-medium?1294803716"}],"total":476,"per_page":50,"page":1,"last_page":10}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:07 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/2850/following?type=startup
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:09 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '970'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '351'
+      etag:
+      - ! '"262d9d0c4f7113472cb95690e5a8aa1b"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"startups":[{"id":69820,"hidden":false,"community_profile":false,"name":"BetterDoctor","angellist_url":"http://angel.co/betterdoctor","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69820-b35d59461eac1bda66ac4bdd51afce5c-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69820-b35d59461eac1bda66ac4bdd51afce5c-thumb.png","product_desc":"Every
+        year over 70M people are struggling to find and book a new doctor. \n\nBetterDoctor
+        solves this problem by offering the best web and mobile apps that help you
+        find and book a good quality doctor in minutes instead of hours.\n\nFind and
+        Book a Better Doctor Near You!\nTry the Bay Area beta at http://BetterDoctor.com","high_concept":"OpenTable
+        for Doctors - Find and Book a Better Doctor Near You","follower_count":82,"company_url":"http://BetterDoctor.com"},{"id":26179,"hidden":false,"community_profile":false,"name":"Happy
+        Inspector","angellist_url":"http://angel.co/happy-inspector","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/26179-5bbb6f18c318c61742e2aebf4260d1d9-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/26179-5bbb6f18c318c61742e2aebf4260d1d9-thumb.png","product_desc":"Happy
+        Inspector is an iPad app for property managers that save up to 75% of time
+        it takes to perform inspections. In our first few months of launching we have
+        over 300 paying customers. Our simple, intuitive and customizable interface
+        lets our users inspect any type of assets from residential and commercial
+        property, cruise ships, aged care facilities to aviation. ","high_concept":"Revolutionizing
+        inspections of rental housing (SM12)","follower_count":139,"company_url":"http://www.happyinspector.com"},{"id":12882,"hidden":false,"community_profile":false,"name":"Sqoot","angellist_url":"http://angel.co/sqoot","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/12882-50004250482c969e2c1c63b7228c708f-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/12882-50004250482c969e2c1c63b7228c708f-thumb.png","product_desc":"We
+        power local deals in the things you use (web, mobile, desktop, etc).\n\nOur
+        local deal API helps:\n- Publishers & developers add revenue, engagement,
+        & local relevance \n- Advertisers gain targeted distribution\n\nWe serve 3,000,000+
+        deals/mo & are ramen profitable. And we''re just getting started. In Q2 we''ll
+        start selling data about our 250,000+ merchants.","high_concept":"Twilio for
+        Deals.","follower_count":146,"company_url":"http://www.sqoot.com"},{"id":26622,"hidden":true},{"id":80305,"hidden":false,"community_profile":false,"name":"UmbaBox","angellist_url":"http://angel.co/umbabox","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80305-e9c43c29e397dae19d6bb5889cc3505e-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80305-e9c43c29e397dae19d6bb5889cc3505e-thumb.jpg","product_desc":"Umba
+        Box allows people to effortlessly discover handmade products by delivering
+        monthly curated packages of women''s goods to subscribers. \n\nWe''ve appeared
+        in The Washington Post, Forbes online, and TIME.com., Mashable, and TechCrunch.
+        ","high_concept":"Birchbox for Etsy","follower_count":21,"company_url":"http://www.umbabox.com"},{"id":80321,"hidden":false,"community_profile":false,"name":"Uscoop","angellist_url":"http://angel.co/uscoop","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80321-05ada89c3980ace8eb6713ed7e0e931d-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80321-05ada89c3980ace8eb6713ed7e0e931d-thumb.jpg","product_desc":"Seen
+        in The Washington Post, AOL Small Business, Washington Business Journal, &
+        Tech Cocktail. \n\nUscoop is a social commerce platform for preps. We aggregate
+        small and large all-American brands and sell them on one platform. We are
+        disrupting the retail world, by allowing the customer to be the stylist and
+        model. We product place our items on fashionable consumers and use these images
+        to curate sales.\n\nWhy? We are more influenced by our stylish friends and
+        their lifestyles than generic models.","high_concept":"Social Commerce for
+        Preps","follower_count":32,"company_url":"http://www.uscoop.com"},{"id":58611,"hidden":false,"community_profile":false,"name":"Yogome","angellist_url":"http://angel.co/yogome","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/58611-b6a69372c3fb3fce56d817bb3abd3216-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/58611-b6a69372c3fb3fce56d817bb3abd3216-thumb.png","product_desc":"Our
+        games help kids learn, and take action!\n\nYogome is building games for iPads
+        so kids can practice Math, learn languages, know about Recycling and the Environment,
+        Nutrition, discover Science, Geography and History in a fun way that they
+        wouldn''t even notice they are learning.\n\nOur goal is to connect kids all
+        around the world playing and learning at the same time, creating knowledge
+        and developing skills for their future life.","high_concept":"Fun & educational
+        games for kids ages 6 - 12 on iPhone & iPad","follower_count":50,"company_url":"http://yogome.com"},{"id":817,"hidden":false,"community_profile":false,"name":"TeliportMe","angellist_url":"http://angel.co/teliportme","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/817-56d463b7c815caffef1a4e15c5e82d2c-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/817-56d463b7c815caffef1a4e15c5e82d2c-thumb.jpg","product_desc":"TeliportMe
+        is a travel website created using crowd sourced geotagged images and panoramas.  ","high_concept":"TeliportMe
+        is the Googlestreetview for everyplace","follower_count":36,"company_url":"http://www.teliportme.com"},{"id":21031,"hidden":false,"community_profile":false,"name":"Chalkable","angellist_url":"http://angel.co/chalkable","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/21031-c420b108c709c110caafa41974444202-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/21031-c420b108c709c110caafa41974444202-thumb.png","product_desc":"Chalkable
+        is a learning platform designed to organize, connect and report \u2013 we
+        built it to make learning better.\n\nBaked into simple user interfaces are
+        Chalkable\u2019s core functions. Things like calendar, reporting, grading
+        and messaging have all been retooled to work together seamlessly in the school
+        setting. The tight integration of Chalkable\u2019s core elements provides
+        a great platform to allow existing web apps, as well as those that have yet
+        to be built, a gateway into school.","high_concept":"App store for school
+        + the platform to allow those apps to work.","follower_count":35,"company_url":"http://www.chalkable.com"},{"id":29428,"hidden":false,"community_profile":false,"name":"Tie
+        Society","angellist_url":"http://angel.co/tie-society","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29428-79202762c1611eeac9485ac4b4b57814-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29428-79202762c1611eeac9485ac4b4b57814-thumb.png","product_desc":"Featured:
+        The Washington Post, NPR, Voice of America.\n\nA large demographic of professionals
+        are priced out of the market for high-end neckwear, yet one''s appearance
+        in the office plays a vital role in one''s professional advancement and self-esteem.\n\nSolution:
+        An affordable rental subscription service for professionals. We make it easy
+        and fun to dress well.\n\nOver 400 packages shipped in 4 months, m/m paid
+        member growth of 164%... absent traditional advertising. We''re just getting
+        started.","high_concept":"Netflix for ties. We help guys find great ties for
+        their wardrobe.","follower_count":32,"company_url":"http://www.tiesociety.com"},{"id":3204,"hidden":false,"community_profile":false,"name":"Toshl","angellist_url":"http://angel.co/toshl","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/3204-c06d02817ccd857972fae766645089eb-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/3204-c06d02817ccd857972fae766645089eb-thumb.png","product_desc":"Toshl
+        is personal finance manager that makes finance fun. It offers a light-hearted
+        quantified-self approach with serious data. It''s based on mobile apps which
+        sync to the web cloud at toshl.com. Toshl makes it easy to track, analyze
+        and save your money.\nToshl is available for iPhone, Android, Nokia Symbian^3,
+        MeeGo, WP7 and BlackBerry platforms.\nWe''re building a system to automatically
+        import online bank data and build an open financial API on top of that, accessible
+        to 3rd party developers.","high_concept":"Fun personal finance manager & financial
+        API","follower_count":111,"company_url":"http://www.toshl.com/"},{"id":80977,"hidden":false,"community_profile":false,"name":"Ingresse","angellist_url":"http://angel.co/ingresse","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80977-e1e03a7f8ac2ba4bd28c9fb265c827d6-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80977-e1e03a7f8ac2ba4bd28c9fb265c827d6-thumb.png","product_desc":"Ingresse
+        allows users to discover events they love and purchase tickets in a social
+        way. We work to extend the social experience of a real event to the web.","high_concept":"Ingresse
+        is an online social ticketing platform for Brazil","follower_count":19,"company_url":"http://www.ingres.se"},{"id":81433,"hidden":false,"community_profile":false,"name":"Monogram","angellist_url":"http://angel.co/monogram","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/81433-4d55dd98692d7097e031cdbf7ec48f9b-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/81433-4d55dd98692d7097e031cdbf7ec48f9b-thumb.png","product_desc":"Do
+        you wish you had time to browse all your favorite fashion sites regularly?\n\nAre
+        you tired of manually filtering through layers of categories, brands, colors
+        and sizes over and over and over again?\n\nDo you wish there''s an easier
+        way to keep track of new releases and deals?\n\nMonogram is your personal
+        shopper on the iPad. It''s like a personal boutique store where everything
+        caters to your unique styles.","high_concept":"Flipboard for fashion -- like
+        having your own personal shopper at Barney''s","follower_count":30,"company_url":"http://www.getmonogram.com"},{"id":65640,"hidden":false,"community_profile":false,"name":"Fontacto","angellist_url":"http://angel.co/fontacto","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/65640-9470fcc8599592146011009754e6de96-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/65640-9470fcc8599592146011009754e6de96-thumb.png","product_desc":"Fontacto
+        is a cloud platform that allows entrepreneurs and small businesses to sound
+        more professional and get calls on any phone or skype user. No hardware, no
+        long term contracts. Manage it online.\n\nEntrepreneurs get local or international
+        presence by choosing numbers from multiple cities.\n\nFontacto operates in
+        Latin America, mainly in Mexico, where it is the first service specially designed
+        for entrepreneurs & small businesses.","high_concept":"Entrepreneur''s virtual
+        phone system","follower_count":84,"company_url":"http://fontacto.com"},{"id":19119,"hidden":false,"community_profile":false,"name":"ActivityHero","angellist_url":"http://angel.co/activityhero","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19119-b2db7235a9f34834cf4006e8856a82fb-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19119-b2db7235a9f34834cf4006e8856a82fb-thumb.png","product_desc":"Yelp
+        for kids activities and summer camps.\n\nWe make life easier for busy moms.
+        It''s a pain to find that basketball camp or ballet class that fits your schedule
+        & budget without calling up each vendor.\n\nEnter http://ActivityHero.com
+        & http://SignUpForCamp.com\n\nSimply search by age, interest, zipcode, schedule;
+        plan your summer using the calendar; share with friends to carpool; and, even
+        register for classes.\n\nOver 100,000 moms from the SF Bay Area & Philly used
+        our website to find camps last year","high_concept":"Yelp for after-school
+        activities and summer camps.","follower_count":33,"company_url":"http://www.activityhero.com"},{"id":9434,"hidden":false,"community_profile":false,"name":"Teamly","angellist_url":"http://angel.co/teamly","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/9434-327673b4b503fbd1bff38b62052163f9-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/9434-327673b4b503fbd1bff38b62052163f9-thumb.png","product_desc":"Covered
+        by WSJ, The Guardian, GigaOm, Lifehacker, BusinessInsider and The Next Web.\n\nManaging
+        your productivity is hard; managing other people at work is even harder.\n\nTeamly
+        aims to help people be awesome at work, help them get the right work done,
+        keep them motivated, record their achievements and collaborate better with
+        colleagues.\n\nWe make money from company subscriptions, which provides managers
+        with enhanced reporting and a better way to manage employee performance.","high_concept":"Gamifying
+        work to make employees and companies more awesome","follower_count":418,"company_url":"http://teamly.com"},{"id":4776,"hidden":false,"community_profile":false,"name":"Groupiter","angellist_url":"http://angel.co/groupiter","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/4776-3f5660f47e9d2ed003227bda099500c0-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/4776-3f5660f47e9d2ed003227bda099500c0-thumb.png","product_desc":"A
+        new approach to file sharing that''s effortless, easy, human. Coming soon...\n","high_concept":"Chat
+        for Dropbox''s 60 million Users [500 Startups S2012]","follower_count":132,"company_url":"https://groupiter.com"},{"id":71006,"hidden":true},{"id":31917,"hidden":false,"community_profile":false,"name":"Timbuktu
+        Labs","angellist_url":"http://angel.co/timbuktu-labs","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31917-739dc29ba27e0dfc9673a9e72007562d-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31917-739dc29ba27e0dfc9673a9e72007562d-thumb.png","product_desc":"Timbuktu
+        is the iPad magazine for you and your children. We curate and deliver the
+        best contents and activities for young families and inspire them to improve
+        the quality of the time they spend together. We call this invisible education.\n\nWe
+        partner with Nintendo, Reggio Children and McSweeney''s. We won the 2012 Italian
+        Innovation Day in Berkeley and were nominated Best Italian Startup.  We were
+        featured by Apple as a New and Noteworthy App in Education (US Top 5).","high_concept":"We
+        are Flipboard for families","follower_count":102,"company_url":"http://www.timbuktu.me"},{"id":19184,"hidden":false,"community_profile":false,"name":"CardFlick","angellist_url":"http://angel.co/cardflick","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19184-b2652a86d71a675ecff437dfaabdd288-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19184-b2652a86d71a675ecff437dfaabdd288-thumb.png","product_desc":"Featured
+        on Washington Post, Mashable, PCWorld...\n\nBusiness cards are a pain to create
+        and manage.\n\nCardFlick - Create a beautiful business card on your phone.
+        Share it with a tap or a \"flick\". Keep track of when and where you met.
+        \nOther user doesn''t have the app? You can always email your card to in 1
+        tap.\n\n90,000+ downloads. A new user every 7 minutes. 15% weekly engagement.
+        Top ranked in over 60 countries. Average user sends 2.66 cards.\n\nFirst impressions
+        never looked better.","high_concept":"Create and Share Business Cards - 500
+        Startups S12","follower_count":147,"company_url":"http://cardflick.co"},{"id":19563,"hidden":false,"community_profile":false,"name":"9GAG","angellist_url":"http://angel.co/9gag","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19563-3bb24ef47482a01ad8e319328f00ca82-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19563-3bb24ef47482a01ad8e319328f00ca82-thumb.png","product_desc":"9GAG
+        is the simplest way for everyone to publish, collect and share fun. It has
+        1 billion monthly pageviews (updated Dec 2011).","high_concept":"60M Uniques
+        & 1.7B Pageviews - Fun Sharing Community","follower_count":189,"company_url":"http://9gag.com"},{"id":80126,"hidden":false,"community_profile":false,"name":"PublikDemand","angellist_url":"http://angel.co/publikdemand","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80126-f2a51b35e05748089972883aa2360ec9-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80126-f2a51b35e05748089972883aa2360ec9-thumb.png","product_desc":"Featured
+        on New York TImes, CNN, Fox and ABC and TechCrunch.\n\nHave an issue with
+        a big company that you haven''t been able to resolve on your own?\n\nUse PublikDemand
+        to share your story. Find others who have had the same problem and start a
+        viral complaint that gets your issue noticed!\n\nIf the company won''t resolve
+        your issue, opt-in to exclusive offers to switch from their competitors.\n\nOver
+        400,000 people reached by PublikDemand in the first 30 days after launch.\n","high_concept":"Better
+        Business Bureau Meets Social [500Startups S12]","follower_count":108,"company_url":"http://www.publikdemand.com"},{"id":30459,"hidden":false,"community_profile":false,"name":"Twitmusic","angellist_url":"http://angel.co/twitmusic","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/30459-6cef9b507535b7d33a02bd624fd3f328-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/30459-6cef9b507535b7d33a02bd624fd3f328-thumb.jpg","product_desc":"4,200+
+        musicians have registered & reach 23,000,000+ Twitter followers. Artists include:
+        Jason Mraz, Bow Wow, Mike Posner, MC Hammer, Bryan Adams, Jon Secada,, Goo
+        Goo Dolls.\n\nTech Crunch: \"Manila-Based Social Music Service Twitmusic Makes
+        It Into 500 Startups\" http://tcrn.ch/HZqDc6\n\nThe Next Web: \"Twitmusic
+        is socializing the Web music industry using Twitter and top artists\" http://tnw.co/HOVXKb\n\nHuffington
+        Post: \"Twitmusic - Welcome to the Music Industry''s New Order\" http://huff.to/zk6TbI
+        \n","high_concept":"Twitmusic lets musicians effectively share & promote their
+        music on Twitter.","follower_count":107,"company_url":"http://www.twitmusic.com"},{"id":79828,"hidden":false,"community_profile":false,"name":"TenderTree","angellist_url":"http://angel.co/tendertree","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79828-fa54bd7d53e110d9aab745cd0ecb0908-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79828-fa54bd7d53e110d9aab745cd0ecb0908-thumb.jpg","product_desc":"Hiring
+        a home caregiver is ridiculously expensive! It shouldn\u2019t cost $30/hr
+        to hire a caregiver who\u2019s only getting paid $10/hr. \n\nYou can see photos
+        and reviews of restaurants and hotels, but not of the person taking care of
+        your loved one. Isn\u2019t that crazy?\n \nTenderTree is changing all that.\n\nSearch
+        our trusted network of pre-screened caregivers with photos and reviews and
+        hire the best one.\n","high_concept":"Marketplace for senior care. [500Startups
+        S12]","follower_count":131,"company_url":"https://www.tendertree.com"},{"id":69181,"hidden":false,"community_profile":false,"name":"Wittlebee","angellist_url":"http://angel.co/wittlebee","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69181-e8384211b8176732d8afdd93e9f9c64d-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/69181-e8384211b8176732d8afdd93e9f9c64d-thumb.jpg","product_desc":"A
+        parents fantasy in the form of a monthly assortment of high quality clothes
+        designed to grow and evolve with each child\u2019s unique lifestyle and preferences.\u000B\u000B
+        \n\n\nWe are disrupting the traditional retail experience and providing the
+        modern mom a long over-due alternative to the in-store meltdown. \n\nPut your
+        kids'' clothes on autopilot with Wittlebee.\n\nSee what our customers are
+        saying at http://facebook.com/wittlebee","high_concept":"A monthly box of
+        amazing kids clothes.","follower_count":72,"company_url":"http://wittlebee.com"},{"id":80314,"hidden":false,"community_profile":false,"name":"Bombfell","angellist_url":"http://angel.co/bombfell","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80314-6e8a59e9050370ccae85207c6fb3f3d5-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80314-6e8a59e9050370ccae85207c6fb3f3d5-thumb.png","product_desc":"Featured
+        on Techcrunch, Match.com, Glamour, Financial Times and SheKnows.\n\nClothes
+        shopping today is tuned to female buying habits - for browsing instead of
+        seek-and-destroy efficient buying.\n\nBombfell is a monthly subscription for
+        men''s clothing built to enable guys who lack time or don''t know what to
+        buy to dress well. Members tell us their wardrobe needs and we send them a
+        personalized selection every month.\n\nLaunched late 2011 and already ramen
+        profitable.","high_concept":"Shoedazzle for men''s clothing","follower_count":74,"company_url":"http://www.bombfell.com/"},{"id":25976,"hidden":false,"community_profile":false,"name":"Storypanda","angellist_url":"http://angel.co/storypanda","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25976-f8354cbb35987f31b1d68c7672da71e0-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25976-f8354cbb35987f31b1d68c7672da71e0-thumb.png","product_desc":"Making
+        kids stories collaborative. \n\nWe''ve updated the family reading experience
+        for the iPad generation by allowing kids and parents to read, create and share
+        their own stories. By using our story templates and core animations, families
+        use their creativity to create together. \n\nWe''ve partnered with major TV
+        networks, publishers and indie authors to keep new stories and story templates
+        stocked on our Storypanda bookshelf.\n\nOne app, unlimited stories and unlimited
+        creative potential!","high_concept":"Making kids stories collaborative - 500
+        Startups S12","follower_count":56,"company_url":"http://www.storypanda.com"},{"id":64339,"hidden":false,"community_profile":false,"name":"Cashie
+        Commerce","angellist_url":"http://angel.co/cashie-commerce","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/64339-61ae3b3bf19c17704324fc9b5b68e6cc-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/64339-61ae3b3bf19c17704324fc9b5b68e6cc-thumb.png","product_desc":"We''re
+        the fastest way for SMBs to start selling on any website or blog. Our dead
+        simple shopping cart service replaces existing solutions that are too hard
+        and too expensive for the 15MM smaller businesses and sole proprietors who
+        want to sell online.\n\nOur platform is live with over 10K trials and hundreds
+        of stores transacting worldwide. We''re in the EvoNexus tech incubator and
+        raising our seed round led by Tech Coast Angels with participation from Dave
+        McClure (500 Startups) and others.","high_concept":"Enabling 15M SMBs to get
+        into the $260B e-commerce game.","follower_count":49,"company_url":"http://cashiecommerce.com"},{"id":25065,"hidden":false,"community_profile":false,"name":"Retailigence","angellist_url":"http://angel.co/retailigence","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25065-329f07afa2565f913ecc3b52a0ebb468-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/25065-329f07afa2565f913ecc3b52a0ebb468-thumb.png","product_desc":"Retailigence
+        increases foot-traffic and revenue for local stores by ensuring that shoppers
+        looking online (usually via mobile) for a specific product or brand (and with
+        an intent to buy), see availability in local nearby stores.  Retailigence
+        also works with product brands to infuse local path-to-purchase information
+        into various types of brand advertising.","high_concept":"Local Shopping infrastructure
+        for local product search & online-to-offline commerce","follower_count":103,"company_url":"http://www.Retailigence.com"},{"id":1639,"hidden":false,"community_profile":false,"name":"BizeeBee","angellist_url":"http://angel.co/bizeebee","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/1639-6ce3f7cce1b59cf049e86d6c36dabe77-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/1639-6ce3f7cce1b59cf049e86d6c36dabe77-thumb.","product_desc":"BizeeBee
+        simplifies memberships management, keeping memberships up-to-date, and making
+        renewing quick and easy.\n\nOffline membership based businesses around the
+        world can setup within minutes by adding services and customers. Recording
+        customer visits and purchases daily keeps memberships up-to-date. BizeeBee
+        sends members email reminders to renew memberships on the business''s BizeeBee
+        online store, which makes it easy for members to renew and faster for businesses
+        to get paid.\n\n\n","high_concept":"Memberships made easy.","follower_count":131,"company_url":"http://www.bizeebee.com"},{"id":19153,"hidden":false,"community_profile":false,"name":"Foodspotting","angellist_url":"http://angel.co/foodspotting","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19153-0dcc96509f2c6851740964fa96dd3ff0-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19153-0dcc96509f2c6851740964fa96dd3ff0-thumb.jpg","product_desc":"Share
+        a food you recommend or see what others have recommended near you!\n","high_concept":"The
+        best foods and where to find them","follower_count":275,"company_url":"http://www.foodspotting.com"},{"id":28118,"hidden":false,"community_profile":false,"name":"Pixowl","angellist_url":"http://angel.co/pixowl","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28118-002a47c9972b12d34a09530f51dee795-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28118-002a47c9972b12d34a09530f51dee795-thumb.jpg","product_desc":"Pixowl
+        makes Mobile Family Games.\n\nOur first game Doodle Grub has been downloaded
+        4 millions times in 6 months. \n\nOur future release The Sandbox is like \"Minecraft
+        for Mobile\" where you can build your own worlds using all types of elements
+        with your finger! - see exclusive preview: http://bit.ly/TSB-preview\n\nPixowl
+        team is the combination between experienced (CEO), passionate (COO), famous
+        artist (cartoonist) and talented (CTO) people.\n\nWe focus to make character-centric
+        games","high_concept":"Mobile Family Games","follower_count":197,"company_url":"http://www.pixowl.com"},{"id":20336,"hidden":false,"community_profile":false,"name":"Mile
+        High Organics","angellist_url":"http://angel.co/mile-high-organics","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/20336-c908d7741cf14df573d229e28293872f-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/20336-c908d7741cf14df573d229e28293872f-thumb.png","product_desc":"Mile
+        High Organics is Colorado''s natural online grocer.  Members order online
+        and receive convenient, scheduled home or office delivery of local, organic,
+        non-GMO (non-genetically modified) produce, dairy, meat and other groceries.","high_concept":"High
+        growth, organic e-grocer","follower_count":271,"company_url":"http://www.milehighorganics.com"},{"id":3147,"hidden":false,"community_profile":false,"name":"Trusted
+        Insight","angellist_url":"http://angel.co/trusted-insight","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/3147-c297becf01dedf0d36ef4a0fb0f21cc6-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/3147-c297becf01dedf0d36ef4a0fb0f21cc6-thumb.jpg","product_desc":"Through
+        the effective use of crowd-sourcing and social online networking, TI brings
+        efficiency and transparency to the practice of institutional investing in
+        alternative investments. \n\nTrusted Insight (TI) is a social marketplace
+        for institutional investors in alternative investments.  The TI product is
+        an invite-only web-based trust network, allowing its users to share deals,
+        make connections, and manage their portfolios in a private secure environment.  Investors
+        and funds post deals publicly or privately and make investments using the
+        TI platform.","high_concept":"A Social Marketplace for Institutional Investors","follower_count":85,"company_url":"http://thetrustedinsight.com"},{"id":70816,"hidden":false,"community_profile":false,"name":"AirPR","angellist_url":"http://angel.co/airpr","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/70816-968eb0946a8071459bffc70681b4c99f-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/70816-968eb0946a8071459bffc70681b4c99f-thumb.png","product_desc":"PR.
+        Done Better. Please see additional information section for details.","high_concept":"PR.
+        Done Better.","follower_count":619,"company_url":"http://www.airpr.com"},{"id":19040,"hidden":false,"community_profile":false,"name":"Vixely","angellist_url":"http://angel.co/vixely","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19040-3db0c1f1c87db13ed588f96efc8aaebf-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/19040-3db0c1f1c87db13ed588f96efc8aaebf-thumb.png","product_desc":"Vixely
+        is where women go on the iPad to find the advice they need. We are the first
+        digital media company to produce & curate interactive media exclusively for
+        the tablet.\n\nGen Y women need a tasteful, trusted place to find quality
+        advice on topics crucial to their lives in a voice that resonates. Vixely
+        is their solution.\n\nWe are the future of media consumption combining the
+        evergreen aspects of books, the relevancy of magazines, and the e-commerce,
+        interactive, social & video of the web.","high_concept":"The future of Women''s
+        Media on the iPad","follower_count":63,"company_url":"http://www.vixely.com"},{"id":2146,"hidden":false,"community_profile":false,"name":"Nettle","angellist_url":"http://angel.co/nettle","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/2146-dbc5284b3e617f474315524ada2b3649-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/2146-dbc5284b3e617f474315524ada2b3649-thumb.png","product_desc":"..................................................","high_concept":"......","follower_count":59,"company_url":"http://nettle.com"},{"id":66690,"hidden":false,"community_profile":false,"name":"Motives","angellist_url":"http://angel.co/motives","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/66690-f83afe834260044fcf7a3dae71717645-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/66690-f83afe834260044fcf7a3dae71717645-thumb.jpg","product_desc":"We
+        are building a community of phenomenal fine artists. Artists can post their
+        work to the site, and easily promote it via FB. Our edge over the competition
+        is speed, design, and access to some of the best young artists in the country
+        (the screen shot above is a photo realistic drawing one of our power users
+        drew and submitted). Currently we are only available to students at the Rhode
+        Island School of Design. That being said most of the work that students post
+        is public, so anyone can view.","high_concept":"Dribbble for fine art and
+        all design disciplines.","follower_count":10,"company_url":"http://Motiv.es"},{"id":31846,"hidden":false,"community_profile":false,"name":"BrightNest","angellist_url":"http://angel.co/brightnest","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31846-615d7dc41814003dd6c8e37b0835ea7b-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31846-615d7dc41814003dd6c8e37b0835ea7b-thumb.png","product_desc":"BrightNest
+        is like Mint for home maintenance. We help homeowners take care of their most
+        valuable asset by providing the what, when and how of home maintenance in
+        one easy-to-navigate space. We deliver weekly reminders, customized tips and
+        step-by-step instructions in an online dashboard and email digest, too. Nowhere
+        on the web is home maintenance this easy and engaging. \n\n","high_concept":"Mint
+        for Home Maintenance","follower_count":96,"company_url":"http://brightnest.com"},{"id":119,"hidden":false,"community_profile":false,"name":"Appstores","angellist_url":"http://angel.co/appstores","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/119-54491b775cf038d4ee41f779f0b459a0-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/119-54491b775cf038d4ee41f779f0b459a0-thumb.","product_desc":"Developers
+        need relevant app distribution and consumers need a way to find apps that
+        are relevant and timely.\n\nWe are solving these problems by providing website
+        owners the tools to showcase the most relevant apps to their readers.\n\nRecent
+        Press\n\nhttp://techcrunch.com/2012/01/19/appstores-com-launches-an-adsense-for-mobile-apps/\n\nhttp://gigaom.com/2012/01/19/appstores-com-lets-anyone-build-their-own-app-store/","high_concept":"App
+        Distribution Platform","follower_count":174,"company_url":"http://appstores.com"},{"id":28625,"hidden":false,"community_profile":false,"name":"Centrally","angellist_url":"http://angel.co/centrally","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28625-f09899216e8ef25e4918a6bf8986af43-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28625-f09899216e8ef25e4918a6bf8986af43-thumb.png","product_desc":"Retailers
+        are generating sales of $20,000 a year to $2,000,0000 a year by selling their
+        products directly on their Facebook Fan Page through the Facebook comments.
+        There is no solution available to solve their payment and inventory management
+        problems. We are building that solution.\n","high_concept":"Sell Products
+        through the Facebook Comments (500S W12)","follower_count":117,"company_url":"http://central.ly"},{"id":32993,"hidden":false,"community_profile":true,"name":"Rackspace","angellist_url":"http://angel.co/rackspace","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32993-81694290c16c1db359480521324b06c3-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32993-81694290c16c1db359480521324b06c3-thumb.","product_desc":null,"high_concept":null,"follower_count":23,"company_url":"http://www.rackspace.com"},{"id":39738,"hidden":false,"community_profile":true,"name":"AOL
+        Time Warner","angellist_url":"http://angel.co/aol-time-warner","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/39738-0d4435211e4861a9188f44c9aee6a7c2-medium.txt","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/39738-0d4435211e4861a9188f44c9aee6a7c2-thumb.txt","product_desc":null,"high_concept":null,"follower_count":76,"company_url":"http://www.aol.com"},{"id":32170,"hidden":false,"community_profile":false,"name":"FanBridge","angellist_url":"http://angel.co/fanbridge","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32170-ed1d85b3f0f21c9c80b5b8ab4d8156d3-medium.jpeg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32170-ed1d85b3f0f21c9c80b5b8ab4d8156d3-thumb.jpeg","product_desc":"FanBridge
+        is the leading fan management and marketing platform for email and social
+        media. ","high_concept":"Helps grow, engage, and  monetize your fan relationships","follower_count":15,"company_url":"http://www.FanBridge.com"},{"id":32477,"hidden":false,"community_profile":true,"name":"TaskRabbit","angellist_url":"http://angel.co/taskrabbit","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32477-255b4c178cbfd00546d1768f380a475b-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32477-255b4c178cbfd00546d1768f380a475b-thumb.","product_desc":null,"high_concept":null,"follower_count":28,"company_url":"http://www.taskrabbit.com"},{"id":34257,"hidden":false,"community_profile":true,"name":"Peertransfer.com","angellist_url":"http://angel.co/peertransfer-com","logo_url":"http://angel.co/images/icons/startup-nopic.png","thumb_url":"http://angel.co/images/icons/startup-nopic.png","product_desc":null,"high_concept":null,"follower_count":10,"company_url":null},{"id":32695,"hidden":false,"community_profile":true,"name":"Flowtown","angellist_url":"http://angel.co/flowtown","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32695-8c0ba7011daa620c83aced14a506e34d-medium.txt","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32695-8c0ba7011daa620c83aced14a506e34d-thumb.txt","product_desc":null,"high_concept":null,"follower_count":19,"company_url":"http://www.flowtown.com"},{"id":34804,"hidden":false,"community_profile":true,"name":"inDinero","angellist_url":"http://angel.co/indinero","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/34804-49eec58e68462bd6cc905310cdf4460c-medium.","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/34804-49eec58e68462bd6cc905310cdf4460c-thumb.","product_desc":null,"high_concept":null,"follower_count":23,"company_url":"https://indinero.com/"},{"id":43664,"hidden":false,"community_profile":true,"name":"Affinity
+        China","angellist_url":"http://angel.co/affinity-china","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/43664-bdfb8d91690499de786d4b0d3cd1ff45-medium.txt","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/43664-bdfb8d91690499de786d4b0d3cd1ff45-thumb.txt","product_desc":null,"high_concept":null,"follower_count":5,"company_url":"http://www.affinitychina.com"},{"id":33145,"hidden":false,"community_profile":true,"name":"PixelFish","angellist_url":"http://angel.co/pixelfish","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/33145-ed5b83ce08752f9e7bf00de32f97bf3a-medium.txt","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/33145-ed5b83ce08752f9e7bf00de32f97bf3a-thumb.txt","product_desc":null,"high_concept":null,"follower_count":10,"company_url":"http://www.pixelfish.com/Images/logo.gif"}],"total":247,"per_page":50,"page":1,"last_page":5}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:09 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/2850/following/ids
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:11 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '969'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '25'
+      etag:
+      - ! '"3fda4af33544ab64e2acbde3bc4d4c33"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"ids":[986,50477,24221,31840,46690,4059,26772,5517,4555,54835,53147,23302,19850,8954,8533,3663,2581,1997,960,43380,8549,64368,39544,8251,10002,93,90612,63611,10081,56948,82693,1889,4313,3736,84768,2092,82166,55654,35527,657,1763,319,48589,3241,5378,13716,6038,88,669,561,60943,36002,25211,7454,4015,3914,3170,879,143,6437,67409,62411,45128,1472,996,852,656,5120,602,31590,31498,57614,53209,34939,25360,31683,18876,12132,9259,8009,7443,5773,3596,2082,1841,603,1,65547,57810,20349,1206,64964,58983,45224,34628,3589,35986,42011,63661,63008,13,86,1000,62396,53748,16947,48087,44628,62554,44535,180,1530,43603,49879,54511,5261,26586,51011,19930,2192,58101,45139,58127,47466,1511,9849,1400,5987,57696,33798,5869,19278,57038,427,3795,2524,2478,1219,54672,35910,12058,556,31629,201,52011,8502,35016,5140,7609,16636,7601,51897,35461,53100,52877,52827,52818,52696,52388,48595,43132,40907,40463,39567,35941,32302,23379,1926,1065,411,50546,53768,53611,51304,37154,3621,2785,5535,6864,13430,6120,22333,1373,2894,142,2301,1887,6890,36361,394,503,1798,26285,16136,6028,4227,44891,4400,11803,1212,13727,1497,26145,40705,8148,31839,22321,7005,50343,10000,13437,5554,3864,51186,49997,48486,27619,15095,672,2249,48483,51735,18834,3433,409,43116,22368,24836,49166,187,2553,46680,9411,29533,4662,9304,3376,47435,46358,12535,206,27072,40155,35426,25074,8346,42899,29952,8947,689,1317,49,12431,21533,42082,33513,48404,9169,6373,3962,46,4963,1032,3118,26197,1329,5192,4937,31911,38616,45,2873,45294,37482,305,6669,27476,12096,595,3243,26793,8347,3007,1258,946,70,9331,1564,44,1117,968,47426,34758,45585,14995,53,9183,37811,4766,2827,4344,4647,35354,38945,45679,45407,45145,44979,43368,42169,37804,25895,22714,20718,14210,14190,9222,5372,1048,588,47421,47266,45094,45069,39885,41353,26915,4854,46185,43792,32619,25640,6243,7534,48,29163,3422,10890,43,42471,26001,31030,33330,79,18850,2306,23836,60,24650,9861,3269,1912,1690,27405,6991,1078,1779,18967,9826,51,2024,385,95,75,5196,1823,116,848,973,497,1670,138,3881,540,732,28,72,135,740,151,152,137,276,734,23113,58,9712,64,147,105,3328,123,1572,129,82,119,114,141,25409,4515,726,42,610,188,10982,67,219,131,122,1805,111,2850,9298,209,139,339,277,124,2,101,140,120,731,854,498,727,290,8869,1905,4898,30000,306,216,9578,1274,85,108,21686,92,148,208,3975,78,585,362,4121,549,1646,13688,859,730,6175,4964,12024,8797,153,128,112,300,34364,29547,2719,22676,84,17334,2726,144,154,77,743,146,19188,9531,1914,83,155],"total":476,"per_page":1000,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:11 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/2850/following/ids?type=startup
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:12 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '968'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '24'
+      etag:
+      - ! '"5a3c62165e060f18772a42b76f7dd78f"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"ids":[69820,26179,12882,26622,80305,80321,58611,817,21031,29428,3204,80977,81433,65640,19119,9434,4776,71006,31917,19184,19563,80126,30459,79828,69181,80314,25976,64339,25065,1639,19153,28118,20336,3147,70816,19040,2146,66690,31846,119,28625,32993,39738,32170,32477,34257,32695,34804,43664,33145,41324,32423,39283,32688,32568,32203,32346,39284,32409,32694,32683,33687,35897,33397,38073,32509,25989,30627,19755,11654,3607,9580,28245,27003,23357,27226,1074,28544,25788,26750,10855,27216,2489,26190,25635,26090,26118,21821,24469,25717,26397,26102,1796,22799,26108,25025,2556,17609,14845,23064,695,23830,23479,25497,6868,312,22458,25513,22940,20249,23877,19150,16828,1249,25189,21770,19899,5980,24412,18937,19168,22038,859,24153,22246,19037,349,2752,22663,19671,21877,6468,20898,22335,2854,20715,4064,20332,21891,20944,4081,19435,21047,21048,915,746,194,3033,1124,19159,7601,20834,13766,10310,2855,19612,18275,19289,160,15481,179,18918,19614,20520,2197,1941,19946,1023,5599,3336,13174,2973,3296,19561,19003,19331,2917,15762,2276,1394,18863,4374,18604,16729,15735,4389,6548,15528,16717,16683,16626,9624,13848,3287,14641,16490,3648,3502,15486,14731,14573,13152,13097,13094,13090,13076,12694,12271,11369,4979,4380,4311,4057,3950,3921,3656,3616,3611,3463,3360,3357,3195,2867,2744,2648,2553,2500,2043,1997,1812,1680,1675,1652,1416,1410,1351,1319,1279,1242,917,674,630,238,44,11396,4104,1232],"total":247,"per_page":1000,"page":1,"last_page":1}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:12 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/startups/1124/followers?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:14 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '967'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '1051'
+      etag:
+      - ! '"00f15b510b31f93a7bcec34ea9c301cd"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"users":[{"name":"Tanner Norris","id":120028,"bio":"Founder of Valkyrie
+        Creations, 1st computer startup while in college. 8 years of Computer Experience,
+        troubleshooting and repair. Worked at Bever Dye Law Firm","follower_count":0,"angellist_url":"http://angel.co/valkyriepc","image":"https://s3.amazonaws.com/photos.angel.co/users/120028-medium?1335048239"},{"name":"Eric
+        Hamilton","id":120020,"bio":"Senior JavaScript Rockstar at BandPage","follower_count":0,"angellist_url":"http://angel.co/eric-hamilton-1","image":"http://angel.co/images/nopic.png"},{"name":"Michael
+        Phan","id":120012,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/michael-phan","image":"https://s3.amazonaws.com/photos.angel.co/users/120012-medium?1335045831"},{"name":"Orlando
+        Rivera","id":120017,"bio":"Interactive Books, Mobile Apps, Filmmaker, Animations,
+        VFX, New Media Developer & Publisher.","follower_count":0,"angellist_url":"http://angel.co/digitalsummittv","image":"https://s3.amazonaws.com/photos.angel.co/users/120017-medium?1335044846"},{"name":"Tom
+        Denison","id":63342,"bio":"Passionate Mentor and Entrepreneur.  Founder &
+        CEO, Smatchup, Co-founder of incubator BaseLaunch, Mentor GeniusRocket and
+        Nimble Social Media.","follower_count":84,"angellist_url":"http://angel.co/tom-denison","image":"https://s3.amazonaws.com/photos.angel.co/users/63342-medium?1319471627"},{"name":"Guy
+        Gamzu","id":310,"bio":"They call me Angel investor, but I see myself as cofounder
+        rather than an investor; driven by vision of free thinkers","follower_count":414,"angellist_url":"http://angel.co/gamzu","image":"https://s3.amazonaws.com/photos.angel.co/users/310-medium?1327080655"},{"name":"Troy
+        Henikoff","id":2319,"bio":"Troy is the Co-Founder and CEO of Excelerate &
+        founder of SurePayroll","follower_count":370,"angellist_url":"http://angel.co/troyhenikoff","image":"https://s3.amazonaws.com/photos.angel.co/users/2319-medium?1294804089"},{"name":"Martin-Luc
+        Archambault","id":3515,"bio":"CEO of Wajam, Chairman of Bolidea, Entrepreneur
+        & Angel Investor","follower_count":156,"angellist_url":"http://angel.co/mlarchambault","image":"https://s3.amazonaws.com/photos.angel.co/users/3515-medium?1294804363"},{"name":"Adrian
+        Sanders","id":15213,"bio":"Founder of VM Associates, co-founder of Good Karma,
+        anti-MBA at GA, fluent in French. Hustled a Berber in the desert for a carpet
+        and a ballpoint pen.","follower_count":67,"angellist_url":"http://angel.co/sandersak","image":"https://s3.amazonaws.com/photos.angel.co/users/15213-medium?1299608309"},{"name":"Maximilian
+        M.H.","id":119916,"bio":"I am easily satisfied with the very best.","follower_count":0,"angellist_url":"http://angel.co/maximilian-m-h","image":"https://s3.amazonaws.com/photos.angel.co/users/119916-medium?1335025281"},{"name":"Brian
+        Sathianathan","id":111597,"bio":"Entrepreneur","follower_count":12,"angellist_url":"http://angel.co/brian-sathianathan","image":"https://s3.amazonaws.com/photos.angel.co/users/111597-medium?1333057500"},{"name":"William
+        Huestis","id":119909,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/william-huestis","image":"https://s3.amazonaws.com/photos.angel.co/users/119909-medium?1335023319"},{"name":"Craig
+        Lauer","id":45206,"bio":"early Qualcomm VP (emp #88), consumer/enterprise
+        product successes ( Eudora,  OmniTRACS, WhisperNet).   CTO for Dr. Patrick
+        Soon-Shiong''s investment portfolio. ","follower_count":72,"angellist_url":"http://angel.co/craig-lauer","image":"https://s3.amazonaws.com/photos.angel.co/users/45206-medium?1328657562"},{"name":"Mike
+        Cheng","id":59780,"bio":"Co-founded SuncasTV, and recently founded Engxi.
+        Plus, MBA in finance and operations management.","follower_count":4,"angellist_url":"http://angel.co/chaelch","image":"https://s3.amazonaws.com/photos.angel.co/users/59780-medium?1335034497"},{"name":"Jari
+        Jokela [LION] +4700 contacts","id":119795,"bio":"One of my big interest areas
+        is e-commerce, digital services, financial services and online business in
+        general. ","follower_count":0,"angellist_url":"http://angel.co/jari-jokela-lion-4700-contacts","image":"http://angel.co/images/nopic.png"},{"name":"Brian
+        L. Matthews","id":8472,"bio":"General Partner at Cultivation Capital and an
+        Investor/Mentor at Capital Innovators.","follower_count":31,"angellist_url":"http://angel.co/brian-l-matthews","image":"http://angel.co/images/nopic.png"},{"name":"Ryan
+        Eder","id":38254,"bio":"Founder & Chief Creative Officer of IncludeFitness
+        LLC, Senior Industrial Designer at PriorityDesigns Inc.","follower_count":8,"angellist_url":"http://angel.co/ryan_eder","image":"https://s3.amazonaws.com/photos.angel.co/users/38254-medium?1308419328"},{"name":"Vilius","id":119949,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/vilius","image":"http://angel.co/images/nopic.png"},{"name":"Jay
+        Weeldreyer","id":76669,"bio":"Founded Paper Street & PrintToMail. Old-school
+        hustler & boot-strapper. Early-entrance candidate Johns Hopkins. \n","follower_count":13,"angellist_url":"http://angel.co/jay-weeldreyer","image":"https://s3.amazonaws.com/photos.angel.co/users/76669-medium?1329379635"},{"name":"Ben
+        Kim","id":110346,"bio":"Mobile, Consumer Internet, E-Commerce, Startup Founder,
+        MBA, iOS Dev  http://bit.ly/pocketcloudmedia","follower_count":0,"angellist_url":"http://angel.co/benkimr","image":"https://s3.amazonaws.com/photos.angel.co/users/110346-medium?1332825117"},{"name":"Marcelo
+        Cardoso de Paula","id":118517,"bio":"NEW BUSINESS CONCEPT at Sabbre''//Ag\u00eancia","follower_count":0,"angellist_url":"http://angel.co/marcelo-cardoso-de-paula","image":"https://s3.amazonaws.com/photos.angel.co/users/118517-medium?1334699048"},{"name":"Nick
+        Soman","id":55645,"bio":"Founder & CEO of LikeBright. Former Senior Product
+        Manager on Amazon Kindle and Senior Consultant at Strategic Decisions Group.
+        Stanford 2002, Harvard MBA 2010.","follower_count":57,"angellist_url":"http://angel.co/nicksoman","image":"https://s3.amazonaws.com/photos.angel.co/users/55645-medium?1315185143"},{"name":"Sherman
+        Dickman","id":119894,"bio":"Founder at Postbox, Inc.","follower_count":0,"angellist_url":"http://angel.co/sherman-dickman","image":"https://s3.amazonaws.com/photos.angel.co/users/119894-medium?1335020728"},{"name":"Aviv
+        Eyal","id":119883,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/aviv-eyal","image":"http://angel.co/images/nopic.png"},{"name":"Vasco
+        Sommer-Nunes","id":119878,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/vasco-sommer-nunes","image":"http://angel.co/images/nopic.png"},{"name":"Burak
+        Buyukdemir","id":119877,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/buyukdemir","image":"https://s3.amazonaws.com/photos.angel.co/users/119877-medium?1335018469"},{"name":"Jordan
+        Konopate","id":43366,"bio":"Founder of UrStyle.com","follower_count":1,"angellist_url":"http://angel.co/jordan-konopate","image":"https://s3.amazonaws.com/photos.angel.co/users/43366-medium?1335018018"},{"name":"Jason
+        Thomas","id":46896,"bio":"Ozark Mountain Spring Water representative for networking
+        with angel investors. Jason@ozarkmountainspringwater.com\n","follower_count":0,"angellist_url":"http://angel.co/jason-thomas","image":"https://s3.amazonaws.com/photos.angel.co/users/46896-medium?1312102861"},{"name":"Steve
+        Skolnick","id":119871,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/steve-skolnick","image":"https://s3.amazonaws.com/photos.angel.co/users/119871-medium?1335016984"},{"name":"Johan","id":92791,"bio":"Creator
+        and developer of Circum Me","follower_count":0,"angellist_url":"http://angel.co/johan","image":"https://s3.amazonaws.com/photos.angel.co/users/92791-medium?1332858013"},{"name":"John
+        Bracken","id":119864,"bio":"CEO at Speek.com","follower_count":0,"angellist_url":"http://angel.co/john-bracken","image":"https://s3.amazonaws.com/photos.angel.co/users/119864-medium?1335016265"},{"name":"Ewgenij
+        G. Koplunik","id":118360,"bio":"Entrepreneur, designer, creative force. CEO
+        of WholeDeals.de, owner of ChopJobs.de","follower_count":0,"angellist_url":"http://angel.co/jivestingray","image":"https://s3.amazonaws.com/photos.angel.co/users/118360-medium?1334678423"},{"name":"Jon
+        Thompson","id":30941,"bio":"CTO at @IUHQ.\nFacebook app/page development,
+        social media strategy, marketing, startups, apps, mobile, technology, gadgets","follower_count":1,"angellist_url":"http://angel.co/jon-thompson","image":"https://s3.amazonaws.com/photos.angel.co/users/30941-medium?1335015548"},{"name":"Oliver
+        Camargo","id":38365,"bio":"Co-founder of WePlann & iiNewYork.com. E-commerce
+        entrepreneur with strong business background (Crisis Management consulting
+        KPMG, PwC, A&M). ESADE MBA 2007","follower_count":1,"angellist_url":"http://angel.co/oliver-camargo","image":"https://s3.amazonaws.com/photos.angel.co/users/38365-medium?1335010466"},{"name":"Justin
+        C","id":119813,"bio":"Bachelor of Telecommunications & Networks Engineering.
+        CEO Zopler","follower_count":0,"angellist_url":"http://angel.co/justin-5","image":"https://s3.amazonaws.com/photos.angel.co/users/119813-medium?1335010498"},{"name":"Sajid
+        Umerji","id":34718,"bio":"Cofounder @ Persomics \u2022 Cofounder @ Revnetics
+        \u2022 Cofounder @ Fendoo \u2022 Mathematics BSc  ","follower_count":6,"angellist_url":"http://angel.co/umarji","image":"https://s3.amazonaws.com/photos.angel.co/users/34718-medium?1311265489"},{"name":"Dilip
+        Lilaramani","id":101303,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/dilip-ajm","image":"https://s3.amazonaws.com/photos.angel.co/users/101303-medium?1330620855"},{"name":"Ygor
+        Lemos","id":119801,"bio":"Apple & Mac Aficionado - Sys Architect / Developer:
+        iOS, ObjC, C, C++, Python, Ruby, PHP, JS, AJAX, HTML5, CSS3, NodeJS, Linux,
+        Mac, BSD, Titanium && bon vivant","follower_count":0,"angellist_url":"http://angel.co/ygbr","image":"https://s3.amazonaws.com/photos.angel.co/users/119801-medium?1335001994"},{"name":"Toon-Lee
+        Ng","id":62836,"bio":"Experienced Regional Quality and Compliance Executive","follower_count":0,"angellist_url":"http://angel.co/toon-lee-ng","image":"http://angel.co/images/nopic.png"},{"name":"L.D.
+        Salmanson","id":119783,"bio":"","follower_count":0,"angellist_url":"http://angel.co/l-d-salmanson","image":"https://s3.amazonaws.com/photos.angel.co/users/119783-medium?1334995921"},{"name":"Raphael
+        Villamor","id":119775,"bio":"The city got my back, and for that, I give it
+        my heart. 25E3DB2D","follower_count":0,"angellist_url":"http://angel.co/raphaelvillamor","image":"https://s3.amazonaws.com/photos.angel.co/users/119775-medium?1334995145"},{"name":"Mangesh
+        Gupte","id":110013,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/mangesh-gupte","image":"http://angel.co/images/nopic.png"},{"name":"Rudy
+        Secco","id":119779,"bio":"President at Midi Capital","follower_count":0,"angellist_url":"http://angel.co/rudy-secco","image":"https://s3.amazonaws.com/photos.angel.co/users/119779-medium?1334995483"},{"name":"Nolboo
+        Kim","id":119781,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/nolboo-kim","image":"http://angel.co/images/nopic.png"},{"name":"Debra
+        Farber","id":119745,"bio":"Privacy & InfoSec expert advising on product and
+        policy development & responsible info governance. Law school grad. Worked
+        at IBM, Amex, & software startups. \n","follower_count":0,"angellist_url":"http://angel.co/debra-farber-jd-cissp-cipp-us","image":"https://s3.amazonaws.com/photos.angel.co/users/119745-medium?1334990093"},{"name":"Michael
+        Yuen","id":71021,"bio":"Founder/CEO Showbucks, Social Video Marketing Platform.
+        Founder/CEO Apptera, speech app platform. Producer of 3D games for The Fifth
+        Element & The Titanic","follower_count":57,"angellist_url":"http://angel.co/michaelyuen","image":"https://s3.amazonaws.com/photos.angel.co/users/71021-medium?1320452943"},{"name":"tony
+        xu","id":12928,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/tony-xu","image":"http://angel.co/images/nopic.png"},{"name":"Jeran
+        Fraser","id":118584,"bio":"CEO | Entrepreneuer | Investor | Visionary","follower_count":0,"angellist_url":"http://angel.co/jeran-fraser","image":"https://s3.amazonaws.com/photos.angel.co/users/118584-medium?1334858413"},{"name":"Renzze
+        Mistal","id":119729,"bio":"Student at University of Asia and the Pacific","follower_count":0,"angellist_url":"http://angel.co/renzze-mistal","image":"https://s3.amazonaws.com/photos.angel.co/users/119729-medium?1334977452"},{"name":"Omid
+        Scheybani","id":108910,"bio":null,"follower_count":0,"angellist_url":"http://angel.co/omid-scheybani","image":"http://angel.co/images/nopic.png"}],"total":3255,"per_page":50,"page":1,"last_page":66}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:15 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/startups/1124/followers/ids?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sat, 21 Apr 2012 23:16:16 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '966'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '132'
+      etag:
+      - ! '"a26ab00700bc10cc7a371254e673035b"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"ids":[120028,120020,120012,120017,63342,310,2319,3515,15213,119916,111597,119909,45206,59780,119795,8472,38254,119949,76669,110346,118517,55645,119894,119883,119878,119877,43366,46896,119871,92791,119864,118360,30941,38365,119813,34718,101303,119801,62836,119783,119775,110013,119779,119781,119745,71021,12928,118584,119729,108910,108670,38141,11209,6650,119713,119535,5159,7408,103790,50408,100628,119683,97592,12713,111441,119611,119556,14627,19623,119561,12359,119531,72172,545,115408,103125,55962,23836,119490,38018,57955,119452,27115,37321,27457,42911,112425,99860,54855,115147,468,113881,99943,100997,40073,119371,117681,47694,119329,119338,43929,119325,3195,1912,108851,119200,67732,119313,53702,46031,105112,119300,102675,15808,93963,105134,71738,119241,23690,78862,84839,119197,111976,118742,2669,5093,119167,80619,80372,119149,118821,60469,119136,108823,36348,91433,119098,107548,5517,119088,14410,58126,119059,72476,77158,101013,66561,61981,1330,22676,46361,30587,5324,83496,118832,104722,12434,59610,30182,119012,54978,73456,118993,77170,118926,51472,107991,74081,118967,113024,103683,118941,83279,87454,37226,31161,118901,118896,84260,98337,41914,72401,108505,113518,118558,118785,9427,32246,118616,118776,53220,100357,118758,118754,61147,118743,91467,101609,10076,118706,101960,118683,91938,98525,111257,60699,24174,103041,113271,48949,118655,72576,4434,106425,63747,86493,118643,61744,28980,115123,106651,64579,115023,46634,93951,45194,69663,56088,71103,114765,93606,114077,74940,6619,23981,33588,107474,56246,30489,21655,117327,114438,47448,61674,118534,22764,105218,102567,118512,46151,111090,96958,113886,110905,4206,95122,118450,603,116899,117369,23988,91120,86379,118429,118409,97647,118117,43523,58162,118402,96859,109132,4408,118358,53216,80447,118314,35618,112706,100229,416,88136,113989,32155,559,57958,118266,53958,115356,118254,103445,108757,115899,116037,113938,116865,118240,118151,101865,99722,111286,116249,69807,36172,104670,38502,48562,118193,118172,115330,90814,34221,75808,118157,118105,118156,111249,117399,102936,94638,20157,39781,99736,104916,103711,23577,107224,83174,118124,102794,103232,101942,29335,103952,118107,35573,8226,83638,80013,98999,93766,95803,31202,62097,110639,118076,110751,98811,118067,115439,20319,118055,42530,91662,117005,45868,117409,77733,57501,116869,108083,116368,91110,987,103913,94037,115284,81768,111282,117291,118016,60977,89855,24131,112211,84944,107336,117599,116504,108224,68772,107815,104967,117986,90738,103342,51905,85522,96397,109872,114426,83999,117974,113912,117973,59634,115270,65610,117509,114024,114285,99487,101599,117008,116867,117949,117342,116620,74316,116405,87369,88417,115955,60595,114894,28137,50854,97407,115865,85862,84511,38335,76408,106725,112710,101613,46606,109327,54428,67973,73387,95660,117919,18393,103011,110972,111219,108708,100370,50398,84491,109726,19084,65431,87772,73944,17224,102190,53895,70106,110111,27426,65104,72875,117903,68265,92858,107431,75019,104413,102596,57492,103615,107186,103901,105992,75893,101201,111372,104746,102471,86564,61735,103057,104709,99877,84975,100944,54944,94848,101806,48485,96058,100418,78840,102056,101279,94746,42107,96162,6321,37766,66031,93596,46396,96251,32932,60566,73991,77480,51610,10634,23745,7671,85610,91444,90557,44906,91546,40991,89547,55614,108443,79151,84597,20025,84681,10307,14203,83936,40332,79770,80752,74029,66587,81706,82609,22798,74961,73615,68160,71934,57458,76475,117842,77410,22469,68412,63788,24579,70884,7554,69876,5331,67331,66002,5992,39442,3533,4000,57384,57871,35174,16412,51344,35850,44288,18894,14359,18795,47104,48958,35468,91266,1942,69966,24300,117793,29361,111522,42072,41017,41020,83698,12733,111136,117767,15166,98115,5796,12493,28244,15138,439,116968,4325,53611,117737,117751,4551,16552,8215,11177,12410,11395,14787,12268,117732,55915,117726,32681,33978,4576,2023,117460,3937,3886,117713,22251,1760,53523,117679,50025,117703,5832,35208,117695,45050,117680,114042,116932,117530,48514,110735,117664,48279,73199,63484,2266,81047,39024,40899,117211,111952,107462,93933,6584,116767,117636,76345,86232,105263,6371,117366,117593,116418,2231,93486,17219,43715,15038,65796,28770,2531,84,24881,42844,87089,56357,56276,59631,117520,117518,2853,87900,117499,117493,113571,117489,112114,59892,109433,117477,20221,87195,38457,117463,36021,91964,72122,117449,115698,117435,115026,58836,117410,117407,117402,30330,55439,82589,117393,2873,25145,99073,111775,117371,117373,14770,25490,70168,117348,96760,117343,97582,25335,8182,5322,116913,117040,27367,91846,61977,9501,4801,31455,81754,3415,117294,4682,49340,834,43582,117287,5676,46752,100055,5272,42455,117252,97993,6304,5444,47791,112408,117242,115950,32392,103201,47538,340,23545,12999,117218,49090,98343,117162,37330,109301,83762,65580,19764,107388,41421,1204,8054,100905,90802,117167,664,24456,101384,30369,2551,117154,40308,64956,107831,37066,21556,117133,22843,81235,5554,563,60,117120,8387,45249,116907,11943,116835,10457,45423,20362,80563,114271,56569,783,4287,22009,85218,65,99067,18840,24088,5950,1230,11234,4248,117071,117078,3153,66154,11168,26001,85670,192,4601,117067,787,90218,396,20169,34595,117059,43792,89100,5740,19837,97951,28522,18047,1286,60943,4321,78691,110385,17016,2344,58375,27625,3074,20165,372,2477,29866,22671,113037,3963,528,28202,62337,40940,10709,54538,3241,6113,3155,16836,12112,4079,1032,505,36739,9646,46697,114956,31482,56703,116658,88712,117002,440,75247,47992,81092,1996,116956,116929,112824,72175,67301,44138,114878,44522,91404,116872,11949,116857,84927,113289,105669,116847,116840,51332,115726,92898,116817,97772,57495,116792,100988,116711,49920,116772,43903,115771,103304,116752,1767,377,116730,116724,116721,106496,89453,116685,99247,115792,44535,61342,48247,946,51933,76372,50020,107449,75520,116666,71840,116652,114095,116643,112514,37343,55656,114773,94597,116604,22590,113117,116601,116597,116591,46910,62283,116582,24098,116092,109341,106389,5196,19057,4193,35767,68716,9754,116491,116436,116346,85838,107354,116476,76318,109434,36026,25198,43357,40600,116416,73735,85489,6649,2659,116378,99935,26967,107676,106577,116335,10094,76363,116321,116320,116311,116310,100772,111224,44126,56612,58834,116259,596,87766,116277,115251,106045,116211,116202,48818,111474,105456,36472,52971,116164,108278,54923,103939,116190],"total":3255,"per_page":1000,"page":1,"last_page":4}'
+    http_version: !!null 
+  recorded_at: Sat, 21 Apr 2012 23:16:16 GMT
 recorded_with: VCR 2.1.0

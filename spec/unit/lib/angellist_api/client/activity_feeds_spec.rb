@@ -6,7 +6,7 @@ describe AngellistApi::Client::ActivityFeeds do
   describe "#get_feed" do
     it "gets 1/feed" do
       options = { :some => "options" }
-      client.should_receive(:get).with("1/feed", options, :format => :json, :phoenix => true).and_return("success")
+      client.should_receive(:get).with("1/feed", options, :format => :json).and_return("success")
       client.get_feed(options).should == "success"
     end
   end

@@ -1,5 +1,4 @@
 require 'faraday_middleware'
-require 'faraday/request/phoenix'
 require 'faraday/request/multipart_with_file'
 require 'faraday/request/gateway'
 require 'faraday/request/angellist_api_oauth'
@@ -21,9 +20,8 @@ module AngellistApi
         :ssl => {:verify => false},
         :url => options.fetch(:endpoint, api_endpoint)
       })
-      
+
       Faraday.new(merged_options) do |builder|
-        builder.use Faraday::Request::Phoenix if options[:phoenix]
         builder.use Faraday::Request::MultipartWithFile
         builder.use Faraday::Request::AngellistApiOAuth, authentication if authenticated?
         builder.use Faraday::Request::Multipart
@@ -32,7 +30,7 @@ module AngellistApi
         builder.use Faraday::Response::RaiseHttp4xx
         unless options[:raw]
           case options.fetch(:format, format).to_s.downcase
-          when 'json', 'phoenix'
+          when 'json'
             builder.use Faraday::Response::Mashify
             builder.use Faraday::Response::ParseJson
           when 'xml'
@@ -46,3 +44,4 @@ module AngellistApi
     end
   end
 end
+

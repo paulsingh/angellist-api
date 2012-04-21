@@ -26,7 +26,7 @@ module AngellistApi
       # @example Get users involved in startup with ID 1234, and their roles.
       #   AngellistApi.get_startup_roles(:startup_id => 1234)
       def get_startup_roles(options={})
-        get("1/startup_roles", options, :format => :json, :phoenix => true)
+        get("1/startup_roles", options, :format => :json)
       end
     end
   end

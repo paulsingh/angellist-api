@@ -17,7 +17,7 @@ module AngellistApi
       # @example Follow a startup with the authenticated user.
       #   AngellistApi.new_follow(:type => :startup, :id => 12345)
       def new_follow(options={})
-        post("1/follows", options, :format => :json, :phoenix => true)
+        post("1/follows", options, :format => :json)
       end
 
       # Makes the authenticated user stop following the specified item. Returns
@@ -33,7 +33,7 @@ module AngellistApi
       # @example Make the authenticated user stop following a startup.
       #   AngellistApi.delete_follow(:type => :startup, :id => 12345)
       def delete_follow(options={})
-        delete("1/follows", options, :format => :json, :phoenix => true)
+        delete("1/follows", options, :format => :json)
       end
 
       # Return the given user's followers, paginated and ordered by most recent
@@ -47,7 +47,7 @@ module AngellistApi
       # @example Get followers of user with ID 12345.
       #   AngellistApi.get_user_followers(12345)
       def get_user_followers(id)
-        get("1/users/#{id}/followers", :format => :json, :phoenix => true)
+        get("1/users/#{id}/followers", :format => :json)
       end
 
       # Return the ids of the given user's followers, paginated and ordered by
@@ -61,7 +61,7 @@ module AngellistApi
       # @example Get IDs of the followers of user with ID 12345.
       #   AngellistApi.get_user_follower_ids(12345)
       def get_user_follower_ids(id)
-        get("1/users/#{id}/followers/ids", :format => :json, :phoenix => true)
+        get("1/users/#{id}/followers/ids", :format => :json)
       end
 
       # Return objects that the given user is following, paginated and ordered
@@ -78,7 +78,7 @@ module AngellistApi
       # @example Get startups that user with ID 1234 is following.
       #   AngellistApi.get_user_following(1234, :type => :startup)
       def get_user_following(id, options={})
-        get("1/users/#{id}/following", options, :format => :json, :phoenix => true)
+        get("1/users/#{id}/following", options, :format => :json)
       end
 
       # Return ids of objects that the given user is following, paginated and
@@ -96,7 +96,7 @@ module AngellistApi
       # @example Get IDs of startups that user with ID 1234 is following.
       #   AngellistApi.get_user_following_ids(1234, :type => :startup)
       def get_user_following_ids(id, options={})
-        get("1/users/#{id}/following/ids", options, :format => :json, :phoenix => true)
+        get("1/users/#{id}/following/ids", options, :format => :json)
       end
 
       # Returns the given startup's followers, paginated and ordered by most
@@ -110,7 +110,7 @@ module AngellistApi
       # @example Get followers of startup with ID 1234.
       #   AngellistApi.get_startup_followers(1234)
       def get_startup_followers(id)
-        get("1/startups/#{id}/followers", :format => :json, :phoenix => true)
+        get("1/startups/#{id}/followers", :format => :json)
       end
 
       # Returns the ids of the given startup's followers, paginated and ordered
@@ -124,7 +124,7 @@ module AngellistApi
       # @example Get IDs of followers of startup with ID 1234.
       #   AngellistApi.get_startup_follower_ids(1234)
       def get_startup_follower_ids(id)
-        get("1/startups/#{id}/followers/ids", :format => :json, :phoenix => true)
+        get("1/startups/#{id}/followers/ids", :format => :json)
       end
     end
   end
