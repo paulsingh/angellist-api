@@ -26,20 +26,20 @@ module AngellistApi
         :url => options.fetch(:endpoint, api_endpoint)
       }
 
-      Faraday.new(connection_options.deep_merge(default_options)) do |builder|
+      @connection ||= Faraday.new(connection_options.deep_merge(default_options)) do |builder|
         builder.use AngellistApi::Request::MultipartWithFile
         builder.use AngellistApi::Request::AngellistApiOAuth, authentication if authenticated?
         builder.use Faraday::Request::Multipart
         builder.use Faraday::Request::UrlEncoded
         builder.use AngellistApi::Request::Gateway, gateway if gateway
         builder.use AngellistApi::Response::RaiseClientError
-        unless options[:raw]
-          builder.use Faraday::Response::Mashify
-          builder.use Faraday::Response::ParseJson
-        end
+        builder.use Faraday::Response::Mashify
+        builder.use Faraday::Response::ParseJson
         builder.use AngellistApi::Response::RaiseServerError
         builder.adapter(adapter)
       end
+
+      @connection
     end
   end
 end
