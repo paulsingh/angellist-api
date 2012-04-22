@@ -19,7 +19,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 23:16:01 GMT
+      - Sun, 22 Apr 2012 00:34:46 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -35,18 +35,28 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '974'
+      - '989'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
-      - '414'
+      - '405'
       etag:
-      - ! '"8426e30a1cd4e598434f9f1fbf2a1585"'
+      - ! '"eb949d0fdfdbf08aa93b4b6cebb07a5c"'
       cache-control:
       - private, max-age=0, must-revalidate
     body:
       encoding: ASCII-8BIT
-      string: ! '{"feed":[{"id":"8czkb","timestamp":"2012-04-21T22:49:29Z","item":{"type":"Follow","ids":[4065834]},"description":"<a
+      string: ! '{"feed":[{"id":"8cASe","timestamp":"2012-04-22T00:05:48Z","item":{"type":"StatusUpdate","ids":[54892]},"description":"<a
+        href=\"http://angel.co/bizelo\" class=\"feed_link\" data-id=\"76424\" data-type=\"Startup\">Bizelo</a>
+        updated their status","text":"Just launched our new front page of the Bizelo
+        site at http://www.bizelo.com/ - let us know what you think!","actor":{"type":"Startup","id":76424,"name":"Bizelo","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/76424-41488903f1edaecfbdbb83e6efda6706-thumb.png","angellist_url":"http://angel.co/bizelo","tagline":"Simplifying
+        Small Business Apps"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cAPU","timestamp":"2012-04-22T00:01:44Z","item":{"type":"Follow","ids":[4066138]},"description":"<a
+        href=\"http://angel.co/pc0\" class=\"feed_link\" data-id=\"2531\" data-type=\"User\">Pete
+        Cooper</a> followed <a href=\"http://angel.co/pindex\" class=\"feed_link\"
+        data-id=\"84242\" data-type=\"Startup\">Pindex</a>","text":null,"actor":{"type":"User","id":2531,"name":"Pete
+        Cooper","image":"https://s3.amazonaws.com/photos.angel.co/users/2531-medium?1294804141","angellist_url":"http://angel.co/pc0","tagline":"Geek.
+        Finance. Real-time trading technologies."},"target":{"type":"Startup","id":84242,"name":"Pindex","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/84242-e25d59b78d3ae56d951e03ced7782260-thumb.png","angellist_url":"http://angel.co/pindex","tagline":"Free-form
+        geolocation-based tagging."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8czkb","timestamp":"2012-04-21T22:49:29Z","item":{"type":"Follow","ids":[4065834]},"description":"<a
         href=\"http://angel.co/manuel-roumain\" class=\"feed_link\" data-id=\"111258\"
         data-type=\"User\">Manuel Roumain</a> followed <a href=\"http://angel.co/thinkfuse\"
         class=\"feed_link\" data-id=\"79741\" data-type=\"Startup\">Thinkfuse</a>","text":null,"actor":{"type":"User","id":111258,"name":"Manuel
@@ -200,26 +210,7 @@ http_interactions:
         Federman","image":"https://s3.amazonaws.com/photos.angel.co/users/198-medium?1294803577","angellist_url":"http://angel.co/toddfederman","tagline":"Executive
         Director of North Coast Angel Fund, founder of One With Nature, former consultant
         with DiamondCluster.  Duke Fuqua MBA."},"target":{"type":"Startup","id":19586,"name":"SoMoLend","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19586-260b7874baa802ca20b1aa6fc1451c5d-thumb.png","angellist_url":"http://angel.co/somolend","tagline":"SoMoLend
-        is a web and mobile based peer to peer lending technology."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8ciPX","timestamp":"2012-04-21T21:16:42Z","item":{"type":"Review","ids":[3634]},"description":"<a
-        href=\"http://angel.co/eric-ferraro\" class=\"feed_link\" data-id=\"37330\"
-        data-type=\"User\">Eric Ferraro</a> was reviewed","text":"Eric is not your
-        average attorney. He brings vision, connections and great understanding of
-        teams and what it takes to build, manage and protect both founders and companies
-        alike. We''re proud to have him with us and he''s an outstanding asset to
-        any team.","actor":null,"target":{"type":"User","id":37330,"name":"Eric Ferraro","image":"https://s3.amazonaws.com/photos.angel.co/users/37330-medium?1310589518","angellist_url":"http://angel.co/eric-ferraro","tagline":"Corporate/venture
-        capital lawyer, angel investor and digital media company founder.  Advisor
-        to software, mobile, social web and digital media companies."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8chst","timestamp":"2012-04-21T21:11:27Z","item":{"type":"Follow","ids":[4064801,4064795,4064789]},"description":"<a
-        href=\"http://angel.co/gamzu\" class=\"feed_link\" data-id=\"310\" data-type=\"User\">Guy
-        Gamzu</a>, <a href=\"http://angel.co/troyhenikoff\" class=\"feed_link\" data-id=\"2319\"
-        data-type=\"User\">Troy Henikoff</a> and <a href=\"http://angel.co/mlarchambault\"
-        class=\"feed_link\" data-id=\"3515\" data-type=\"User\">Martin-Luc Archambault</a>
-        followed <a href=\"http://angel.co/500-startups-fund\" class=\"feed_link\"
-        data-id=\"1124\" data-type=\"Startup\">500 Startups (Fund)</a>","text":null,"actor":{"type":"User","id":310,"name":"Guy
-        Gamzu","image":"https://s3.amazonaws.com/photos.angel.co/users/310-medium?1327080655","angellist_url":"http://angel.co/gamzu","tagline":"They
-        call me Angel investor, but I see myself as cofounder rather than an investor;
-        driven by vision of free thinkers"},"target":{"type":"Startup","id":1124,"name":"500
-        Startups (Fund)","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/1124-9f04812061e2dcd37e24eeb20cf47e5c-thumb.png","angellist_url":"http://angel.co/500-startups-fund","tagline":"Silicon
-        Valley micro-VC fund & accelerator founded by ex-PayPal, Google, YouTube alums."},"extra":null,"promoted_by":[],"likes":0,"comments":0}],"total":200,"per_page":25,"page":1,"last_page":8}'
+        is a web and mobile based peer to peer lending technology."},"extra":null,"promoted_by":[],"likes":0,"comments":0}],"total":200,"per_page":25,"page":1,"last_page":8}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:01 GMT
+  recorded_at: Sun, 22 Apr 2012 00:34:46 GMT
 recorded_with: VCR 2.1.0

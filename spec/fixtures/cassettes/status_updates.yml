@@ -19,7 +19,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 23:16:30 GMT
+      - Sun, 22 Apr 2012 00:35:16 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -35,11 +35,11 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '959'
+      - '974'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
-      - '71'
+      - '53'
       etag:
       - ! '"67ba16a7fe85de9157fdc2f2ba11d424"'
       cache-control:
@@ -55,7 +55,7 @@ http_interactions:
         http://plancast.com/p/6q4q)","created_at":"2011-08-06T00:55:58Z"},{"id":6136,"message":"There
         is no Try. Only DO.","created_at":"2011-07-10T00:31:07Z"}],"total":4,"per_page":50,"page":1,"last_page":1}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:30 GMT
+  recorded_at: Sun, 22 Apr 2012 00:35:16 GMT
 - request:
     method: get
     uri: https://api.angel.co/1/status_updates?startup_id=1124
@@ -75,7 +75,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 23:16:33 GMT
+      - Sun, 22 Apr 2012 00:35:18 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -91,11 +91,11 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '958'
+      - '973'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
-      - '72'
+      - '61'
       etag:
       - ! '"901fd76984d3a6c46216c8bd82ffa3ce"'
       cache-control:
@@ -121,5 +121,5 @@ http_interactions:
         to Silicon Valley, for all our new 500 Startups summer batch of accelerator
         companies... let''s get to work!","created_at":"2011-05-22T23:08:59Z"}],"total":12,"per_page":50,"page":1,"last_page":1}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:33 GMT
+  recorded_at: Sun, 22 Apr 2012 00:35:18 GMT
 recorded_with: VCR 2.1.0

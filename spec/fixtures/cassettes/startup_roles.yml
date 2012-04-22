@@ -19,7 +19,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 23:16:20 GMT
+      - Sun, 22 Apr 2012 00:35:06 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -35,13 +35,13 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '964'
+      - '979'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
-      - '1208'
+      - '1212'
       etag:
-      - ! '"9badc9e086df9b4b9ec9e7b27255bd3a"'
+      - ! '"1818d9e18e8fee39c4aba6f0d9f0e81a"'
       cache-control:
       - private, max-age=0, must-revalidate
     body:
@@ -79,12 +79,12 @@ http_interactions:
         and CEO, TeachStreet","follower_count":560,"angellist_url":"http://angel.co/daveschappell","image":"https://s3.amazonaws.com/photos.angel.co/users/3170-medium?1294804269"}},{"id":200535,"role":"incubator","created_at":"2012-04-04T03:31:46Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"500
         Startups","id":2850,"bio":"Internet seed fund & startup accelerator in Silicon
         Valley. Partners worked at PayPal, Google, AOL, Rackspace, YouTube, Mint,
-        Facebook fbFund, Founders Fund.","follower_count":5560,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197"}},{"id":195059,"role":"advisor","created_at":"2012-03-28T17:29:47Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Hong
+        Facebook fbFund, Founders Fund.","follower_count":5561,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197"}},{"id":195059,"role":"advisor","created_at":"2012-03-28T17:29:47Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Hong
         Quan","id":5005,"bio":"I started a car company & sold it. I help Founders
         build their startups. Mentor at 500 Startups and 20Under20. I find talent
         for startups & I invest in people.","follower_count":472,"angellist_url":"http://angel.co/hong","image":"https://s3.amazonaws.com/photos.angel.co/users/5005-medium?1295769419"}},{"id":192956,"role":"past_investor","created_at":"2012-03-26T13:47:30Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Robert
         Stone","id":88869,"bio":"Head Of Corporate Strategy  at Wavecom Solutions","follower_count":16,"angellist_url":"http://angel.co/robert-stone-2","image":"https://s3.amazonaws.com/photos.angel.co/users/88869-medium?1332769519"}},{"id":192282,"role":"past_investor","created_at":"2012-03-25T14:48:45Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Eric
-        Ries","id":17334,"bio":"Author of The Lean Startup","follower_count":6758,"angellist_url":"http://angel.co/ericries","image":"https://s3.amazonaws.com/photos.angel.co/users/17334-medium?1323882120"}},{"id":192235,"role":"employee","created_at":"2012-03-25T06:02:58Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Peter
+        Ries","id":17334,"bio":"Author of The Lean Startup","follower_count":6759,"angellist_url":"http://angel.co/ericries","image":"https://s3.amazonaws.com/photos.angel.co/users/17334-medium?1323882120"}},{"id":192235,"role":"employee","created_at":"2012-03-25T06:02:58Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Peter
         Ashley","id":27640,"bio":"Worked at PayPal for 5+ years.  Raised >$25MM for
         startups and funds including Opinmind, BuildeRadius, Chirpme and 500Startups.","follower_count":55,"angellist_url":"http://angel.co/peter-ashley1","image":"https://s3.amazonaws.com/photos.angel.co/users/27640-medium?1317840584"}},{"id":181859,"role":"past_investor","created_at":"2012-03-08T20:46:49Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Amer
         Rehman","id":4175,"bio":"CFO.  Active Angel Investor","follower_count":442,"angellist_url":"http://angel.co/amer-rehman","image":"https://s3.amazonaws.com/photos.angel.co/users/4175-medium?1294804607"}},{"id":180538,"role":"employee","created_at":"2012-03-06T23:31:00Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"George
@@ -108,7 +108,7 @@ http_interactions:
         Investor, Public Servant (CTO of Washington, DC; CIO Maryland) and Geek (CS
         - University of Chicago)","follower_count":26,"angellist_url":"http://angel.co/bryan-sivak","image":"https://s3.amazonaws.com/photos.angel.co/users/72295-medium?1333486995"}},{"id":164210,"role":"founder","created_at":"2012-02-15T16:37:57Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Christen
         O''Brien","id":63611,"bio":"Partner & GM, Business Development ","follower_count":388,"angellist_url":"http://angel.co/christen-obrien","image":"https://s3.amazonaws.com/photos.angel.co/users/63611-medium?1317942291"}},{"id":162490,"role":"past_investor","created_at":"2012-02-13T00:27:04Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Barry
-        Silbert","id":64029,"bio":"Founder & CEO at SecondMarket","follower_count":723,"angellist_url":"http://angel.co/barry-silbert","image":"https://s3.amazonaws.com/photos.angel.co/users/64029-medium?1323450032"}},{"id":161885,"role":"past_investor","created_at":"2012-02-11T06:33:18Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"todd
+        Silbert","id":64029,"bio":"Founder & CEO at SecondMarket","follower_count":724,"angellist_url":"http://angel.co/barry-silbert","image":"https://s3.amazonaws.com/photos.angel.co/users/64029-medium?1323450032"}},{"id":161885,"role":"past_investor","created_at":"2012-02-11T06:33:18Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"todd
         sawicki","id":91800,"bio":"online startup geek currently helping run the cheezburger
         network","follower_count":74,"angellist_url":"http://angel.co/sawickipedia","image":"https://s3.amazonaws.com/photos.angel.co/users/91800-medium?1327973545"}},{"id":160582,"role":"past_investor","created_at":"2012-02-09T05:23:10Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Kevin
         Henrikson","id":45086,"bio":"Early Zimbra engineering team member.  Now lead
@@ -117,7 +117,7 @@ http_interactions:
         Grody","id":85359,"bio":"...; writer, reader, sort-of-adventurer","follower_count":63,"angellist_url":"http://angel.co/dmelissag","image":"https://s3.amazonaws.com/photos.angel.co/users/85359-medium?1325989261"}},{"id":157100,"role":"employee","created_at":"2012-02-03T15:40:05Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Dave
         McClure","id":144,"bio":"Founding Partner @ 500 Startups. Ex-PayPal, Facebook
         fbFund, Founders Fund, Mint.com. Geek, developer, entrepreneur, marketer.
-        Investor in 250+ co''s.","follower_count":15997,"angellist_url":"http://angel.co/davemcclure","image":"https://s3.amazonaws.com/photos.angel.co/users/144-medium?1294803547"}},{"id":157099,"role":"advisor","created_at":"2012-02-03T15:39:32Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Enrique
+        Investor in 250+ co''s.","follower_count":15998,"angellist_url":"http://angel.co/davemcclure","image":"https://s3.amazonaws.com/photos.angel.co/users/144-medium?1294803547"}},{"id":157099,"role":"advisor","created_at":"2012-02-03T15:39:32Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Enrique
         Allen","id":62554,"bio":"Founding member of the Designer Fund & 500 Startups.
         Previously Facebook Fund & Venrock. Teach at Stanford design school & former
         Stanford Persuasive Tech Lab.","follower_count":642,"angellist_url":"http://angel.co/enrique-allen","image":"https://s3.amazonaws.com/photos.angel.co/users/62554-medium?1317614459"}},{"id":157097,"role":"employee","created_at":"2012-02-03T15:38:23Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Christen
@@ -125,7 +125,7 @@ http_interactions:
         Herron","id":79,"bio":"Early-stage-leaning investor at Intel Capital. Venture
         Advisor at 500 Startups, Board Advisor to StartX. Tribal kitchen goddess and
         @calista''s mom.","follower_count":1973,"angellist_url":"http://angel.co/christine","image":"https://s3.amazonaws.com/photos.angel.co/users/79-medium?1294803498"}},{"id":153310,"role":"employee","created_at":"2012-01-28T15:23:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Paul
-        Singh","id":1274,"bio":"Partner at 500 Startups","follower_count":3238,"angellist_url":"http://angel.co/paulsingh","image":"https://s3.amazonaws.com/photos.angel.co/users/1274-medium?1294803879"}},{"id":152385,"role":"past_investor","created_at":"2012-01-27T02:45:20Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Anurag
+        Singh","id":1274,"bio":"Partner at 500 Startups","follower_count":3239,"angellist_url":"http://angel.co/paulsingh","image":"https://s3.amazonaws.com/photos.angel.co/users/1274-medium?1294803879"}},{"id":152385,"role":"past_investor","created_at":"2012-01-27T02:45:20Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Anurag
         (Anu) Nigam","id":8736,"bio":"Founder of Hi5, Cerent, Siara, 411Sync, BuzzBox.
         Advisor to Trooval.","follower_count":793,"angellist_url":"http://angel.co/anigam","image":"https://s3.amazonaws.com/photos.angel.co/users/8736-medium?1298684262"}},{"id":151179,"role":"past_investor","created_at":"2012-01-25T05:17:42Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Ryan
         Swagar","id":9304,"bio":"Co-founding Partner @Venture51","follower_count":1351,"angellist_url":"http://angel.co/ryanswagar","image":"https://s3.amazonaws.com/photos.angel.co/users/9304-medium?1317274751"}},{"id":147884,"role":"advisor","created_at":"2012-01-18T21:49:15Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Jason
@@ -139,7 +139,7 @@ http_interactions:
         Founder Brazil Innovators - epicenter of startups in Brazil.         Connector,
         community builder","follower_count":710,"angellist_url":"http://angel.co/bedy","image":"https://s3.amazonaws.com/photos.angel.co/users/45128-medium?1312245613"}},{"id":104983,"role":"employee","created_at":"2011-05-26T22:35:17Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Christine
         Tsai","id":2719,"bio":"Partner at 500 Startups. Ex-Googler & ex-YouTuber.
-        Left-handed.","follower_count":5964,"angellist_url":"http://angel.co/christinetsai","image":"https://s3.amazonaws.com/photos.angel.co/users/2719-medium?1333648741"}},{"id":103767,"role":"past_investor","created_at":"2011-05-21T14:29:19Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Sean
+        Left-handed.","follower_count":5965,"angellist_url":"http://angel.co/christinetsai","image":"https://s3.amazonaws.com/photos.angel.co/users/2719-medium?1333648741"}},{"id":103767,"role":"past_investor","created_at":"2011-05-21T14:29:19Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Sean
         O''Sullivan","id":33924,"bio":"founder of Avego, JumpStart Int''l, MapInfo;
         co-inventor of street mapping on PCs. co-coined term \"cloud computing\" in
         1996. seed & venture capital investor.","follower_count":407,"angellist_url":"http://angel.co/sosventures","image":"https://s3.amazonaws.com/photos.angel.co/users/33924-medium?1305992664"}},{"id":98607,"role":"past_investor","created_at":"2011-03-31T10:24:17Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Tom
@@ -194,7 +194,7 @@ http_interactions:
         BCG.  Chicago MBA. Stanford CS.","follower_count":645,"angellist_url":"http://angel.co/vikas-taneja","image":"https://s3.amazonaws.com/photos.angel.co/users/8847-medium?1298406773"}},{"id":52267,"role":"past_investor","created_at":"2011-08-27T23:38:33Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Jason
         Putorti","id":3589,"bio":"Co-founder of Votizen \u2022 Founder Advisor at
         SV Angel \u2022 First Designer-in-Residence at Bessemer \u2022 Former Lead
-        Designer at Mint.com","follower_count":1896,"angellist_url":"http://angel.co/putorti","image":"https://s3.amazonaws.com/photos.angel.co/users/3589-medium?1296926997"}},{"id":51075,"role":"past_investor","created_at":"2011-08-23T15:55:46Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Pedro
+        Designer at Mint.com","follower_count":1897,"angellist_url":"http://angel.co/putorti","image":"https://s3.amazonaws.com/photos.angel.co/users/3589-medium?1296926997"}},{"id":51075,"role":"past_investor","created_at":"2011-08-23T15:55:46Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Pedro
         Torres Pic\u00f3n","id":18967,"bio":"Entrepreneur and angel investor from
         Latin America, living in New York. Founder and Managing Director at Quotidian
         Ventures.","follower_count":1007,"angellist_url":"http://angel.co/pedrotp","image":"https://s3.amazonaws.com/photos.angel.co/users/18967-medium?1306955415"}},{"id":50703,"role":"past_investor","created_at":"2011-08-22T10:24:22Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Mark
@@ -208,7 +208,7 @@ http_interactions:
         President Aunken Ventures, Founding Shareholder BroadSpan Capital.","follower_count":444,"angellist_url":"http://angel.co/dbellumio","image":"https://s3.amazonaws.com/photos.angel.co/users/22714-medium?1301338871"}},{"id":47187,"role":"advisor","created_at":"2011-08-09T21:16:37Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Tyler
         Willis","id":6484,"bio":"BD at Unified. Advisor to BranchOut. Was employee
         #6 at Involver, grew customer base to more than 100K as the Head of Marketing
-        (now at over 1m).","follower_count":564,"angellist_url":"http://angel.co/tylerwillis","image":"https://s3.amazonaws.com/photos.angel.co/users/6484-medium?1325758622"}},{"id":46719,"role":"advisor","created_at":"2011-08-08T16:03:45Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Blake
+        (now at over 1m).","follower_count":565,"angellist_url":"http://angel.co/tylerwillis","image":"https://s3.amazonaws.com/photos.angel.co/users/6484-medium?1325758622"}},{"id":46719,"role":"advisor","created_at":"2011-08-08T16:03:45Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Blake
         Commagere","id":39359,"bio":"Single-handedly pioneered Social Gaming industry
         (Vampires/Zombies). Created 1st version of Causes. Founder BuildForge (Sold
         to IBM), Founder Ohai. ","follower_count":585,"angellist_url":"http://angel.co/blake-commagere","image":"https://s3.amazonaws.com/photos.angel.co/users/39359-medium?1312434863"}},{"id":46378,"role":"past_investor","created_at":"2011-08-06T07:40:23Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Anil
@@ -240,7 +240,7 @@ http_interactions:
         of Ignite events; O''Reilly Evangelist","follower_count":59,"angellist_url":"http://angel.co/brady-forrest","image":"https://s3.amazonaws.com/photos.angel.co/users/35096-medium?1306720857"}},{"id":32872,"role":"advisor","created_at":"2011-05-29T23:47:55Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Jason
         Putorti","id":3589,"bio":"Co-founder of Votizen \u2022 Founder Advisor at
         SV Angel \u2022 First Designer-in-Residence at Bessemer \u2022 Former Lead
-        Designer at Mint.com","follower_count":1896,"angellist_url":"http://angel.co/putorti","image":"https://s3.amazonaws.com/photos.angel.co/users/3589-medium?1296926997"}},{"id":32871,"role":"advisor","created_at":"2011-05-29T23:44:29Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Dave
+        Designer at Mint.com","follower_count":1897,"angellist_url":"http://angel.co/putorti","image":"https://s3.amazonaws.com/photos.angel.co/users/3589-medium?1296926997"}},{"id":32871,"role":"advisor","created_at":"2011-05-29T23:44:29Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Dave
         Schappell","id":3170,"bio":"Director of Product, AmazonLocal. Former founder
         and CEO, TeachStreet","follower_count":560,"angellist_url":"http://angel.co/daveschappell","image":"https://s3.amazonaws.com/photos.angel.co/users/3170-medium?1294804269"}},{"id":32870,"role":"advisor","created_at":"2011-05-29T23:43:25Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Victoria
         Ransom","id":35196,"bio":"Founder of Wildfire Interactive. Advisor to 500
@@ -248,13 +248,13 @@ http_interactions:
         Sinha","id":35216,"bio":"Advisor to 500 Startups (Fund).","follower_count":30,"angellist_url":"http://angel.co/rashmi-sinha","image":"http://angel.co/images/nopic.png"}},{"id":32868,"role":"advisor","created_at":"2011-05-29T23:42:00Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Charles
         Hudson","id":1914,"bio":"Venture Partner at SoftTech VC (with @jeff), CEO
         and Co-Founder of Bionic Panda Games. BD roles at Serious Business (now part
-        of Zynga), Google, and Gaia Online","follower_count":1978,"angellist_url":"http://angel.co/chudson","image":"https://s3.amazonaws.com/photos.angel.co/users/1914-medium?1294804012"}},{"id":32867,"role":"advisor","created_at":"2011-05-29T23:40:47Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Eric
-        Ries","id":17334,"bio":"Author of The Lean Startup","follower_count":6758,"angellist_url":"http://angel.co/ericries","image":"https://s3.amazonaws.com/photos.angel.co/users/17334-medium?1323882120"}},{"id":32866,"role":"advisor","created_at":"2011-05-29T23:39:28Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Jeff
+        of Zynga), Google, and Gaia Online","follower_count":1977,"angellist_url":"http://angel.co/chudson","image":"https://s3.amazonaws.com/photos.angel.co/users/1914-medium?1294804012"}},{"id":32867,"role":"advisor","created_at":"2011-05-29T23:40:47Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Eric
+        Ries","id":17334,"bio":"Author of The Lean Startup","follower_count":6759,"angellist_url":"http://angel.co/ericries","image":"https://s3.amazonaws.com/photos.angel.co/users/17334-medium?1323882120"}},{"id":32866,"role":"advisor","created_at":"2011-05-29T23:39:28Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Jeff
         Lawson","id":26786,"bio":"Entrepreneur, CEO and cofounder of Twilio.","follower_count":854,"angellist_url":"http://angel.co/jeff-lawson1","image":"https://s3.amazonaws.com/photos.angel.co/users/26786-medium?1306973402"}},{"id":32865,"role":"advisor","created_at":"2011-05-29T23:38:41Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Hiten
         Shah","id":1572,"bio":"CEO / Co-Founder of @KISSmetrics. Previously started
         @crazyegg and @acs. My hobby is helping entrepreneurs create something out
         of nothing.","follower_count":2248,"angellist_url":"http://angel.co/hnshah","image":"https://s3.amazonaws.com/photos.angel.co/users/1572-medium?1294803942"}},{"id":31760,"role":"founder","created_at":"2011-05-22T23:11:15Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Paul
-        Singh","id":1274,"bio":"Partner at 500 Startups","follower_count":3238,"angellist_url":"http://angel.co/paulsingh","image":"https://s3.amazonaws.com/photos.angel.co/users/1274-medium?1294803879"}},{"id":31314,"role":"past_investor","created_at":"2011-05-19T00:35:14Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Steve
+        Singh","id":1274,"bio":"Partner at 500 Startups","follower_count":3239,"angellist_url":"http://angel.co/paulsingh","image":"https://s3.amazonaws.com/photos.angel.co/users/1274-medium?1294803879"}},{"id":31314,"role":"past_investor","created_at":"2011-05-19T00:35:14Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Steve
         Markowitz","id":3795,"bio":"- Private investor since 2001\n- Founding chairman/CEO,
         MyPoints.com; led $46MM IPO & $211MM secondary offering\n- Grew consumer membership
         from zero to 16MM","follower_count":1130,"angellist_url":"http://angel.co/smarkowitz","image":"https://s3.amazonaws.com/photos.angel.co/users/3795-medium?1314405824"}},{"id":20719,"role":"past_investor","created_at":"2011-04-06T07:47:23Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Marcus
@@ -275,22 +275,22 @@ http_interactions:
         DeBerry","id":66,"bio":"Partner at Kapor Capital and founder at Bronze Investments.","follower_count":783,"angellist_url":"http://angel.co/stephendeberry","image":"https://s3.amazonaws.com/photos.angel.co/users/66-medium?1294803489"}},{"id":1777,"role":"past_investor","created_at":"2010-12-08T03:48:28Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Dharmesh
         Shah","id":153,"bio":"Founder and CTO of HubSpot and blogger at OnStartups.com","follower_count":5986,"angellist_url":"http://angel.co/dharmesh","image":"https://s3.amazonaws.com/photos.angel.co/users/153-medium?1314297689"}},{"id":1760,"role":"past_investor","created_at":"2010-12-08T03:48:28Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Karl
         Jacob","id":385,"bio":"Keen (Ingenio), DimensionX, Wallop, Coveroo and Cloudmark.  $500+
-        million in exits to msft, at&t etc.  Early advisor to facebook. ","follower_count":2053,"angellist_url":"http://angel.co/karl","image":"https://s3.amazonaws.com/photos.angel.co/users/385-medium?1310661140"}},{"id":1753,"role":"past_investor","created_at":"2010-12-08T03:48:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Fred
+        million in exits to msft, at&t etc.  Early advisor to facebook. ","follower_count":2054,"angellist_url":"http://angel.co/karl","image":"https://s3.amazonaws.com/photos.angel.co/users/385-medium?1310661140"}},{"id":1753,"role":"past_investor","created_at":"2010-12-08T03:48:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Fred
         Wilson","id":743,"bio":"Managing partner at Union Square Ventures and also
-        founded Flatiron Partners.","follower_count":7618,"angellist_url":"http://angel.co/fredwilson","image":"https://s3.amazonaws.com/photos.angel.co/users/743-medium?1294803766"}},{"id":1750,"role":"past_investor","created_at":"2010-12-08T03:48:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Brad
-        Feld","id":120,"bio":"Managing Director at Foundry Group","follower_count":7353,"angellist_url":"http://angel.co/bfeld","image":"https://s3.amazonaws.com/photos.angel.co/users/120-medium?1311694970"}},{"id":1748,"role":"past_investor","created_at":"2010-12-08T03:48:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Mitch
+        founded Flatiron Partners.","follower_count":7619,"angellist_url":"http://angel.co/fredwilson","image":"https://s3.amazonaws.com/photos.angel.co/users/743-medium?1294803766"}},{"id":1750,"role":"past_investor","created_at":"2010-12-08T03:48:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Brad
+        Feld","id":120,"bio":"Managing Director at Foundry Group","follower_count":7356,"angellist_url":"http://angel.co/bfeld","image":"https://s3.amazonaws.com/photos.angel.co/users/120-medium?1311694970"}},{"id":1748,"role":"past_investor","created_at":"2010-12-08T03:48:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Mitch
         Kapor","id":77,"bio":"Lotus founder, built from 0 to $200MM in 3 yrs. Co-founder
-        EFF.  Founding Chair Mozilla. Investor: Twilio, Uber, Inkling, bit.ly. ","follower_count":8943,"angellist_url":"http://angel.co/mkapor","image":"https://s3.amazonaws.com/photos.angel.co/users/77-medium?1294803497"}},{"id":1746,"role":"past_investor","created_at":"2010-12-08T03:48:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Dave
+        EFF.  Founding Chair Mozilla. Investor: Twilio, Uber, Inkling, bit.ly. ","follower_count":8945,"angellist_url":"http://angel.co/mkapor","image":"https://s3.amazonaws.com/photos.angel.co/users/77-medium?1294803497"}},{"id":1746,"role":"past_investor","created_at":"2010-12-08T03:48:27Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Dave
         McClure","id":144,"bio":"Founding Partner @ 500 Startups. Ex-PayPal, Facebook
         fbFund, Founders Fund, Mint.com. Geek, developer, entrepreneur, marketer.
-        Investor in 250+ co''s.","follower_count":15997,"angellist_url":"http://angel.co/davemcclure","image":"https://s3.amazonaws.com/photos.angel.co/users/144-medium?1294803547"}},{"id":1302,"role":"founder","created_at":"2010-11-18T07:43:22Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Christine
+        Investor in 250+ co''s.","follower_count":15998,"angellist_url":"http://angel.co/davemcclure","image":"https://s3.amazonaws.com/photos.angel.co/users/144-medium?1294803547"}},{"id":1302,"role":"founder","created_at":"2010-11-18T07:43:22Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Christine
         Tsai","id":2719,"bio":"Partner at 500 Startups. Ex-Googler & ex-YouTuber.
-        Left-handed.","follower_count":5964,"angellist_url":"http://angel.co/christinetsai","image":"https://s3.amazonaws.com/photos.angel.co/users/2719-medium?1333648741"}},{"id":1253,"role":"founder","created_at":"2010-11-16T01:50:25Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Dave
+        Left-handed.","follower_count":5965,"angellist_url":"http://angel.co/christinetsai","image":"https://s3.amazonaws.com/photos.angel.co/users/2719-medium?1333648741"}},{"id":1253,"role":"founder","created_at":"2010-11-16T01:50:25Z","started_at":null,"ended_at":null,"confirmed":true,"user":{"name":"Dave
         McClure","id":144,"bio":"Founding Partner @ 500 Startups. Ex-PayPal, Facebook
         fbFund, Founders Fund, Mint.com. Geek, developer, entrepreneur, marketer.
-        Investor in 250+ co''s.","follower_count":15997,"angellist_url":"http://angel.co/davemcclure","image":"https://s3.amazonaws.com/photos.angel.co/users/144-medium?1294803547"}}]}'
+        Investor in 250+ co''s.","follower_count":15998,"angellist_url":"http://angel.co/davemcclure","image":"https://s3.amazonaws.com/photos.angel.co/users/144-medium?1294803547"}}]}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:21 GMT
+  recorded_at: Sun, 22 Apr 2012 00:35:06 GMT
 - request:
     method: get
     uri: https://api.angel.co/1/startup_roles?user_id=2850
@@ -310,7 +310,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 23:16:24 GMT
+      - Sun, 22 Apr 2012 00:35:10 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -326,13 +326,13 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '963'
+      - '978'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
-      - '1383'
+      - '1929'
       etag:
-      - ! '"664f8658946442ebe2ad6ee7c006d353"'
+      - ! '"56ec889550399eeec82b8d91ef5aec48"'
       cache-control:
       - private, max-age=0, must-revalidate
     body:
@@ -399,7 +399,7 @@ http_interactions:
         Our investment team and mentor network has operational experience at companies
         including PayPal, Google, YouTube, Yahoo, AOL, Zynga, LinkedIn, Twitter, Apple
         & Facebook.","high_concept":"Silicon Valley micro-VC fund & accelerator founded
-        by ex-PayPal, Google, YouTube alums.","follower_count":3255,"company_url":"http://500.co"}},{"id":199359,"role":"incubator","created_at":"2012-04-03T00:17:21Z","started_at":null,"ended_at":null,"confirmed":true,"startup":{"id":29428,"hidden":false,"community_profile":false,"name":"Tie
+        by ex-PayPal, Google, YouTube alums.","follower_count":3257,"company_url":"http://500.co"}},{"id":199359,"role":"incubator","created_at":"2012-04-03T00:17:21Z","started_at":null,"ended_at":null,"confirmed":true,"startup":{"id":29428,"hidden":false,"community_profile":false,"name":"Tie
         Society","angellist_url":"http://angel.co/tie-society","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29428-79202762c1611eeac9485ac4b4b57814-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/29428-79202762c1611eeac9485ac4b4b57814-thumb.png","product_desc":"Featured:
         The Washington Post, NPR, Voice of America.\n\nA large demographic of professionals
         are priced out of the market for high-end neckwear, yet one''s appearance
@@ -440,7 +440,7 @@ http_interactions:
         model. We product place our items on fashionable consumers and use these images
         to curate sales.\n\nWhy? We are more influenced by our stylish friends and
         their lifestyles than generic models.","high_concept":"Social Commerce for
-        Preps","follower_count":32,"company_url":"http://www.uscoop.com"}},{"id":198873,"role":"incubator","created_at":"2012-04-02T17:36:52Z","started_at":null,"ended_at":null,"confirmed":true,"startup":{"id":80305,"hidden":false,"community_profile":false,"name":"UmbaBox","angellist_url":"http://angel.co/umbabox","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80305-e9c43c29e397dae19d6bb5889cc3505e-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80305-e9c43c29e397dae19d6bb5889cc3505e-thumb.jpg","product_desc":"Umba
+        Preps","follower_count":34,"company_url":"http://www.uscoop.com"}},{"id":198873,"role":"incubator","created_at":"2012-04-02T17:36:52Z","started_at":null,"ended_at":null,"confirmed":true,"startup":{"id":80305,"hidden":false,"community_profile":false,"name":"UmbaBox","angellist_url":"http://angel.co/umbabox","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80305-e9c43c29e397dae19d6bb5889cc3505e-medium.jpg","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80305-e9c43c29e397dae19d6bb5889cc3505e-thumb.jpg","product_desc":"Umba
         Box allows people to effortlessly discover handmade products by delivering
         monthly curated packages of women''s goods to subscribers. \n\nWe''ve appeared
         in The Washington Post, Forbes online, and TIME.com., Mashable, and TechCrunch.
@@ -621,7 +621,7 @@ http_interactions:
         daily, we can automatically recommend ad copy and targeting opportunities
         that are likely to perform well for our customers.\n\nThe product is live
         at http://mixrank.com","high_concept":"Spy on Competitors'' Display Ads (YC
-        S11)","follower_count":440,"company_url":"http://mixrank.com"}},{"id":67219,"role":"incubator","created_at":"2011-10-19T23:12:07Z","started_at":null,"ended_at":null,"confirmed":true,"startup":{"id":24469,"hidden":false,"community_profile":false,"name":"Tiny
+        S11)","follower_count":441,"company_url":"http://mixrank.com"}},{"id":67219,"role":"incubator","created_at":"2011-10-19T23:12:07Z","started_at":null,"ended_at":null,"confirmed":true,"startup":{"id":24469,"hidden":false,"community_profile":false,"name":"Tiny
         Review","angellist_url":"http://angel.co/tiny-review","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/24469-dc410edde6de7fc4298e2b16818563fe-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/24469-dc410edde6de7fc4298e2b16818563fe-thumb.png","product_desc":"Tiny
         Review is Instagram for local reviews. Take a photo, write three lines, share
         with others. Reviews made simple, fun, and addictive. Download the iOS app:
@@ -1477,5 +1477,5 @@ http_interactions:
         it possible to cope with email overload. http://emailga.me","high_concept":"Email
         management that actually works.","follower_count":96,"company_url":"http://www.baydin.com"}}]}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:25 GMT
+  recorded_at: Sun, 22 Apr 2012 00:35:11 GMT
 recorded_with: VCR 2.1.0

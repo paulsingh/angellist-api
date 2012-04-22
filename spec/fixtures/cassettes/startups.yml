@@ -126,6 +126,68 @@ http_interactions:
   recorded_at: Sat, 21 Apr 2012 23:16:26 GMT
 - request:
     method: get
+    uri: https://api.angel.co/1/startups/1124
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sun, 22 Apr 2012 00:35:12 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '977'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '22'
+      etag:
+      - ! '"caddda9f0844f06a46bf42629e08e7f4"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"id":1124,"hidden":false,"community_profile":false,"name":"500 Startups
+        (Fund)","angellist_url":"http://angel.co/500-startups-fund","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/1124-9f04812061e2dcd37e24eeb20cf47e5c-medium.png","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/1124-9f04812061e2dcd37e24eeb20cf47e5c-thumb.png","product_desc":"500
+        Startups is a Silicon Valley venture capital seed fund & startup accelerator.
+        We invest in internet startups on search, social, & mobile platforms. We run
+        an incubation and accelerator program emphasizing design & user experience,
+        distribution & customer acquisition, and lean startup practices & metrics.
+        Our investment team and mentor network has operational experience at companies
+        including PayPal, Google, YouTube, Yahoo, AOL, Zynga, LinkedIn, Twitter, Apple
+        & Facebook.","high_concept":"Silicon Valley micro-VC fund & accelerator founded
+        by ex-PayPal, Google, YouTube alums.","follower_count":3257,"company_url":"http://500.co","twitter_url":"https://twitter.com/#!/500","blog_url":"http://500.co/blog/","video_url":"http://youtube.com/watch?v=oy--ub2jMHs","markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
+        view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"}],"status":{"id":53746,"message":".@500
+        Startups by the #''s (infographic): companies, exits, countries, team, process,
+        languages, mentors, events, etc: http://bit.ly/500info","created_at":"2012-04-12T23:57:59Z"},"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d1cfdd5a9783eb1d115884678f1c4982-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d1cfdd5a9783eb1d115884678f1c4982-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d995be3ef8ea226b57c3e86da50f9dab-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d995be3ef8ea226b57c3e86da50f9dab-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/cc897ffa4c3209ae85008f5dcfd5c7f7-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/cc897ffa4c3209ae85008f5dcfd5c7f7-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/e2477b0b7bdfb12416741be68b12d4d9-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/e2477b0b7bdfb12416741be68b12d4d9-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/af01513ca735f94fe436623b55f0948a-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/af01513ca735f94fe436623b55f0948a-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/2a303adde511f0d3dadc80bc7ee089b7-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/2a303adde511f0d3dadc80bc7ee089b7-original.jpg"}]}'
+    http_version: !!null 
+  recorded_at: Sun, 22 Apr 2012 00:35:12 GMT
+- request:
+    method: get
     uri: https://api.angel.co/1/startups/search?slug=500-startups-fund
     body:
       encoding: US-ASCII
@@ -143,7 +205,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 23:16:28 GMT
+      - Sun, 22 Apr 2012 00:35:14 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -159,13 +221,13 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '961'
+      - '976'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
-      - '97'
+      - '105'
       etag:
-      - ! '"6a15f61f48032d7a6bd4a789e8724b53"'
+      - ! '"caddda9f0844f06a46bf42629e08e7f4"'
       cache-control:
       - private, max-age=0, must-revalidate
     body:
@@ -179,13 +241,13 @@ http_interactions:
         Our investment team and mentor network has operational experience at companies
         including PayPal, Google, YouTube, Yahoo, AOL, Zynga, LinkedIn, Twitter, Apple
         & Facebook.","high_concept":"Silicon Valley micro-VC fund & accelerator founded
-        by ex-PayPal, Google, YouTube alums.","follower_count":3255,"company_url":"http://500.co","twitter_url":"https://twitter.com/#!/500","blog_url":"http://500.co/blog/","video_url":"http://youtube.com/watch?v=oy--ub2jMHs","markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        by ex-PayPal, Google, YouTube alums.","follower_count":3257,"company_url":"http://500.co","twitter_url":"https://twitter.com/#!/500","blog_url":"http://500.co/blog/","video_url":"http://youtube.com/watch?v=oy--ub2jMHs","markets":[{"id":856,"tag_type":"MarketTag","name":"venture
         capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
         view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"}],"status":{"id":53746,"message":".@500
         Startups by the #''s (infographic): companies, exits, countries, team, process,
         languages, mentors, events, etc: http://bit.ly/500info","created_at":"2012-04-12T23:57:59Z"},"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d1cfdd5a9783eb1d115884678f1c4982-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d1cfdd5a9783eb1d115884678f1c4982-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d995be3ef8ea226b57c3e86da50f9dab-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d995be3ef8ea226b57c3e86da50f9dab-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/cc897ffa4c3209ae85008f5dcfd5c7f7-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/cc897ffa4c3209ae85008f5dcfd5c7f7-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/e2477b0b7bdfb12416741be68b12d4d9-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/e2477b0b7bdfb12416741be68b12d4d9-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/af01513ca735f94fe436623b55f0948a-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/af01513ca735f94fe436623b55f0948a-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/2a303adde511f0d3dadc80bc7ee089b7-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/2a303adde511f0d3dadc80bc7ee089b7-original.jpg"}]}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:28 GMT
+  recorded_at: Sun, 22 Apr 2012 00:35:14 GMT
 - request:
     method: get
     uri: https://api.angel.co/1/startups/search?domain=500.co
@@ -205,7 +267,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 23:16:29 GMT
+      - Sun, 22 Apr 2012 00:35:15 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -221,13 +283,13 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '960'
+      - '975'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
-      - '313'
+      - '318'
       etag:
-      - ! '"6a15f61f48032d7a6bd4a789e8724b53"'
+      - ! '"caddda9f0844f06a46bf42629e08e7f4"'
       cache-control:
       - private, max-age=0, must-revalidate
     body:
@@ -241,11 +303,11 @@ http_interactions:
         Our investment team and mentor network has operational experience at companies
         including PayPal, Google, YouTube, Yahoo, AOL, Zynga, LinkedIn, Twitter, Apple
         & Facebook.","high_concept":"Silicon Valley micro-VC fund & accelerator founded
-        by ex-PayPal, Google, YouTube alums.","follower_count":3255,"company_url":"http://500.co","twitter_url":"https://twitter.com/#!/500","blog_url":"http://500.co/blog/","video_url":"http://youtube.com/watch?v=oy--ub2jMHs","markets":[{"id":856,"tag_type":"MarketTag","name":"venture
+        by ex-PayPal, Google, YouTube alums.","follower_count":3257,"company_url":"http://500.co","twitter_url":"https://twitter.com/#!/500","blog_url":"http://500.co/blog/","video_url":"http://youtube.com/watch?v=oy--ub2jMHs","markets":[{"id":856,"tag_type":"MarketTag","name":"venture
         capital","display_name":"Venture Capital","angellist_url":"http://angel.co/venture-capital"}],"locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
         view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"}],"status":{"id":53746,"message":".@500
         Startups by the #''s (infographic): companies, exits, countries, team, process,
         languages, mentors, events, etc: http://bit.ly/500info","created_at":"2012-04-12T23:57:59Z"},"screenshots":[{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d1cfdd5a9783eb1d115884678f1c4982-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d1cfdd5a9783eb1d115884678f1c4982-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d995be3ef8ea226b57c3e86da50f9dab-thumb.png","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/d995be3ef8ea226b57c3e86da50f9dab-original.png"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/cc897ffa4c3209ae85008f5dcfd5c7f7-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/cc897ffa4c3209ae85008f5dcfd5c7f7-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/e2477b0b7bdfb12416741be68b12d4d9-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/e2477b0b7bdfb12416741be68b12d4d9-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/af01513ca735f94fe436623b55f0948a-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/af01513ca735f94fe436623b55f0948a-original.jpg"},{"thumb":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/2a303adde511f0d3dadc80bc7ee089b7-thumb.jpg","original":"https://s3.amazonaws.com/screenshots.angel.co/c7/1124/2a303adde511f0d3dadc80bc7ee089b7-original.jpg"}]}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:29 GMT
+  recorded_at: Sun, 22 Apr 2012 00:35:15 GMT
 recorded_with: VCR 2.1.0

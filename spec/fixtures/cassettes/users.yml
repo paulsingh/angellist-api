@@ -110,6 +110,60 @@ http_interactions:
   recorded_at: Sat, 21 Apr 2012 23:16:43 GMT
 - request:
     method: get
+    uri: https://api.angel.co/1/users/2850
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sun, 22 Apr 2012 00:35:28 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '968'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '19'
+      etag:
+      - ! '"b5d91f38826f5fc779a09c530bea1f02"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"name":"500 Startups","id":2850,"bio":"Internet seed fund & startup
+        accelerator in Silicon Valley. Partners worked at PayPal, Google, AOL, Rackspace,
+        YouTube, Mint, Facebook fbFund, Founders Fund.","follower_count":5561,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197","blog_url":"http://500.co/blog","online_bio_url":"http://500.co","twitter_url":"http://twitter.com/#!/500","facebook_url":"http://facebook.com/500startups","linkedin_url":"http://www.linkedin.com/company/500-startups","locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
+        view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"},{"id":8732,"tag_type":"LocationTag","name":"sao
+        paulo","display_name":"Sao Paulo","angellist_url":"http://angel.co/sao-paulo"}],"roles":[{"id":9305,"tag_type":"RoleTag","name":"seed
+        funds","display_name":"Seed Fund","angellist_url":"http://angel.co/seed-funds"},{"id":9306,"tag_type":"RoleTag","name":"vc","display_name":"VC","angellist_url":"http://angel.co/vc"}]}'
+    http_version: !!null 
+  recorded_at: Sun, 22 Apr 2012 00:35:28 GMT
+- request:
+    method: get
     uri: https://api.angel.co/1/users/search?slug=500startups
     body:
       encoding: US-ASCII
@@ -127,7 +181,7 @@ http_interactions:
       server:
       - nginx/1.0.6
       date:
-      - Sat, 21 Apr 2012 23:16:44 GMT
+      - Sun, 22 Apr 2012 00:35:29 GMT
       content-type:
       - application/json; charset=utf-8
       transfer-encoding:
@@ -143,23 +197,23 @@ http_interactions:
       x-ratelimit-limit:
       - '1000'
       x-ratelimit-remaining:
-      - '952'
+      - '967'
       x-thanks:
       - For using AngelList. Rock on.
       x-runtime:
       - '23'
       etag:
-      - ! '"0c13384ccaf0ae7c9e1ff289e0070619"'
+      - ! '"b5d91f38826f5fc779a09c530bea1f02"'
       cache-control:
       - private, max-age=0, must-revalidate
     body:
       encoding: ASCII-8BIT
       string: ! '{"name":"500 Startups","id":2850,"bio":"Internet seed fund & startup
         accelerator in Silicon Valley. Partners worked at PayPal, Google, AOL, Rackspace,
-        YouTube, Mint, Facebook fbFund, Founders Fund.","follower_count":5560,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197","blog_url":"http://500.co/blog","online_bio_url":"http://500.co","twitter_url":"http://twitter.com/#!/500","facebook_url":"http://facebook.com/500startups","linkedin_url":"http://www.linkedin.com/company/500-startups","locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
+        YouTube, Mint, Facebook fbFund, Founders Fund.","follower_count":5561,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197","blog_url":"http://500.co/blog","online_bio_url":"http://500.co","twitter_url":"http://twitter.com/#!/500","facebook_url":"http://facebook.com/500startups","linkedin_url":"http://www.linkedin.com/company/500-startups","locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
         view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"},{"id":8732,"tag_type":"LocationTag","name":"sao
         paulo","display_name":"Sao Paulo","angellist_url":"http://angel.co/sao-paulo"}],"roles":[{"id":9305,"tag_type":"RoleTag","name":"seed
         funds","display_name":"Seed Fund","angellist_url":"http://angel.co/seed-funds"},{"id":9306,"tag_type":"RoleTag","name":"vc","display_name":"VC","angellist_url":"http://angel.co/vc"}]}'
     http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:44 GMT
+  recorded_at: Sun, 22 Apr 2012 00:35:30 GMT
 recorded_with: VCR 2.1.0
