@@ -1,4 +1,10 @@
 require 'faraday'
+require 'angellist_api/error/bad_request'
+require 'angellist_api/error/enhance_your_calm'
+require 'angellist_api/error/forbidden'
+require 'angellist_api/error/not_acceptable'
+require 'angellist_api/error/not_found'
+require 'angellist_api/error/unauthorized'
 
 module AngellistApi
   module Response
@@ -6,17 +12,17 @@ module AngellistApi
       def on_complete(env)
         case env[:status].to_i
         when 400
-          raise AngellistApi::BadRequest.new(error_message(env), env[:response_headers])
+          raise AngellistApi::Error::BadRequest.new(error_message(env), env[:response_headers])
         when 401
-          raise AngellistApi::Unauthorized.new(error_message(env), env[:response_headers])
+          raise AngellistApi::Error::Unauthorized.new(error_message(env), env[:response_headers])
         when 403
-          raise AngellistApi::Forbidden.new(error_message(env), env[:response_headers])
+          raise AngellistApi::Error::Forbidden.new(error_message(env), env[:response_headers])
         when 404
-          raise AngellistApi::NotFound.new(error_message(env), env[:response_headers])
+          raise AngellistApi::Error::NotFound.new(error_message(env), env[:response_headers])
         when 406
-          raise AngellistApi::NotAcceptable.new(error_message(env), env[:response_headers])
+          raise AngellistApi::Error::NotAcceptable.new(error_message(env), env[:response_headers])
         when 420
-          raise AngellistApi::EnhanceYourCalm.new(error_message(env), env[:response_headers])
+          raise AngellistApi::Error::EnhanceYourCalm.new(error_message(env), env[:response_headers])
         end
       end
 

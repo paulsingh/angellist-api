@@ -1,7 +1,5 @@
-require 'angellist_api/api'
 require 'angellist_api/client'
 require 'angellist_api/configuration'
-require 'angellist_api/error'
 
 module AngellistApi
   extend Configuration

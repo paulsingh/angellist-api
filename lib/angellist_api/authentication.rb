@@ -1,5 +1,4 @@
 module AngellistApi
-  # @private
   module Authentication
     private
 

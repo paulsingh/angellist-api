@@ -4,13 +4,11 @@ require 'angellist_api/connection'
 require 'angellist_api/request'
 
 module AngellistApi
-  # @private
   class API
+    include Authentication
     include Connection
     include Request
-    include Authentication
 
-    # @private
     attr_accessor *Configuration::VALID_OPTIONS_KEYS
 
     # Creates a new API

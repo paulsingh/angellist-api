@@ -1,4 +1,7 @@
 require 'faraday'
+require 'angellist_api/error/bad_gateway'
+require 'angellist_api/error/internal_server_error'
+require 'angellist_api/error/service_unavailable'
 
 module AngellistApi
   module Response
@@ -6,11 +9,11 @@ module AngellistApi
       def on_complete(env)
         case env[:status].to_i
         when 500
-          raise AngellistApi::InternalServerError.new(error_message(env, "Something is technically wrong."), env[:response_headers])
+          raise AngellistApi::Error::InternalServerError.new(error_message(env, "Something is technically wrong."), env[:response_headers])
         when 502
-          raise AngellistApi::BadGateway.new(error_message(env, "AngellistApi is down or being upgraded."), env[:response_headers])
+          raise AngellistApi::Error::BadGateway.new(error_message(env, "AngellistApi is down or being upgraded."), env[:response_headers])
         when 503
-          raise AngellistApi::ServiceUnavailable.new(error_message(env, "(__-){ AngellistApi is over capacity."), env[:response_headers])
+          raise AngellistApi::Error::ServiceUnavailable.new(error_message(env, "(__-){ AngellistApi is over capacity."), env[:response_headers])
         end
       end
 

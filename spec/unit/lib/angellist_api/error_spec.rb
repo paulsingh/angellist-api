@@ -105,17 +105,17 @@ describe AngellistApi::Error do
 
     context "an EnhanceYourCalm Error object" do
       it "return the number of seconds set as retry-after if it's set" do
-        error = AngellistApi::EnhanceYourCalm.new("message", {'retry-after' => 12, 'Retry-After' => 13})
+        error = AngellistApi::Error::EnhanceYourCalm.new("message", {'retry-after' => 12, 'Retry-After' => 13})
         error.retry_after.should == 12
       end
 
       it "return the number set as Retry-After if retry-after is empty" do
-        error = AngellistApi::EnhanceYourCalm.new("message", {'retry-after' => nil, 'Retry-After' => 16})
+        error = AngellistApi::Error::EnhanceYourCalm.new("message", {'retry-after' => nil, 'Retry-After' => 16})
         error.retry_after.should == 16
       end
 
       it "return 0 if both Retry-After or retry-after are not set" do
-        error = AngellistApi::EnhanceYourCalm.new("message", {})
+        error = AngellistApi::Error::EnhanceYourCalm.new("message", {})
         error.retry_after.should == 0
       end
     end

@@ -1,3 +1,5 @@
+require 'angellist_api/api'
+
 module AngellistApi
   # Wrapper for the AngellistApi REST API
   #
