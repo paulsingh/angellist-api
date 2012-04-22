@@ -1,6 +1,7 @@
 ## Master
 
 - YARD cleanup.
+- Backported several changes from Twitter gem which was our genesis.
 - Integration specs added using VCR, for unauthenticated calls so far.
 
 ## 1.0.1 - 22 March, 2012
