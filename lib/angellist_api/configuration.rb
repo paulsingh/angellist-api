@@ -7,7 +7,6 @@ module AngellistApi
     VALID_OPTIONS_KEYS = [
       :adapter,
       :endpoint,
-      :format,
       :gateway,
       :access_token,
       :proxy,
@@ -19,11 +18,6 @@ module AngellistApi
 
     # The endpoint that will be used to connect if none is set
     DEFAULT_ENDPOINT = "https://api.angel.co/".freeze
-
-    # The response format appended to the path and sent in the 'Accept' header if none is set
-    #
-    # @note JSON is preferred over XML because it is more concise and faster to parse.
-    DEFAULT_FORMAT = :json
 
     # By default, don't set a user oauth access token
     DEFAULT_ACCESS_TOKEN = nil
@@ -62,7 +56,6 @@ module AngellistApi
     def reset
       self.adapter            = DEFAULT_ADAPTER
       self.endpoint           = DEFAULT_ENDPOINT
-      self.format             = DEFAULT_FORMAT
       self.access_token       = DEFAULT_ACCESS_TOKEN
       self.proxy              = DEFAULT_PROXY
       self.user_agent         = DEFAULT_USER_AGENT

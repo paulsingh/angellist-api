@@ -12,7 +12,6 @@ module AngellistApi
       # first.
       #
       # @requires_authentication Optional
-      # @response_format `json`
       #
       # @param [Hash] options A customizable set of options.
       # @option options [Integer] :user_id The user whose startup relationships
@@ -26,7 +25,7 @@ module AngellistApi
       # @example Get users involved in startup with ID 1234, and their roles.
       #   AngellistApi.get_startup_roles(:startup_id => 1234)
       def get_startup_roles(options={})
-        get("1/startup_roles", options, :format => :json)
+        get("1/startup_roles", options)
       end
     end
   end

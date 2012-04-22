@@ -9,7 +9,6 @@ module AngellistApi
       # Also returns the total count of positive reviews.
       #
       # @requires_authentication Optional
-      # @response_format `json`
       #
       # @param [Hash] options A customizable set of options.
       # @option options [Integer] :user_id user_id of the desired user. If none
@@ -21,7 +20,7 @@ module AngellistApi
       # @example Get reviews for a given user ID.
       #   AngellistApi.get_reviews(1234)
       def get_reviews(options={})
-        get("1/reviews", options, :format => :json)
+        get("1/reviews", options)
       end
     end
   end

@@ -6,15 +6,18 @@ require 'faraday/response/raise_http_4xx'
 require 'faraday/response/raise_http_5xx'
 
 module AngellistApi
-  # @private
   module Connection
     private
 
+    # Returns a Faraday::Connection object
+    #
+    # @param options [Hash] A hash of options
+    # @return [Faraday::Connection]
     def connection(options={})
       merged_options = faraday_options.merge({
         :headers => {
-          'Accept' => "application/#{format}",
-          'User-Agent' => user_agent
+          :accept => 'application/json',
+          :user_agent => user_agent
         },
         :proxy => proxy,
         :ssl => {:verify => false},
@@ -29,14 +32,8 @@ module AngellistApi
         builder.use Faraday::Request::Gateway, gateway if gateway
         builder.use Faraday::Response::RaiseHttp4xx
         unless options[:raw]
-          case options.fetch(:format, format).to_s.downcase
-          when 'json'
-            builder.use Faraday::Response::Mashify
-            builder.use Faraday::Response::ParseJson
-          when 'xml'
-            builder.use Faraday::Response::Mashify
-            builder.use Faraday::Response::ParseXml
-          end
+          builder.use Faraday::Response::Mashify
+          builder.use Faraday::Response::ParseJson
         end
         builder.use Faraday::Response::RaiseHttp5xx
         builder.adapter(adapter)

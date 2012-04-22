@@ -11,7 +11,6 @@ module AngellistApi
       # paginated and ordered by most recent story first.
       #
       # @requires_authentication Optional
-      # @response_format `json`
       #
       # @param options [Hash] A customizable set of options.
       # @option options [Integer] :personalized If set to 1 and a user is
@@ -21,7 +20,7 @@ module AngellistApi
       # @example
       #   AngellistApi.get_feed
       def get_feed(options={})
-        get("1/feed", options, :format => :json)
+        get("1/feed", options)
       end
 
     end
