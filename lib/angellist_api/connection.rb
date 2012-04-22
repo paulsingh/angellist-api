@@ -4,8 +4,8 @@ require 'angellist_api/core_ext/hash'
 require 'angellist_api/request/multipart_with_file'
 require 'angellist_api/request/gateway'
 require 'angellist_api/request/angellist_api_oauth'
-require 'angellist_api/response/raise_http_4xx'
-require 'angellist_api/response/raise_http_5xx'
+require 'angellist_api/response/raise_client_error'
+require 'angellist_api/response/raise_server_error'
 
 module AngellistApi
   module Connection
@@ -32,12 +32,12 @@ module AngellistApi
         builder.use Faraday::Request::Multipart
         builder.use Faraday::Request::UrlEncoded
         builder.use AngellistApi::Request::Gateway, gateway if gateway
-        builder.use AngellistApi::Response::RaiseHttp4xx
+        builder.use AngellistApi::Response::RaiseClientError
         unless options[:raw]
           builder.use Faraday::Response::Mashify
           builder.use Faraday::Response::ParseJson
         end
-        builder.use AngellistApi::Response::RaiseHttp5xx
+        builder.use AngellistApi::Response::RaiseServerError
         builder.adapter(adapter)
       end
     end

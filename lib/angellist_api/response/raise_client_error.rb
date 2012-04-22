@@ -8,7 +8,7 @@ require 'angellist_api/error/unauthorized'
 
 module AngellistApi
   module Response
-    class RaiseHttp4xx < Faraday::Response::Middleware
+    class RaiseClientError < Faraday::Response::Middleware
       def on_complete(env)
         case env[:status].to_i
         when 400

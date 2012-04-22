@@ -5,7 +5,7 @@ require 'angellist_api/error/service_unavailable'
 
 module AngellistApi
   module Response
-    class RaiseHttp5xx < Faraday::Response::Middleware
+    class RaiseServerError < Faraday::Response::Middleware
       def on_complete(env)
         case env[:status].to_i
         when 500
