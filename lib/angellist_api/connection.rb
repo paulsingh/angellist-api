@@ -1,3 +1,4 @@
+require 'faraday'
 require 'faraday_middleware'
 require 'angellist_api/request/multipart_with_file'
 require 'angellist_api/request/gateway'
@@ -14,7 +15,7 @@ module AngellistApi
     # @param options [Hash] A hash of options
     # @return [Faraday::Connection]
     def connection(options={})
-      merged_options = faraday_options.merge({
+      merged_options = connection_options.merge({
         :headers => {
           :accept => 'application/json',
           :user_agent => user_agent
