@@ -1,9 +1,9 @@
 require 'faraday_middleware'
-require 'faraday/request/multipart_with_file'
-require 'faraday/request/gateway'
-require 'faraday/request/angellist_api_oauth'
-require 'faraday/response/raise_http_4xx'
-require 'faraday/response/raise_http_5xx'
+require 'angellist_api/request/multipart_with_file'
+require 'angellist_api/request/gateway'
+require 'angellist_api/request/angellist_api_oauth'
+require 'angellist_api/response/raise_http_4xx'
+require 'angellist_api/response/raise_http_5xx'
 
 module AngellistApi
   module Connection
@@ -25,17 +25,17 @@ module AngellistApi
       })
 
       Faraday.new(merged_options) do |builder|
-        builder.use Faraday::Request::MultipartWithFile
-        builder.use Faraday::Request::AngellistApiOAuth, authentication if authenticated?
+        builder.use AngellistApi::Request::MultipartWithFile
+        builder.use AngellistApi::Request::AngellistApiOAuth, authentication if authenticated?
         builder.use Faraday::Request::Multipart
         builder.use Faraday::Request::UrlEncoded
-        builder.use Faraday::Request::Gateway, gateway if gateway
-        builder.use Faraday::Response::RaiseHttp4xx
+        builder.use AngellistApi::Request::Gateway, gateway if gateway
+        builder.use AngellistApi::Response::RaiseHttp4xx
         unless options[:raw]
           builder.use Faraday::Response::Mashify
           builder.use Faraday::Response::ParseJson
         end
-        builder.use Faraday::Response::RaiseHttp5xx
+        builder.use AngellistApi::Response::RaiseHttp5xx
         builder.adapter(adapter)
       end
     end
