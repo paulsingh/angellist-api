@@ -11,6 +11,7 @@ module AngellistApi
     # Client-namespaced.
     require 'angellist_api/client/activity_feeds'
     require 'angellist_api/client/follows'
+    require 'angellist_api/client/jobs'
     require 'angellist_api/client/reviews'
     require 'angellist_api/client/startups'
     require 'angellist_api/client/startup_roles'
@@ -22,6 +23,7 @@ module AngellistApi
 
     include AngellistApi::Client::ActivityFeeds
     include AngellistApi::Client::Follows
+    include AngellistApi::Client::Jobs
     include AngellistApi::Client::Reviews
     include AngellistApi::Client::Startups
     include AngellistApi::Client::StartupRoles

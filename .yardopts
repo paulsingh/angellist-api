@@ -1,0 +1,7 @@
+--markup markdown
+--tag requires_authentication:"Requires Authentication?"
+--tag paginated:"Paginated?"
+-
+CHANGELOG.md
+MIT-LICENSE
+

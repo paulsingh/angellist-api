@@ -1,6 +1,7 @@
 ## Master
 
 - Added available batch endpoints (users, startups, follows).
+- Added jobs endpoints.
 - Integration specs added using VCR, for unauthenticated calls so far.
 - Backported several changes from Twitter gem which was our genesis.
 - YARD cleanup.
