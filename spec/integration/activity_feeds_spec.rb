@@ -16,5 +16,12 @@ describe AngellistApi::Client::ActivityFeeds do
       TYPES.should include activity.item.type
     end
   end
+
+  it 'gets a single Activity Feed entry' do
+    activity = client.feed_item('8fCC3')
+    activity.should have_key :item
+    activity.should have_key :actor
+    activity.should have_key :target
+  end
 end
 

@@ -16,6 +16,19 @@ module AngellistApi
         get("1/startups/#{id}")
       end
 
+      # Returns the comments on the given startup.
+      #
+      # @requires_authentication Optional
+      # @paginated No
+      #
+      # @param id [Integer] ID of the desired startup.
+      #
+      # @example Get comments left about a startup with ID 1234.
+      #   AngellistApi.startup_comments(1234)
+      def startup_comments(id)
+        get("1/startups/#{id}/comments")
+      end
+
       # Returns up to 50 startups at a time, given an Array of ids.
       #
       # @requires_authentication Optional

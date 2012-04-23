@@ -213,4 +213,61 @@ http_interactions:
         is a web and mobile based peer to peer lending technology."},"extra":null,"promoted_by":[],"likes":0,"comments":0}],"total":200,"per_page":25,"page":1,"last_page":8}'
     http_version: !!null 
   recorded_at: Sun, 22 Apr 2012 00:34:46 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/feed/8fCC3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Mon, 23 Apr 2012 08:23:49 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '995'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '253'
+      etag:
+      - ! '"f1be28c6b52242fc4dcd03f45cff4a5a"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"id":"8fCC3","timestamp":"2012-04-23T05:48:35Z","item":{"type":"StartupRole","ids":[214219]},"description":"<a
+        href=\"http://angel.co/howard-marks-2\" class=\"feed_link\" data-id=\"28282\"
+        data-type=\"User\">Howard Marks</a> invested in <a href=\"http://angel.co/betteryou\"
+        class=\"feed_link\" data-id=\"64292\" data-type=\"Startup\">BetterYou</a>''s
+        previous round","text":null,"actor":{"type":"User","id":28282,"name":"Howard
+        Marks","image":"https://s3.amazonaws.com/photos.angel.co/users/28282-medium?1320429093","angellist_url":"http://angel.co/howard-marks-2","tagline":"co-founder
+        Activision ATVI $14B cap, founder Acclaim Games (sold to Playdom).  Founder
+        and co-chair Start Engine LA''s largest accelerator."},"target":{"type":"Startup","id":64292,"name":"BetterYou","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/64292-1a6b9b3d5bed81266b07ea3c846442b4-thumb.jpg","angellist_url":"http://angel.co/betteryou","tagline":"Elance
+        for Wellness Providers"},"extra":null,"promoted_by":[],"likes":0,"comments":0}'
+    http_version: !!null 
+  recorded_at: Mon, 23 Apr 2012 08:23:49 GMT
 recorded_with: VCR 2.1.0

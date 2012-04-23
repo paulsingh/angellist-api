@@ -11,6 +11,14 @@ describe AngellistApi::Client::Startups do
     end
   end
 
+  describe '#startup_comments' do
+    it 'gets 1/startups/<id>/comments' do
+      id = 123
+      client.should_receive(:get).with("1/startups/#{id}/comments").and_return('success')
+      client.startup_comments(id).should eq 'success'
+    end
+  end
+
   describe '#get_startups' do
     it 'gets 1/startups/batch' do
       ids = [1, 2, 3]

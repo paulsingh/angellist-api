@@ -10,6 +10,13 @@ describe AngellistApi::Client::Startups do
     startup.angellist_url.should eq 'http://angel.co/500-startups-fund'
   end
 
+  it 'gets comments about a startup' do
+    comments = client.startup_comments(1124)
+    comments.should be_an Array
+    comments.first.should have_key :comment
+    comments.first.should have_key :user
+  end
+
   it 'gets startups in batch' do
     startups = client.get_startups [1124, 31627]
     startups.first.name.should eq '500 Startups (Fund)'

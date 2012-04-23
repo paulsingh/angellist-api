@@ -379,4 +379,154 @@ http_interactions:
         for a short term sublet?","created_at":"2012-03-27T20:53:40Z"},"screenshots":[]}]'
     http_version: !!null 
   recorded_at: Sun, 22 Apr 2012 04:30:31 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/startups/1124/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Mon, 23 Apr 2012 08:14:29 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '998'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '306'
+      etag:
+      - ! '"a83cde0a6c6ffbce894d5905dea33248"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '[{"id":17725,"comment":"Often the greatest help entrepreneurs can
+        get is the confidence, support and appreciation that what they strive for
+        matters and can be achieved. At 500 you will never feel alone and your resolve
+        will be fortified with equal amounts education, connections, and most importantly
+        love for what you do. ","created_at":"2012-04-06T15:15:30Z","user":{"name":"Marcus
+        Ogawa","id":1329,"bio":"Managing Partner of early stage VC firm Quest Venture
+        Partners. Board member and major investor at Qik (sold to Skype), investor
+        in Tapulous (sold to Disney). ","follower_count":934,"angellist_url":"http://angel.co/marcusogawa","image":"https://s3.amazonaws.com/photos.angel.co/users/1329-medium?1294803892"}},{"id":17728,"comment":"I''m
+        a (small) investor in Fund I, a mentor to their 500 startups, but most importantly,
+        I consider myself a friend to Dave, the team, and their vision. My favorite
+        comment is hearing from those who say - these guys don''t know what they are
+        doing. They are just spray and pray. Team 500 funds businesses. They have
+        a keen eye for what everyone wants - businesses with a model that can use
+        their future funding to scale. It only looks scattered, but that is only to
+        throw others off their scent.","created_at":"2012-04-06T15:56:27Z","user":{"name":"Jay
+        Weintraub","id":2726,"bio":"CEO and Founder, NextCustomer, Inc., organizers
+        of LeadsCon & Daily Deal Summit conference series.","follower_count":1356,"angellist_url":"http://angel.co/jayweintraub","image":"https://s3.amazonaws.com/photos.angel.co/users/2726-medium?1294804173"}},{"id":17733,"comment":"Nobody
+        hustles like Dave and team 500. I''m grateful for having had Dave on our board
+        at TeachStreet, and proud to put my money behind Fund 1 and this team''s passion
+        and vision.  ","created_at":"2012-04-06T16:53:36Z","user":{"name":"Daryn Nakhuda","id":27405,"bio":"15
+        years of tech roles at startups, currently at AmazonLocal. Co-founder of Eyejot.
+        Investor in TeachStreet, WillCall, Belle Clementine, 500 Startups (fund)","follower_count":392,"angellist_url":"http://angel.co/daryn","image":"https://s3.amazonaws.com/photos.angel.co/users/27405-medium?1303023798"}},{"id":17734,"comment":"Dave
+        and team have built an incredibly strong startup community with awesome people
+        from all around the world. Being funded by 500S automatically adds value to
+        a startup, due to the tremendous support they will receive from the very active
+        network of mentors and founders. As a result they have no trouble attracting
+        the best startups to the fund. (I''m a mentor at 500 Startups)","created_at":"2012-04-06T16:54:38Z","user":{"name":"Ryan
+        Junee","id":4171,"bio":"Founder/CEO Inporia, Founder/CEO Omnisio (sold to
+        Google), Mentor at 500 Startups, Mentor at StartMate.  Love startups and technology.","follower_count":1086,"angellist_url":"http://angel.co/rjunee","image":"https://s3.amazonaws.com/photos.angel.co/users/4171-medium?1294804605"}},{"id":17740,"comment":"I
+        have been around many funds in my life, and 500 combines passion, leadership,
+        resources and a network in a way that no other fund does. Additionally, Dave''s
+        investment thesis has created a new style of investment that allows increased
+        deal flow and improved deal selection.","created_at":"2012-04-06T17:52:06Z","user":{"name":"Micah
+        Baldwin","id":588,"bio":"Founder Graphicly. Multiple Entrepreneur. Mentor
+        at Techstars & 500startups. Startup Doer and Advisor.","follower_count":1316,"angellist_url":"http://angel.co/micah","image":"https://s3.amazonaws.com/photos.angel.co/users/588-medium?1313516610"}},{"id":17773,"comment":"ZOZI''s
+        a portfolio company of 500 Startups and I''m a mentor to the accelerator companies.  For
+        as much as Dave has going on, he''s amazingly available and helpful, always
+        picks up, calls back, and engages.  Pretty sure he''s cloned himself - which
+        would explain why he curses so much.","created_at":"2012-04-07T02:30:26Z","user":{"name":"TJ
+        Sassani","id":33188,"bio":"CEO Zozi","follower_count":7,"angellist_url":"http://angel.co/tj-sassani","image":"http://angel.co/images/nopic.png"}},{"id":17830,"comment":"I''ve
+        watched Dave and team first hand make a number of very smart investments in
+        an incredible diversity of sectors. By open sourcing the knowledge of the
+        network, he''s and the team area able to move incredibly well under today''s
+        very time-sensitive requirements.","created_at":"2012-04-08T21:23:21Z","user":{"name":"Ted
+        Rheingold","id":10890,"bio":"Founding CEO Dogster/Catster (sold to Say Media)
+        and OneMatchFire(.com). Community. Product. Business. Start-up advisor, investor,
+        mentor.\n","follower_count":1000,"angellist_url":"http://angel.co/trheingold","image":"https://s3.amazonaws.com/photos.angel.co/users/10890-medium?1298836698"}},{"id":17843,"comment":"Dave
+        was one of TeachStreet''s earliest investors, a fantastic Board member, and
+        the 500Startups fund stepped in when we needed them.  I''m a massive fan,
+        and look forward to investing in the next fund if/when it appears.  Great
+        for startups and entrepreneurs, and my bet is great returns for investors.","created_at":"2012-04-09T02:49:26Z","user":{"name":"Dave
+        Schappell","id":3170,"bio":"Director of Product, AmazonLocal. Former founder
+        and CEO, TeachStreet","follower_count":564,"angellist_url":"http://angel.co/daveschappell","image":"https://s3.amazonaws.com/photos.angel.co/users/3170-medium?1294804269"}},{"id":17886,"comment":"We
+        are a portfolio company - Paul and Dave are the best early stage investors
+        anyone could hope for.  They are supportive, resourceful and fair.  While
+        $$ is important, the 500 network of founders and mentors is worth more.  I
+        also look forward to being an investor in Fund 2.","created_at":"2012-04-09T18:34:45Z","user":{"name":"Dazhi
+        Chen","id":24852,"bio":"CEO/Co-founder of Relevant. Founded + sold Tribeca
+        Insights. MSD Capital, Microsoft. Caltech, HBS.","follower_count":446,"angellist_url":"http://angel.co/tigerchen","image":"https://s3.amazonaws.com/photos.angel.co/users/24852-medium?1306174170"}},{"id":17889,"comment":"I''ve
+        been a mentor for 500 Startups since the fund first launched. It''s been an
+        honor and a pleasure to be associated with such an amazing group of people.
+        I think the approach that Dave & Co are taking towards the traditional funding
+        model makes a ton of sense and we''re already seeing how effective it can
+        be to find and fund the right companies. Really excited to continue to watch
+        this grow and continue to play a small role.","created_at":"2012-04-09T18:47:02Z","user":{"name":"Brenden
+        Mulligan","id":12431,"bio":"Entrepreneur, Designer, Developer. Creator of
+        Onesheet, TipList, MorningPics, PhotoPile, ArtistData (acquired), 500Startups
+        mentor.","follower_count":554,"angellist_url":"http://angel.co/mulligan","image":"https://s3.amazonaws.com/photos.angel.co/users/12431-medium?1325658149"}},{"id":17944,"comment":"Amazing
+        team and vision for how early stage investing should be done. Also love the
+        international focus. ","created_at":"2012-04-10T02:03:24Z","user":{"name":"Arjun
+        Dev Arora","id":3376,"bio":"Founder and CEO Retargeter. Bus Dev & Strategy
+        at Yahoo. Investment Banker at Jefferies","follower_count":736,"angellist_url":"http://angel.co/arjun","image":"https://s3.amazonaws.com/photos.angel.co/users/3376-medium?1303330549"}},{"id":18134,"comment":"Love
+        the 500S model and have known Dave for close to 20 years.  He was a student
+        of mine in the mid 90''s.","created_at":"2012-04-12T05:13:26Z","user":{"name":"Steve
+        Bennet","id":946,"bio":"Start-up CFO, Angel Investor and Professor","follower_count":1182,"angellist_url":"http://angel.co/sbennet","image":"https://s3.amazonaws.com/photos.angel.co/users/946-medium?1294803810"}},{"id":18433,"comment":"Share
+        personal experiences and learn perspectives","created_at":"2012-04-16T20:42:05Z","user":{"name":"Venu
+        Chillarige","id":117005,"bio":"Vice President at Dart Business Solutions.
+        Entrepreneur with strong background in business strategy and IT. I love starting,
+        growing & advising companies. ","follower_count":0,"angellist_url":"http://angel.co/venu-chillarige","image":"https://s3.amazonaws.com/photos.angel.co/users/117005-medium?1334270455"}},{"id":18489,"comment":"Dave
+        McClure is brilliant and genuinely cares about entrepreneurs like they were
+        part of his family. The way he''s executed on creating a global network with
+        Fund 1 is remarkable and just the beginning with Fund 2. I think a lot of
+        people can confuse Dave''s outward PR persona with the real Dave who''s truly
+        generous and is one of the hardest working role models I''ve ever had in my
+        life. He''s intentionally designing the 500S brand to represent fun, family
+        and meaningful emotional connections between people that will last for the
+        long run. Sure he can''t answer every email because that doesn''t scale but
+        he''s building a great team and community driven brand that is scaling. Christine
+        Tsai is doing great work to cultivate a phenomenal mentor network and distribution
+        platform relationships. Paul Singh is building game changing internal tools
+        and applying many of the same data informed principles we expect of startups
+        onto VC. Christen O''Brien is crafting amazing experiences through events
+        and partnerships that continue to attract the best entrepreneurs to 500S worldwide...This
+        is the inflection point you want to invest in as an LP.","created_at":"2012-04-17T07:55:58Z","user":{"name":"Enrique
+        Allen","id":62554,"bio":"Founding member of the Designer Fund & 500 Startups.
+        Previously Facebook Fund & Venrock. Teach at Stanford design school & former
+        Stanford Persuasive Tech Lab.","follower_count":644,"angellist_url":"http://angel.co/enrique-allen","image":"https://s3.amazonaws.com/photos.angel.co/users/62554-medium?1317614459"}},{"id":18498,"comment":"The
+        mentor community at 500 is outstanding, Dave has amazing credibility (and
+        deservedly so) with founders, and the 500 family has attracted and continues
+        to attract very strong companies.","created_at":"2012-04-17T13:05:41Z","user":{"name":"Roy
+        Rodenstein","id":559,"bio":"Co-founder & CEO, SocMetrics. Co-founder HackerAngels,
+        Going.com (acquired by AOL). MIT Media Lab 2000.","follower_count":888,"angellist_url":"http://angel.co/royrod","image":"https://s3.amazonaws.com/photos.angel.co/users/559-medium?1314663574"}}]'
+    http_version: !!null 
+  recorded_at: Mon, 23 Apr 2012 08:14:29 GMT
 recorded_with: VCR 2.1.0

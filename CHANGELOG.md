@@ -2,6 +2,8 @@
 
 - Added available batch endpoints (users, startups, follows).
 - Added jobs endpoints.
+- Filled in a few gaps: startup comments and single activity feed item
+  endpoints.
 - Integration specs added using VCR, for unauthenticated calls so far.
 - Backported several changes from Twitter gem which was our genesis.
 - YARD cleanup.

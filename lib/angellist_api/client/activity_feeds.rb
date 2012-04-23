@@ -23,6 +23,17 @@ module AngellistApi
         get("1/feed", options)
       end
 
+      # Returns a specific activity feed item.
+      #
+      # @requires_authentication No
+      #
+      # @param id [String] String ID of the feed item to retrieve.
+      #
+      # @example Get a feed item.
+      #   AngellistApi.feed_item('8fCC3')
+      def feed_item(id)
+        get("1/feed/#{id}")
+      end
     end
   end
 end
