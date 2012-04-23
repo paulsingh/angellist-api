@@ -1,0 +1,169 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.angel.co/1/search?query=machine%2Blearning
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Mon, 23 Apr 2012 09:26:28 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '996'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '308'
+      etag:
+      - ! '"4f62b2c8498567d7b80ef7f86055882f"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '[{"id":92,"pic":"/images/icons/market.png","url":"http://angel.co/machine-learning","name":"Machine
+        Learning","type":"MarketTag"},{"id":420,"pic":"https://s3.amazonaws.com/photos.angel.co/users/420-medium?1308183745","url":"http://angel.co/hammer","name":"Jeff
+        Hammerbacher","type":"User"},{"id":97,"pic":"https://s3.amazonaws.com/photos.angel.co/users/97-medium?1294803512","url":"http://angel.co/rbpasker","name":"Bob
+        Pasker","type":"User"},{"id":9861,"pic":"https://s3.amazonaws.com/photos.angel.co/users/9861-medium?1307870800","url":"http://angel.co/jason-a-hoffman","name":"Jason
+        A. Hoffman","type":"User"},{"id":309,"pic":"https://s3.amazonaws.com/photos.angel.co/users/309-medium?1294803622","url":"http://angel.co/eghosao","name":"Eghosa
+        Omoigui","type":"User"},{"id":110263,"pic":"https://s3.amazonaws.com/photos.angel.co/users/110263-medium?1332809483","url":"http://angel.co/tomer-london","name":"Tomer
+        London","type":"User"},{"id":556,"pic":"https://s3.amazonaws.com/photos.angel.co/users/556-medium?1297748606","url":"http://angel.co/tonsing","name":"Raymond
+        Tonsing","type":"User"},{"id":93,"pic":"https://s3.amazonaws.com/photos.angel.co/users/93-medium?1294886960","url":"http://angel.co/simeons","name":"Simeon
+        Simeonov","type":"User"}]'
+    http_version: !!null 
+  recorded_at: Mon, 23 Apr 2012 09:26:29 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/search?type=User&query=Joshua%2BSlayton
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Mon, 23 Apr 2012 09:26:30 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '995'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '88'
+      etag:
+      - ! '"94d6f098b041bdc36443c74abd71264b"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '[{"id":671,"pic":"https://s3.amazonaws.com/photos.angel.co/users/671-medium?1321649923","url":"http://angel.co/joshuaxls","name":"Joshua
+        Slayton","type":"User"}]'
+    http_version: !!null 
+  recorded_at: Mon, 23 Apr 2012 09:26:30 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/search?type=User&query=joshua
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.1
+  response:
+    status:
+      code: 200
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Mon, 23 Apr 2012 09:28:26 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '994'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '184'
+      etag:
+      - ! '"3f68a42fc1f2f9c1201c229a34b5fcc6"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '[{"id":108,"pic":"https://s3.amazonaws.com/photos.angel.co/users/108-medium?1294803521","url":"http://angel.co/joshu","name":"Joshua
+        Schachter","type":"User"},{"id":671,"pic":"https://s3.amazonaws.com/photos.angel.co/users/671-medium?1321649923","url":"http://angel.co/joshuaxls","name":"Joshua
+        Slayton","type":"User"},{"id":84,"pic":"https://s3.amazonaws.com/photos.angel.co/users/84-medium?1315252032","url":"http://angel.co/joshuabaer","name":"Joshua
+        Baer","type":"User"},{"id":3124,"pic":"https://s3.amazonaws.com/photos.angel.co/users/3124-medium?1329252532","url":"http://angel.co/joshuareeves","name":"Joshua
+        Reeves","type":"User"},{"id":1317,"pic":"https://s3.amazonaws.com/photos.angel.co/users/1317-medium?1294803889","url":"http://angel.co/joshuakushner","name":"Joshua
+        Kushner","type":"User"},{"id":106020,"pic":"https://s3.amazonaws.com/photos.angel.co/users/106020-medium?1331682049","url":"http://angel.co/joshua-walker","name":"Joshua
+        Walker","type":"User"},{"id":4259,"pic":"https://s3.amazonaws.com/photos.angel.co/users/4259-medium?1294804634","url":"http://angel.co/jmckenty","name":"Joshua
+        McKenty","type":"User"},{"id":11695,"pic":"https://s3.amazonaws.com/photos.angel.co/users/11695-medium?1298938257","url":"http://angel.co/joshua-march","name":"Joshua
+        March","type":"User"},{"id":44830,"pic":null,"url":"http://angel.co/joshua-o-connor","name":"Joshua
+        O''Connor","type":"User"},{"id":19545,"pic":"https://s3.amazonaws.com/photos.angel.co/users/19545-medium?1305563829","url":"http://angel.co/jkonowe","name":"Joshua
+        Konowe","type":"User"}]'
+    http_version: !!null 
+  recorded_at: Mon, 23 Apr 2012 09:28:26 GMT
+recorded_with: VCR 2.1.0

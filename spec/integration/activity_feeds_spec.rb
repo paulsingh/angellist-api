@@ -3,8 +3,10 @@ require 'spec_helper'
 describe AngellistApi::Client::ActivityFeeds do
   use_vcr_cassette 'activity_feeds'
 
-  TYPES = %w[Comment Follow Review StartupIntro StartupPublish StartupRole StatusUpdate Update].freeze
   let(:client) { AngellistApi::Client.new }
+  let(:valid_types) do
+    %w[Comment Follow Review StartupIntro StartupPublish StartupRole StatusUpdate Update].freeze
+  end
 
   it 'fetches Activity Feed entries' do
     client.get_feed.should be_an_instance_of Hashie::Mash
@@ -13,7 +15,7 @@ describe AngellistApi::Client::ActivityFeeds do
   it 'wraps API item types' do
     feed = client.get_feed[:feed]
     feed.each do |activity|
-      TYPES.should include activity.item.type
+      valid_types.should include activity.item.type
     end
   end
 

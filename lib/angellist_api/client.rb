@@ -1,3 +1,4 @@
+require 'cgi'
 require 'angellist_api/api'
 
 module AngellistApi
@@ -13,6 +14,7 @@ module AngellistApi
     require 'angellist_api/client/follows'
     require 'angellist_api/client/jobs'
     require 'angellist_api/client/reviews'
+    require 'angellist_api/client/search'
     require 'angellist_api/client/startups'
     require 'angellist_api/client/startup_roles'
     require 'angellist_api/client/status_updates'
@@ -25,6 +27,7 @@ module AngellistApi
     include AngellistApi::Client::Follows
     include AngellistApi::Client::Jobs
     include AngellistApi::Client::Reviews
+    include AngellistApi::Client::Search
     include AngellistApi::Client::Startups
     include AngellistApi::Client::StartupRoles
     include AngellistApi::Client::StatusUpdates

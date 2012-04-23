@@ -2,6 +2,7 @@
 
 - Added available batch endpoints (users, startups, follows).
 - Added jobs endpoints.
+- Added search endpoint.
 - Filled in a few gaps: startup comments and single activity feed item
   endpoints.
 - Integration specs added using VCR, for unauthenticated calls so far.
