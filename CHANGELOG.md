@@ -1,5 +1,9 @@
 ## Master
 
+## 1.0.2 - 30 July, 2012
+
+- Loosen dependency requirements for faraday and multi_json, so we don't
+  conflict with newer versions of other API gems like Twitter.
 - Added available batch endpoints (users, startups, follows).
 - Added jobs endpoints.
 - Added search endpoint.
