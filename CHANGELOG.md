@@ -6,6 +6,7 @@
   conflict with newer versions of other API gems like Twitter.
 - Added available batch endpoints (users, startups, follows).
 - Added jobs endpoints.
+- Added press endpoint.
 - Added search endpoint.
 - Filled in a few gaps: startup comments and single activity feed item
   endpoints.
