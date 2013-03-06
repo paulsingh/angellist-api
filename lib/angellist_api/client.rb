@@ -13,6 +13,7 @@ module AngellistApi
     require 'angellist_api/client/activity_feeds'
     require 'angellist_api/client/follows'
     require 'angellist_api/client/jobs'
+    require 'angellist_api/client/messages'
     require 'angellist_api/client/press'
     require 'angellist_api/client/reviews'
     require 'angellist_api/client/search'
@@ -27,6 +28,7 @@ module AngellistApi
     include AngellistApi::Client::ActivityFeeds
     include AngellistApi::Client::Follows
     include AngellistApi::Client::Jobs
+    include AngellistApi::Client::Messages
     include AngellistApi::Client::Press
     include AngellistApi::Client::Reviews
     include AngellistApi::Client::Search
