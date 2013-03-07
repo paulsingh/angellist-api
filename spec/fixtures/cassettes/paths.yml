@@ -1,0 +1,266 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.angel.co/1/paths?user_ids=1274
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.2
+      Authorization:
+      - Bearer <ANGELLIST_ACCESS_TOKEN>
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      cache-control:
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
+      content-type:
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      date:
+      - !binary |-
+        U3VuLCAxMCBNYXIgMjAxMyAyMTozMTowOCBHTVQ=
+      etag:
+      - !binary |-
+        ImM0ZGNhZWJmNWVhZjM3MmU1ZjJjNTNlOWQ5ZDY5ZGViIg==
+      server:
+      - !binary |-
+        bmdpbng=
+      status:
+      - !binary |-
+        MjAwIE9L
+      vary:
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      x-ratelimit-limit:
+      - !binary |-
+        MjAwMA==
+      x-ratelimit-remaining:
+      - !binary |-
+        MjAwMA==
+      x-runtime:
+      - !binary |-
+        MTE3
+      transfer-encoding:
+      - !binary |-
+        Y2h1bmtlZA==
+      connection:
+      - !binary |-
+        Q2xvc2U=
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "1274": [
+            [
+              {
+                "connector": {
+                  "id": 65956,
+                  "type": "User",
+                  "name": "Ches Martin",
+                  "image": "https://s3.amazonaws.com/photos.angel.co/users/65956-medium_jpg?1318831341",
+                  "angellist_url": "https://angel.co/ches"
+                },
+                "connection": {
+                  "type": "explicit",
+                  "via": null,
+                  "in": null,
+                  "out": null
+                }
+              },
+              {
+                "connector": {
+                  "id": 1274,
+                  "type": "User",
+                  "name": "Paul Singh",
+                  "image": "https://s3.amazonaws.com/photos.angel.co/users/1274-medium_jpg?1359423366",
+                  "angellist_url": "https://angel.co/paulsingh"
+                },
+                "connection": {
+                  "type": null,
+                  "via": null,
+                  "in": null,
+                  "out": null
+                }
+              }
+            ], [
+              {
+                "connector": {
+                  "id": 65956,
+                  "type": "User",
+                  "name": "Ches Martin",
+                  "image": "https://s3.amazonaws.com/photos.angel.co/users/65956-medium_jpg?1318831341",
+                  "angellist_url": "https://angel.co/ches"
+                },
+                "connection": {
+                  "type": "explicit",
+                  "via": null,
+                  "in": null,
+                  "out": null
+                }
+              },
+              {
+                "connector": {
+                  "id": 12431,
+                  "type": "User",
+                  "name": "Brenden Mulligan",
+                  "image": "https://s3.amazonaws.com/photos.angel.co/users/12431-medium_jpg?1325658149",
+                  "angellist_url": "https://angel.co/mulligan"
+                },
+                "connection": {
+                  "type": "startup_role",
+                  "via": {
+                    "id": 15762,
+                    "type": "Startup",
+                    "name": "WillCall",
+                    "image": "https://s3.amazonaws.com/photos.angel.co/startups/i/15762-eba2e37a308bc4faf3949312efe57a6a-thumb_jpg.jpg?buster=1331066434",
+                    "angellist_url": "https://angel.co/willcall"
+                  },
+                  "in": "advisor",
+                  "out": "past_investor"
+                }
+              },
+              {
+                "connector": {
+                  "id": 1274,
+                  "type": "User",
+                  "name": "Paul Singh",
+                  "image":  "https://s3.amazonaws.com/photos.angel.co/users/1274-medium_jpg?1359423366",
+                  "angellist_url": "https://angel.co/paulsingh"
+                },
+                "connection": {
+                  "type": null,
+                  "via": null,
+                  "in": null,
+                  "out": null
+                }
+              }
+            ]
+          ]
+        }
+    http_version: 
+  recorded_at: Sun, 10 Mar 2013 21:31:08 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/paths?startup_ids=76155
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.2
+      Authorization:
+      - Bearer <ANGELLIST_ACCESS_TOKEN>
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      cache-control:
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
+      content-type:
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      date:
+      - !binary |-
+        U3VuLCAxMCBNYXIgMjAxMyAyMzoxNTozNyBHTVQ=
+      etag:
+      - !binary |-
+        IjBkNTQ1NmViNjk2YmUxMjliZjliYjcwMzE3YWNkMWQ4Ig==
+      server:
+      - !binary |-
+        bmdpbng=
+      status:
+      - !binary |-
+        MjAwIE9L
+      vary:
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      x-ratelimit-limit:
+      - !binary |-
+        MjAwMA==
+      x-ratelimit-remaining:
+      - !binary |-
+        MTk5OA==
+      x-runtime:
+      - !binary |-
+        MTM5
+      transfer-encoding:
+      - !binary |-
+        Y2h1bmtlZA==
+      connection:
+      - !binary |-
+        Q2xvc2U=
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "76155": [
+            [
+              {
+                "connector": {
+                  "id": 65956,
+                  "type": "User",
+                  "name": "Ches Martin",
+                  "image": "https://s3.amazonaws.com/photos.angel.co/users/65956-medium_jpg?1318831341",
+                  "angellist_url": "https://angel.co/ches"
+                },
+                "connection": {
+                  "type": "explicit",
+                  "via": null,
+                  "in": null,
+                  "out": null
+                }
+              },
+              {
+                "connector": {
+                  "id": 6120,
+                  "type": "User",
+                  "name": "Ed Roman",
+                  "image":  "https://s3.amazonaws.com/photos.angel.co/users/6120-medium_jpg?1300500084",
+                  "angellist_url": "https://angel.co/edro"
+                },
+                "connection": {
+                  "type": "startup_role",
+                  "via": {
+                    "id": 76155,
+                    "type": "Startup",
+                    "name": "Precog",
+                    "image": "https://s3.amazonaws.com/photos.angel.co/startups/i/76155-a20caa2b50a9be81f9afec7b9c018c59-thumb_jpg.jpg?buster=1331733354",
+                    "angellist_url": "https://angel.co/precog"
+                  },
+                  "in": "referrer",
+                  "out": "referrer"
+                }
+              },
+              {
+                "connector": {
+                  "id": 76155,
+                  "type": "Startup",
+                  "name": "Precog",
+                  "image": "https://s3.amazonaws.com/photos.angel.co/startups/i/76155-a20caa2b50a9be81f9afec7b9c018c59-thumb_jpg.jpg?buster=1331733354",
+                  "angellist_url": "https://angel.co/precog"
+                },
+                "connection": {
+                  "type": null,
+                  "via": null,
+                  "in": null,
+                  "out": null
+                }
+              }
+            ]
+          ]
+        }
+    http_version: 
+  recorded_at: Sun, 10 Mar 2013 23:15:38 GMT
+recorded_with: VCR 2.4.0
