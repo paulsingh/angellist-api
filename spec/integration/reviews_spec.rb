@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Reviews do
-  use_vcr_cassette 'reviews'
+describe AngellistApi::Client::Reviews,
+  :vcr => { :cassette_name => 'reviews' } do
 
   let(:client) { AngellistApi::Client.new }
 

@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::StatusUpdates do
-  use_vcr_cassette 'status_updates'
+describe AngellistApi::Client::StatusUpdates,
+  :vcr => { :cassette_name => 'status_updates' } do
 
   let(:client) { AngellistApi::Client.new }
 

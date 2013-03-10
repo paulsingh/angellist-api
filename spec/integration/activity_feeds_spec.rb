@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::ActivityFeeds do
-  use_vcr_cassette 'activity_feeds'
+describe AngellistApi::Client::ActivityFeeds,
+  :vcr => { :cassette_name => 'activity_feeds' } do
 
   let(:client) { AngellistApi::Client.new }
   let(:valid_types) do

@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Startups do
-  use_vcr_cassette 'press'
+describe AngellistApi::Client::Press,
+  :vcr => { :cassette_name => 'press' } do
 
   let(:client) { AngellistApi::Client.new }
 
@@ -12,3 +12,4 @@ describe AngellistApi::Client::Startups do
     press.first.should have_key :url
   end
 end
+

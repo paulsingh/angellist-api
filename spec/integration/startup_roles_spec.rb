@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::StartupRoles do
-  use_vcr_cassette 'startup_roles'
+describe AngellistApi::Client::StartupRoles,
+  :vcr => { :cassette_name => 'startup_roles' } do
 
   ROLES = %w[founder employee past_investor advisor incubator referrer]
   let(:client) { AngellistApi::Client.new }

@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Search do
-  use_vcr_cassette 'search'
+describe AngellistApi::Client::Search,
+  :vcr => { :cassette_name => 'search' } do
 
   let(:client) { AngellistApi::Client.new }
   let(:valid_types) { %w[User Startup MarketTag LocationTag].freeze }

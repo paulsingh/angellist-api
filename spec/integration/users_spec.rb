@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Users do
-  use_vcr_cassette 'users'
+describe AngellistApi::Client::Users,
+  :vcr => { :cassette_name => 'users' } do
 
   let(:client) { AngellistApi::Client.new }
 
