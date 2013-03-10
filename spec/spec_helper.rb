@@ -5,8 +5,6 @@ require 'rspec'
 require 'angellist_api'
 require 'timecop'
 
-Dir['./spec/support/**/*.rb'].each { |f| require f }
-
 RSpec.configure do |config|
   config.mock_with :rspec
 
@@ -15,4 +13,6 @@ RSpec.configure do |config|
   config.color_enabled = true
   config.treat_symbols_as_metadata_keys_with_true_values = true
 end
+
+Dir['./spec/support/**/*.rb'].each { |f| require f }
 

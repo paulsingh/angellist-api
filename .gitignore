@@ -1,4 +1,5 @@
 .bundle/
+.env
 *.gem
 log/*.log
 pkg/

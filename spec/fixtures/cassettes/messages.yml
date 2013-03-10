@@ -1,0 +1,100 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.angel.co/1/messages
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.2
+      Authorization:
+      - Bearer <ANGELLIST_ACCESS_TOKEN>
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      cache-control:
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
+      content-type:
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      date:
+      - !binary |-
+        U3VuLCAxMCBNYXIgMjAxMyAxODowNzozMSBHTVQ=
+      etag:
+      - !binary |-
+        IjRjYTk5YmRiODgxNGM5MGI2N2I3NTc4NjI3ZTM1M2VmIg==
+      server:
+      - !binary |-
+        bmdpbng=
+      status:
+      - !binary |-
+        MjAwIE9L
+      vary:
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      x-ratelimit-limit:
+      - !binary |-
+        MjAwMA==
+      x-ratelimit-remaining:
+      - !binary |-
+        MjAwMA==
+      x-runtime:
+      - !binary |-
+        NDI=
+      !binary "Y29udGVudC1sZW5ndGg=":
+      - !binary |-
+        ODQy
+      connection:
+      - !binary |-
+        Q2xvc2U=
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "messages": [
+            {
+              "users": [
+                {
+                  "name": "Ches Martin",
+                  "id": 65956,
+                  "bio": "typing one-line bios is one of my hobbies. I'm not very good at it, hence I don't do it professionally.",
+                  "follower_count": 43,
+                  "angellist_url": "https://angel.co/ches",
+                  "image": "https://s3.amazonaws.com/photos.angel.co/users/65956-medium_jpg?1318831341"
+                }, {
+                  "name": "Paul Singh",
+                  "id": 1274,
+                  "bio": "Partner at 500 Startups",
+                  "follower_count": 5457,
+                  "angellist_url": "https://angel.co/paulsingh",
+                  "image": "https://s3.amazonaws.com/photos.angel.co/users/1274-medium_jpg?1359423366"
+                }
+              ],
+              "total": 1,
+              "viewed": true,
+              "thread_id": 1234,
+              "last_message": {
+                "id": 4321,
+                "body": "Paul, it will be glorious, I tell you.",
+                "recipient_id": 1274,
+                "sender_id": 65956,
+                "created_at": "2013-03-11T03:53:30Z",
+                "viewed": true
+              }
+            }
+          ],
+          "total": 1,
+          "per_page": 50,
+          "page": 1,
+          "last_page": 1
+        }
+    http_version: 
+  recorded_at: Sun, 10 Mar 2013 18:07:32 GMT
+recorded_with: VCR 2.4.0
