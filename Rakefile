@@ -24,6 +24,6 @@ namespace :spec do
 end
 
 YARD::Rake::YardocTask.new do |t|
-  t.files   = ['lib/**/*.rb', 'README.md']
+  t.files   = ['lib/**/*.rb']
 end
 

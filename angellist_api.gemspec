@@ -21,11 +21,11 @@ Gem::Specification.new do |s|
   s.add_dependency 'faraday_middleware', '~> 0.7'
   s.add_dependency 'multi_json', '~> 1.0'
 
-  s.add_development_dependency "rdiscount", "~> 1.6.8"
-  s.add_development_dependency "rspec",     "~> 2.7.0"
-  s.add_development_dependency "simplecov", "~> 0.6.4"
-  s.add_development_dependency "timecop",   "~> 0.3.5"
-  s.add_development_dependency "vcr",       "~> 2.1.0"
-  s.add_development_dependency "yard",      "~> 0.7.3"
+  s.add_development_dependency "rdiscount", "~> 2.0"
+  s.add_development_dependency "rspec",     "~> 2.7"
+  s.add_development_dependency "simplecov", "~> 0.7"
+  s.add_development_dependency "timecop",   "~> 0.6"
+  s.add_development_dependency "vcr",       "~> 2.1"
+  s.add_development_dependency "yard",      "~> 0.8"
 end
 
