@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Messages, :authenticated,
+describe AngelList::Client::Messages, :authenticated,
   # Personal for authenticated account, manually maintained fixture
   :vcr => { :cassette_name => 'messages', :record => :none } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it 'gets all messages for a user' do
     messages = client.get_messages

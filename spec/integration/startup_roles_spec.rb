@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::StartupRoles,
+describe AngelList::Client::StartupRoles,
   :vcr => { :cassette_name => 'startup_roles' } do
 
   ROLES = %w[founder employee past_investor advisor incubator referrer]
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it "gets a startup's relationships" do
     roles = client.get_startup_roles(:startup_id => 1124)

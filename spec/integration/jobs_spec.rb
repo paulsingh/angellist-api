@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Jobs,
+describe AngelList::Client::Jobs,
   :vcr => { :cassette_name => 'jobs' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it 'gets a listing of jobs' do
     jobs = client.get_jobs

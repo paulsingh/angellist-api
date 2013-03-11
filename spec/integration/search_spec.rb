@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Search,
+describe AngelList::Client::Search,
   :vcr => { :cassette_name => 'search' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
   let(:valid_types) { %w[User Startup MarketTag LocationTag].freeze }
 
   it 'searches with a general query' do

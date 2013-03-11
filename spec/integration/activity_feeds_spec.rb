@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::ActivityFeeds,
+describe AngelList::Client::ActivityFeeds,
   :vcr => { :cassette_name => 'activity_feeds' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
   let(:valid_types) do
     %w[Comment Follow Review StartupIntro StartupPublish StartupRole StatusUpdate Update].freeze
   end

@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::StatusUpdates,
+describe AngelList::Client::StatusUpdates,
   :vcr => { :cassette_name => 'status_updates' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it 'gets status updates for a user' do
     statuses = client.get_status_updates(:user_id => 2850)

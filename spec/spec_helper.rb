@@ -2,7 +2,7 @@ require 'simplecov'
 SimpleCov.start
 
 require 'rspec'
-require 'angellist_api'
+require 'angel_list'
 require 'timecop'
 
 RSpec.configure do |config|

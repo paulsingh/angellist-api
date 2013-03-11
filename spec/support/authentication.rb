@@ -11,7 +11,7 @@ RSpec.configure do |config|
   end
 
   config.before(:each, :authenticated) do
-    AngellistApi.configure do |al|
+    AngelList.configure do |al|
       al.access_token = ENV['ANGELLIST_ACCESS_TOKEN']
     end
   end

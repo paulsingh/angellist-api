@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Reviews,
+describe AngelList::Client::Reviews,
   :vcr => { :cassette_name => 'reviews' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it 'gets reviews of a user' do
     reviews = client.get_reviews(:user_id => 2850)

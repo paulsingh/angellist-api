@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Follows,
+describe AngelList::Client::Follows,
   :vcr => { :cassette_name => 'follows' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it 'gets follows in batch' do
     follows = client.get_follows([4067161, 4067147])

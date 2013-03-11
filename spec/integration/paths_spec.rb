@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Paths, :authenticated,
+describe AngelList::Client::Paths, :authenticated,
   # Personal for authenticated account, manually maintained fixture
   :vcr => { :cassette_name => 'paths', :record => :none } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   context 'when requesting by user IDs' do
     let(:paths) { client.get_paths(:user_ids => [1274]) }

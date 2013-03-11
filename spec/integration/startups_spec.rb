@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Startups,
+describe AngelList::Client::Startups,
   :vcr => { :cassette_name => 'startups' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it 'gets information about a startup' do
     startup = client.get_startup(1124)

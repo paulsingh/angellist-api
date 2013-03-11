@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Tags,
+describe AngelList::Client::Tags,
   :vcr => { :cassette_name => 'tags' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it 'gets info for a tag' do
     tag = client.get_tag(856)

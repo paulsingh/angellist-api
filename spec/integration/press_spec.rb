@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Press,
+describe AngelList::Client::Press,
   :vcr => { :cassette_name => 'press' } do
 
-  let(:client) { AngellistApi::Client.new }
+  let(:client) { AngelList::Client.new }
 
   it 'gets press for a given startup' do
     options = { startup_id: 6702 }
