@@ -1,14 +1,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-# Maintain your gem's version:
 require "angellist_api/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "angellist_api"
   s.version     = AngellistApi::VERSION
-  s.authors     = ["Paul Singh"]
-  s.email       = ["paul@resultsjunkies.com"]
+  s.authors     = ["Paul Singh", "Ches Martin"]
+  s.email       = ["paul@resultsjunkies.com", "ches@whiskeyandgrits.net"]
   s.homepage    = "https://github.com/paulsingh/angellist-api"
   s.summary     = "Ruby wrapper for the Angellist API."
   s.description = "Ruby wrapper for the Angellist API. The AngelList API provides developers with a RESTful interface to the AngelList data set. Some endpoints are public and require no authentication."
