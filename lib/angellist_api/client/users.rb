@@ -64,7 +64,7 @@ module AngellistApi
       #   retrieve.
       #
       # @example Get a user's roles given an id.
-      #   AngellistApi.get_user(1234)
+      #   AngellistApi.user_roles(1234)
       def user_roles(id)
         get("1/users/#{id}/roles")
       end
