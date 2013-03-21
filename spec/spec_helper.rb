@@ -16,3 +16,4 @@ end
 
 Dir['./spec/support/**/*.rb'].each { |f| require f }
 
+ROLES = %w[founder employee past_investor advisor incubator referrer customer]

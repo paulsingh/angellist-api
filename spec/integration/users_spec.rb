@@ -19,5 +19,13 @@ describe AngellistApi::Client::Users,
     user = client.user_search(:slug => '500startups')
     user.linkedin_url.should eq 'http://www.linkedin.com/company/500-startups'
   end
+
+  it 'gets the companies that a user has been tagged in' do
+    roles = client.user_roles(2850)
+    roles.startup_roles.size.should be > 0
+    roles.startup_roles.each do |relationship|
+      ROLES.should include relationship.role
+    end
+  end
 end
 

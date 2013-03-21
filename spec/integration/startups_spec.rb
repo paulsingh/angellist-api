@@ -32,5 +32,21 @@ describe AngellistApi::Client::Startups,
     startup = client.startup_search(:domain => '500.co')
     startup.angellist_url.should eq 'http://angel.co/500-startups-fund'
   end
+
+  it 'gets a company\s startup roles' do
+    roles = client.startup_roles(1124)
+    roles.startup_roles.size.should be > 0
+    roles.startup_roles.each do |relationship|
+      ROLES.should include relationship.role
+    end
+  end
+
+  it 'gets a company\s outgoing startup roles' do
+    roles = client.startup_roles(1124)
+    roles.startup_roles.size.should be > 0
+    roles.startup_roles.each do |relationship|
+      ROLES.should include relationship.role
+    end
+  end
 end
 

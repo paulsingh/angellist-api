@@ -53,6 +53,21 @@ module AngellistApi
       def me
         get("1/me")
       end
+
+      # Returns the companies that a user has been tagged in. Results are paginated.
+      #
+      # @requires_authentication Optional
+      # @paginated Yes
+      #
+      # @param [Integer] id ID of the desired user.
+      # @option options [Integer] :page Specifies the page of results to
+      #   retrieve.
+      #
+      # @example Get a user's roles given an id.
+      #   AngellistApi.get_user(1234)
+      def user_roles(id)
+        get("1/users/#{id}/roles")
+      end
     end
   end
 end

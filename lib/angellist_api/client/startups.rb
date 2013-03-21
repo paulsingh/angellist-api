@@ -58,6 +58,26 @@ module AngellistApi
       def startup_search(options={})
         get("1/startups/search", options)
       end
+
+      # Returns a company's startup roles. If direction is outgoing, then it returns 
+      # the companies which the given company is tagged in. If direction is incoming, or 
+      # omitted, then it returns the users and companies which are tagged in the given 
+      # company. Results are paginated.
+      #
+      # @requires_authentication Optional
+      # @paginated Yes
+      #
+      # @param id [Integer] ID of the desired startup.
+      # @option options [String] :direction Either incoming or outgoing. Defaults to 
+      #   incoming.
+      # @option options [Integer] :page Specifies the page of results to
+      #   retrieve.
+      #
+      # @example Get 
+      #   AngellistApi.startup_roles(1234)
+      def startup_roles(id, options={})
+        get("1/startups/#{id}/roles")
+      end
     end
   end
 end
