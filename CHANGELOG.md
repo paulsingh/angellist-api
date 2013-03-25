@@ -1,5 +1,10 @@
 ## Master
 
+## 1.0.4 - 25 March, 2013
+
+- Add new user roles and startup roles endpoints; document and test the new "v1"
+  version of startup_roles endpoint ([Pedro Freitas])
+
 ## 1.0.3 - 10 March, 2013
 
 - Added press endpoint ([Evan Tann])
@@ -33,6 +38,7 @@
 [Paul Singh]: https://github.com/paulsingh
 [Ches Martin]: https://github.com/ches
 [Evan Tann]: https://github.com/egtann
+[Pedro Freitas]: https://github.com/pelf
 
 <!-- vim: set tw=80 :-->
 
