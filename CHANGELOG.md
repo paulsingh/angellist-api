@@ -1,5 +1,9 @@
 ## Master
 
+## 1.0.5 - 27 March, 2013
+
+- Fix inability to pass direction param for startup_roles ([Ches Martin])
+
 ## 1.0.4 - 25 March, 2013
 
 - Add new user roles and startup roles endpoints; document and test the new "v1"
