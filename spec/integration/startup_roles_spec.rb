@@ -25,18 +25,18 @@ describe AngellistApi::Client::StartupRoles,
     let(:base_params) { { :v => 1 } }
 
     it "gets a startup's outgoing relationships" do
-      params = { :startup_id => 1124 }.merge(base_params)
+      params = { :startup_id => 1124, :direction => 'outgoing' }.merge(base_params)
       roles = client.get_startup_roles(params)
       roles.startup_roles.each do |relationship|
         ROLES.should include relationship.role
       end
       roles.startup_roles.first.should have_key :tagged
       roles.startup_roles.first.tagged.should have_key :type
-      roles.startup_roles.first.tagged.type.should eq "User"
+      roles.startup_roles.first.tagged.type.should eq 'Startup'
     end
 
     it "gets a startup's incoming relationships" do
-      params = { :startup_id => 1124, :direction => 'incoming' }.merge(base_params)
+      params = { :startup_id => 1124 }.merge(base_params)
       roles = client.get_startup_roles(params)
       roles.startup_roles.each do |relationship|
         ROLES.should include relationship.role

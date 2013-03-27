@@ -76,7 +76,7 @@ module AngellistApi
       # @example Get 
       #   AngellistApi.startup_roles(1234)
       def startup_roles(id, options={})
-        get("1/startups/#{id}/roles")
+        get("1/startups/#{id}/roles", options)
       end
     end
   end
