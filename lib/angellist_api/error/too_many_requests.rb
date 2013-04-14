@@ -14,7 +14,8 @@ module AngellistApi
       # This may not be supported by AngelList currently but is suggested in RFC
       # 6585 for the 429 status code.
       def retry_after
-        @http_headers.values_at('retry-after', 'Retry-After').detect { |value| value }.to_i
+        retry_after = http_headers['retry-after']
+        retry_after.to_i if retry_after
       end
     end
 

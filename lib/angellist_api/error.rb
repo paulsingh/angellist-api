@@ -8,29 +8,33 @@ module AngellistApi
     # @param [String] message
     # @param [Hash] http_headers
     # @return [AngellistApi::Error]
-    def initialize(message, http_headers)
-      @http_headers = Hash[http_headers]
+    def initialize(message, http_headers={})
+      @http_headers = http_headers
       super message
     end
 
     # @return [Time]
     def ratelimit_reset
-      Time.at(@http_headers.values_at('x-ratelimit-reset', 'X-RateLimit-Reset').detect{|value| value}.to_i)
+      reset = http_headers['x-ratelimit-reset']
+      Time.at(reset.to_i) if reset
     end
 
     # @return [Integer]
     def ratelimit_limit
-      @http_headers.values_at('x-ratelimit-limit', 'X-RateLimit-Limit').detect{|value| value}.to_i
+      limit = http_headers['x-ratelimit-limit']
+      limit.to_i if limit
     end
 
     # @return [Integer]
     def ratelimit_remaining
-      @http_headers.values_at('x-ratelimit-remaining', 'X-RateLimit-Remaining').detect{|value| value}.to_i
+      remaining = http_headers['x-ratelimit-remaining']
+      remaining.to_i if remaining
     end
 
     # @return [Integer]
     def retry_after
-      [(ratelimit_reset - Time.now).ceil, 0].max
+      [(ratelimit_reset - Time.now).ceil, 0].max if ratelimit_reset
     end
   end
 end
+
