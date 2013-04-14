@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.angel.co/1/me
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.0.5
+      Authorization:
+      - Bearer <ANGELLIST_ACCESS_TOKEN>
+  response:
+    status:
+      code: 403
+      message: !!null 
+    headers:
+      server:
+      - nginx/1.0.6
+      date:
+      - Sun, 14 Apr 2013 06:45:44 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      vary:
+      - Accept-Encoding, Accept-Encoding
+      status:
+      - '403'
+      x-ratelimit-limit:
+      - '2000'
+      x-ratelimit-remaining:
+      - '0'
+      x-thanks:
+      - For using AngelList. Rock on.
+      x-runtime:
+      - '35'
+      etag:
+      - ! '"0c13384ccaf0ae7c9e1ff289e0070619"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"error":"over_limit","error_description":"You are currently over your rate limit."}'
+    http_version: !!null 
+  recorded_at: Sun, 14 Apr 2013 06:45:44 GMT
+recorded_with: VCR 2.4.0
+

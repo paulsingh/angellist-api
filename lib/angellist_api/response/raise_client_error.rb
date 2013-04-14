@@ -1,6 +1,6 @@
 require 'faraday'
 require 'angellist_api/error/bad_request'
-require 'angellist_api/error/enhance_your_calm'
+require 'angellist_api/error/too_many_requests'
 require 'angellist_api/error/forbidden'
 require 'angellist_api/error/not_acceptable'
 require 'angellist_api/error/not_found'
@@ -16,13 +16,15 @@ module AngellistApi
         when 401
           raise AngellistApi::Error::Unauthorized.new(error_message(env), env[:response_headers])
         when 403
-          raise AngellistApi::Error::Forbidden.new(error_message(env), env[:response_headers])
+          if env[:body]['error'] == 'over_limit'
+            raise AngellistApi::Error::TooManyRequests.new(error_message(env), env[:response_headers])
+          else
+            raise AngellistApi::Error::Forbidden.new(error_message(env), env[:response_headers])
+          end
         when 404
           raise AngellistApi::Error::NotFound.new(error_message(env), env[:response_headers])
         when 406
           raise AngellistApi::Error::NotAcceptable.new(error_message(env), env[:response_headers])
-        when 420
-          raise AngellistApi::Error::EnhanceYourCalm.new(error_message(env), env[:response_headers])
         end
       end
 
@@ -49,3 +51,4 @@ module AngellistApi
     end
   end
 end
+
