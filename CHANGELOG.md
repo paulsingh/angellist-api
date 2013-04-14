@@ -1,5 +1,13 @@
 ## Master
 
+## 1.0.6 - 14 April, 2013
+
+- Properly raise a `TooManyRequests` error when a 403 contains a JSON error
+  object indicating rate limit overage (`EnhanceYourCalm` error aliased for
+  backwards compatibility) ([Ches Martin])
+- Add missing options parameters for passing pagination params to endpoints that
+  support them ([Ches Martin])
+
 ## 1.0.5 - 27 March, 2013
 
 - Fix inability to pass direction param for startup_roles ([Ches Martin])
