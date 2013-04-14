@@ -21,28 +21,32 @@ module AngellistApi
       # descending.
       #
       # @requires_authentication No
+      # @paginated Yes
       #
       # @param [Integer] id The id of the desired tag. Currently only works for
       #   tags of type MarketTag or LocationTag.
+      # @param [Hash] options A customizable set of options.
       #
       # @example Get children of a tag.
       #   AngellistApi.get_tag_children(1654)
-      def get_tag_children(id)
-        get("1/tags/#{id}/children")
+      def get_tag_children(id, options={})
+        get("1/tags/#{id}/children", options)
       end
 
       # Returns parents of the given tag. For more details, see the
       # documentation for GET /tags/:id/children.
       #
       # @requires_authentication No
+      # @paginated Yes
       #
       # @param [Integer] id The id of the desired tag. Currently only works for
       #   tags of type MarketTag or LocationTag.
+      # @param [Hash] options A customizable set of options.
       #
       # @example Get parents of a tag.
       #   AngellistApi.get_tag_parents(1654)
-      def get_tag_parents(id)
-        get("1/tags/#{id}/parents")
+      def get_tag_parents(id, options={})
+        get("1/tags/#{id}/parents", options)
       end
 
       # Returns startups that are tagged with the given tag or a child of the
@@ -50,6 +54,7 @@ module AngellistApi
       # parameter.
       #
       # @requires_authentication Optional
+      # @paginated Yes
       #
       # @param [Hash] options A customizable set of options.
       # @option options [String] :order May be one of popularity, asc or desc.

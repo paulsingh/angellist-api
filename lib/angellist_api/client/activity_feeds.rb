@@ -11,11 +11,18 @@ module AngellistApi
       # paginated and ordered by most recent story first.
       #
       # @requires_authentication Optional
+      # @paginated By explicit timestamp cursor
       #
       # @param options [Hash] A customizable set of options.
       # @option options [Integer] :personalized If set to 1 and a user is
       #   authenticated, only activity from the authenticated user's social graph
       #   is returned.
+      # @option options [Integer] :since If a Unix timestamp is passed in via
+      #   this parameter, only activity since that timestamp will be returned. A
+      #   maximum of 25 items will be returned, starting with the oldest item. A
+      #   cursor variable is also returned, which is the timestamp of the last
+      #   item. You may call /feed again with since set to this value to get the
+      #   next page of activity.
       #
       # @example
       #   AngellistApi.get_feed

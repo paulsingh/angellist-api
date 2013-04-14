@@ -14,7 +14,9 @@ describe AngellistApi::Client::Tags do
   describe "#get_tag_children" do
     it "gets 1/tags/<id>/children" do
       id = "123"
-      client.should_receive(:get).with("1/tags/#{id}/children").and_return("success")
+      client.should_receive(:get).
+        with("1/tags/#{id}/children", {}).
+        and_return("success")
       client.get_tag_children(id).should == "success"
     end
   end
@@ -22,7 +24,9 @@ describe AngellistApi::Client::Tags do
   describe "#get_tag_parents" do
     it "gets 1/tags/<id>/parents" do
       id = "123"
-      client.should_receive(:get).with("1/tags/#{id}/parents").and_return("success")
+      client.should_receive(:get).
+        with("1/tags/#{id}/parents", {}).
+        and_return("success")
       client.get_tag_parents(id).should == "success"
     end
   end

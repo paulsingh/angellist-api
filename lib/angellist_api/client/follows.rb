@@ -38,6 +38,7 @@ module AngellistApi
       # follow ids, such as those from the activity feed.
       #
       # @requires_authentication Optional
+      # @paginated No
       #
       # @param ids [Array] IDs of the follows to fetch.
       #
@@ -52,26 +53,30 @@ module AngellistApi
       # follower first.
       #
       # @requires_authentication No
+      # @paginated Yes
       #
       # @param [Integer] id The id of the given user.
+      # @param [Hash] options A customizable set of options.
       #
       # @example Get followers of user with ID 12345.
       #   AngellistApi.get_user_followers(12345)
-      def get_user_followers(id)
-        get("1/users/#{id}/followers")
+      def get_user_followers(id, options={})
+        get("1/users/#{id}/followers", options)
       end
 
       # Return the ids of the given user's followers, paginated and ordered by
       # most recent follower first.
       #
       # @requires_authentication No
+      # @paginated Yes
       #
       # @param [Integer] id The id of the given user.
+      # @param [Hash] options A customizable set of options.
       #
       # @example Get IDs of the followers of user with ID 12345.
       #   AngellistApi.get_user_follower_ids(12345)
-      def get_user_follower_ids(id)
-        get("1/users/#{id}/followers/ids")
+      def get_user_follower_ids(id, options={})
+        get("1/users/#{id}/followers/ids", options)
       end
 
       # Return objects that the given user is following, paginated and ordered
@@ -79,6 +84,7 @@ module AngellistApi
       # class of objects to return.
       #
       # @requires_authentication Optional
+      # @paginated Yes
       #
       # @param [Integer] id The id of the given user.
       # @param [Hash] options A customizable set of options.
@@ -96,6 +102,7 @@ module AngellistApi
       # /users/:id/followers/ids.
       #
       # @requires_authentication Optional
+      # @paginated Yes
       #
       # @param [Integer] id The id of the given user.
       # @param [Hash] options A customizable set of options.
@@ -111,26 +118,30 @@ module AngellistApi
       # recent follower first. Responds like GET /users/:id/followers.
       #
       # @requires_authentication Optional
+      # @paginated Yes
       #
       # @param [Integer] id The id of the given startup.
+      # @param [Hash] options A customizable set of options.
       #
       # @example Get followers of startup with ID 1234.
       #   AngellistApi.get_startup_followers(1234)
-      def get_startup_followers(id)
-        get("1/startups/#{id}/followers")
+      def get_startup_followers(id, options={})
+        get("1/startups/#{id}/followers", options)
       end
 
       # Returns the ids of the given startup's followers, paginated and ordered
       # by most recent follower first. Responds like GET /users/:id/followers.
       #
       # @requires_authentication Optional
+      # @paginated Yes
       #
       # @param [Integer] id The id of the given user.
+      # @param [Hash] options A customizable set of options.
       #
       # @example Get IDs of followers of startup with ID 1234.
       #   AngellistApi.get_startup_follower_ids(1234)
-      def get_startup_follower_ids(id)
-        get("1/startups/#{id}/followers/ids")
+      def get_startup_follower_ids(id, options={})
+        get("1/startups/#{id}/followers/ids", options)
       end
     end
   end

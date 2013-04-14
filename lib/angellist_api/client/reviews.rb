@@ -9,6 +9,7 @@ module AngellistApi
       # Also returns the total count of positive reviews.
       #
       # @requires_authentication Optional
+      # @paginated Yes
       #
       # @param [Hash] options A customizable set of options.
       # @option options [Integer] :user_id user_id of the desired user. If none

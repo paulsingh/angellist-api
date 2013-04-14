@@ -8,7 +8,8 @@ module AngellistApi
       # Returns threads that the authenticated user is involved in. A "thread"
       # is a conversation between two users, where each message is tagged with
       # the same thread_id. If the authenticated user has any unread messages 
-      #in the thread, the viewed attribute will be false. Requires scope "message".
+      # in the thread, the viewed attribute will be false. Requires scope
+      # "message".
       #
       # @requires_authentication Yes
       # @paginated Yes

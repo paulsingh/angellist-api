@@ -19,6 +19,7 @@ module AngellistApi
       # Get information for a batch of up to 50 users given a list of user IDs.
       #
       # @requires_authentication No
+      # @pagination No
       #
       # @param [Array] ids IDs of the users to fetch.
       #
@@ -32,6 +33,7 @@ module AngellistApi
       # Search for a user given a URL slug. Responds like GET /users/:id.
       #
       # @requires_authentication No
+      # @pagination No
       #
       # @param [Hash] options A customizable set of options.
       # @option options [String] :slug The URL slug of the desired user.

@@ -13,6 +13,7 @@ module AngellistApi
       # - do not use user_ids and startup_ids at the same time
       #
       # @requires_authentication Yes
+      # @paginated No
       #
       # @param options [Hash] A customizable set of options.
       # @option options [Array<Integer>] :user_ids Show paths between you and

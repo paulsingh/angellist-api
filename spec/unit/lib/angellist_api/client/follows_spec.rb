@@ -32,7 +32,9 @@ describe AngellistApi::Client::Follows do
   describe "#get_user_followers" do
     it "gets 1/users/<id>/followers" do
       id = "123"
-      client.should_receive(:get).with("1/users/#{id}/followers").and_return("success")
+      client.should_receive(:get).
+        with("1/users/#{id}/followers", {}).
+        and_return("success")
       client.get_user_followers(id).should == "success"
     end
   end
@@ -40,7 +42,9 @@ describe AngellistApi::Client::Follows do
   describe "#get_user_follower_ids" do
     it "gets 1/users/<id>/followers/ids" do
       id = "123"
-      client.should_receive(:get).with("1/users/#{id}/followers/ids").and_return("success")
+      client.should_receive(:get).
+        with("1/users/#{id}/followers/ids", {}).
+        and_return("success")
       client.get_user_follower_ids(id).should == "success"
     end
   end
@@ -66,7 +70,9 @@ describe AngellistApi::Client::Follows do
   describe "#get_startup_followers" do
     it "gets 1/startups/<id>/followers" do
       id = "123"
-      client.should_receive(:get).with("1/startups/#{id}/followers").and_return("success")
+      client.should_receive(:get).
+        with("1/startups/#{id}/followers", {}).
+        and_return("success")
       client.get_startup_followers(id).should == "success"
     end
   end
@@ -74,7 +80,9 @@ describe AngellistApi::Client::Follows do
   describe "#get_startup_follower_ids" do
     it "gets 1/startups/<id>/followers/ids" do
       id = "123"
-      client.should_receive(:get).with("1/startups/#{id}/followers/ids").and_return("success")
+      client.should_receive(:get).
+        with("1/startups/#{id}/followers/ids", {}).
+        and_return("success")
       client.get_startup_follower_ids(id).should == "success"
     end
   end
