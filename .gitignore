@@ -8,4 +8,6 @@ Gemfile.lock
 coverage/
 doc/
 .yardoc/
-
+Gemfile.local
+Guardfile
+tmp
