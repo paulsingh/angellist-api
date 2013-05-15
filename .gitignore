@@ -9,5 +9,5 @@ coverage/
 doc/
 .yardoc/
 Gemfile.local
-Guardfile
 tmp
+
