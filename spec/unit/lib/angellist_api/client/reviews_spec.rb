@@ -10,5 +10,13 @@ describe AngellistApi::Client::Reviews do
       client.get_reviews(options).should == "success"
     end
   end
+
+  describe '#get_review' do
+    it 'gets 1/reviews/<id>' do
+      id = 1098
+      client.should_receive(:get).with("1/reviews/#{id}").and_return('success')
+      client.get_job(id).should == 'success'
+    end
+  end
 end
 

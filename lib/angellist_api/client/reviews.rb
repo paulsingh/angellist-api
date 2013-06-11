@@ -23,6 +23,18 @@ module AngellistApi
       def get_reviews(options={})
         get("1/reviews", options)
       end
+
+      # Shows details for a specific review
+      #
+      # @requires_authentication No
+      #
+      # @param id [Integer] ID of the review to fetch.
+      #
+      # @example Get information for a review.
+      #   AngellistApi.get_review(1098)
+      def get_review(id)
+        get("1/reviews/#{id}")
+      end
     end
   end
 end
