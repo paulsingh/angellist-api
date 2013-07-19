@@ -15,7 +15,7 @@ describe AngellistApi::Client::Reviews do
     it 'gets 1/reviews/<id>' do
       id = 1098
       client.should_receive(:get).with("1/reviews/#{id}").and_return('success')
-      client.get_job(id).should == 'success'
+      client.get_review(id).should == 'success'
     end
   end
 end

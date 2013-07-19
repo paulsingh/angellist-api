@@ -13,7 +13,7 @@ describe AngellistApi::Client::Reviews,
   end
 
   it 'gets a specific review' do
-    review = client.get_review(:id => 1098)
+    review = client.get_review(1098)
     review.should have_key :note
     review.rating.should eq 1
   end

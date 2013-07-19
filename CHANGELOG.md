@@ -1,5 +1,8 @@
 ## Master
 
+- Load Gemfile.local for optional development support libraries ([Rahil Sondhi])
+- Add GET /reviews/:id endpoint ([Michael Revell])
+
 ## 1.0.6 - 14 April, 2013
 
 - Properly raise a `TooManyRequests` error when a 403 contains a JSON error
@@ -51,6 +54,8 @@
 [Ches Martin]: https://github.com/ches
 [Evan Tann]: https://github.com/egtann
 [Pedro Freitas]: https://github.com/pelf
+[Rahil Sondhi]: https://github.com/rahilsondhi
+[Michael Revell]: https://github.com/MichaelRevell
 
 <!-- vim: set tw=80 :-->
 
