@@ -6,7 +6,7 @@ describe AngellistApi::Client::Users do
   describe "#get_user" do
     it "gets 1/users/<id>" do
       id = "123"
-      client.should_receive(:get).with("1/users/#{id}").and_return("success")
+      client.should_receive(:get).with("1/users/#{id}", {}).and_return("success")
       client.get_user(id).should == "success"
     end
   end
