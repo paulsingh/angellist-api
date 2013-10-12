@@ -23,6 +23,15 @@ describe AngellistApi::Client::Startups,
     startups.last.angellist_url.should eq 'http://angel.co/newco'
   end
 
+  it 'gets fundraising startups' do
+    response = client.all_startups(:filter => :raising)
+    response.should be_an Hash
+    response.should have_key :startups
+    startups = response.startups
+    startups.should be_an Array
+    startups.first.should have_key :id
+  end
+
   it 'gets information about a startup found by URL slug' do
     startup = client.startup_search(:slug => '500-startups-fund')
     startup.company_url.should eq 'http://500.co'

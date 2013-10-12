@@ -29,6 +29,15 @@ describe AngellistApi::Client::Startups do
     end
   end
 
+  describe '#all_startups' do
+    it 'gets 1/startups' do
+      client.should_receive(:get).
+        with('1/startups', { :filter => :filter }).
+        and_return('success')
+      client.all_startups(:filter => :filter).should == 'success'
+    end
+  end
+
   describe "#startup_search" do
     it "gets 1/startups/search" do
       options = { :some => "options" }
