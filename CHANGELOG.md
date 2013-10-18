@@ -1,7 +1,11 @@
 ## Master
 
+## 1.0.7 - 18 October, 2013
+
 - Load Gemfile.local for optional development support libraries ([Rahil Sondhi])
 - Add GET /reviews/:id endpoint ([Michael Revell])
+- Add GET /startups endpoint, currently only supports :filter => :raising
+  ([Pedro Freitas])
 
 ## 1.0.6 - 14 April, 2013
 
