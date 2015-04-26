@@ -10,128 +10,167 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.2
+      - AngellistApi Ruby Gem 1.1.0
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: 
+      message: OK
     headers:
-      cache-control:
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      content-type:
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      date:
-      - !binary |-
-        U3VuLCAwNyBPY3QgMjAxMiAyMDoxNjo1MyBHTVQ=
-      etag:
-      - !binary |-
-        IjY1YWMyZjQ2NTIzY2M3Zjc3OTIyNTAxYzE5NzJhZjdjIg==
-      server:
-      - !binary |-
-        bmdpbng=
-      status:
-      - !binary |-
-        MjAwIE9L
-      vary:
-      - !binary |-
-        QWNjZXB0LUVuY29kaW5n
-      x-ratelimit-limit:
-      - !binary |-
-        MTAwMA==
-      x-ratelimit-remaining:
-      - !binary |-
-        OTk1
-      x-runtime:
-      - !binary |-
-        MTE=
-      !binary "Y29udGVudC1sZW5ndGg=":
-      - !binary |-
-        MTQ1Ng==
-      connection:
-      - !binary |-
-        Q2xvc2U=
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 26 Apr 2015 11:46:16 GMT
+      Etag:
+      - '"623f7884677553a773cc2de4b19f0280"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1989'
+      X-Request-Id:
+      - ce96be4c01343ad58b5b5b2e6e11b82e
+      X-Runtime:
+      - '0.027277'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJwcmVzcyI6W3siY3JlYXRlZF9hdCI6IjIwMTItMDgtMDhUMjE6NTI6NDNa
-        IiwiaWQiOjEzOTgwLCJvd25lcl9pZCI6NjcwMiwib3duZXJfdHlwZSI6IlN0
-        YXJ0dXAiLCJwb3N0ZWRfYXQiOiIyMDEyLTA4LTE2Iiwic25pcHBldCI6IjIw
-        MTIgbWlnaHQgZ28gZG93biBpbiBoaXN0b3J5IGFzIHRoZSB5ZWFyIHRoYXQg
-        Y3Jvd2RmdW5kaW5nIGJlY2FtZSBtb3JlIHRoYW4ganVzdCBhIGhpcHBpZSwg
-        ZmVlbC1nb29kIHBpcGUgZHJlYW0uIEtpY2tzdGFydGVyIGhhcyB1dHRlcmx5
-        IHJldm9sdXRpb25pemVkIGhhcmR3YXJlIGFuZCByb2JvdGljcywgYnJlYXRo
-        aW5nIG5ldyBsaWZlIGludG8gaW5kdXN0cmllcyB0aGF0IG1vc3QgVkNzIGhh
-        ZCB0dXJuZWQgdGhlaXIuLi4iLCJ0aXRsZSI6IkFuZ2VsTGlzdCBBbHVtcyBI
-        YXZlIFJhaXNlZCAkMS4xIEJpbGxpb24iLCJ1cGRhdGVkX2F0IjoiMjAxMi0w
-        OC0wOFQyMTo1Mjo0M1oiLCJ1cmwiOiJodHRwOi8vcGFuZG9kYWlseS5jb20v
-        MjAxMi8wOC8wOC93aG8tbmVlZHMtYS13YWxrLWRvd24tc2FuZC1oaWxsLXJv
-        YWQtYW5nZWxsaXN0LWFsdW1zLWhhdmUtcmFpc2VkLTEtMS1iaWxsaW9uLyJ9
-        LHsiY3JlYXRlZF9hdCI6IjIwMTItMDUtMDlUMDA6MDk6NDBaIiwiaWQiOjUy
-        MSwib3duZXJfaWQiOjY3MDIsIm93bmVyX3R5cGUiOiJTdGFydHVwIiwicG9z
-        dGVkX2F0IjoiMjAxMi0wNS0wOCIsInNuaXBwZXQiOiIiLCJ0aXRsZSI6IkFu
-        Z2VsTGlzdCdzIFdlZWstTG9uZyBIYWNrYXRob24gR2l2ZXMgQSBHbGltcHNl
-        IE9mIFdoYXQncyBOZXh0IEZvciBUaGUgQ29tcGFueSIsInVwZGF0ZWRfYXQi
-        OiIyMDEyLTA1LTA5VDAwOjA5OjQwWiIsInVybCI6Imh0dHA6Ly9wYW5kb2Rh
-        aWx5LmNvbS8yMDEyLzA1LzA4L2FuZ2VsbGlzdHMtd2Vlay1sb25nLWhhY2th
-        dGhvbi1naXZlcy1hLWdsaW1wc2Utb2Ytd2hhdHMtbmV4dC1mb3ItdGhlLWNv
-        bXBhbnkvIn0seyJjcmVhdGVkX2F0IjoiMjAxMi0wNS0wN1QyMTozOTozNFoi
-        LCJpZCI6Niwib3duZXJfaWQiOjY3MDIsIm93bmVyX3R5cGUiOiJTdGFydHVw
-        IiwicG9zdGVkX2F0IjoiMjAxMi0wNC0yMCIsInNuaXBwZXQiOiJBbHRob3Vn
-        aCBpdHMgdmFsdWUgbWF5IG5vdCBoYXZlIGJlZW4gYXBwYXJlbnQgdG8gYWxs
-        IGF0IHRoZSBvdXRzZXQsIEFuZ2VsTGlzdCBoYXMgcHJvdmVuIHRvIGJlIGEg
-        cmVtYXJrYWJseSBlZmZlY3RpdmUgd2F5IGZvciBpbnZlc3RvcnMgdG8gY29u
-        bmVjdCB3aXRoIGVudHJlcHJlbmV1cnMuIFRoZSBoeWJyaWQgc29jaWFsIG5l
-        dHdvcmssIGNvbW11bmljYXRpb24gYW5kIGNyb3dkc291cmNpbmcgcGxhdGZv
-        cm0gb2ZmZXJzIGEuLi4iLCJ0aXRsZSI6IlRoZSBQb3dlciBPZiBBbmdlbExp
-        c3QgUmV2ZWFsZWQgSW4gSXRzIE5ldyBMb29rOiA5NzggRGVhbHMsIDQ4IEFj
-        cXVpc2l0aW9ucyIsInVwZGF0ZWRfYXQiOiIyMDEyLTA1LTA3VDIxOjM5OjM0
-        WiIsInVybCI6Imh0dHA6Ly90ZWNoY3J1bmNoLmNvbS8yMDEyLzA0LzIwL3Ro
-        ZS1wb3dlci1vZi1hbmdlbGxpc3QtcmV2ZWFsZWQtaW4taXRzLW5ldy1sb29r
-        LTk3OC1kb25lLWRlYWxzLTQ4LWFjcXVpc2l0aW9ucy8ifSx7ImNyZWF0ZWRf
-        YXQiOiIyMDEyLTA1LTA3VDIxOjM3OjE0WiIsImlkIjo0LCJvd25lcl9pZCI6
-        NjcwMiwib3duZXJfdHlwZSI6IlN0YXJ0dXAiLCJwb3N0ZWRfYXQiOiIyMDEy
-        LTAxLTI5Iiwic25pcHBldCI6IkFuZ2VsTGlzdCB3YXMgZm91bmRlZCBiYWNr
-        IGluIDIwMTAgYXMgYSBjb21tdW5pdHkgZm9yIHN0YXJ0dXBzIFx1MjAxNCBw
-        YXJ0IHNvY2lhbCBuZXR3b3JrLCBwYXJ0IGNvbW11bmljYXRpb24gdG9vbCBc
-        dTIwMTQgZGVzaWduZWQgdG8gY29ubmVjdCBmaXJzdC10aW1lIGVudHJlcHJl
-        bmV1cnMgd2l0aCByZXNwZWN0ZWQgYW5nZWwgaW52ZXN0b3JzLiBBdCB0aGUg
-        dGltZSwgdmV0ZXJhbiB2ZW50dXJlIGNhcGl0YWxpc3QgYW5kIGFuZ2VsIGlu
-        di4uLiIsInRpdGxlIjoiQW5nZWxMaXN0IExhdW5jaGVzIDIwMTEgWWVhcmJv
-        b2s6IDUwMCBTdGFydHVwcywgMiw1MDAgSW52ZXN0b3JzICYgMTIsNTAwIElu
-        dHJvZHVjdGlvbnMiLCJ1cGRhdGVkX2F0IjoiMjAxMi0wNS0wN1QyMTozNzox
-        NFoiLCJ1cmwiOiJodHRwOi8vdGVjaGNydW5jaC5jb20vMjAxMi8wMS8yOS9h
-        bmdlbGxpc3QtbGF1bmNoZXMtMjAxMS15ZWFyYm9vay01MDAtc3RhcnR1cHMt
-        MjUwMC1pbnZlc3RvcnMtMTI1MDAtaW50cm9kdWN0aW9ucy8ifSx7ImNyZWF0
-        ZWRfYXQiOiIyMDEyLTA1LTA3VDIxOjQ4OjE2WiIsImlkIjo3LCJvd25lcl9p
-        ZCI6NjcwMiwib3duZXJfdHlwZSI6IlN0YXJ0dXAiLCJwb3N0ZWRfYXQiOiIy
-        MDExLTA3LTI1Iiwic25pcHBldCI6IiIsInRpdGxlIjoiMS41IFllYXJzIE9m
-        IEFuZ2VsTGlzdDogODAwMCBJbnRyb3MsIDQwMCBJbnZlc3RtZW50cyBBbmQg
-        VGhhdCdzIEp1c3QgVGhlIERhdGEgV2UgQ2FuIFRlbGwgWW91IEFib3V0Iiwi
-        dXBkYXRlZF9hdCI6IjIwMTItMDUtMDdUMjE6NDg6MTZaIiwidXJsIjoiaHR0
-        cDovL3ZlbnR1cmVoYWNrcy5jb20vYXJ0aWNsZXMvY2VudGktc2VzcXVpY2Vu
-        dGVubmlhbCJ9LHsiY3JlYXRlZF9hdCI6IjIwMTItMDUtMDdUMjI6MjE6NTRa
-        IiwiaWQiOjEwLCJvd25lcl9pZCI6NjcwMiwib3duZXJfdHlwZSI6IlN0YXJ0
-        dXAiLCJwb3N0ZWRfYXQiOiIyMDExLTAyLTI2Iiwic25pcHBldCI6IlRoZXJl
-        J3MgbG90cyBvZiBkaXNjdXNzaW9uIG91dCB0aGVyZSBhYm91dCBhIG5ldyBh
-        bmQgbXVjaC1sb3ZlZCBzZXJ2aWNlIGNhbGxlZCBBbmdlbExpc3QgdGhhdC4u
-        LiIsInRpdGxlIjoiV2hhdCdzIFRoZSBSZWFsIERlYWwgV2l0aCBBbmdlbExp
-        c3Q/IiwidXBkYXRlZF9hdCI6IjIwMTItMDUtMDdUMjI6MjE6NTRaIiwidXJs
-        IjoiaHR0cDovL3RlY2hjcnVuY2guY29tLzIwMTEvMDIvMjYvYW5nZWxpc3Qv
-        In0seyJjcmVhdGVkX2F0IjoiMjAxMi0wNS0wN1QyMTozMjozOVoiLCJpZCI6
-        MSwib3duZXJfaWQiOjY3MDIsIm93bmVyX3R5cGUiOiJTdGFydHVwIiwicG9z
-        dGVkX2F0IjoiMjAxMC0wMi0wMiIsInNuaXBwZXQiOiJJJ20gcHN5Y2hlZCB0
-        byBhbm5vdW5jZSBBbmdlbExpc3QsIGEgY3VyYXRlZCBsaXN0IG9mIHN1cGVy
-        IGhpZ2gtcXVhbGl0eSBhbmdlbCBpbnZlc3RvcnMuIEFuZCBob3cgdG8gcmVh
-        Y2ggdGhlbS5cbkludmVzdG9ycyBsaWtlIEplZmYgQ2xhdmllciwgRGF2ZSBN
-        Y0NsdXJlLCBSb2IgSGF5ZXMsIEFhcm9uIFBhdHplciwgQnJhZCBGZWxkLCBh
-        bmQgNTAgb3RoZXIgaW52ZXN0b3JzIGhhdmUgYWxyZWFkeSBqb2luZWQuIEkg
-        d2FudCB0by4uLiIsInRpdGxlIjoiTGF1bmNoOiBBbmdlbExpc3QsIGEgY3Vy
-        YXRlZCBsaXN0IG9mIGFuZ2VsIGludmVzdG9ycyIsInVwZGF0ZWRfYXQiOiIy
-        MDEyLTA1LTA3VDIxOjMyOjM5WiIsInVybCI6Imh0dHA6Ly92ZW50dXJlaGFj
-        a3MuY29tL2FydGljbGVzL2FuZ2VsbGlzdCJ9XSwidG90YWwiOjcsInBlcl9w
-        YWdlIjo1MCwicGFnZSI6MSwibGFzdF9wYWdlIjoxfQ==
+      encoding: UTF-8
+      string: '{"press":[{"created_at":"2014-06-19T21:00:36Z","id":125462,"owner_id":6702,"owner_type":"Startup","posted_at":"2014-02-13","snippet":"Since
+        being founded in 2010, 500 Startups has been pushing the limits of what you
+        might expect from a seed-stage investment fund. In just a few short years,
+        it has invested in more than 600 startups (!!!), launched its own accelerator
+        program,...","title":"500 Startups Launches Its First Two AngelList Syndicates,
+        Including One Just For Female Founders  |  TechCrunch","updated_at":"2014-06-19T21:00:36Z","url":"http://techcrunch.com/2014/02/13/500-startups-syndicates/"},{"created_at":"2014-06-19T21:00:39Z","id":125463,"owner_id":6702,"owner_type":"Startup","posted_at":"2014-01-23","snippet":"When
+        AngelList \u2014 the network for young startups to find funding and employees
+        -\u00a0announced a $24 million round of funding\u00a0last year,\u00a0it noted
+        that it had already helped 3,000 people find jobs through free listings. Now,
+        it''s experimenting with ways...","title":"AngelList Tests Job Post Charges,
+        For Successful Hires You Pay 10% Salary Or .25% Equity  |  TechCrunch","updated_at":"2014-06-19T21:00:39Z","url":"http://techcrunch.com/2014/01/23/angellist-tests-charging-for-job-posts-pay-10-of-salary-or-25-equity-after-hiring/"},{"created_at":"2014-06-19T21:00:43Z","id":125465,"owner_id":6702,"owner_type":"Startup","posted_at":"2014-01-21","snippet":"AngelList
+        has soft launched a new feature this week that should make investors very
+        happy. Basically, AngelList will accredit any investor, for free, and let
+        them use that accreditation, anywhere, via an API or just by sharing a document.
+        You can...","title":"AngelList Creates A New Universal, Investor Accreditation
+        Form  |  TechCrunch","updated_at":"2014-06-19T21:00:43Z","url":"http://techcrunch.com/2014/01/21/angellist-creates-a-new-universal-investor-accreditation-form/"},{"created_at":"2014-06-19T21:00:46Z","id":125468,"owner_id":6702,"owner_type":"Startup","posted_at":"2014-01-06","snippet":"Portland''s
+        OnTheGo Platforms today announced that it has raised a $700,000 seed round
+        from\u00a0SK Ventures, Rogue Venture Partners, Social Leverage,\u00a0Portland
+        Seed Fund and GMO Cloud. Also included in this round is a $330,000 commitment
+        from Foundry G...","title":"OnTheGo Raises $700k Seed Round From Foundry Group''s
+        AngelList Syndicate And Others To Improve Smart Glasses  |  TechCrunch","updated_at":"2014-06-19T21:00:46Z","url":"http://techcrunch.com/2014/01/06/onthego-raises-700k-seed-round-from-fg-angels-syndicate-and-others-to-improve-smart-glasses/"},{"created_at":"2014-06-19T21:00:49Z","id":125471,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-12-04","snippet":"As
+        Paul Graham wrote a few months ago, fundraising can be incredibly distracting
+        to a founder. It often takes months of pitching, re-pitching and paperwork
+        to finally get your money in the bank. Kima Ventures is hoping to change this
+        at the seed...","title":"Kima Ventures Will Allow Startups To Raise $150K
+        Within 15 Days Via AngelList  |  TechCrunch","updated_at":"2014-06-19T21:00:49Z","url":"http://techcrunch.com/2013/12/04/kima-ventures-will-allow-startups-to-raise-150k-within-15-days-via-angellist/"},{"created_at":"2014-06-19T21:00:52Z","id":125474,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-09-30","snippet":"This
+        weekend, the Twittersphere and news cycle was dominated with the\u00a0reactions
+        of a number of VCs and angels to AngelList Syndicates. \u00a0According to
+        the data we''ve collected from AngelList,\u00a0there has been an explosion
+        of activity around Sy...","title":"AngelList Syndicates By The Numbers: 12
+        Deals, $3.5M Raised, 199 Angels Activated Syndication With $5.6M Committed  |  TechCrunch","updated_at":"2014-06-19T21:00:52Z","url":"http://techcrunch.com/2013/09/30/angellist-syndicates-by-the-numbers-12-deals-3-5m-raised-199-angels-activated-syndication-with-5-6m-committed/"},{"created_at":"2014-06-19T21:00:56Z","id":125477,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-09-23","snippet":"It''s
+        day one of the new general solicitation rules allowing companies to openly
+        advertise that they''re fundraising, and betaworks is wasting no time. It''s
+        just emailed asking its thousands of Openbeta testers to invest in it through
+        AngelList...","title":"Betaworks And Tim Ferriss Among First Using General
+        Solicitation To Ask Crowds For Investment  |  TechCrunch","updated_at":"2014-06-19T21:00:56Z","url":"http://techcrunch.com/2013/09/23/general-solicitation-already-in-use/"},{"created_at":"2014-08-26T22:00:26Z","id":185241,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-09-23","snippet":"AngelList,
+        the mailing list that turned into one of the Valley''s most powerful fundraising
+        channels for early-stage startups, just picked up $24 million of its own.\nLike
+        we reported nine months ago, Google Ventures participated. They are one of...","title":"How
+        AngelList Hacked Its $24M Round  |  TechCrunch","updated_at":"2014-08-26T22:00:26Z","url":"http://techcrunch.com/2013/09/23/angellist/"},{"created_at":"2013-09-23T17:35:40Z","id":79293,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-09-23","snippet":"AngelList,
+        the startup matchmaking platform, has helped 1,300 startups raise $200 million
+        and hire 3,000 employees. Now, it has raised money of its own: $24 million.
+        The round was previously reported by Fortune.\n\nAngelList matches startups
+        and investors, ","title":"AngelList Raises $24M, Having Raised $200M for Other
+        Startups and Helped 3,000 People Get Jobs","updated_at":"2013-09-23T17:35:40Z","url":"http://allthingsd.com/20130923/angellist-raises-24m-having-raised-200m-for-other-startups-and-helped-3000-people-get-jobs/?mod=atd_homepage_carousel"},{"created_at":"2013-09-23T17:36:59Z","id":79295,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-09-23","snippet":"With
+        the loosening of the SEC''s restrictions around general solicitation or public
+        fundraising by startups, AngelList is launching a whole suite of products
+        that could extend its influence (and its revenue model) in the tech ecosystem
+        today.\nMuch...","title":"AngelList Beefs Up Syndicates","updated_at":"2013-09-23T17:36:59Z","url":"http://techcrunch.com/2013/09/23/angellist-backers/"},{"created_at":"2013-07-31T18:29:09Z","id":68166,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-07-27","snippet":"Remember
+        when Sacca was buying Twitter stock like a boss because the\u00a0founders
+        preferred him to VCs? There''s now an app for that.\u00a0\nRecently AngelList
+        quietly started testing Syndicates. Syndicates allow you to raise any amount
+        of money on behalf o...","title":"Hey Look, Software Just Ate VC!","updated_at":"2013-07-31T18:29:09Z","url":"http://startupljackson.com/post/56584441451/hey-look-software-just-ate-vc"},{"created_at":"2013-07-31T18:29:53Z","id":68168,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-07-27","snippet":"AngelList
+        is testing out a new service that lets angel investors syndicate deals with
+        each other, a feature that could allow startups to raise venture-sized rounds
+        of money with relative ease.\u00a0Called Syndicates, the private-beta product
+        lets any...","title":"Angels Get Carry For Helping A Startup Raise Money With
+        AngelList Syndicates","updated_at":"2013-07-31T18:29:53Z","url":"http://techcrunch.com/2013/07/27/angellist-syndicates-lets-angels-get-carry-for-helping-a-startup-raise-money/"},{"created_at":"2013-07-31T18:30:49Z","id":68169,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-07-26","snippet":"AngelList
+        co-founder and CEO Naval Ravikant is worried about two things in angel and
+        venture investing, the regular booms and busts and...","title":"Naval Ravikant
+        on future of AngelList, what worries him","updated_at":"2013-07-31T18:30:49Z","url":"http://www.bizjournals.com/sanjose/news/2013/07/23/naval-ravikant-on-how-he-grew.html?page=all"},{"created_at":"2014-08-26T22:00:28Z","id":185242,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-07-16","snippet":"It''s
+        that time of year again. That''s right, it''s time for startups to ready their
+        applications for the 500 Startups Accelerator. And, just like last time (and
+        the time before), the Dave McClure-backed incubator will be taking its applications
+        on...","title":"500 Startups Accelerator Opens Applications For Its 7th Batch,
+        Again On AngelList   |  TechCrunch","updated_at":"2014-08-26T22:00:28Z","url":"http://techcrunch.com/2013/07/16/500-startups-accelerator-7th-batch-applications/"},{"created_at":"2014-08-26T22:00:31Z","id":185243,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-07-04","snippet":"In
+        just a few short years, AngelList has very quickly emerged as an indispensable
+        resource for connecting entrepreneurs with investors. Started as an email
+        newsletter, the website now has more than 18,000 accredited investors, including
+        more than...","title":"AngelList Now Has More Than 100K Startup Profiles,
+        Makes More Than 500 Intros Between Startups And Investors A Week  |  TechCrunch","updated_at":"2014-08-26T22:00:31Z","url":"http://techcrunch.com/2013/07/04/angellist-now-has-more-than-100k-startup-profiles-makes-more-than-500-intros-between-startups-and-investors-a-week/"},{"created_at":"2014-08-26T22:00:34Z","id":185244,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-06-19","snippet":"As
+        has been written ad nauseam, we''ve seen a lot of activity in the wild and
+        wacky world of cryptocurrency of late, thanks primarily to the tech industry''s
+        new obsession with Bitcoin. Depending on whom you ask, digital currency like
+        Bitcoin will...","title":"30 Days In, Bitcoin Angel Group BitAngels Doubles
+        Network To 120, Puts First $100K Into Seasteading Venture, Blueseed  |  TechCrunch","updated_at":"2014-08-26T22:00:34Z","url":"http://techcrunch.com/2013/06/19/30-days-in-bitcoin-angel-group-bitangels-doubles-network-to-120-puts-first-100k-into-seasteading-venture-blueseed/"},{"created_at":"2013-05-20T22:32:09Z","id":54663,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-05-13","snippet":"\u201cWhatever
+        you write will be out of date,\u201d laughs Naval Ravikant, describing the
+        growth of his business, AngelList, a three-year-old startup that''s transforming
+        early-stage investment via open data.","title":"Follow the money: AngelList
+        has blown open early-stage investments","updated_at":"2013-05-20T22:32:09Z","url":"http://www.wired.co.uk/magazine/archive/2013/05/features/follow-the-money"},{"created_at":"2014-08-26T22:00:35Z","id":185245,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-04-22","snippet":"So,
+        you''ve built yourself a nice little product. Maybe you''ve raised a small
+        friends-and-family round; maybe you''re still bootstrappin'' on your own.
+        Either way, now you''re looking to raise at least a million dollars to help
+        with the next steps....","title":"Want To Raise A Million Bucks? Here''s What
+        You''ll Need  |  TechCrunch","updated_at":"2014-08-26T22:00:35Z","url":"http://techcrunch.com/2013/04/22/want-to-raise-a-million-bucks-heres-what-youll-need/"},{"created_at":"2014-08-26T22:00:38Z","id":185246,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-01-28","snippet":"AngelList
+        continues to add compelling features to its service that matches early-stage
+        startups with investors. The platform just debuted a new tool that will show
+        new customer counts in a given time, and show which startups are trending
+        by...","title":"AngelList Debuts Customer Counts And References For Startups,
+        Seeing Record Job Matches  |  TechCrunch","updated_at":"2014-08-26T22:00:38Z","url":"http://techcrunch.com/2013/01/28/angellist-debuts-customer-counts-and-references-for-startups-seeing-record-job-matches/"},{"created_at":"2013-01-30T00:38:01Z","id":34927,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-01-21","snippet":"AngelList,
+        a service that matches early-stage startups with investors, now includes a
+        nifty tool that shows anonymous valuations of startups on the site. The feature
+        was actually rolled out weeks ago, but hasn''t gotten much attention.\nFor...","title":"AngelList
+        Lets You Browse Seed-Stage Startup Valuations By Incubators, Location And
+        More ","updated_at":"2013-01-30T00:38:01Z","url":"http://techcrunch.com/2013/01/21/angellist-now-lets-you-browse-seed-stage-startup-valuations-by-incubators-location-and-more/"},{"created_at":"2013-01-30T00:38:25Z","id":34928,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-01-11","snippet":"AngelList
+        has announced that its Invest Online feature has already brought $1 million
+        in commitments from investors in less than a month.\nThe service, which partners
+        with SecondMarket to connect early-stage startups with interested investors,
+        has...","title":"AngelList''s new online investment feature raises $1m for
+        startups in its first month","updated_at":"2013-01-30T00:38:25Z","url":"http://thenextweb.com/insider/2013/01/11/angellists-new-online-investment-feature-raises-1m-for-startups-in-its-first-month/"},{"created_at":"2013-01-30T00:38:36Z","id":34929,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-01-09","snippet":"AngelList
+        has announced that 3 million requests each day are being processed through
+        its API. The needs of the service are said to be coming from its more than
+        50 partners, incubators, and others.\nStarted as a side project by \"venture
+        hacker\"...","title":"AngelList''s API handling 3 million requests per day
+        from 50+ partners, incubators, SendGrid, others","updated_at":"2013-01-30T00:38:36Z","url":"http://thenextweb.com/insider/2013/01/09/angellist-api-handling-3-million-requests-per-day/"},{"created_at":"2014-08-26T22:00:41Z","id":185247,"owner_id":6702,"owner_type":"Startup","posted_at":"2013-01-02","snippet":"AngelList,
+        the community of startup founders and investors, which has of late been transitioning
+        from social network to investment platform, is increasingly becoming a place
+        where early-stage and seed deals first get off the ground. Today, a new...","title":"Angel5
+        Debuts A Founder-Friendly View Of AngelList, Sorts Investors Into \"Top Five\"
+        Groups By Market, Region & More  |  TechCrunch","updated_at":"2014-08-26T22:00:41Z","url":"http://techcrunch.com/2013/01/02/angel5-debuts-a-founder-friendly-view-of-angellist-sorts-investors-into-top-five-groups-by-market-region-more/"},{"created_at":"2014-08-26T22:00:43Z","id":185248,"owner_id":6702,"owner_type":"Startup","posted_at":"2012-12-19","snippet":"AngelList,
+        a service that matches early stage startups with investors, is today continuing
+        its transformation from social network to investing platform with the launch
+        of a new feature called AngelList Invest. Created in partnership with...","title":"AngelList
+        Gives Smaller Investors A Piece Of The Action With Launch Of AngelList Invest  |  TechCrunch","updated_at":"2014-08-26T22:00:43Z","url":"http://techcrunch.com/2012/12/19/angellist-now-gives-smaller-investors-a-piece-of-the-action-with-launch-of-angellist-invest/"},{"created_at":"2012-08-08T21:52:43Z","id":13980,"owner_id":6702,"owner_type":"Startup","posted_at":"2012-08-16","snippet":"2012
+        might go down in history as the year that crowdfunding became more than just
+        a hippie, feel-good pipe dream. Kickstarter has utterly revolutionized hardware
+        and robotics, breathing new life into industries that most VCs had turned
+        their...","title":"AngelList Alums Have Raised $1.1 Billion","updated_at":"2012-08-08T21:52:43Z","url":"http://pandodaily.com/2012/08/08/who-needs-a-walk-down-sand-hill-road-angellist-alums-have-raised-1-1-billion/"},{"created_at":"2012-05-09T00:09:40Z","id":521,"owner_id":6702,"owner_type":"Startup","posted_at":"2012-05-08","snippet":"","title":"AngelList''s
+        Week-Long Hackathon Gives A Glimpse Of What''s Next For The Company","updated_at":"2012-05-09T00:09:40Z","url":"http://pandodaily.com/2012/05/08/angellists-week-long-hackathon-gives-a-glimpse-of-whats-next-for-the-company/"}],"total":26,"per_page":50,"page":1,"last_page":1}'
     http_version: 
-  recorded_at: Sun, 07 Oct 2012 20:16:53 GMT
-recorded_with: VCR 2.2.4
+  recorded_at: Sun, 26 Apr 2015 11:46:18 GMT
+recorded_with: VCR 2.9.3

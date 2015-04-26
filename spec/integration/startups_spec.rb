@@ -7,7 +7,7 @@ describe AngellistApi::Client::Startups,
 
   it 'gets information about a startup' do
     startup = client.get_startup(1124)
-    startup.angellist_url.should eq 'http://angel.co/500-startups-fund'
+    startup.angellist_url.should eq 'https://angel.co/500startups'
   end
 
   it 'gets comments about a startup' do
@@ -19,8 +19,8 @@ describe AngellistApi::Client::Startups,
 
   it 'gets startups in batch' do
     startups = client.get_startups [1124, 31627]
-    startups.first.name.should eq '500 Startups (Fund)'
-    startups.last.angellist_url.should eq 'http://angel.co/newco'
+    startups.first.name.should eq '500 Startups'
+    startups.last.angellist_url.should eq 'https://angel.co/newco'
   end
 
   it 'gets fundraising startups' do
@@ -39,7 +39,7 @@ describe AngellistApi::Client::Startups,
 
   it 'gets information about a startup found by site domain' do
     startup = client.startup_search(:domain => '500.co')
-    startup.angellist_url.should eq 'http://angel.co/500-startups-fund'
+    startup.angellist_url.should eq 'https://angel.co/500startups'
   end
 
   it 'gets a company\s startup roles' do

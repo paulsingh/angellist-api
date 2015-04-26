@@ -12,7 +12,7 @@ describe AngellistApi::Client::Tags,
 
   it "gets a tag's children" do
     children = client.get_tag_children(856).children
-    children.map { |tag| tag.display_name }.should include 'Venture Hacks'
+    children.map { |tag| tag.display_name }.should include 'Angels'
   end
 
   it "gets a tag's parents" do

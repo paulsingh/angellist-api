@@ -4,7 +4,7 @@ describe AngellistApi::Client::Search,
   :vcr => { :cassette_name => 'search' } do
 
   let(:client) { AngellistApi::Client.new }
-  let(:valid_types) { %w[User Startup MarketTag LocationTag].freeze }
+  let(:valid_types) { %w[User Startup MarketTag LocationTag SkillTag].freeze }
 
   it 'searches with a general query' do
     results = client.search('machine learning')

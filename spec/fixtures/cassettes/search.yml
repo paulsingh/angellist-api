@@ -10,56 +10,70 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
+      - AngellistApi Ruby Gem 1.0.7
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: !!null 
+      message: OK
     headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Mon, 23 Apr 2012 09:26:28 GMT
-      content-type:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
       - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '996'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '308'
-      etag:
-      - ! '"4f62b2c8498567d7b80ef7f86055882f"'
-      cache-control:
-      - private, max-age=0, must-revalidate
+      Date:
+      - Sun, 26 Apr 2015 10:34:29 GMT
+      Etag:
+      - '"ed9e7a33334b4dc9e3bf3885a151e8c6"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1998'
+      X-Request-Id:
+      - d96208e6c29db9ee14f95038107bfe0d
+      X-Runtime:
+      - '0.036053'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '955'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: ! '[{"id":92,"pic":"/images/icons/market.png","url":"http://angel.co/machine-learning","name":"Machine
-        Learning","type":"MarketTag"},{"id":420,"pic":"https://s3.amazonaws.com/photos.angel.co/users/420-medium?1308183745","url":"http://angel.co/hammer","name":"Jeff
-        Hammerbacher","type":"User"},{"id":97,"pic":"https://s3.amazonaws.com/photos.angel.co/users/97-medium?1294803512","url":"http://angel.co/rbpasker","name":"Bob
-        Pasker","type":"User"},{"id":9861,"pic":"https://s3.amazonaws.com/photos.angel.co/users/9861-medium?1307870800","url":"http://angel.co/jason-a-hoffman","name":"Jason
-        A. Hoffman","type":"User"},{"id":309,"pic":"https://s3.amazonaws.com/photos.angel.co/users/309-medium?1294803622","url":"http://angel.co/eghosao","name":"Eghosa
-        Omoigui","type":"User"},{"id":110263,"pic":"https://s3.amazonaws.com/photos.angel.co/users/110263-medium?1332809483","url":"http://angel.co/tomer-london","name":"Tomer
-        London","type":"User"},{"id":556,"pic":"https://s3.amazonaws.com/photos.angel.co/users/556-medium?1297748606","url":"http://angel.co/tonsing","name":"Raymond
-        Tonsing","type":"User"},{"id":93,"pic":"https://s3.amazonaws.com/photos.angel.co/users/93-medium?1294886960","url":"http://angel.co/simeons","name":"Simeon
-        Simeonov","type":"User"}]'
-    http_version: !!null 
-  recorded_at: Mon, 23 Apr 2012 09:26:29 GMT
+      encoding: UTF-8
+      string: '[{"id":15609,"pic":null,"url":"https://angel.co/machine-learning-1","name":"Machine
+        Learning","type":"SkillTag"},{"id":333491,"pic":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/333491-47abb2e5bada3692d3e3f55f0e9c49a1-thumb_jpg.jpg?buster=1391110210","url":"https://angel.co/learning-machine-2","name":"Learning
+        Machine","type":"Startup"},{"id":200344,"pic":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/200344-8974371d46d175545585fbd89fb41d95-thumb_jpg.jpg?buster=1367010135","url":"https://angel.co/learning-machine","name":"Learning
+        Machine","type":"Startup"},{"id":249750,"pic":null,"url":"https://angel.co/ucf-machine-learning-lab","name":"UCF
+        Machine Learning Lab","type":"Startup"},{"id":92,"pic":"/images/icons/market.png","url":"https://angel.co/machine-learning","name":"Machine
+        Learning","type":"MarketTag"},{"id":296855,"pic":null,"url":"https://angel.co/python-data-science-machine-learning-full-time-training","name":"Python
+        / Data Science / Machine Learning full time training","type":"Startup"},{"id":386122,"pic":null,"url":"https://angel.co/alberta-ingenuity-centre-for-machine-learning","name":"Alberta
+        Ingenuity Centre for Machine Learning","type":"Startup"},{"id":393353,"pic":null,"url":"https://angel.co/the-machine-learning-big-data-networks-algorithm-writing-brains-behind-the-machine-phd-in-physics-and-math-from-usc-u-of-t-and-works-bridging-quantum-information-theory-statistics-and-graph-theoretic-methods","name":"The
+        machine learning , big data networks , algorithm writing, brains behind the
+        machine. Phd in physics and math from USC/U of T and works bridging quantum
+        information theory , statistics and graph theoretic methods . ","type":"Startup"},{"id":489274,"pic":null,"url":"https://angel.co/machine-learning-and-nlp-researcher-at-tcs-innovation-labs","name":"Machine
+        Learning and NLP Researcher at TCS Innovation Labs","type":"Startup"},{"id":604339,"pic":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/604339-712c423f32784df8c7142428e363be8b-thumb_jpg.jpg?buster=1423512010","url":"https://angel.co/darpa-funded-machine-learning-startup","name":"DARPA-funded
+        machine-learning startup","type":"Startup"},{"id":664419,"pic":null,"url":"https://angel.co/stealth-iot-machine-learning-startup","name":"Stealth
+        IoT/Machine Learning Startup","type":"Startup"},{"id":673732,"pic":null,"url":"https://angel.co/7-learning-machines","name":"7
+        Learning Machines","type":"Startup"},{"id":102928,"pic":null,"url":"https://angel.co/machine-learning-data-science-python-perl-r","name":"Machine
+        Learning, Data Science, Python, Perl, R","type":"SkillTag"},{"id":83519,"pic":null,"url":"https://angel.co/reinforcement-machine-learning","name":"Reinforcement
+        Machine Learning","type":"SkillTag"}]'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 10:34:30 GMT
 - request:
     method: get
-    uri: https://api.angel.co/1/search?type=User&query=Joshua%2BSlayton
+    uri: https://api.angel.co/1/search?query=joshua&type=User
     body:
       encoding: US-ASCII
       string: ''
@@ -67,103 +81,69 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
+      - AngellistApi Ruby Gem 1.0.7
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: !!null 
+      message: OK
     headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Mon, 23 Apr 2012 09:26:30 GMT
-      content-type:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
       - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '995'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '88'
-      etag:
-      - ! '"94d6f098b041bdc36443c74abd71264b"'
-      cache-control:
-      - private, max-age=0, must-revalidate
+      Date:
+      - Sun, 26 Apr 2015 10:34:30 GMT
+      Etag:
+      - '"78fdd55ac6a7e4ecb3393ed82e72f7dd"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1997'
+      X-Request-Id:
+      - 9af6f1080a5e27d78c04704dad7d6ba5
+      X-Runtime:
+      - '0.028524'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '692'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: ! '[{"id":671,"pic":"https://s3.amazonaws.com/photos.angel.co/users/671-medium?1321649923","url":"http://angel.co/joshuaxls","name":"Joshua
-        Slayton","type":"User"}]'
-    http_version: !!null 
-  recorded_at: Mon, 23 Apr 2012 09:26:30 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/search?type=User&query=joshua
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Mon, 23 Apr 2012 09:28:26 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '994'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '184'
-      etag:
-      - ! '"3f68a42fc1f2f9c1201c229a34b5fcc6"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '[{"id":108,"pic":"https://s3.amazonaws.com/photos.angel.co/users/108-medium?1294803521","url":"http://angel.co/joshu","name":"Joshua
-        Schachter","type":"User"},{"id":671,"pic":"https://s3.amazonaws.com/photos.angel.co/users/671-medium?1321649923","url":"http://angel.co/joshuaxls","name":"Joshua
-        Slayton","type":"User"},{"id":84,"pic":"https://s3.amazonaws.com/photos.angel.co/users/84-medium?1315252032","url":"http://angel.co/joshuabaer","name":"Joshua
-        Baer","type":"User"},{"id":3124,"pic":"https://s3.amazonaws.com/photos.angel.co/users/3124-medium?1329252532","url":"http://angel.co/joshuareeves","name":"Joshua
-        Reeves","type":"User"},{"id":1317,"pic":"https://s3.amazonaws.com/photos.angel.co/users/1317-medium?1294803889","url":"http://angel.co/joshuakushner","name":"Joshua
-        Kushner","type":"User"},{"id":106020,"pic":"https://s3.amazonaws.com/photos.angel.co/users/106020-medium?1331682049","url":"http://angel.co/joshua-walker","name":"Joshua
-        Walker","type":"User"},{"id":4259,"pic":"https://s3.amazonaws.com/photos.angel.co/users/4259-medium?1294804634","url":"http://angel.co/jmckenty","name":"Joshua
-        McKenty","type":"User"},{"id":11695,"pic":"https://s3.amazonaws.com/photos.angel.co/users/11695-medium?1298938257","url":"http://angel.co/joshua-march","name":"Joshua
-        March","type":"User"},{"id":44830,"pic":null,"url":"http://angel.co/joshua-o-connor","name":"Joshua
-        O''Connor","type":"User"},{"id":19545,"pic":"https://s3.amazonaws.com/photos.angel.co/users/19545-medium?1305563829","url":"http://angel.co/jkonowe","name":"Joshua
-        Konowe","type":"User"}]'
-    http_version: !!null 
-  recorded_at: Mon, 23 Apr 2012 09:28:26 GMT
-recorded_with: VCR 2.1.0
+      encoding: UTF-8
+      string: '[{"id":108,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/108-medium_jpg?1405432972","url":"https://angel.co/joshu","name":"Joshua
+        Schachter","type":"User"},{"id":1317,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/1317-medium_jpg?1405434088","url":"https://angel.co/joshuakushner","name":"Joshua
+        Kushner","type":"User"},{"id":3124,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/3124-medium_jpg?1405435393","url":"https://angel.co/joshuareeves","name":"Joshua
+        Reeves","type":"User"},{"id":84,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/84-medium_jpg?1405432940","url":"https://angel.co/joshuabaer","name":"Joshua
+        Baer","type":"User"},{"id":239490,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/239490-medium_jpg?1405542445","url":"https://angel.co/joshuagreenman","name":"Joshua
+        Greenman","type":"User"},{"id":42678,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/42678-medium_jpg?1405468514","url":"https://angel.co/joshua-greenough","name":"Joshua
+        Greenough","type":"User"},{"id":218951,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/218951-medium_jpg?1405553747","url":"https://angel.co/summmmers","name":"Joshua
+        Summers","type":"User"},{"id":120527,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/120527-medium_jpg?1405527044","url":"https://angel.co/joshua-b-siegel","name":"Joshua
+        B Siegel","type":"User"},{"id":232380,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/232380-medium_jpg?1405539349","url":"https://angel.co/joshua-dziabiak","name":"Joshua
+        Dziabiak","type":"User"},{"id":443329,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/443329-medium_jpg?1405677102","url":"https://angel.co/joshua-feldman-1","name":"Joshua
+        Feldman","type":"User"},{"id":174758,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/174758-medium_jpg?1405542270","url":"https://angel.co/i2pi","name":"Joshua
+        Reich","type":"User"},{"id":671,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/671-medium_jpg?1405433531","url":"https://angel.co/joshuaxls","name":"Joshua
+        Slayton","type":"User"},{"id":426256,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/426256-medium_jpg?1405670215","url":"https://angel.co/joshua-bixby","name":"Joshua
+        Bixby","type":"User"},{"id":127953,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/127953-medium_jpg?1405496419","url":"https://angel.co/joshua-bogart","name":"Joshua
+        Bogart","type":"User"},{"id":86230,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/86230-medium_jpg?1405519880","url":"https://angel.co/jseims","name":"Joshua
+        Seims","type":"User"},{"id":260986,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/260986-medium_jpg?1405582204","url":"https://angel.co/joshuascott","name":"Joshua
+        Scott","type":"User"},{"id":139116,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/139116-medium_jpg?1405499263","url":"https://angel.co/auerbach","name":"Joshua
+        Auerbach","type":"User"},{"id":4259,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/4259-medium_jpg?1405436320","url":"https://angel.co/jmckenty","name":"Joshua
+        McKenty","type":"User"},{"id":106940,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/106940-medium_jpg?1405522701","url":"https://angel.co/joshuabacker","name":"Joshua
+        Backer","type":"User"},{"id":340657,"pic":"https://d1qb2nb5cznatu.cloudfront.net/users/340657-medium_jpg?1405637123","url":"https://angel.co/jhalickman","name":"Joshua
+        Halickman","type":"User"}]'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 10:34:31 GMT
+recorded_with: VCR 2.9.3

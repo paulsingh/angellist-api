@@ -4,9 +4,11 @@ describe AngellistApi::Client::StartupRoles,
   :vcr => { :cassette_name => 'startup_roles' } do
 
   let(:client) { AngellistApi::Client.new }
+  let(:startup_id) { 1124 }  # 500 Startups
+  let(:user_id) { 155 }      # Naval
 
   it "gets a startup's relationships" do
-    roles = client.get_startup_roles(:startup_id => 1124)
+    roles = client.get_startup_roles(:startup_id => startup_id)
     roles.startup_roles.each do |relationship|
       ROLES.should include relationship.role
     end
@@ -14,7 +16,7 @@ describe AngellistApi::Client::StartupRoles,
   end
 
   it "gets a user's relationships" do
-    roles = client.get_startup_roles(:user_id => 2850)
+    roles = client.get_startup_roles(:user_id => user_id)
     roles.startup_roles.each do |relationship|
       ROLES.should include relationship.role
     end
@@ -25,7 +27,7 @@ describe AngellistApi::Client::StartupRoles,
     let(:base_params) { { :v => 1 } }
 
     it "gets a startup's outgoing relationships" do
-      params = { :startup_id => 1124, :direction => 'outgoing' }.merge(base_params)
+      params = { :startup_id => startup_id, :direction => 'outgoing' }.merge(base_params)
       roles = client.get_startup_roles(params)
       roles.startup_roles.each do |relationship|
         ROLES.should include relationship.role
@@ -36,7 +38,7 @@ describe AngellistApi::Client::StartupRoles,
     end
 
     it "gets a startup's incoming relationships" do
-      params = { :startup_id => 1124 }.merge(base_params)
+      params = { :startup_id => startup_id }.merge(base_params)
       roles = client.get_startup_roles(params)
       roles.startup_roles.each do |relationship|
         ROLES.should include relationship.role
@@ -47,7 +49,7 @@ describe AngellistApi::Client::StartupRoles,
     end
 
     it "gets a user's relationships" do
-      params = { :user_id => 2850 }.merge(base_params)
+      params = { :user_id => user_id }.merge(base_params)
       roles = client.get_startup_roles(params)
       roles.startup_roles.each do |relationship|
         ROLES.should include relationship.role

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.angel.co/1/reviews?user_id=2850
+    uri: https://api.angel.co/1/reviews?user_id=155
     body:
       encoding: US-ASCII
       string: ''
@@ -10,165 +10,82 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
+      - AngellistApi Ruby Gem 1.1.0
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: 
+      message: OK
     headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sun, 22 Apr 2012 00:35:03 GMT
-      content-type:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
       - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '980'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '27'
-      etag:
-      - ! '"53c6326f9c809fef0b1f41a9db32a5c2"'
-      cache-control:
-      - private, max-age=0, must-revalidate
+      Date:
+      - Sun, 26 Apr 2015 11:48:48 GMT
+      Etag:
+      - '"6213050ca1d8d919df0dc49c2b7cddee"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1985'
+      X-Request-Id:
+      - 9d1c4c00a84a62832519ec36dafe880c
+      X-Runtime:
+      - '0.047590'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '1608'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJyZXZpZXdzIjpbeyJpZCI6MTIzLCJyYXRpbmciOjEsImNyZWF0ZWRfYXQi
-        OiIyMDExLTA2LTI2VDIyOjA0OjQ2WiIsIm5vdGUiOiJUaGVyZSdzIHNpbXBs
-        eSBubyBvcmdhbml6YXRpb24gb3IgYW5nZWwgaW4gdGhlIHdvcmxkIHRoYXQg
-        aXMgdGhpcyBzdXBwb3J0aXZlIGFuZCBhY3RpdmUgZm9yIHN0YXJ0dXBzLiAg
-        SSdtIHNvIHRocmlsbGVkIHRvIGJlIHBhcnQgb2YgdGhlaXIgbmV0d29yay4i
-        LCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIiOnsiYXMiOiJmb3VuZGVyIiwi
-        cmVsYXRpb25zaGlwIjoiaW52ZXN0b3IifX0seyJpZCI6MzIyLCJyYXRpbmci
-        OjEsImNyZWF0ZWRfYXQiOiIyMDExLTA3LTE5VDE5OjE2OjM0WiIsIm5vdGUi
-        OiIiLCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIiOiJ1bmtub3duIn0seyJp
-        ZCI6NDMyLCJyYXRpbmciOjEsImNyZWF0ZWRfYXQiOiIyMDExLTA3LTI1VDIy
-        OjI2OjIxWiIsIm5vdGUiOiIiLCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIi
-        OiJ1bmtub3duIn0seyJpZCI6NTI4LCJyYXRpbmciOjEsImNyZWF0ZWRfYXQi
-        OiIyMDExLTA3LTI1VDIyOjQ5OjEyWiIsIm5vdGUiOiIiLCJyZWxhdGlvbnNo
-        aXBfdG9fcmV2aWV3ZXIiOiJ1bmtub3duIn0seyJpZCI6NjM5LCJyYXRpbmci
-        OjEsImNyZWF0ZWRfYXQiOiIyMDExLTA3LTI2VDAxOjExOjEyWiIsIm5vdGUi
-        OiJEYXZlIHJlYWxseSBjYXJlcyBhYm91dCBzdGFydHVwcyBhcyBpbGx1c3Ry
-        YXRlZCBieSB0aGUgbWFueSAxMHBtIEZyaWRheSBuaWdodCBjYWxscyBJJ3Zl
-        IGhhZCB3aXRoIGhpbS4gIEhlJ3MgZ290IGFuIHVucGFyYWxsZWxlZCBuZXR3
-        b3JrIGFuZCBpcyBhbiBpbnZhbHVhYmxlIGFkZGl0aW9uIHRvIGFueSB0ZWFt
-        LiIsInJlbGF0aW9uc2hpcF90b19yZXZpZXdlciI6eyJhcyI6ImZvdW5kZXIi
-        LCJyZWxhdGlvbnNoaXAiOiJpbnZlc3RvciJ9fSx7ImlkIjo3MTEsInJhdGlu
-        ZyI6MSwiY3JlYXRlZF9hdCI6IjIwMTEtMDctMjZUMDI6Mzg6MDFaIiwibm90
-        ZSI6IiIsInJlbGF0aW9uc2hpcF90b19yZXZpZXdlciI6InVua25vd24ifSx7
-        ImlkIjo4NDcsInJhdGluZyI6MSwiY3JlYXRlZF9hdCI6IjIwMTEtMDctMjdU
-        MDE6MzQ6MTJaIiwibm90ZSI6IldlIGVuam95IGV2ZXJ5IHNlY29uZCB3aXRo
-        IHRoaXMgZmFtaWx5LCBhbmQgYmVuZWZpdCBncmVhdGx5IGZyb20gYmVlbiBw
-        YXJ0IG9mIGl0LiAiLCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIiOnsiYXMi
-        OiJmb3VuZGVyIiwicmVsYXRpb25zaGlwIjoiaW52ZXN0b3IifX0seyJpZCI6
-        OTU2LCJyYXRpbmciOjEsImNyZWF0ZWRfYXQiOiIyMDExLTA4LTAyVDAyOjI2
-        OjA1WiIsIm5vdGUiOiJFeGNlcHRpb25hbCB1bmRlcnN0YW5kaW5nIG9mIHRo
-        ZSBcInNjaWVuY2VcIiBhbmQgcmVwZWF0YWJsZSBwcm9jZXNzZXMgdGhhdCBw
-        cm9kdWNlIGdyZWF0IHByb2R1Y3RzIGFuZCBncmVhdCBjb21wYW5pZXMuICIs
-        InJlbGF0aW9uc2hpcF90b19yZXZpZXdlciI6eyJhcyI6ImZvdW5kZXIiLCJy
-        ZWxhdGlvbnNoaXAiOiJpbnZlc3RvciJ9fSx7ImlkIjoxMTgwLCJyYXRpbmci
-        OjEsImNyZWF0ZWRfYXQiOiIyMDExLTA4LTIwVDE2OjQ1OjAyWiIsIm5vdGUi
-        OiJUaGV5IHRvb2sgYSBjaGFuY2Ugb24gbXkgY29tcGFueSB3aGVuIHBvdGVu
-        dGlhbGx5IG5vYm9keSBlbHNlIHdvdWxkLiAgVGhpcyBwcm9ncmFtIGxpdGVy
-        YWxseSBjaGFuZ2VkIG15IGxpZmUgYW5kIEkgc3RydWdnbGUgZmluZGluZyB3
-        b3JkcyB0byBkZXNjcmliZSBteSBncmF0aXR1ZGUuICBUcnlpbmcgdG8gaW1h
-        Z2luZSB3aGVyZSBJJ2QgYmUgd2l0aG91dCB0aGUgNTAwU3RhcnR1cHMgYWNj
-        ZWxlcmF0b3IgcHJvZ3JhbSBpcyBsaWtlIGZpbmRpbmcgeW91ciBzb3VsLW1h
-        dGUgYW5kIHRyeWluZyB0byByZWNhbGwgd2hhdCAgbGlmZSB3YXMgbGlrZSBi
-        ZWZvcmUuICBUaGUgdGVhbSBhbmQgbWVudG9yIG5ldHdvcmsgYXJlIHF1aXRl
-        IGFyZ3VhYmx5IHN1cGVyaHVtYW4uICBJIHdpbGwgZm9yZXZlciBiZSAjNTAw
-        U3Ryb25nIGFuZCBrbm93IEknbSB0cnVseSBwYXJ0IG9mIGEgZmFtaWx5LiAg
-        VGhhbmsgeW91IHNvIG11Y2guIiwicmVsYXRpb25zaGlwX3RvX3Jldmlld2Vy
-        IjoidW5rbm93biJ9LHsiaWQiOjEyMzQsInJhdGluZyI6MSwiY3JlYXRlZF9h
-        dCI6IjIwMTEtMDgtMjdUMTg6MjY6MTdaIiwibm90ZSI6IlRoZSBiZXN0IHRo
-        aW5nIHdlIGNvdWxkIGhhdmUgZG9uZSBmb3Igb3VyIHN0YXJ0dXAuIEJlaW5n
-        IHRlY2ggYW5kIHByb2R1Y3QtZm9jdXNlZCBwZW9wbGUsIGl0IHdhcyBnb29k
-        IHRvIGhhdmUgc29tZW9uZSBvbiBvdXIgc2hvdWxkZXIgdGVsbGluZyB1cyB0
-        byB3b3JyeSBhYm91dCBkZXNpZ24sIGRhdGEsIGFuZCBkaXN0cmlidXRpb24u
-        IEFsc28sIHRoZSBuZXR3b3JrIGlzIG1hc3NpdmUgYW5kIF9pbmNyZWRpYmx5
-        XyBoZWxwZnVsLiIsInJlbGF0aW9uc2hpcF90b19yZXZpZXdlciI6eyJhcyI6
-        ImZvdW5kZXIiLCJyZWxhdGlvbnNoaXAiOiJpbnZlc3RvciJ9fSx7ImlkIjox
-        MjU3LCJyYXRpbmciOjEsImNyZWF0ZWRfYXQiOiIyMDExLTA4LTI5VDE2OjIz
-        OjQ4WiIsIm5vdGUiOiJJIGxvdmUgd2hhdCA1MDBTdGFydHVwcyBpcyBkb2lu
-        ZyAtIHNtYXJ0IGhlbHAgKyBib29zdGVyIHJvY2tldHMgZm9yIGVudHJlcHJl
-        bmV1cnMuICBJbiBhZGRpdGlvbiwgdGhleSB0ZWxsIHlvdSB5ZXMgb3Igbm8g
-        cXVpY2tseSBhbmQgZG9uJ3Qgd2FzdGUgeW91ciB0aW1lLiAgQXdlc29tZS4i
-        LCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIiOnsiYXMiOiJmb3VuZGVyIiwi
-        cmVsYXRpb25zaGlwIjoiaW52ZXN0b3IifX0seyJpZCI6MTMzMywicmF0aW5n
-        IjoxLCJjcmVhdGVkX2F0IjoiMjAxMS0wOS0wNlQwMDozNDo0N1oiLCJub3Rl
-        IjoiU21hcnQsIHF1aWNrIHRvIG1ha2UgZGVjaXNpb25zLCBhbmQgYW1hemlu
-        ZyB2YWx1ZSBhZGQgZXNwZWNpYWxseSB2aWEgYWNjZXNzIHRvIHRoZSA1MDAg
-        bmV0d29yayBvZiBmb3VuZGVycyBhbmQgbWVudG9ycy4gWW91J2QgYmUgYW4g
-        aWRpb3Qgbm90IHRvIHRha2UgdGhlaXIgbW9uZXkuIiwicmVsYXRpb25zaGlw
-        X3RvX3Jldmlld2VyIjp7ImFzIjoiZm91bmRlciIsInJlbGF0aW9uc2hpcCI6
-        ImludmVzdG9yIn19LHsiaWQiOjEzODEsInJhdGluZyI6MSwiY3JlYXRlZF9h
-        dCI6IjIwMTEtMDktMTZUMDQ6MzE6MzRaIiwibm90ZSI6IlRoZSA1MDAgRmFt
-        aWx5IHJlZ3VsYXJseSBleGNlZWRzIG91ciBleHBlY3RhdGlvbnMuICBJdCdz
-        IGltcG9zc2libGUgdG8gZG8gbW9yZSBmb3IgZW50cmVwcmVuZXVycyB0aGFu
-        IHdoYXQgRGF2ZSwgdGhlIDUwMCBUZWFtLCBhbmQgdGhlIGluY3JlZGlibHkg
-        YWN0aXZlIG1lbnRvciArIGZvdW5kZXIgbmV0d29yayBkbyByZWd1bGFybHku
-        IiwicmVsYXRpb25zaGlwX3RvX3Jldmlld2VyIjp7ImFzIjoiZm91bmRlciIs
-        InJlbGF0aW9uc2hpcCI6ImludmVzdG9yIn19LHsiaWQiOjEzODIsInJhdGlu
-        ZyI6MSwiY3JlYXRlZF9hdCI6IjIwMTEtMDktMTZUMDQ6NTE6MjFaIiwibm90
-        ZSI6IlRoZXNlIGd1eXMgYXJlIGdyZWF0LiBUaGVyZSdzIGEgbG90IG9mIHRh
-        bGsgb3V0IHRoZXJlIGFib3V0IHZhbHVlIGFkZCBpbnZlc3RvcnMsIG9yIHBl
-        b3BsZSB3aG8gYXJlIGVudHJlcHJlbmV1ciBmcmllbmRseS4gQXQgdGhlIGVu
-        ZCBvZiB0aGUgZGF5LCB0aGVzZSBndXlzIGFyZSBvbmUgb2YgdGhlIGZldyB3
-        aG8gYXJlIGxlZ2l0IG9uIGJvdGggZnJvbnRzLiBJZiB0aGV5IG9mZmVyLCBz
-        YXkgeWVzLiAiLCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIiOnsiYXMiOiJm
-        b3VuZGVyIiwicmVsYXRpb25zaGlwIjoiaW52ZXN0b3IifX0seyJpZCI6MTQx
-        NSwicmF0aW5nIjoxLCJjcmVhdGVkX2F0IjoiMjAxMS0wOS0yNFQxNzozNToz
-        MFoiLCJub3RlIjoiRGVzcGl0ZSB0aGUgZmFjdCB0aGF0IDUwMCBzdGFydHVw
-        cyBoYXMgYSBwcm92ZW4gdHJhY2sgcmVjb3JkIG9mIGxhdW5jaGluZyBzdWNj
-        ZXNzZnVsIGNvbXBhbmllcywgam9pbmluZyA1MDAgc3RhcnR1cHMgaXMgcHJv
-        YmFibHkgdGhlIG1vc3QgZnVuIGFuZCB0aGUgbW9zdCByZXdhcmRpbmcgZXhw
-        ZXJpZW5jZSBJIGhhdmUgZXZlciBoYWQuIiwicmVsYXRpb25zaGlwX3RvX3Jl
-        dmlld2VyIjp7ImFzIjoiZm91bmRlciIsInJlbGF0aW9uc2hpcCI6ImludmVz
-        dG9yIn19LHsiaWQiOjE0ODEsInJhdGluZyI6MSwiY3JlYXRlZF9hdCI6IjIw
-        MTEtMTAtMDFUMjE6NDE6MTVaIiwibm90ZSI6IkdyZWF0IGV4cG9zdXJlIiwi
-        cmVsYXRpb25zaGlwX3RvX3Jldmlld2VyIjp7ImFzIjoiZm91bmRlciIsInJl
-        bGF0aW9uc2hpcCI6ImludmVzdG9yIn19LHsiaWQiOjE5ODksInJhdGluZyI6
-        MSwiY3JlYXRlZF9hdCI6IjIwMTEtMTEtMTZUMDk6NDE6MTBaIiwibm90ZSI6
-        IkdyZWF0IG5ldHdvcmsuIiwicmVsYXRpb25zaGlwX3RvX3Jldmlld2VyIjp7
-        ImFzIjoiZm91bmRlciIsInJlbGF0aW9uc2hpcCI6ImludmVzdG9yIn19LHsi
-        aWQiOjI2NTUsInJhdGluZyI6MSwiY3JlYXRlZF9hdCI6IjIwMTItMDEtMjRU
-        MTk6MTM6MDZaIiwibm90ZSI6IkknbSBhIGNvaW52ZXN0b3Igd2l0aCB0aGVt
-        IG9uIGEgdmFyaWV0eSBvZiBkZWFscyBhbmQgYWx3YXlzIHRyeSB0byBicmlu
-        ZyB0aGVtIGluIHdoZW4gSSBjYW4uIExvdmUgdGhlaXIgdGVhbSwgcGhpbG9z
-        b3BoeSwgYW5kIG5ldHdvcmsiLCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIi
-        OnsiYXMiOiJpbnZlc3RvciIsInJlbGF0aW9uc2hpcCI6ImludmVzdG9yIn19
-        LHsiaWQiOjI3NzAsInJhdGluZyI6MSwiY3JlYXRlZF9hdCI6IjIwMTItMDEt
-        MzBUMjE6MjI6NTNaIiwibm90ZSI6IkZvY3VzIG9uIHdoYXQncyBpbXBvcnRh
-        bnQ6IGNvbW11bml0eSwgdGVhbXdvcmsgYW5kIHN0cmVuZ3RoIHRocm91Z2gg
-        Y29sbGFib3JhdGlvbi4gIiwicmVsYXRpb25zaGlwX3RvX3Jldmlld2VyIjp7
-        ImFzIjoiZm91bmRlciIsInJlbGF0aW9uc2hpcCI6ImludmVzdG9yIn19LHsi
-        aWQiOjI5NjAsInJhdGluZyI6MSwiY3JlYXRlZF9hdCI6IjIwMTItMDItMTZU
-        MDQ6Mzc6MzZaIiwibm90ZSI6IkhlbHBmdWwsIHNtYXJ0LCBncmVhdCB0byBo
-        YXZlIG9uIHlvdXIgdGVhbS4iLCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIi
-        OnsiYXMiOiJmb3VuZGVyIiwicmVsYXRpb25zaGlwIjoiaW52ZXN0b3IifX0s
-        eyJpZCI6MzM1NCwicmF0aW5nIjoxLCJjcmVhdGVkX2F0IjoiMjAxMi0wMy0y
-        N1QxNzo1MTozNloiLCJub3RlIjoiRGF2ZSBNY0NsdXJlIGlzIGFuIGluY3Jl
-        ZGlibHkgZ2lmdGVkIG1hcmtldGVyLCBhbmQgc28gZ29vZCBhdCB3aGF0IGhl
-        IGRvZXMuICAiLCJyZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIiOnsiYXMiOiJm
-        b3VuZGVyIiwicmVsYXRpb25zaGlwIjoiaW52ZXN0b3IifX1dLCJ0b3RhbF9w
-        b3NpdGl2ZSI6MjEsInRvdGFsIjoyMSwicGVyX3BhZ2UiOjUwLCJwYWdlIjox
-        LCJsYXN0X3BhZ2UiOjF9
+      encoding: UTF-8
+      string: '{"reviews":[{"id":22933,"created_at":"2014-08-08T19:11:33Z","note":"naval
+        is the matrix.","relationship_to_reviewer":"unknown","reviewer":{"name":"Jared
+        Kopf","id":46690,"bio":"Founder @adroll, @homerun \u2022 Worked at @paypal,
+        @clarium, @ideo  ","follower_count":3725,"angellist_url":"https://angel.co/jhk","image":"https://d1qb2nb5cznatu.cloudfront.net/users/46690-medium_jpg?1405470142"}},{"id":20705,"created_at":"2014-07-27T22:55:16Z","note":"15
+        minutes with Naval teaches you more about startup finance than you''ll learn
+        in a week with anyone else.","relationship_to_reviewer":"unknown","reviewer":{"name":"Jonathan
+        Nelson","id":8797,"bio":"Hacking Silicon Valley.  Founder @hackers_and_founders
+        & @h-f-next-fund ","follower_count":6039,"angellist_url":"https://angel.co/jonathan-nelson-1","image":"https://d1qb2nb5cznatu.cloudfront.net/users/8797-medium_jpg?1405441442"}},{"id":9421,"created_at":"2013-05-03T21:33:13Z","note":"Sharpest
+        and most connect investor around. Naval is super nice and helpful, especially
+        when it comes to marketplace businesses. Listen to what he has to say, because
+        everything he says is gold.","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null},{"id":8978,"created_at":"2013-03-26T19:32:34Z","note":"Somebody
+        always there for a founder - whatever the issue is, he''ll provide a meaningful
+        suggestion.","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null},{"id":4848,"created_at":"2012-07-18T01:39:04Z","note":"Naval
+        has great feeling for things. He is sharp thinker, honest with himself and
+        others. He is fanatical about determination and values only results.","relationship_to_reviewer":{"as":"founder","relationship":"advisor"},"reviewer":null},{"id":3914,"created_at":"2012-05-17T20:02:05Z","note":"Naval
+        is there whenever we need some advice, and knows the ins and outs of Silicon
+        Valley like nobody else.  A great investor to have.","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null},{"id":3801,"created_at":"2012-05-07T18:14:31Z","note":"Gave
+        great insight into the money raising process and honest advice for a budding
+        startup.","relationship_to_reviewer":{"as":"founder","relationship":"intro"},"reviewer":null},{"id":3462,"created_at":"2012-04-08T10:16:26Z","note":"Brilliant
+        guy whose interests have always been aligned with that of the founder. ","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null},{"id":3324,"created_at":"2012-03-26T03:37:08Z","note":"Brilliant,
+        caring, connected, and passionate. He''s a force of nature; an ideal Valley
+        man.","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null},{"id":3042,"created_at":"2012-02-25T05:22:12Z","note":"If
+        you can, get Naval on board as an investor or an advisor under any circumstances.","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null},{"id":1098,"created_at":"2011-08-12T02:49:30Z","note":"Naval
+        is hard working, honest and he really cares. Every founder I''ve sent to him
+        has had a great experience! ","relationship_to_reviewer":{"as":"investor","relationship":"investor"},"reviewer":null},{"id":1070,"created_at":"2011-08-10T02:21:09Z","note":"Naval
+        is the most founder focused investor/ advisor I know. He does anything to
+        help startup founders and he is awesome at it! His blog http://venturehacks.com
+        is one of the best startup resources available. ","relationship_to_reviewer":{"as":"investor","relationship":"investor"},"reviewer":null},{"id":517,"created_at":"2011-07-25T22:45:06Z","note":"Because
+        he''s the fucking man.","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null},{"id":404,"created_at":"2011-07-25T22:23:41Z","note":"Very
+        entrepreneur friendly.  Super sharp.","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null},{"id":217,"created_at":"2011-07-06T20:18:05Z","note":"Probably
+        the best advisor/investor we had -- I always recommend Naval''s investment
+        as the friendliest money in the valley. ","relationship_to_reviewer":{"as":"founder","relationship":"investor"},"reviewer":null}],"total_positive":15,"total":15,"per_page":50,"page":1,"last_page":1}'
     http_version: 
-  recorded_at: Sun, 22 Apr 2012 00:35:03 GMT
+  recorded_at: Sun, 26 Apr 2015 11:48:50 GMT
 - request:
     method: get
     uri: https://api.angel.co/1/reviews/1098
@@ -179,59 +96,51 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.6
+      - AngellistApi Ruby Gem 1.1.0
       Authorization:
-      - Bearer <ANGELLIST_ACCESS_TOKEN>
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: 
+      message: OK
     headers:
-      cache-control:
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      content-type:
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      date:
-      - !binary |-
-        RnJpLCAxOSBKdWwgMjAxMyAwNTozODozMyBHTVQ=
-      etag:
-      - !binary |-
-        IjFjNjhhMDY5MDRmZmI2ZTQxZWNiYjhkN2VhOWVhYmMzIg==
-      server:
-      - !binary |-
-        bmdpbng=
-      status:
-      - !binary |-
-        MjAwIE9L
-      vary:
-      - !binary |-
-        QWNjZXB0LUVuY29kaW5n
-      x-ratelimit-limit:
-      - !binary |-
-        MjAwMA==
-      x-ratelimit-remaining:
-      - !binary |-
-        MjAwMA==
-      x-runtime:
-      - !binary |-
-        OQ==
-      !binary "Y29udGVudC1sZW5ndGg=":
-      - !binary |-
-        MjEw
-      connection:
-      - !binary |-
-        Q2xvc2U=
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 26 Apr 2015 11:48:49 GMT
+      Etag:
+      - '"e20455523f50a69a0f39c3b3fa7caf35"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1984'
+      X-Request-Id:
+      - eb2ad5704bd7dd63bb3d4be776a44bef
+      X-Runtime:
+      - '0.027120'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '204'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJpZCI6MTA5OCwicmF0aW5nIjoxLCJjcmVhdGVkX2F0IjoiMjAxMS0wOC0x
-        MlQwMjo0OTozMFoiLCJub3RlIjoiTmF2YWwgaXMgaGFyZCB3b3JraW5nLCBo
-        b25lc3QgYW5kIGhlIHJlYWxseSBjYXJlcy4gRXZlcnkgZm91bmRlciBJJ3Zl
-        IHNlbnQgdG8gaGltIGhhcyBoYWQgYSBncmVhdCBleHBlcmllbmNlISAiLCJy
-        ZWxhdGlvbnNoaXBfdG9fcmV2aWV3ZXIiOnsiYXMiOiJpbnZlc3RvciIsInJl
-        bGF0aW9uc2hpcCI6ImludmVzdG9yIn0sInJldmlld2VyIjpudWxsfQ==
+      encoding: UTF-8
+      string: '{"id":1098,"created_at":"2011-08-12T02:49:30Z","note":"Naval is hard
+        working, honest and he really cares. Every founder I''ve sent to him has had
+        a great experience! ","relationship_to_reviewer":{"as":"investor","relationship":"investor"},"reviewer":null}'
     http_version: 
-  recorded_at: Fri, 19 Jul 2013 05:38:37 GMT
-recorded_with: VCR 2.4.0
+  recorded_at: Sun, 26 Apr 2015 11:48:51 GMT
+recorded_with: VCR 2.9.3

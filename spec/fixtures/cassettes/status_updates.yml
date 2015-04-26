@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.angel.co/1/status_updates?user_id=2850
+    uri: https://api.angel.co/1/status_updates?user_id=155
     body:
       encoding: US-ASCII
       string: ''
@@ -10,52 +10,62 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
+      - AngellistApi Ruby Gem 1.1.0
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: !!null 
+      message: OK
     headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sun, 22 Apr 2012 00:35:16 GMT
-      content-type:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
       - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '974'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '53'
-      etag:
-      - ! '"67ba16a7fe85de9157fdc2f2ba11d424"'
-      cache-control:
-      - private, max-age=0, must-revalidate
+      Date:
+      - Sun, 26 Apr 2015 12:02:43 GMT
+      Etag:
+      - '"7a57e911c18d50fb64adca428d5c7ccb"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1997'
+      X-Request-Id:
+      - 484d6c2fc1db1328705cb241fdaedc96
+      X-Runtime:
+      - '0.022434'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '735'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: ! '{"status_updates":[{"id":31163,"message":"Fear is the Mind Killer.
-        I will face my fear, let\u00a0it pass over & through me. Where fear has gone
-        there will be nothing; only I will remain.","created_at":"2011-11-13T00:36:50Z"},{"id":22690,"message":"500
-        Startups fall accelerator program begins October 10, with ~30 companies participating
-        from all over the world.","created_at":"2011-10-05T07:31:14Z"},{"id":10904,"message":"watch
-        500 Startups Demo Days: August 16-17, Mountain View, CA (info & livestream:
-        http://plancast.com/p/6q4q)","created_at":"2011-08-06T00:55:58Z"},{"id":6136,"message":"There
-        is no Try. Only DO.","created_at":"2011-07-10T00:31:07Z"}],"total":4,"per_page":50,"page":1,"last_page":1}'
-    http_version: !!null 
-  recorded_at: Sun, 22 Apr 2012 00:35:16 GMT
+      encoding: UTF-8
+      string: '{"status_updates":[{"id":39023,"message":" ","created_at":"2012-01-05T20:32:20Z"},{"id":35860,"message":"I''m
+        going to MC the NodeJam event at NodeSummit - free for startups. Apply here:
+        http://nodesummit.com/nodejam/","created_at":"2011-12-12T21:19:40Z"},{"id":30803,"message":"Looking
+        for whoever is going to build a franchise across SF gourmet coffee (Blue Bottle,
+        4 Barrel, etc) and take out Starbucks.","created_at":"2011-11-11T04:51:02Z"},{"id":11418,"message":"Must
+        read - http://tydanco.com/2011/08/08/the-big-four-benefits-of-angellist-for-investors/","created_at":"2011-08-09T06:30:12Z"},{"id":6724,"message":"AngelList
+        = Google++ / http://livepaola.wordpress.com/2011/07/14/the-secret-sauce-in-the-google-design-angellist/","created_at":"2011-07-14T05:00:30Z"},{"id":5786,"message":"Burning
+        down the AngelList queue...","created_at":"2011-07-06T20:50:09Z"},{"id":3619,"message":"At
+        Hackers & Founders Scotch-Tasting / Not-a-Demo-Day on Thu. Email  ilikescotch@hackersandfounders.com
+        with your AL profile for details","created_at":"2011-06-15T07:20:46Z"},{"id":3593,"message":"Looking
+        for community manager for AngelList. Venture / entrepreneurial experience
+        preferred. Brilliance mandatory. You will learn everything","created_at":"2011-06-14T22:42:49Z"}],"total":8,"per_page":50,"page":1,"last_page":1}'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 12:02:45 GMT
 - request:
     method: get
     uri: https://api.angel.co/1/status_updates?startup_id=1124
@@ -66,45 +76,65 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
+      - AngellistApi Ruby Gem 1.1.0
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: !!null 
+      message: OK
     headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sun, 22 Apr 2012 00:35:18 GMT
-      content-type:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
       - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '973'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '61'
-      etag:
-      - ! '"901fd76984d3a6c46216c8bd82ffa3ce"'
-      cache-control:
-      - private, max-age=0, must-revalidate
+      Date:
+      - Sun, 26 Apr 2015 12:02:44 GMT
+      Etag:
+      - '"142cc4d17630d05d052532fc66d633e9"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1996'
+      X-Request-Id:
+      - 4b2b33fe75b198a0cc5246956acddea7
+      X-Runtime:
+      - '0.024310'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '1693'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: ! '{"status_updates":[{"id":53746,"message":".@500 Startups by the #''s
-        (infographic): companies, exits, countries, team, process, languages, mentors,
-        events, etc: http://bit.ly/500info","created_at":"2012-04-12T23:57:59Z"},{"id":52798,"message":"Blowing
+      encoding: UTF-8
+      string: '{"status_updates":[{"id":166100,"message":"Hollywood Comes Back To
+        Silicon Valley With A New SyFy Reality TV Show http://techcrunch.com/2014/11/25/bazillion-dollar-club/","created_at":"2014-12-12T00:25:43Z"},{"id":166099,"message":"500
+        Startups Launches $10M Mobile Fund http://techcrunch.com/2014/09/17/500-startups-launches-its-first-two-500-women-syndicate-deals/","created_at":"2014-12-12T00:25:23Z"},{"id":124773,"message":"We''ve
+        got SYNDICATES! https://angel.co/500startups/syndicate and https://angel.co/500-women","created_at":"2014-02-13T19:40:28Z"},{"id":124266,"message":"Applications
+        for Batch 9 are OPEN! Apply now: http://bit.ly/Getin500","created_at":"2014-02-10T08:45:28Z"},{"id":123308,"message":"500
+        Startups Demo Day (Batch #007) is Feb 5th in Mountain View, CA. see http://500.co/events/
+        for details.","created_at":"2014-02-02T06:05:55Z"},{"id":93813,"message":"
+        ","created_at":"2013-03-14T18:33:19Z"},{"id":87746,"message":" ","created_at":"2013-02-06T21:23:04Z"},{"id":82755,"message":"Why
+        Menus Suck + Other Deep Thoughts on the Food Tech Revolution: http://500hats.com/why-menus-suck-food-tech-revolution
+        cc @davemcclure ","created_at":"2012-12-30T19:02:10Z"},{"id":80338,"message":"Q:
+        Winter is Coming? A: Not @500startups. http://www.quora.com/Dave-McClure/Posts/Q-Winter-is-Coming-A-Not-500-Startups","created_at":"2012-12-07T02:33:53Z"},{"id":79775,"message":"Q:
+        \"So, what do you want to do today, Dave?\" A: \"Same thing we do every day,
+        Christine -- try to take over the world!\"","created_at":"2012-12-02T08:52:00Z"},{"id":63502,"message":"500
+        Startups Demo Days coming up July 16th (Mt View), 17th (SF), 23rd (NYC) http://plancast.com/p/aov7/500-startups-demo-day-july-2012
+        ","created_at":"2012-07-03T06:13:56Z"},{"id":53746,"message":".@500 Startups
+        by the #''s (infographic): companies, exits, countries, team, process, languages,
+        mentors, events, etc: http://bit.ly/500info","created_at":"2012-04-12T23:57:59Z"},{"id":52798,"message":"Blowing
         Up Startups Since 2010 -- WE ARE 500.","created_at":"2012-04-06T02:36:39Z"},{"id":52554,"message":"Pres.
         Obama set to sign JOBS Act on THURSDAY, April 5th: see http://en.wikipedia.org/wiki/Jumpstart_Our_Business_Startups_Act","created_at":"2012-04-04T18:24:37Z"},{"id":51002,"message":"500
         Startups begins our 4th batch of accelerator companies starting on April 2nd.
@@ -119,7 +149,7 @@ http_interactions:
         by Emily Chang: http://bit.ly/500startupsBigDeal)","created_at":"2011-07-30T10:06:25Z"},{"id":6131,"message":"The
         Spice Must Flow.","created_at":"2011-07-09T23:28:10Z"},{"id":1743,"message":"Welcome
         to Silicon Valley, for all our new 500 Startups summer batch of accelerator
-        companies... let''s get to work!","created_at":"2011-05-22T23:08:59Z"}],"total":12,"per_page":50,"page":1,"last_page":1}'
-    http_version: !!null 
-  recorded_at: Sun, 22 Apr 2012 00:35:18 GMT
-recorded_with: VCR 2.1.0
+        companies... let''s get to work!","created_at":"2011-05-22T23:08:59Z"}],"total":23,"per_page":50,"page":1,"last_page":1}'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 12:02:47 GMT
+recorded_with: VCR 2.9.3

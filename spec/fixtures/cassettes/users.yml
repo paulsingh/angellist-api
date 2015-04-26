@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.angel.co/1/users/2850?format=json&phoenix=true
+    uri: https://api.angel.co/1/users/155
     body:
       encoding: US-ASCII
       string: ''
@@ -10,785 +10,805 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
+      - AngellistApi Ruby Gem 1.1.0
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: !!null 
+      message: OK
     headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sat, 21 Apr 2012 22:29:44 GMT
-      content-type:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
       - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '987'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '21'
-      etag:
-      - ! '"0c13384ccaf0ae7c9e1ff289e0070619"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"name":"500 Startups","id":2850,"bio":"Internet seed fund & startup
-        accelerator in Silicon Valley. Partners worked at PayPal, Google, AOL, Rackspace,
-        YouTube, Mint, Facebook fbFund, Founders Fund.","follower_count":5560,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197","blog_url":"http://500.co/blog","online_bio_url":"http://500.co","twitter_url":"http://twitter.com/#!/500","facebook_url":"http://facebook.com/500startups","linkedin_url":"http://www.linkedin.com/company/500-startups","locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
-        view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"},{"id":8732,"tag_type":"LocationTag","name":"sao
-        paulo","display_name":"Sao Paulo","angellist_url":"http://angel.co/sao-paulo"}],"roles":[{"id":9305,"tag_type":"RoleTag","name":"seed
-        funds","display_name":"Seed Fund","angellist_url":"http://angel.co/seed-funds"},{"id":9306,"tag_type":"RoleTag","name":"vc","display_name":"VC","angellist_url":"http://angel.co/vc"}]}'
-    http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 22:29:44 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/users/2850?format=json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sat, 21 Apr 2012 23:16:43 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '953'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '25'
-      etag:
-      - ! '"0c13384ccaf0ae7c9e1ff289e0070619"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"name":"500 Startups","id":2850,"bio":"Internet seed fund & startup
-        accelerator in Silicon Valley. Partners worked at PayPal, Google, AOL, Rackspace,
-        YouTube, Mint, Facebook fbFund, Founders Fund.","follower_count":5560,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197","blog_url":"http://500.co/blog","online_bio_url":"http://500.co","twitter_url":"http://twitter.com/#!/500","facebook_url":"http://facebook.com/500startups","linkedin_url":"http://www.linkedin.com/company/500-startups","locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
-        view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"},{"id":8732,"tag_type":"LocationTag","name":"sao
-        paulo","display_name":"Sao Paulo","angellist_url":"http://angel.co/sao-paulo"}],"roles":[{"id":9305,"tag_type":"RoleTag","name":"seed
-        funds","display_name":"Seed Fund","angellist_url":"http://angel.co/seed-funds"},{"id":9306,"tag_type":"RoleTag","name":"vc","display_name":"VC","angellist_url":"http://angel.co/vc"}]}'
-    http_version: !!null 
-  recorded_at: Sat, 21 Apr 2012 23:16:43 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/users/2850
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sun, 22 Apr 2012 00:35:28 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '968'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '19'
-      etag:
-      - ! '"b5d91f38826f5fc779a09c530bea1f02"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"name":"500 Startups","id":2850,"bio":"Internet seed fund & startup
-        accelerator in Silicon Valley. Partners worked at PayPal, Google, AOL, Rackspace,
-        YouTube, Mint, Facebook fbFund, Founders Fund.","follower_count":5561,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197","blog_url":"http://500.co/blog","online_bio_url":"http://500.co","twitter_url":"http://twitter.com/#!/500","facebook_url":"http://facebook.com/500startups","linkedin_url":"http://www.linkedin.com/company/500-startups","locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
-        view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"},{"id":8732,"tag_type":"LocationTag","name":"sao
-        paulo","display_name":"Sao Paulo","angellist_url":"http://angel.co/sao-paulo"}],"roles":[{"id":9305,"tag_type":"RoleTag","name":"seed
-        funds","display_name":"Seed Fund","angellist_url":"http://angel.co/seed-funds"},{"id":9306,"tag_type":"RoleTag","name":"vc","display_name":"VC","angellist_url":"http://angel.co/vc"}]}'
-    http_version: !!null 
-  recorded_at: Sun, 22 Apr 2012 00:35:28 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/users/search?slug=500startups
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sun, 22 Apr 2012 00:35:29 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '967'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '23'
-      etag:
-      - ! '"b5d91f38826f5fc779a09c530bea1f02"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"name":"500 Startups","id":2850,"bio":"Internet seed fund & startup
-        accelerator in Silicon Valley. Partners worked at PayPal, Google, AOL, Rackspace,
-        YouTube, Mint, Facebook fbFund, Founders Fund.","follower_count":5561,"angellist_url":"http://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium?1294804197","blog_url":"http://500.co/blog","online_bio_url":"http://500.co","twitter_url":"http://twitter.com/#!/500","facebook_url":"http://facebook.com/500startups","linkedin_url":"http://www.linkedin.com/company/500-startups","locations":[{"id":1701,"tag_type":"LocationTag","name":"mountain
-        view","display_name":"Mountain View","angellist_url":"http://angel.co/mountain-view-1"},{"id":8732,"tag_type":"LocationTag","name":"sao
-        paulo","display_name":"Sao Paulo","angellist_url":"http://angel.co/sao-paulo"}],"roles":[{"id":9305,"tag_type":"RoleTag","name":"seed
-        funds","display_name":"Seed Fund","angellist_url":"http://angel.co/seed-funds"},{"id":9306,"tag_type":"RoleTag","name":"vc","display_name":"VC","angellist_url":"http://angel.co/vc"}]}'
-    http_version: !!null 
-  recorded_at: Sun, 22 Apr 2012 00:35:30 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/users/batch?ids=15821%2C100303
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sun, 22 Apr 2012 04:01:49 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '999'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '113'
-      etag:
-      - ! '"c7acb0532fee68206b1e469e5718f06f"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '[{"name":"Tim Chae","id":15821,"bio":"CEO of PostRocket. Two profitable
-        startups before age of 18. UI/UX, BD & Hustler. Babson College Tech Entrepreneurship
-        and Design UG.","follower_count":308,"angellist_url":"http://angel.co/tchae","image":"https://s3.amazonaws.com/photos.angel.co/users/15821-medium?1327034404","blog_url":"http://www.timchae.com","online_bio_url":"http://www.timchae.com","twitter_url":"http://twitter.com/#!/tchae","facebook_url":"","linkedin_url":"http://www.linkedin.com/in/timchae","locations":[{"id":1620,"tag_type":"LocationTag","name":"boston","display_name":"Boston","angellist_url":"http://angel.co/boston"},{"id":1681,"tag_type":"LocationTag","name":"silicon
-        valley","display_name":"Silicon Valley","angellist_url":"http://angel.co/silicon-valley"},{"id":1692,"tag_type":"LocationTag","name":"san
-        francisco","display_name":"San Francisco","angellist_url":"http://angel.co/san-francisco"}],"roles":[{"id":14725,"tag_type":"RoleTag","name":"entrepreneur","display_name":"Entrepreneur","angellist_url":"http://angel.co/entrepreneur-1"}]},{"name":"Prathan
-        Thananart","id":100303,"bio":"Web developer. I believe computer and the Internet
-        hold key solutions to many of our present day problems, from traffic to grassroots
-        democracy.","follower_count":7,"angellist_url":"http://angel.co/scomma","image":"https://s3.amazonaws.com/photos.angel.co/users/100303-medium?1330411698","blog_url":null,"online_bio_url":"http://la.byr.in.th","twitter_url":"http://twitter.com/#!/scomma","facebook_url":null,"linkedin_url":null,"locations":[],"roles":[]}]'
-    http_version: !!null 
-  recorded_at: Sun, 22 Apr 2012 04:01:49 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/users/2850/roles
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.3
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      cache-control:
-      - private, max-age=0, must-revalidate
-      content-type:
-      - application/json; charset=utf-8
-      date:
-      - Thu, 21 Mar 2013 15:12:05 GMT
-      etag:
-      - ! '"cfe1d0120974be32c9a8f8871e9c3dc7"'
-      server:
+      Date:
+      - Sun, 26 Apr 2015 12:06:06 GMT
+      Etag:
+      - '"e9e15697dc90004a6a522389a6f653e1"'
+      Server:
       - nginx
-      status:
+      Status:
       - 200 OK
-      vary:
+      Vary:
       - Accept-Encoding
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '999'
-      x-runtime:
-      - '2064'
-      transfer-encoding:
-      - chunked
-      connection:
-      - Close
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1990'
+      X-Request-Id:
+      - 461730f8e4d6387ee0ca2b81e7d8bbd2
+      X-Runtime:
+      - '0.025339'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '679'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: ! '{"startup_roles":[{"id":565659,"role":"past_investor","created_at":"2013-03-15T20:19:59Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":132132,"hidden":false,"community_profile":false,"name":"YaSabe","angellist_url":"https://angel.co/yasabe","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/132132-5680ce4205c04b5aa3db3a282de2685c-medium_jpg.jpg?buster=1363379078","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/132132-5680ce4205c04b5aa3db3a282de2685c-thumb_jpg.jpg?buster=1363379078","quality":6,"product_desc":"YaSabe
-        is the premier local search destination for businesses, coupons and jobs that
-        caters to Hispanic consumers. We connect businesses, content publishers, and
-        advertisers to the collective buying power of U.S. Hispanics.\n\nThrough syndicated
-        bilingual content, revenue opportunities, and access to expanded Hispanic
-        audiences, YaSabe helps its partners drive in-depth, lasting cultural and
-        community engagement with one of the nation\u2019s fastest growing, most lucrative
-        markets.","high_concept":"Local search destination catering to US Hispanic
-        consumers.","follower_count":19,"company_url":"http://www.yasabe.com/en","created_at":"2012-10-25T14:13:37Z","updated_at":"2013-03-15T20:24:42Z"}},{"id":560156,"role":"incubator","created_at":"2013-03-12T20:53:53Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":21214,"hidden":false,"community_profile":false,"name":"Babelverse","angellist_url":"https://angel.co/babelverse","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/21214-0838287330dca28d837b576df65ec51d-medium_jpg.jpg?buster=1348117539","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/21214-0838287330dca28d837b576df65ec51d-thumb_jpg.jpg?buster=1348117539","quality":7,"product_desc":"Babelverse
-        is an award winning startup (LeWeb''11, TheNextWeb''12, TechCrunch Disrupt''12)
-        and seeing great traction. \n\nThe first solution for people-powered real-time
-        interpretation (crowd-sourced & pro).\n\nA platform to enable people in various
-        situations to remotely obtain on-the-spot interpretation, in any language.
-        \n\nThe universal translator we''ve all been waiting for!\n\nhttp://www.fastcompany.com/1798732/translate-this-babelverse-wants-to-put-a-human-interpreter-in-everyones-pocket","high_concept":"On-demand
-        voice translation by pro interpreters & bilinguals, in any language & situation","follower_count":281,"company_url":"http://babelverse.com","created_at":"2011-07-18T23:18:24Z","updated_at":"2013-03-16T01:18:57Z"}},{"id":546944,"role":"past_investor","created_at":"2013-03-05T04:38:17Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":98033,"hidden":false,"community_profile":false,"name":"Manicube","angellist_url":"https://angel.co/manicube","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/98033-d1134b10ba13edec45570fb92f22dfca-medium_jpg.jpg?buster=1348155196","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/98033-d1134b10ba13edec45570fb92f22dfca-thumb_jpg.jpg?buster=1348155196","quality":6,"product_desc":"We
-        offer 15-minute, $15 manicures to professional women at their offices. We
-        liaise with HR managers to bring licensed nail technicians in on a weekly
-        basis. Employees book appointments directly on our website, our payments are
-        cashless, and our service is elevated-- we stock premium nail polish brands,
-        use strict sanitation procedures and provide iPad content at every station.
-        For every manicure, we contribute $1 to a micro loan to a female entrepreneur
-        in the developing world through Kiva. ","high_concept":"Making working professionals''
-        lives easier starting with 15 min manicures at the office.","follower_count":7,"company_url":"http://www.manicube.com","created_at":"2012-06-18T22:00:29Z","updated_at":"2012-09-20T21:54:27Z"}},{"id":531846,"role":"past_investor","created_at":"2013-02-25T23:25:15Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":174290,"hidden":false,"community_profile":false,"name":"Sightly","angellist_url":"https://angel.co/sightly","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/174290-773ab66d1ac41c8302281557e0e5ae7f-medium_jpg.jpg?buster=1362329448","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/174290-773ab66d1ac41c8302281557e0e5ae7f-thumb_jpg.jpg?buster=1362329448","quality":7,"product_desc":"Our
-        local video platform connects consumers & nearby businesses in a faster, more
-        engaging way.  Our platform lets consumers experience the business before
-        they go by seeing videos captured by Sightly at no cost to the business.  And
-        we help businesses reach local customers by distributing their video via video
-        SEO, SEM, syndicated channels & in-stream YouTube video ads as Google\u2019s
-        only local video partner.  Businesses can track views, clicks & conversions
-        via an online account center.","high_concept":"Video platform for local search
-        & discovery","follower_count":170,"company_url":"http://www.sightly.com","created_at":"2013-02-25T23:07:52Z","updated_at":"2013-03-13T22:15:05Z"}},{"id":525663,"role":"past_investor","created_at":"2013-02-22T10:18:21Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":172453,"hidden":false,"community_profile":false,"name":"Snapsheet","angellist_url":"https://angel.co/snapsheet-1","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/172453-ab54da25eec3eee49e6232ec92ff1295-medium_jpg.jpg?buster=1361497981","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/172453-ab54da25eec3eee49e6232ec92ff1295-thumb_jpg.jpg?buster=1361497981","quality":6,"product_desc":"Snapsheet
-        provides mobile branded apps to help auto insurance carriers settle claims
-        in hours instead of days. Our self-service mobile app enables customers to
-        take photos of their damaged vehicles on their own time without the hassle
-        of scheduling an adjuster or a trip to a body shop. The customer can view
-        their carrier approved estimate, schedule an appointment with a body shop
-        or even take an EFT cash payout all from their carrier''s mobile app. ","high_concept":"Mobile
-        self-service claims solution","follower_count":13,"company_url":"http://www.snapsheetapp.com","created_at":"2013-02-22T01:32:57Z","updated_at":"2013-02-22T01:53:08Z"}},{"id":519118,"role":"past_investor","created_at":"2013-02-19T05:24:45Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":26348,"hidden":false,"community_profile":false,"name":"TapCanvas","angellist_url":"https://angel.co/tapcanvas","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/26348-d2b87b0dbf5b2bb3aa61d795993b6f0d-medium_jpg.jpg?buster=1361988829","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/26348-d2b87b0dbf5b2bb3aa61d795993b6f0d-thumb_jpg.jpg?buster=1361988829","quality":7,"product_desc":"TapCanvas
-        is a platform for building \"contextual\" HTML5 mobile apps without programming.
-        Contextual apps are tied to a place, time, or object, and they can be built
-        in as little as 60 seconds using beautiful pre-made templates.\n\nAOL uses
-        TapCanvas to create mobile conference apps for their events. Vornado plans
-        to use TapCanvas to create maintenance and warranty guides for the fans and
-        heaters they sell. These apps run on the web, so they can be accessed easily
-        by URL, QR code, or NFC chip.","high_concept":"Contextual mobile apps.","follower_count":130,"company_url":"http://www.tapcanvas.com","created_at":"2011-10-17T05:53:25Z","updated_at":"2013-03-13T17:36:24Z"}},{"id":512935,"role":"past_investor","created_at":"2013-02-14T23:53:46Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":125280,"hidden":false,"community_profile":false,"name":"SupplyHog","angellist_url":"https://angel.co/supplyhog","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/125280-2ec744eae29274d4a260b622d9a3fc81-medium_jpg.jpg?buster=1348494949","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/125280-2ec744eae29274d4a260b622d9a3fc81-thumb_jpg.jpg?buster=1348494949","quality":7,"product_desc":"Our
-        platform brings transparency and efficiency to a market dominated by phone
-        calls, shopping trips, fax machines, endless negotiations and personalized
-        pricing. We throw in free drop shipping and contractor level pricing. In short,
-        our platform takes care of the busy work and provides better value to boot.
-        \n","high_concept":"Amazon/Zappos of Building Supplies.","follower_count":349,"company_url":"http://www.supplyhog.com","created_at":"2012-09-24T13:55:51Z","updated_at":"2013-03-21T04:25:00Z"}},{"id":505140,"role":"past_investor","created_at":"2013-02-11T02:31:45Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":83689,"hidden":false,"community_profile":false,"name":"Cubie","angellist_url":"https://angel.co/cubie","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/83689-87d0cfb9e83f54b95f9c79f10047c881-medium_jpg.jpg?buster=1334638926","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/83689-87d0cfb9e83f54b95f9c79f10047c881-thumb_jpg.jpg?buster=1334638926","quality":6,"product_desc":"Cubie
-        Messenger (http://cubie.com) is a mobile messaging app launched in Mar ''12
-        on iPhone and Android, which got 5.5 million users within 10 months.\n\nCubie
-        hit Top 1 (total) in 10 Asian and Middle East countries, and No.1 (social)
-        in 16 countries. Cubie also hit No.13 in US and No.10 in Japan (social).\n\nCubie
-        allows to send drawings while chatting, and offers tons of animated emoji,
-        and can share photos, videos and voice.\n","high_concept":"5.5M+ users in
-        10 months. WhatsApp + drawing + fun.","follower_count":155,"company_url":"http://cubie.com","created_at":"2012-04-17T05:02:06Z","updated_at":"2013-02-06T18:01:49Z"}},{"id":505055,"role":"past_investor","created_at":"2013-02-11T01:51:53Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":165758,"hidden":false,"community_profile":false,"name":"MyTime","angellist_url":"https://angel.co/mytime","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/165758-93d122cf14fda10d1ab1e065f460e016-medium_jpg.jpg?buster=1360597615","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/165758-93d122cf14fda10d1ab1e065f460e016-thumb_jpg.jpg?buster=1360597615","quality":7,"product_desc":"An
-        online destination to allow consumers to conveniently book open appointment
-        times from top local businesses at http://www.mytime.com and through our mobile
-        apps.  Consumers can view real-time appointment availability across thousands
-        of businesses and receive instant confirmations when they purchase services
-        through MyTime.  \n\nThe product is now available in the Los Angeles area,
-        where it features over 500,000 open appointments available for booking.","high_concept":"Find
-        and book open appointments for nearby local businesses. Book and pay with
-        1-click.","follower_count":53,"company_url":"http://www.mytime.com","created_at":"2013-02-07T09:08:26Z","updated_at":"2013-02-11T15:46:58Z"}},{"id":504094,"role":"past_investor","created_at":"2013-02-10T01:45:16Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":1693,"hidden":false,"community_profile":false,"name":"GoodPeople","angellist_url":"https://angel.co/goodpeople","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/1693-ac0f2dedfbcfcc50808781c3c2a84c19-medium_jpg.jpg?buster=1321913782","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/1693-ac0f2dedfbcfcc50808781c3c2a84c19-thumb_jpg.jpg?buster=1321913782","quality":7,"product_desc":"GoodPeople
-        is a social marketplace for the action sports lifestyle.\n\nFounded 3 years
-        ago, GoodPeople was selected as an Endeavor Global Company in 2012 and is
-        currently the largest action sports community in Argentina. They currently
-        have partnerships with the X Games and many of the most well known brands
-        in the industry. Their platform helps brands to promote and sell products
-        to their target market while providing the community a place to share the
-        lifestyle online.","high_concept":"The action sports brand of the future.","follower_count":48,"company_url":"http://www.goodpeople.com","created_at":"2010-12-29T13:20:39Z","updated_at":"2013-03-18T23:43:04Z"}},{"id":501317,"role":"past_investor","created_at":"2013-02-07T22:58:03Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":23140,"hidden":false,"community_profile":false,"name":"Stupeflix","angellist_url":"https://angel.co/stupeflix","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/23140-9d0a0800cdc986d1e5228d4f667b9d61-medium_jpg.jpg?buster=1329297306","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/23140-9d0a0800cdc986d1e5228d4f667b9d61-thumb_jpg.jpg?buster=1329297306","quality":6,"product_desc":"Stupeflix
-        helps people express themselves through video. \nWe believe making a video
-        should be as fast as sharing a photo.\n\nWe''re building a novel experience
-        for iPhone users, turning your camera roll into beautiful videos, instantly.\nVideo
-        creativity on mobile is a huge, open opportunity.\nInstant rendering on the
-        device is our secret weapon.\n\nStupeflix made 10 million videos, for 1 million
-        users of its web app, and the world largest brands (e.g. Coke, Amex, Sprint).","high_concept":"Fast,
-        beautiful video creation","follower_count":259,"company_url":"http://stupeflix.com","created_at":"2011-08-22T16:04:26Z","updated_at":"2012-11-16T19:16:07Z"}},{"id":484797,"role":"past_investor","created_at":"2013-01-29T04:14:15Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":815,"hidden":false,"community_profile":false,"name":"StartupDigest","angellist_url":"https://angel.co/startupdigest","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/815-b42c45292e6591f3a9920ba1de3da2ca-medium_jpg.jpg?buster=1315770812","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/815-b42c45292e6591f3a9920ba1de3da2ca-thumb_jpg.jpg?buster=1315770812","quality":8,"product_desc":"StartupDigest
-        is the largest tech entrepreneurship network in the world, helping people
-        stay connected and learn more in the startup world.\n\nEvery week we serve
-        300,000 subscribers across 185 cities worldwide.","high_concept":"Meet people
-        and learn more in the startup world","follower_count":122,"company_url":"http://startupdigest.com","created_at":"2010-10-20T01:05:38Z","updated_at":"2013-03-10T20:52:35Z"}},{"id":481656,"role":"past_investor","created_at":"2013-01-26T21:06:25Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":51645,"hidden":false,"community_profile":false,"name":"Jeeran","angellist_url":"https://angel.co/jeeran","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/51645-dbeaa321a8bab060c5c44fffb807495b-medium_jpg.jpg?buster=1326858911","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/51645-dbeaa321a8bab060c5c44fffb807495b-thumb_jpg.jpg?buster=1326858911","quality":7,"product_desc":"An
-        engagement platform between consumers and businesses centered on places and
-        reviews.","high_concept":"Local discovery based on community reviews","follower_count":42,"company_url":"http://www.jeeran.com","created_at":"2012-01-18T03:55:12Z","updated_at":"2012-04-18T06:57:43Z"}},{"id":474026,"role":"past_investor","created_at":"2013-01-21T20:58:14Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":154195,"hidden":false,"community_profile":false,"name":"VERSUS
-        IO","angellist_url":"https://angel.co/versus-io","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/154195-eb46b6471162e568778d8fc2cd13a1f8-medium_jpg.jpg?buster=1358417188","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/154195-eb46b6471162e568778d8fc2cd13a1f8-thumb_jpg.jpg?buster=1358417188","quality":6,"product_desc":"-
-        Growing by 50% per month\n- 2.5M visits/month, 80% unique, 25% mobile\n- World-wide
-        audience, 18 languages, most social activity than any other comparison site\n-
-        $1M seed closed w/500 Startups, JMES, HTGF in 2012\n- Direct competitor: FindTheBest\n","high_concept":"Data-driven
-        comparisons in natural language","follower_count":21,"company_url":"http://versusio.com","created_at":"2013-01-08T17:54:26Z","updated_at":"2013-01-25T23:51:47Z"}},{"id":468982,"role":"incubator","created_at":"2013-01-16T23:32:55Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":157106,"hidden":false,"community_profile":false,"name":"SearchMan","angellist_url":"https://angel.co/searchman","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/157106-9a3d95eae330c84e4ade7ff1ea38f280-medium_jpg.jpg?buster=1358382124","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/157106-9a3d95eae330c84e4ade7ff1ea38f280-thumb_jpg.jpg?buster=1358382124","quality":7,"product_desc":"SearchMan.com
-        (www.SearchMan.com) is seriously committed to enabling search & discovery
-        of the best mobile apps & shopping deals with great technology. \n\nOur first
-        product, SearchMan SEO, enables search engine optimization for Mobile Apps
-        on iPhone, iPad and Google Play (Q1 2013). Our service helps developers (and
-        their stakeholders) track search rankings, analyze keywords, compete for rankings,
-        and optimize everything...so that your App is easier to find. ","high_concept":"Enabling
-        SEO for Mobile Apps","follower_count":206,"company_url":"http://SearchMan.com","created_at":"2013-01-16T23:29:46Z","updated_at":"2013-02-06T02:15:16Z"}},{"id":465835,"role":"past_investor","created_at":"2013-01-15T02:14:22Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":813,"hidden":false,"community_profile":false,"name":"Humanoid
-        (Acquired by CloudFactory)","angellist_url":"https://angel.co/humanoid-acquired-by-cloudfactory","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/813-dee9832dc76814506c31776e335189ab-medium_jpg.jpg?buster=1320945988","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/813-dee9832dc76814506c31776e335189ab-thumb_jpg.jpg?buster=1320945988","quality":9,"product_desc":"Humanoid
-        is a crowdsourcing QA and cost optimization technology built on top of Amazon
-        Mechanical Turk. We use advanced machine learning techniques to model and
-        predict how well individuals will perform different virtual tasks, then assign
-        work to them in a way that optimizes speed, price and quality. \n\nOur engineering
-        team comes from the Carnegie Mellon Robotics Institute and our investors include
-        Google Ventures, 500 Startups and Mitch Kapor. \n","high_concept":"Labor in
-        the Cloud. ","follower_count":226,"company_url":"http://getHumanoid.com","created_at":"2010-01-02T08:00:00Z","updated_at":"2013-03-07T23:50:55Z"}},{"id":462469,"role":"past_investor","created_at":"2013-01-12T03:54:21Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":115616,"hidden":false,"community_profile":false,"name":"NoRedink","angellist_url":"https://angel.co/noredink","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/115616-d46b44dca825cd851aca9d59e8cc1e4d-medium_jpg.jpg?buster=1345548640","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/115616-d46b44dca825cd851aca9d59e8cc1e4d-thumb_jpg.jpg?buster=1345548640","quality":7,"product_desc":"NoRedInk.com
-        helps students improve their grammar/writing skills.\u00a0Our engine generates
-        personalized curriculum from their interests & adapts to them with instant
-        feedback, tutorials, & color-coded heat maps. With no marketing, we''re in
-        5% of U.S. schools and have revenue in a $9.7B market. We won NBC''s $75K
-        Innovation Challenge and have been featured in\u00a0Mashable,\u00a0USNews,
-        TechCrunch, etc.\u00a0We''re backed by ImagineK12 & led by a former English
-        teacher who decided to use technology to end \"red ink.\"","high_concept":"Adaptive
-        learning tool that helps students improve their grammar/writing skills.","follower_count":344,"company_url":"http://www.noredink.com","created_at":"2012-08-20T02:55:54Z","updated_at":"2013-01-02T21:35:25Z"}},{"id":462086,"role":"past_investor","created_at":"2013-01-11T20:27:24Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":62234,"hidden":false,"community_profile":false,"name":"ZipDial","angellist_url":"https://angel.co/zipdial","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/62234-6f64c1e92fee9ffe2c362899341cf99c-medium_jpg.jpg?buster=1354797690","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/62234-6f64c1e92fee9ffe2c362899341cf99c-thumb_jpg.jpg?buster=1354797690","quality":6,"product_desc":"ZipDial
-        call-to-action platform captures consumer opinions & intent. Every zipdial
-        from a consumer is a ping to the platform activating one of many applications
-        in the marketing suite, from couponing to feedback surveys to friend referrals.
-        \n\nRich data builds as every zipdial enhances the user\u2019s interest and
-        behavioral profile, therefore driving even more value in analytics for advertiser
-        customers.\n\nLarge brands pay $10,000-$40,000/month. Self-service packages
-        at zipdial.com start at $20/month.","high_concept":"\"Smart\" features on
-        Cloud for 100% of mobile users. 400M+ zipdials, 400+ paying customers.","follower_count":61,"company_url":"http://www.zipdial.com","created_at":"2012-01-18T06:41:26Z","updated_at":"2013-01-17T00:45:46Z"}},{"id":457375,"role":"past_investor","created_at":"2013-01-08T03:18:04Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":81354,"hidden":false,"community_profile":false,"name":"Bankons","angellist_url":"https://angel.co/bankons","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/81354-7bd9a31e80851ba71a97850de53117b5-medium_jpg.jpg?buster=1334722441","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/81354-7bd9a31e80851ba71a97850de53117b5-thumb_jpg.jpg?buster=1334722441","quality":6,"product_desc":"Bankons
-        provides a mobile offers service to help consumers get real time rewards that
-        are better targeted via transaction history.\n\nOur mobile offers platform
-        enables financial institution real time influence through geo-located transaction
-        data that can be a powerful tool when married to geo-located offers.\n\nPrimarily
-        a B2B service for financial institutions to increase mobile engagement, create
-        a critical mass of local offers and use our patented offer targeting technology.","high_concept":"Powering
-        a mobile offers service for banks to give users rewards via transaction history.","follower_count":20,"company_url":"http://www.bankons.com","created_at":"2012-04-06T15:27:16Z","updated_at":"2012-04-18T04:14:01Z"}},{"id":456869,"role":"past_investor","created_at":"2013-01-07T20:58:46Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":146025,"hidden":false,"community_profile":false,"name":"Boatbound","angellist_url":"https://angel.co/boatbound","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/146025-33270c516b44cb3a16a469932598747a-medium_jpg.jpg?buster=1355260805","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/146025-33270c516b44cb3a16a469932598747a-thumb_jpg.jpg?buster=1355260805","quality":7,"product_desc":"Boatbound
-        is the first and only fully insured \"pier-to-pier\" marketplace for boat
-        rentals in the US. \n\nEach rental comes equipped with $1,000,000 in insurance
-        coverage, ensuring that both owners and renters are protected on the water.\n\nQuick
-        Facts:\n- There are 13,000,000 registered boats in the US. \n- 75,000,000
-        + people enjoy boating each year.  \n- The average boat spends 95% of the
-        year unused \n- Over a combined $10,000,000,000 is spent by boaters each year
-        in storage & maintenance in the US\n","high_concept":"Airbnb for boat rentals","follower_count":871,"company_url":"http://Boatbound.com","created_at":"2012-12-11T20:43:08Z","updated_at":"2013-03-21T14:47:29Z"}},{"id":448399,"role":"past_investor","created_at":"2012-12-30T18:20:10Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":24153,"hidden":false,"community_profile":false,"name":"GoSpotCheck","angellist_url":"https://angel.co/gospotcheck","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/24153-a6e0142de36b6329c17b2c8642902519-medium_jpg.jpg?buster=1346337392","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/24153-a6e0142de36b6329c17b2c8642902519-thumb_jpg.jpg?buster=1346337392","quality":8,"product_desc":"GoSpotCheck
-        gives brands real time insight to their operations across multiple locations.
-        We enable their field based team members to capture information via our smartphone
-        application and share it via a web-based dashboard in real time. \n\nWe help
-        businesses get better street level information, faster and easier than ever
-        before. ","high_concept":"We help field teams capture and share information
-        via mobile","follower_count":468,"company_url":"http://www.gospotcheck.com","created_at":"2011-09-12T18:10:33Z","updated_at":"2012-12-21T19:50:01Z"}},{"id":447405,"role":"past_investor","created_at":"2012-12-28T16:47:24Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":80042,"hidden":false,"community_profile":false,"name":"Shoptouch","angellist_url":"https://angel.co/shoptouch","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80042-ac5382437f07065bcb756d3eec055816-medium_jpg.jpg?buster=1361831402","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/80042-ac5382437f07065bcb756d3eec055816-thumb_jpg.jpg?buster=1361831402","quality":7,"product_desc":"Shoptouch
-        is a mobile shopping and recommendation platform for retailers and brands.
-        Shoptouch apps provide personalized product guidance to consumers via mobile
-        apps, while enabling retailers and brands to reach consumers with relevant
-        communications at the point of purchase. The first Shoptouch platform app,
-        Blush for Wine, is a mobile wine shopping companion that helps you find wines
-        to match your taste, occasion and budget. ","high_concept":"Mobile shopping
-        and recommendation platform for retailers and brands ","follower_count":104,"company_url":"http://www.shoptouch.com","created_at":"2012-04-01T21:32:00Z","updated_at":"2013-02-27T21:35:16Z"}},{"id":439868,"role":"past_investor","created_at":"2012-12-19T23:44:08Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":44559,"hidden":false,"community_profile":false,"name":"15Five","angellist_url":"https://angel.co/15five","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/44559-438942ad75c2ed4fd4c3fd9a9547fca0-medium_jpg.jpg?buster=1326852756","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/44559-438942ad75c2ed4fd4c3fd9a9547fca0-thumb_jpg.jpg?buster=1326852756","quality":7,"product_desc":"When
-        employees spend 15 minutes each week writing a report that takes their manager
-        no more than 5 minutes to read, everyone stays in the loop and focused on
-        what''s most important.\n\nWe help CEOs and executives to know the pulse of
-        their company.  With 15Five, they can surface problems, celebrate wins, discover
-        great ideas and stay tuned in to morale.\n\nRecent press - Inc, TechCrunch:
-        https://angel.co/15five?show_comments=true#press\n\nWhat we''re about: http://www.15five.com/philosophy.html","high_concept":"Know
-        the pulse of your company; weekly employee feedback.","follower_count":634,"company_url":"http://www.15five.com","created_at":"2012-01-18T02:12:37Z","updated_at":"2012-09-19T20:43:06Z"}},{"id":439290,"role":"past_investor","created_at":"2012-12-19T20:37:26Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":130,"hidden":false,"community_profile":false,"name":"eVenues","angellist_url":"https://angel.co/evenues","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/130-92877006588603764b3c4ce79e41f7a0-medium_jpg.jpg?buster=1315771002","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/130-92877006588603764b3c4ce79e41f7a0-thumb_jpg.jpg?buster=1315771002","quality":8,"product_desc":"eVenues
-        lets you easily search, compare, and book small meeting and event spaces,
-        similar to Expedia, AirBnB concepts. eVenues aggregates all types of space:
-        boardrooms & conference rooms, classrooms, and small event spaces (theatres,
-        galleries, clubs) into destination marketplace. eVenues incents venues with
-        free listings and use of meeting room manager that integrates with Outlook,
-        Google Calendar, and Apple iCal.","high_concept":"AirBnB for Meeting & Event
-        Space","follower_count":166,"company_url":"http://www.evenues.com","created_at":"2010-08-02T23:26:16Z","updated_at":"2012-09-24T17:21:54Z"}},{"id":439280,"role":"past_investor","created_at":"2012-12-19T20:35:53Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":71679,"hidden":false,"community_profile":false,"name":"Like
-        it!","angellist_url":"https://angel.co/like-it-1","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/71679-4db7e6ec77e660e8921880ed8a5dad94-medium_jpg.jpg?buster=1363062030","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/71679-4db7e6ec77e660e8921880ed8a5dad94-thumb_jpg.jpg?buster=1363062030","quality":6,"product_desc":"With
-        the consumer market in mind and years of experience on the field we''ve built
-        a factory of high impact mobile apps. Our goal is to create beautiful self
-        funding products that serve millions of people on a monthly basis.\n\nOur
-        first product was instaDM a messaging platform for Instagram users that received
-        over 2M downloads in less than a year.\n\nWe''re currently working on app
-        number two, Like it! where we enable people to discover and share great content.
-        ","high_concept":"A beautiful way to discover & collect Instagram photos.","follower_count":85,"company_url":"http://likeit.co/","created_at":"2012-02-27T00:40:49Z","updated_at":"2013-03-12T04:38:05Z"}},{"id":434425,"role":"past_investor","created_at":"2012-12-16T00:03:41Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":64699,"hidden":false,"community_profile":false,"name":"PayrollHero","angellist_url":"https://angel.co/payrollhero","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/64699-86a6c42b15ab8854593b52350ee2f4c4-medium_jpg.jpg?buster=1333493390","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/64699-86a6c42b15ab8854593b52350ee2f4c4-thumb_jpg.jpg?buster=1333493390","quality":6,"product_desc":"PayrollHero.com
-        - Optimizing Work Productivity with Happiness. \n\nConsumer friendly Time,
-        Attendance, Scheduling and Payroll in the cloud for web and mobile. \n\nWe
-        use your employees face as our primary biometric to avoid buddy punching and
-        ghost employees. These clock-in pics are further given a mood rating to establish
-        an array of business intelligence to your companies corollaries between productivity
-        and mood.","high_concept":"Optimizing Time, Attendance, Scheduling & Work
-        Productivity w/ Happiness via iOS/web.","follower_count":237,"company_url":"http://www.payrollhero.com/","created_at":"2012-01-23T04:08:53Z","updated_at":"2013-02-20T01:26:14Z"}},{"id":429827,"role":"past_investor","created_at":"2012-12-11T18:31:19Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":31833,"hidden":false,"community_profile":false,"name":"Dabee","angellist_url":"https://angel.co/dabee","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31833-74651d8e19e0450bafaea1ee505eece4-medium_jpg.jpg?buster=1326589698","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/31833-74651d8e19e0450bafaea1ee505eece4-thumb_jpg.jpg?buster=1326589698","quality":6,"product_desc":"Foreign
-        buyers \u201cdiscover\u201d cool merchants and products not available in their
-        country. They add these products to their storefront on Dabee (aka Hive) and
-        share these discoveries with their friends & followers. \n\nWhen products
-        are sold, hive owners are rewarded and Dabee takes care of the rest. (payment,
-        customs, delivery)\n\nWe are addressing an $80B market (Cross-Border B2C)
-        and our pilot market is Brazil, where we offer a 100% local experience","high_concept":"Destination
-        site for foreign buyers to discover and buy products","follower_count":44,"company_url":"http://www.dabee.com.br","created_at":"2012-01-13T15:31:10Z","updated_at":"2012-12-11T18:57:18Z"}},{"id":419131,"role":"past_investor","created_at":"2012-12-02T08:35:11Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":6328,"hidden":false,"community_profile":false,"name":"LocBox","angellist_url":"https://angel.co/locbox","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/6328-e508e55736816711a213df008551339d-medium_jpg.jpg?buster=1348886102","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/6328-e508e55736816711a213df008551339d-thumb_jpg.jpg?buster=1348886102","quality":8,"product_desc":"LocBox
-        helps high-margin local businesses (plastic surgeons, B&Bs, Benz dealerships,
-        gokart racing tracks, etc.) generate revenue and foot traffic with targeted
-        campaigns that run on multiple channels - Email, FB, Twitter, Text - all from
-        one dashboard. \n\nWe bring businesses from the Dark Ages of unsustainable
-        discounting and spray-and-pray Email Mkting into a sustainable revenue plan.
-        \n\nOur internal targeting technology helps us get customers without a wildly
-        inefficient feet-on-street model.\n\n","high_concept":"Customer Retention
-        And Acquisition For Local Businesses","follower_count":268,"company_url":"http://www.getlocbox.com","created_at":"2011-03-16T07:30:49Z","updated_at":"2012-10-01T18:11:42Z"}},{"id":406528,"role":"past_investor","created_at":"2012-11-20T17:37:21Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":97116,"hidden":false,"community_profile":false,"name":"Cucumbertown","angellist_url":"https://angel.co/cucumbertown","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/97116-83b23a097a3b0703d3c117c9061f6c9e-medium_jpg.jpg?buster=1339682433","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/97116-83b23a097a3b0703d3c117c9061f6c9e-thumb_jpg.jpg?buster=1339682433","quality":8,"product_desc":"Delightfully
-        simple recipe blogging platform that allows amateur cooks to develop devoted
-        followings.\n\nArdent, vocal community built using curation mechanics with
-        over 30 percent contributing, returning over 5 days per week. 75% of users
-        return to the site within 30 days. \n\nHighly User Experience focused. In-depth
-        insights & research project based. \n\n\n","high_concept":"Cucumbertown is
-        a delightfully simple and addictive recipe-blogging-platform","follower_count":166,"company_url":"http://www.cucumbertown.com/","created_at":"2012-06-14T03:42:34Z","updated_at":"2012-11-02T18:38:41Z"}},{"id":404661,"role":"incubator","created_at":"2012-11-19T07:39:39Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":62639,"hidden":false,"community_profile":false,"name":"Chirpme.com","angellist_url":"https://angel.co/chirpme-com","logo_url":"https://angel.co/images/shared/nopic_startup.png","thumb_url":"https://angel.co/images/shared/nopic_startup.png","quality":9,"product_desc":null,"high_concept":null,"follower_count":21,"company_url":null,"created_at":"2012-01-18T06:48:26Z","updated_at":"2012-10-09T17:34:40Z"}},{"id":401391,"role":"past_investor","created_at":"2012-11-15T07:14:03Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":122672,"hidden":false,"community_profile":false,"name":"Forever
-        Snap - Wedding Snap","angellist_url":"https://angel.co/forever-snap-wedding-snap","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122672-874819ef670820c8b5c8b64e54b93f26-medium_jpg.jpg?buster=1355991804","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122672-874819ef670820c8b5c8b64e54b93f26-thumb_jpg.jpg?buster=1355991804","quality":7,"product_desc":"Forever
-        Snap is the fastest and easiest way to collect all your event''s photos and
-        videos in one place. \n\nOver 3000 people have payed more than $100 each to
-        capture all their memories at\n\n- Weddings \n- Birthday Parties\n- Class
-        reunions\n- Family travels\n- Company events\n- etc. \n\nFirst was WeddingSnap.com
-        \n& now due to high demand we are expanding to other verticals:\nForeverSnap.com
-        \n\n\nOur team comes from: Italy, Iran, Chile, Spain, South Africa, Brazil,
-        & the U.S. Everyone lives in the bay area.","high_concept":"Crowd-sourcing
-        your event''s Photos & Videos in ONE place.","follower_count":79,"company_url":"http://www.WeddingSnap.com","created_at":"2012-09-15T07:56:01Z","updated_at":"2013-01-29T07:45:53Z"}},{"id":392469,"role":"past_investor","created_at":"2012-11-06T04:15:10Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":28225,"hidden":false,"community_profile":false,"name":"Microryza","angellist_url":"https://angel.co/microryza","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28225-74bc140079116a2044af8a7315fbfb0c-medium_jpg.jpg?buster=1348377338","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/28225-74bc140079116a2044af8a7315fbfb0c-thumb_jpg.jpg?buster=1348377338","quality":6,"product_desc":"Every
-        great discovery only happens once. Be there for it. \n\nMicroryza is a crowdfunding
-        platform for scientific research.","high_concept":"Kickstarter for Research","follower_count":89,"company_url":"http://www.microryza.com","created_at":"2011-11-11T01:23:59Z","updated_at":"2013-03-19T06:39:21Z"}},{"id":392285,"role":"incubator","created_at":"2012-11-06T00:01:07Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":123324,"hidden":false,"community_profile":false,"name":"Tapshot,
-        Makers of Videokits","angellist_url":"https://angel.co/tapshot-makers-of-videokits","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/123324-fdccc44628c03fbb78685b5f3cfb0f1a-medium_jpg.jpg?buster=1352428766","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/123324-fdccc44628c03fbb78685b5f3cfb0f1a-thumb_jpg.jpg?buster=1352428766","quality":6,"product_desc":"The
-        Videokits app offers fun and easy mobile video creation for all types of events
-        and activities. Creative kits guide people through shooting and assembling
-        great videos of everything from parties, holidays, and vacations to youth
-        sports events, restaurant reviews, product reviews, and cooking demos. On
-        the surface, our software guides users through the process of capturing events
-        and activities; underneath, it generates structured video data for future
-        aggregation, cataloging, and remixing.","high_concept":"Guided Mobile Video
-        Creation","follower_count":26,"company_url":"http://www.videokits.com","created_at":"2012-09-17T19:14:48Z","updated_at":"2013-02-01T00:11:35Z"}},{"id":387229,"role":"past_investor","created_at":"2012-10-31T17:05:22Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":30767,"hidden":false,"community_profile":false,"name":"Moveline","angellist_url":"https://angel.co/moveline","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/30767-92a8ce5acae4318a7e9450a19bae30ff-medium_jpg.jpg?buster=1324652233","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/30767-92a8ce5acae4318a7e9450a19bae30ff-thumb_jpg.jpg?buster=1324652233","quality":8,"product_desc":"As
-        seen in Forbes, The New York Times, TechCrunch, Mashable, Lifehacker, CNNmoney...\n\nMoveline
-        lets people take a video of their stuff, and get guaranteed quotes from top
-        moving companies.\n\nFor moving companies, because Moveline does the inventory,
-        long-distance moving companies are no longer tied to their sales regions:
-        any moving company can work with any customer, anywhere.\n\nMoveline is bringing
-        transparency to the moving industry, and using technology to put customers
-        in control.","high_concept":"The best way to move - for the 40M people who
-        spend $25B on moving services","follower_count":259,"company_url":"http://www.moveline.com","created_at":"2011-12-23T14:33:36Z","updated_at":"2013-03-12T14:09:44Z"}},{"id":380857,"role":"past_investor","created_at":"2012-10-23T20:57:28Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":122276,"hidden":false,"community_profile":false,"name":"Nuzzel","angellist_url":"https://angel.co/nuzzel","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122276-2aee84dde7187ace62f25eb8925da16f-medium_jpg.jpg?buster=1348105375","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122276-2aee84dde7187ace62f25eb8925da16f-thumb_jpg.jpg?buster=1348105375","quality":8,"product_desc":"Nuzzel
-        is the super-easy way to see news from your friends.\n\nNuzzel helps you to
-        manage the overload of social sharing, filter out the noise, and make social
-        curation more useful.\n\nNuzzel is simple, social, real-time, and platform
-        agnostic.  Nuzzel works on web, mobile, and email, with no signup, setup,
-        or install required.  Just login with Twitter or Facebook.\n","high_concept":"The
-        super-easy way to see news from your friends","follower_count":630,"company_url":"http://beta.nuzzel.com/","created_at":"2012-09-13T22:33:15Z","updated_at":"2013-02-05T23:43:37Z"}},{"id":380779,"role":"past_investor","created_at":"2012-10-23T19:34:19Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":2484,"hidden":false,"community_profile":false,"name":"Tip
-        or Skip","angellist_url":"https://angel.co/tip-or-skip","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/2484-249d3b3187092919c07d810a3f8bf631-medium_jpg.jpg?buster=1351023317","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/2484-249d3b3187092919c07d810a3f8bf631-thumb_jpg.jpg?buster=1351023317","quality":7,"product_desc":"Tip
-        or Skip is the mobile shopping game where you compete to be a top tastemaker
-        by spotting great products. Tip what you like, skip what you don''t.  If your
-        followers agree, you earn points called \"sway.\" Players and products with
-        the most sway rise to the top.  Coming soon: exchange sway for free products,
-        and buy more sway if you need it. For brands, buy and use sway to increase
-        exposure of your products.\n\nTip or Skip is based in the heart of the fashion
-        district in NYC.","high_concept":"An addictive shopping app and social network","follower_count":95,"company_url":"http://www.tiporskip.com","created_at":"2011-02-09T17:05:53Z","updated_at":"2012-10-23T20:21:46Z"}},{"id":379659,"role":"incubator","created_at":"2012-10-22T20:11:15Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":2269,"hidden":false,"community_profile":false,"name":"Pick1","angellist_url":"https://angel.co/pick1","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/2269-b04f6feeec62623ae9934337803a3526-medium_jpg.jpg?buster=1327372315","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/2269-b04f6feeec62623ae9934337803a3526-thumb_jpg.jpg?buster=1327372315","quality":6,"product_desc":"Know
-        Your Customers\n\nIndividual Opinions meet Real-time Targeted Marketing\n\nPick1
-        merges an individual''s opinions with their entire social media presence,
-        enabling brands to efficiently know, understand, and successfully target their
-        customers.\n\nBased on questions insights actions, engaging in a multi-channel
-        context, collecting multi-dimensional social opinions.\n\nPick1 dynamically
-        aggregates/clusters the collected information to deliver actionable data,
-        to retarget audience and improve ROI.","high_concept":"Know Your Customers
-        - Individual Opinions meet Real-time Targeted Marketing","follower_count":238,"company_url":"http://www.pick1.com","created_at":"2011-02-01T07:59:27Z","updated_at":"2013-02-06T23:13:46Z"}},{"id":379125,"role":"past_investor","created_at":"2012-10-22T05:47:59Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":122643,"hidden":false,"community_profile":false,"name":"everbill","angellist_url":"https://angel.co/everbill","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122643-647f4c35406e9d6e357488e6d1435fb5-medium_jpg.jpg?buster=1348982740","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122643-647f4c35406e9d6e357488e6d1435fb5-thumb_jpg.jpg?buster=1348982740","quality":5,"product_desc":"everbill
-        is a Silicon Valley based startup in the field of online invoicing. At www.everbill.com,
-        startups and SMEs can easily create invoices, estimates, purchase orders,
-        and similar documents via any connected device and exchange them with customers
-        and suppliers. everbill is a SaaS application, therefore everbill\u00b4s users
-        don\u2019t have to install, maintain, or update local software. ","high_concept":"SAP
-        for startups and SMBs","follower_count":149,"company_url":"http://www.everbill.com","created_at":"2012-09-15T03:51:16Z","updated_at":"2013-03-14T15:53:49Z"}},{"id":377605,"role":"past_investor","created_at":"2012-10-19T06:01:41Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":79594,"hidden":false,"community_profile":false,"name":"Maker","angellist_url":"https://angel.co/maker","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79594-d870281ef95b67595b253329ac452743-medium_jpg.jpg?buster=1333082447","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/79594-d870281ef95b67595b253329ac452743-thumb_jpg.jpg?buster=1333082447","quality":7,"product_desc":"We''re
-        building a platform for makers to showcase their creations, build their personal
-        brand and connect directly with their markets. ","high_concept":"Discover
-        the people side of products.","follower_count":143,"company_url":"http://maker.me/","created_at":"2012-03-30T04:38:21Z","updated_at":"2013-03-21T05:38:47Z"}},{"id":373054,"role":"incubator","created_at":"2012-10-14T07:22:26Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":122262,"hidden":false,"community_profile":false,"name":"wideo","angellist_url":"https://angel.co/wideo","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122262-44c995685c06fbce2ff58f95123176bf-medium_jpg.jpg?buster=1347589499","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122262-44c995685c06fbce2ff58f95123176bf-thumb_jpg.jpg?buster=1347589499","quality":5,"product_desc":"Wideo
-        is a very simple, intuitive online tool that allows anyone to make short animation
-        videos so that they can share their ideas with the world. It\u00b4s like a
-        prezi.com to make animated videos.","high_concept":"Prezi for making animated
-        videos","follower_count":97,"company_url":"http://wideo.co","created_at":"2012-09-13T22:24:32Z","updated_at":"2012-11-06T23:49:30Z"}},{"id":373032,"role":"past_investor","created_at":"2012-10-14T05:54:41Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":82190,"hidden":false,"community_profile":false,"name":"Social
-        Tables","angellist_url":"https://angel.co/social-tables","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/82190-268c07b6ad1f7af924c6a7ecca582568-medium_jpg.jpg?buster=1334078880","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/82190-268c07b6ad1f7af924c6a7ecca582568-thumb_jpg.jpg?buster=1334078880","quality":7,"product_desc":"An
-        event planning and community building platform with the world''s first social
-        seating chart. We''re reinventing the way events are planned and attended!","high_concept":"Event
-        planning and community building platform","follower_count":145,"company_url":"http://www.socialtables.com/","created_at":"2012-04-10T16:17:14Z","updated_at":"2012-12-01T23:28:51Z"}},{"id":372317,"role":"incubator","created_at":"2012-10-12T20:18:36Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":74754,"hidden":false,"community_profile":false,"name":"Instamojo","angellist_url":"https://angel.co/instamojo-1","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/74754-25c89bc8083780838916c9fbc5d2d4a5-medium_jpg.jpg?buster=1362816398","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/74754-25c89bc8083780838916c9fbc5d2d4a5-thumb_jpg.jpg?buster=1362816398","quality":6,"product_desc":"We
-        are reinventing horizontal & vertical e-commerce platforms from the viewpoint
-        of design (dead simple UI/UX), fulfillment (proprietary digital goods delivery
-        system) & distribution (peer to peer) with a proven team of 20+ yrs of experience,
-        market knowledge & deep technical know-how in similar domain.\n\nWith that,
-        folks are selling their digital creations like ebooks, reports, comic books,
-        music, software, templates etc by simply sharing a link to make $$$ instantly.\n\n","high_concept":"Reinventing
-        e-commerce platforms; starting with digital goods ($36B industry)","follower_count":175,"company_url":"http://instamojo.com","created_at":"2012-03-07T22:03:14Z","updated_at":"2013-03-09T08:06:40Z"}},{"id":369421,"role":"incubator","created_at":"2012-10-09T18:28:57Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":122184,"hidden":false,"community_profile":false,"name":"iDreamBooks","angellist_url":"https://angel.co/idreambooks","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122184-0b31a130de066de38a2e377e90369fd9-medium_jpg.jpg?buster=1354150294","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/122184-0b31a130de066de38a2e377e90369fd9-thumb_jpg.jpg?buster=1354150294","quality":6,"product_desc":"RottenTomatoes
-        for books. We aggregate editorial or critic reviews from sources like NYTimes
-        or WashingtonPost to create an authentic book recommendation. Our goal is
-        to become the industry standard for book ratings across the internet.","high_concept":"RottenTomatoes
-        for Books","follower_count":125,"company_url":"http://idreambooks.com","created_at":"2012-09-13T19:44:57Z","updated_at":"2013-03-19T06:37:05Z"}},{"id":367682,"role":"incubator","created_at":"2012-10-07T23:39:37Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":26411,"hidden":false,"community_profile":false,"name":"Club
-        W","angellist_url":"https://angel.co/club-w","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/26411-2fdb8af3f3ac8ad2cbb1c51bdf36863a-medium_jpg.jpg?buster=1318898466","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/26411-2fdb8af3f3ac8ad2cbb1c51bdf36863a-thumb_jpg.jpg?buster=1318898466","quality":7,"product_desc":"Club
-        W is an entirely new culture of intrepid, unassuming wine drinkers. Blending
-        the ideas of traditional wine club with a tech-focused business model, Club
-        W is breathing new life into the wine industry by focusing on high-quality
-        online content and interactive social media. Featuring the hottest wines on
-        the market, Club W reaches customers in a way that feels friendly, relatable
-        and accessible while maintaing enough authority to be a respected voice within
-        the wine community. \n\n","high_concept":"eWinery ","follower_count":141,"company_url":"http://www.clubw.com","created_at":"2011-10-17T23:15:41Z","updated_at":"2013-01-29T16:27:47Z"}},{"id":367346,"role":"past_investor","created_at":"2012-10-07T10:16:37Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":127726,"hidden":false,"community_profile":false,"name":"femeninas","angellist_url":"https://angel.co/femeninas","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/127726-4709d3fcbad5db0e711823528fc26879-medium_jpg.jpg?buster=1358572561","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/127726-4709d3fcbad5db0e711823528fc26879-thumb_jpg.jpg?buster=1358572561","quality":6,"product_desc":"femeninas.com
-        is a women and fashion destination brand\nMoving into a social engagement
-        platform for women and user generated content,where designers and brands can
-        interact with the community. \nDelivering high quality personalized content\nContent
-        creation is on demand, based on real time research out of internet searches
-        and social information\nMaking the connection between brands and consumers
-        more efficient and powerful","high_concept":"Fashion and women scalable content
-        generation model. Brands to consumer SEO and Social","follower_count":121,"company_url":"http://www.femeninas.com","created_at":"2012-10-04T17:33:41Z","updated_at":"2013-03-02T07:07:37Z"}},{"id":366902,"role":"past_investor","created_at":"2012-10-06T00:40:50Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":32654,"hidden":false,"community_profile":false,"name":"Crocodoc","angellist_url":"https://angel.co/crocodoc","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32654-72300d16cb85a6cd165f3f3d3fac9ee1-medium_jpg.jpg?buster=1335898926","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/32654-72300d16cb85a6cd165f3f3d3fac9ee1-thumb_jpg.jpg?buster=1335898926","quality":8,"product_desc":"Crocodoc
-        converts Microsoft Office and PDF documents to HTML5 so your users can view
-        and collaborate right in your web app. \n\nWe''ve developed the world''s most
-        advanced web-based document viewing and collaboration technology for Microsoft
-        Office and PDF files, built on open standards such as HTML5 and CSS3. We make
-        it easy for companies to create amazing experiences for their users with technology
-        that is secure, scalable, and trusted by top brands in the consumer and enterprise
-        space. ","high_concept":"Easy document embedding and collaboration using HTML5","follower_count":71,"company_url":"http://www.crocodoc.com","created_at":"2012-01-17T23:28:21Z","updated_at":"2012-11-28T18:35:15Z"}},{"id":366065,"role":"incubator","created_at":"2012-10-05T00:29:09Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":127824,"hidden":false,"community_profile":false,"name":"Qual
-        Canal","angellist_url":"https://angel.co/qual-canal","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/127824-e99695ed223a5dbb08be5644ba56fed3-medium_jpg.jpg?buster=1349395147","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/127824-e99695ed223a5dbb08be5644ba56fed3-thumb_jpg.jpg?buster=1349395147","quality":4,"product_desc":"Qual
-        Canal helps broadcasters increase their shows ratings by increasing buzz about
-        them in social media. \n\nFor brands and agencies, we help them adjust their
-        strategies to get stronger engagement with their brand through the course
-        of the TV program, and subsequently adjust their media buying strategies to
-        optimize their ROI.","high_concept":"Social TV ratings and engagement plataform","follower_count":92,"company_url":"http://qualcanal.tv","created_at":"2012-10-04T23:59:09Z","updated_at":"2013-01-28T01:57:24Z"}},{"id":366034,"role":"incubator","created_at":"2012-10-04T23:58:13Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":127821,"hidden":false,"community_profile":false,"name":"UniPay","angellist_url":"https://angel.co/unipay","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/127821-aba5821eaa65ce72025f6291ac3f3a94-medium_jpg.jpg?buster=1349918868","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/127821-aba5821eaa65ce72025f6291ac3f3a94-thumb_jpg.jpg?buster=1349918868","quality":5,"product_desc":"UniPay
-        allows anyone to accept credit cards in just a few steps by using their mobile
-        devices. No merchant account needed, no big fees. Getting paid in Brazil is
-        a pain and we''re making it simple and safe.\n\nNo hardware is required: just
-        download our app, sign up and you''re ready to receive payments from your
-        customers.","high_concept":"We take the hassle out of accepting credit cards
-        in Brazil through mobile payment.","follower_count":147,"company_url":"http://www.unipay.com.br","created_at":"2012-10-04T23:55:42Z","updated_at":"2012-11-01T18:26:37Z"}},{"id":365869,"role":"incubator","created_at":"2012-10-04T22:47:17Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":30557,"hidden":false,"community_profile":false,"name":"Chewse","angellist_url":"https://angel.co/chewse","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/30557-0e21e57c124019b44185d06a1158d379-medium_jpg.jpg?buster=1356033558","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/30557-0e21e57c124019b44185d06a1158d379-thumb_jpg.jpg?buster=1356033558","quality":7,"product_desc":"We''ve
-        already fed 20,000 hungry employees...\n\nChewse is a B2B marketplace for
-        corporate meals. In 2 test territories, we feed employees from companies like
-        PwC, USC, and Wells Fargo. We''ve got a waiting list of 700 companies ready
-        for us to expand.\n\nChewse understands admins, who control a $33B market
-        of group meals.\n\nIt''s time to delight admins to order easily for groups.
-        \nIt''s time to empower restaurants with untapped revenue.\nLet''s take a
-        big bite out of a big market.\n\n\n\n","high_concept":"Big groups. Big meals.
-        Thousands fed.","follower_count":412,"company_url":"http://www.chewse.com/","created_at":"2011-12-19T19:54:49Z","updated_at":"2013-02-26T06:58:34Z"}},{"id":365713,"role":"incubator","created_at":"2012-10-04T21:18:39Z","started_at":null,"ended_at":null,"confirmed":true,"tagged":{"type":"User","name":"500
-        Startups","id":2850,"bio":"Silicon Valley seed fund & accelerator. 500 team
-        has worked @paypal, @google, AOL, @rackspace, @yahoo, @youtube, @mint-com-1,
-        @facebook fbFund, Founders Fund.","follower_count":9854,"angellist_url":"https://angel.co/500startups","image":"https://s3.amazonaws.com/photos.angel.co/users/2850-medium_jpg?1294804197"},"startup":{"id":97716,"hidden":false,"community_profile":false,"name":"Import2","angellist_url":"https://angel.co/import2","logo_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/97716-9c61a8e12236a6b2d3f99a68c336f0d3-medium_jpg.jpg?buster=1352251766","thumb_url":"https://s3.amazonaws.com/photos.angel.co/startups/i/97716-9c61a8e12236a6b2d3f99a68c336f0d3-thumb_jpg.jpg?buster=1352251766","quality":7,"product_desc":"Import2
-        is an automated online data migration service. \n\n500+ migrations, customers
-        including Zillow, Disqus, MediaSpike \n\nAnnual churn for average SaaS software
-        service is 5%-10%. E.g in CRM market it means $900M-$1.8B worth of customers
-        are moving their data to a new CRM software every year. \n\nToday data migration
-        is done by IT consultants. We automate data migration making it x10 less expensive.
-        \n\nWe charge one time fee of $299-$999 for business and $12-$49 for consumer
-        data migration.\n\n","high_concept":"1-Click Data Migration","follower_count":60,"company_url":"http://www.import2.com","created_at":"2012-06-17T16:23:51Z","updated_at":"2013-02-27T21:03:13Z"}}],"total":344,"per_page":50,"page":1,"last_page":7}'
-    http_version: !!null 
-  recorded_at: Thu, 21 Mar 2013 15:12:07 GMT
-recorded_with: VCR 2.4.0
+      encoding: UTF-8
+      string: '{"name":"Naval Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks
+        @vast @epinions ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037","blog_url":"http://startupboy.com/","online_bio_url":"http://startupboy.com/about/","twitter_url":"http://twitter.com/naval","facebook_url":"http://www.facebook.com/navalr","linkedin_url":"http://www.linkedin.com/in/navalr","aboutme_url":"","github_url":"","dribbble_url":"","behance_url":"","resume_url":null,"what_ive_built":"","what_i_do":"","criteria":null,"locations":[{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"https://angel.co/san-francisco"}],"roles":[{"id":9305,"tag_type":"RoleTag","name":"seed
+        funds","display_name":"Seed Fund","angellist_url":"https://angel.co/seed-funds"},{"id":14725,"tag_type":"RoleTag","name":"entrepreneur","display_name":"Entrepreneur","angellist_url":"https://angel.co/entrepreneur-1"},{"id":9299,"tag_type":"RoleTag","name":"advisors","display_name":"Advisor","angellist_url":"https://angel.co/advisors"},{"id":14726,"tag_type":"RoleTag","name":"developer","display_name":"Developer","angellist_url":"https://angel.co/developer"}],"skills":[{"id":23388,"tag_type":"SkillTag","name":"c","display_name":"C","angellist_url":"https://angel.co/c-2","level":null},{"id":15592,"tag_type":"SkillTag","name":"html","display_name":"HTML","angellist_url":"https://angel.co/html","level":null},{"id":14775,"tag_type":"SkillTag","name":"python","display_name":"Python","angellist_url":"https://angel.co/python","level":null},{"id":14781,"tag_type":"SkillTag","name":"javascript","display_name":"Javascript","angellist_url":"https://angel.co/javascript","level":null}],"investor":true}'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 12:06:08 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/batch?ids=15821,100303
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.1.0
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 26 Apr 2015 12:06:07 GMT
+      Etag:
+      - '"9cea181aa2d2b3fe3cf0bb66215a7428"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1989'
+      X-Request-Id:
+      - 527d7eb4a4c9c6aa9148f9f16cfa3a07
+      X-Runtime:
+      - '0.044040'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '1957'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"name":"Tim Chae","id":15821,"bio":"Venture Partner at @500startups
+        and heading up $15M Korea specific fund, #500Kimchi. Started a couple co''s
+        (bootstrapped & venture). Fan of #ELaMF and #JFDI.","follower_count":1086,"angellist_url":"https://angel.co/tchae","image":"https://d1qb2nb5cznatu.cloudfront.net/users/15821-medium_jpg?1406081290","blog_url":"","online_bio_url":"http://www.timchae.com","twitter_url":"http://twitter.com/#!/tchae","facebook_url":"http://www.facebook.com/timchae","linkedin_url":"http://www.linkedin.com/in/timchae","aboutme_url":"","github_url":"","dribbble_url":"","behance_url":"","resume_url":"","what_ive_built":"","what_i_do":"Investing
+        into awesome companies worldwide through @500Startups. Heading up 500''s South
+        Korea specific $15M micro-VC fund, #500Kimchi. Trying to make Korean companies
+        become American Unicorns :)","criteria":"","locations":[{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"https://angel.co/san-francisco"},{"id":1681,"tag_type":"LocationTag","name":"silicon
+        valley","display_name":"Silicon Valley","angellist_url":"https://angel.co/silicon-valley"},{"id":1701,"tag_type":"LocationTag","name":"mountain
+        view","display_name":"Mountain View","angellist_url":"https://angel.co/mountain-view-1"},{"id":2441,"tag_type":"LocationTag","name":"seoul","display_name":"Seoul","angellist_url":"https://angel.co/seoul"},{"id":1652,"tag_type":"LocationTag","name":"korea","display_name":"Korea","angellist_url":"https://angel.co/korea"}],"roles":[{"id":14725,"tag_type":"RoleTag","name":"entrepreneur","display_name":"Entrepreneur","angellist_url":"https://angel.co/entrepreneur-1"},{"id":80487,"tag_type":"RoleTag","name":"product_manager","display_name":"Product
+        Manager","angellist_url":"https://angel.co/product_manager"},{"id":80489,"tag_type":"RoleTag","name":"marketing","display_name":"Marketing","angellist_url":"https://angel.co/marketing-2"},{"id":14883,"tag_type":"RoleTag","name":"designer","display_name":"Designer","angellist_url":"https://angel.co/designer"},{"id":9300,"tag_type":"RoleTag","name":"angels","display_name":"Angel","angellist_url":"https://angel.co/angels"},{"id":9306,"tag_type":"RoleTag","name":"vc","display_name":"VC","angellist_url":"https://angel.co/vc"}],"skills":[{"id":17587,"tag_type":"SkillTag","name":"social
+        media marketing","display_name":"Social Media Marketing","angellist_url":"https://angel.co/social-media-marketing-1","level":4.0},{"id":80376,"tag_type":"SkillTag","name":"html5
+        & css3","display_name":"HTML5 & CSS3","angellist_url":"https://angel.co/html5-css3","level":4.0},{"id":16280,"tag_type":"SkillTag","name":"ui
+        design","display_name":"UI Design","angellist_url":"https://angel.co/ui-design","level":3.0},{"id":18317,"tag_type":"SkillTag","name":"product
+        development","display_name":"Product Development","angellist_url":"https://angel.co/product-development","level":3.0},{"id":15872,"tag_type":"SkillTag","name":"product
+        management","display_name":"Product Management","angellist_url":"https://angel.co/product-management","level":3.0},{"id":31345,"tag_type":"SkillTag","name":"sass","display_name":"Sass","angellist_url":"https://angel.co/sass","level":3.0},{"id":15537,"tag_type":"SkillTag","name":"user
+        experience design","display_name":"User Experience Design","angellist_url":"https://angel.co/user-experience-design-1","level":3.0},{"id":15731,"tag_type":"SkillTag","name":"data
+        analysis","display_name":"Data Analysis","angellist_url":"https://angel.co/data-analysis","level":3.0},{"id":14781,"tag_type":"SkillTag","name":"javascript","display_name":"Javascript","angellist_url":"https://angel.co/javascript","level":2.0}],"investor":true},{"name":"Prathan
+        Thananart","id":100303,"bio":"Web entrepreneur. I believe computer and the
+        Internet hold key solutions to many of our present day problems, from traffic
+        to grassroots democracy.","follower_count":37,"angellist_url":"https://angel.co/scomma","image":"https://d1qb2nb5cznatu.cloudfront.net/users/100303-medium_jpg?1418294536","blog_url":"http://la.byr.in.th","online_bio_url":"","twitter_url":"http://twitter.com/scomma","facebook_url":"","linkedin_url":"http://www.linkedin.com/pub/prathan-thananart/23/315/234","aboutme_url":"","github_url":"https://github.com/scomma","dribbble_url":"","behance_url":"","resume_url":null,"what_ive_built":"","what_i_do":"10
+        years of experience as a full-stack web developer. Used to be a freelance
+        consultant for tech startups in the valley. Now devoting all my time to Page365,
+        overseeing the system architecture and designing integration specs.","criteria":null,"locations":[{"id":8853,"tag_type":"LocationTag","name":"bangkok","display_name":"Bangkok","angellist_url":"https://angel.co/bangkok"}],"roles":[{"id":14726,"tag_type":"RoleTag","name":"developer","display_name":"Developer","angellist_url":"https://angel.co/developer"},{"id":144288,"tag_type":"RoleTag","name":"Founder","display_name":"Founder","angellist_url":"https://angel.co/founder-4"}],"skills":[{"id":82532,"tag_type":"SkillTag","name":"ruby
+        on rails","display_name":"Ruby on Rails","angellist_url":"https://angel.co/ruby-on-rails-1","level":null},{"id":33096,"tag_type":"SkillTag","name":"backbone.js","display_name":"Backbone.js","angellist_url":"https://angel.co/backbone-js","level":null},{"id":14775,"tag_type":"SkillTag","name":"python","display_name":"Python","angellist_url":"https://angel.co/python","level":null},{"id":36355,"tag_type":"SkillTag","name":"sinatra","display_name":"Sinatra","angellist_url":"https://angel.co/sinatra","level":null},{"id":16149,"tag_type":"SkillTag","name":"saas","display_name":"SaaS","angellist_url":"https://angel.co/saas-1","level":null},{"id":44531,"tag_type":"SkillTag","name":"heroku","display_name":"Heroku","angellist_url":"https://angel.co/heroku-1","level":null},{"id":18501,"tag_type":"SkillTag","name":"amazon
+        ec2","display_name":"Amazon EC2","angellist_url":"https://angel.co/amazon-ec2","level":null},{"id":47425,"tag_type":"SkillTag","name":"amazon
+        s3","display_name":"Amazon S3","angellist_url":"https://angel.co/amazon-s3","level":null},{"id":28665,"tag_type":"SkillTag","name":"matlab","display_name":"Matlab","angellist_url":"https://angel.co/matlab","level":null},{"id":50659,"tag_type":"SkillTag","name":"opencv","display_name":"OpenCV","angellist_url":"https://angel.co/opencv","level":null},{"id":16309,"tag_type":"SkillTag","name":"mysql","display_name":"MySQL","angellist_url":"https://angel.co/mysql-1","level":null},{"id":81410,"tag_type":"SkillTag","name":"angular.js","display_name":"Angular.JS","angellist_url":"https://angel.co/angular-js","level":null},{"id":14781,"tag_type":"SkillTag","name":"javascript","display_name":"Javascript","angellist_url":"https://angel.co/javascript","level":null},{"id":22286,"tag_type":"SkillTag","name":"postgresql","display_name":"PostgreSQL","angellist_url":"https://angel.co/postgresql","level":null}],"investor":false}]'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 12:06:09 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/search?slug=naval
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.1.0
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 26 Apr 2015 12:06:09 GMT
+      Etag:
+      - '"e9e15697dc90004a6a522389a6f653e1"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1988'
+      X-Request-Id:
+      - 2b31f768500be1ac32cfce56a94e9464
+      X-Runtime:
+      - '0.028329'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '679'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"name":"Naval Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks
+        @vast @epinions ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037","blog_url":"http://startupboy.com/","online_bio_url":"http://startupboy.com/about/","twitter_url":"http://twitter.com/naval","facebook_url":"http://www.facebook.com/navalr","linkedin_url":"http://www.linkedin.com/in/navalr","aboutme_url":"","github_url":"","dribbble_url":"","behance_url":"","resume_url":null,"what_ive_built":"","what_i_do":"","criteria":null,"locations":[{"id":1692,"tag_type":"LocationTag","name":"san
+        francisco","display_name":"San Francisco","angellist_url":"https://angel.co/san-francisco"}],"roles":[{"id":9305,"tag_type":"RoleTag","name":"seed
+        funds","display_name":"Seed Fund","angellist_url":"https://angel.co/seed-funds"},{"id":14725,"tag_type":"RoleTag","name":"entrepreneur","display_name":"Entrepreneur","angellist_url":"https://angel.co/entrepreneur-1"},{"id":9299,"tag_type":"RoleTag","name":"advisors","display_name":"Advisor","angellist_url":"https://angel.co/advisors"},{"id":14726,"tag_type":"RoleTag","name":"developer","display_name":"Developer","angellist_url":"https://angel.co/developer"}],"skills":[{"id":23388,"tag_type":"SkillTag","name":"c","display_name":"C","angellist_url":"https://angel.co/c-2","level":null},{"id":15592,"tag_type":"SkillTag","name":"html","display_name":"HTML","angellist_url":"https://angel.co/html","level":null},{"id":14775,"tag_type":"SkillTag","name":"python","display_name":"Python","angellist_url":"https://angel.co/python","level":null},{"id":14781,"tag_type":"SkillTag","name":"javascript","display_name":"Javascript","angellist_url":"https://angel.co/javascript","level":null}],"investor":true}'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 12:06:11 GMT
+- request:
+    method: get
+    uri: https://api.angel.co/1/users/155/roles
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - AngellistApi Ruby Gem 1.1.0
+      Authorization:
+      - Bearer a91e5d072c3faa5e90e751671cc39035
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 26 Apr 2015 12:06:11 GMT
+      Etag:
+      - '"ace71b9cf9cb4031f79797c8b84c7167"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
+      - '2000'
+      X-Ratelimit-Remaining:
+      - '1987'
+      X-Request-Id:
+      - 60179ba5eedc73ee8c57376ffa9ff99b
+      X-Runtime:
+      - '1.277844'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"startup_roles":[{"id":2277872,"role":"past_investor","created_at":"2015-03-10T16:38:20Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":457068,"hidden":false,"community_profile":false,"name":"21","angellist_url":"https://angel.co/21","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/457068-2e7b8c417c3a70aab3026f5f0ca3d8e9-medium_jpg.jpg?buster=1425975133","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/457068-2e7b8c417c3a70aab3026f5f0ca3d8e9-thumb_jpg.jpg?buster=1425975133","quality":10,"product_desc":"We''re
+        building the hardware and software infrastructure to bring Bitcoin to the
+        world. We can''t yet talk about what we do, but it''s full-stack.  Not full-stack
+        as in \"JavaScript front-end, Python middle-tier, Mongo back-end\".  Full-stack.  Picture
+        custom hardware & software at massive scale, and then double that.","high_concept":"Building
+        the future of money","follower_count":127,"company_url":"http://21.co","created_at":"2014-08-08T17:54:42Z","updated_at":"2015-03-10T16:28:33Z"}},{"id":2167210,"role":"past_investor","created_at":"2015-02-12T17:51:22Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":202932,"hidden":false,"community_profile":false,"name":"Say
+        Media","angellist_url":"https://angel.co/say-media","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/202932-bec6e3e2156044037ddc241be015f22d-medium_jpg.jpg?buster=1368744232","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/202932-bec6e3e2156044037ddc241be015f22d-thumb_jpg.jpg?buster=1368744232","quality":9,"product_desc":"Tempest
+        is our award-winning publishing platform, designed to create rich editorial
+        experiences that bring content front and center. Unlike a general purpose
+        CMS, Tempest is built from the ground up to support the specific needs of
+        the modern digital magazine.\n\nWe partner with leading digital magazines
+        to give them a best-in-class publishing platform and professional services,
+        allowing them to focus on their content, their readers, and their business
+        instead of their technology.\n\nContent looks great on Tempest across all
+        devices, and we give authors and editors the best tools to create rich interactive
+        stories.\n\nThe platform allows for a wide range of monetization options,
+        while also fully integrating Say Media\u2019s premium rich advertising and
+        content marketing solutions to bring additional revenue to our publishers.\n\nAnd
+        Tempest is updated almost every day, so it\u2019s constantly getting better.\n\nSome
+        example sites:\nxojane.com\nfashionista.com\nrachaelray.com","high_concept":"Publishing
+        platform for digital content brands","follower_count":234,"company_url":"http://www.saymedia.com","created_at":"2013-05-03T04:40:38Z","updated_at":"2015-01-13T18:30:49Z"}},{"id":2157634,"role":"past_investor","created_at":"2015-02-10T18:26:44Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":529390,"hidden":false,"community_profile":false,"name":"Clearbit","angellist_url":"https://angel.co/clearbit","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/529390-117f7b31d295fcb67a1e39321b3bded3-medium_jpg.jpg?buster=1422839841","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/529390-117f7b31d295fcb67a1e39321b3bded3-thumb_jpg.jpg?buster=1422839841","quality":9,"product_desc":"We
+        are building a suite of business intelligence APIs to help companies find
+        more information on their customers in order to increase sales and reduce
+        fraud. Our goal is to be the data backbone for modern businesses, powering
+        everything from credit checks to lead scoring.\n\nWe currently provide three
+        APIs:\n\n- Person API: Takes an email address and returns information about
+        a person such as name, avatar, title, and social accounts.\n- Company API:
+        Takes a domain name and returns data about a company, such as name, logo,
+        market category, and headcount.\n- Watchlist API: Lets you search names against
+        a consolidate global watchlist, simplifying OFAC compliance.\n\nOur customers
+        mainly use our APIs for lead-scoring, processing all their incoming leads
+        through both the Person and Company APIs to determine which ones are valuable.
+        This saves sales teams a great deal of time compared to manual lead research
+        and qualification.\u00a0","high_concept":"Business Intelligence APIs","follower_count":179,"company_url":"http://clearbit.com","created_at":"2014-11-07T16:53:47Z","updated_at":"2015-02-05T02:23:59Z"}},{"id":1881593,"role":"past_investor","created_at":"2014-11-18T20:52:49Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":414342,"hidden":false,"community_profile":false,"name":"HONK","angellist_url":"https://angel.co/honk","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/414342-6b96521a584bdb07568639108080527b-medium_jpg.jpg?buster=1416339455","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/414342-6b96521a584bdb07568639108080527b-thumb_jpg.jpg?buster=1416339455","quality":10,"product_desc":"HONK
+        is the on-demand mobile app for tow, tire change, jump start, fuel and lock
+        out services nationwide, 24 hours a day, 7 days a week. HONK\u2019s faster
+        ETAs and \u201cGuaranteed Never to Exceed\u201d prices, which start at just
+        $49 without membership fees or limitations, offer motorists an alternative
+        to outdated membership-based motor clubs. Learn more about HONK or download
+        it free at http://www.honkforhelp.com.","high_concept":"","follower_count":172,"company_url":"http://www.honkforhelp.com/","created_at":"2014-06-09T01:12:04Z","updated_at":"2014-11-20T02:02:42Z"}},{"id":1862834,"role":"past_investor","created_at":"2014-11-12T15:13:27Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":271819,"hidden":false,"community_profile":false,"name":"Onename","angellist_url":"https://angel.co/onename","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/271819-25e7ff00eb3b331e113038af352f9978-medium_jpg.jpg?buster=1418935670","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/271819-25e7ff00eb3b331e113038af352f9978-thumb_jpg.jpg?buster=1418935670","quality":10,"product_desc":"Onename
+        is a decentralized identity system built on the blockchain. Onename makes
+        it easy for anyone to create a personal profile, view the profiles of others
+        and start sending and receiving bitcoins.\n\nHere\u2019s how it works:\n\n1.
+        Sign up and claim a username.\n2. Create a profile and enter your Bitcoin
+        address (or get a new one).\n3. Post on Twitter and Facebook to publicly prove
+        that your Onename profile is owned by you.\n\nWith Onename, Bitcoin payments
+        become much easier - you just need someone\u2019s name or username. Instead
+        of remembering to send payments to  \u201c1919Urh...a8qtSk\u201d you just
+        send it to \"naval.\"\u00a0\n\nOnename is built on a decentralized identity
+        protocol and enables users to own their own usernames and data without relying
+        on any trusted third party. With unique decentralized usernames it''s possible
+        to login to apps/websites amongst other possible applications.","high_concept":"The
+        Decentralized Whitepages for Bitcoin","follower_count":253,"company_url":"https://onename.com","created_at":"2013-09-28T18:58:19Z","updated_at":"2015-01-20T20:30:15Z"}},{"id":1806414,"role":"advisor","created_at":"2014-10-23T21:48:05Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":516462,"hidden":false,"community_profile":false,"name":"Vault12","angellist_url":"https://angel.co/vault12","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/516462-09432e69e61f70da73fa838cbde8771b-medium_jpg.jpg?buster=1422579407","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/516462-09432e69e61f70da73fa838cbde8771b-thumb_jpg.jpg?buster=1422579407","quality":10,"product_desc":"We
+        are building a product that addresses a big deficiency in the current Bitcoin
+        ecosystem. Bitcoin theft will become a thing of the past. Using 30 years old  branch
+        of cryptography we creating a mobile product that should make Bitcoin commerce
+        safe and easily accessible to every non-technical consumer around the world.","high_concept":"
+        \"Social security\" for Bitcoin","follower_count":130,"company_url":"http://vault12.io","created_at":"2014-10-21T23:27:35Z","updated_at":"2015-01-30T00:56:53Z"}},{"id":1799305,"role":"past_investor","created_at":"2014-10-21T23:32:17Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":516462,"hidden":false,"community_profile":false,"name":"Vault12","angellist_url":"https://angel.co/vault12","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/516462-09432e69e61f70da73fa838cbde8771b-medium_jpg.jpg?buster=1422579407","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/516462-09432e69e61f70da73fa838cbde8771b-thumb_jpg.jpg?buster=1422579407","quality":10,"product_desc":"We
+        are building a product that addresses a big deficiency in the current Bitcoin
+        ecosystem. Bitcoin theft will become a thing of the past. Using 30 years old  branch
+        of cryptography we creating a mobile product that should make Bitcoin commerce
+        safe and easily accessible to every non-technical consumer around the world.","high_concept":"
+        \"Social security\" for Bitcoin","follower_count":130,"company_url":"http://vault12.io","created_at":"2014-10-21T23:27:35Z","updated_at":"2015-01-30T00:56:53Z"}},{"id":1690826,"role":"advisor","created_at":"2014-09-16T17:15:10Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":96497,"hidden":false,"community_profile":false,"name":"Kinnek","angellist_url":"https://angel.co/kinnek","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/96497-8990bbf54d025b4fe72b0ba46a880bc9-medium_jpg.jpg?buster=1353296356","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/96497-8990bbf54d025b4fe72b0ba46a880bc9-thumb_jpg.jpg?buster=1353296356","quality":10,"product_desc":"At
+        Kinnek, we''re building a new platform for small & medium-sized businesses
+        (SMBs), bringing their purchasing and supplier relationships online. We help
+        businesses ranging from from restaurants to wineries and microbreweries to
+        bakeries save time and money on anything they need to open and operate. We
+        also offer suppliers a set of tools to quickly communicate and win new business,
+        while growing their distribution channel through qualified leads only Kinnek
+        could bring them. \n\nWith over 4.7 Million SMBs in the US alone, purchasing
+        over $2.2 Trillion in equipment & physical goods, we''re undertaking a massive
+        challenge to fundamentally change the way businesses interact.\n\nOur small
+        team is based in the heart of New York City and we''re backed by some of the
+        best investors in New York and Silicon Valley. We''re hiring across all teams
+        and offer a ground floor opportunity to build from scratch a company as well
+        a new online marketplace.","high_concept":"Disrupting SMB Purchasing","follower_count":960,"company_url":"http://kinnek.com","created_at":"2012-06-11T18:00:39Z","updated_at":"2015-03-19T20:31:34Z"}},{"id":1676205,"role":"past_investor","created_at":"2014-09-11T08:53:44Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":401500,"hidden":false,"community_profile":false,"name":"Carbon","angellist_url":"https://angel.co/caarbon","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/401500-d29713a2ee1f0299495ac304023ec887-medium_jpg.jpg?buster=1405622286","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/401500-d29713a2ee1f0299495ac304023ec887-thumb_jpg.jpg?buster=1405622286","quality":9,"product_desc":"We
+        solve nationwide city parking/congestion once and for all with an on-demand
+        valet service available anytime, anywhere.\n\nDespite being a $20billion consumer-driven
+        business, no brand has yet to emerge that has won the hearts and minds of
+        drivers across the country.\n\nThe average driver in Manhattan may drive on
+        average 14 minutes extra trying to find parking near her final destination.
+        \nWhy? Curbside parking is underpriced relative to its societal cost, and
+        thus convenient parking in central business districts is extraordinarily difficult
+        to find. \n\nAdd up the costs of congestion, avoidable emissions, the threat
+        of tickets, and a colossal waste of time\u2014and parking is actually the
+        great pain in a city driver''s journey. \n\nNo longer.","high_concept":"Your
+        personal valet, anytime, anywhere","follower_count":387,"company_url":"http://carbon.co","created_at":"2014-05-20T02:10:35Z","updated_at":"2015-04-20T02:18:24Z"}},{"id":1676104,"role":"advisor","created_at":"2014-09-11T07:27:18Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":437963,"hidden":false,"community_profile":false,"name":"Unshackled","angellist_url":"https://angel.co/unshackled","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/437963-e056325afb1165b03a2d7ba0e9b0340d-medium_jpg.jpg?buster=1424549989","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/437963-e056325afb1165b03a2d7ba0e9b0340d-thumb_jpg.jpg?buster=1424549989","quality":8,"product_desc":"Unshackled
+        is a fund designed to extend the entrepreneurship opportunity to an untapped
+        pool of entrepreneurs in our country \u2014 founders on work visas (H1B, F1,
+        TN, etc.). Unlike traditional funding, Unshackled invests capital by hiring
+        teams and provides them with a salary, benefits, legal services, office space
+        and mentorship. This innovative structure helps inspire, keep and support
+        all immigrant teams, without waiting on immigration reform. \n\nThe mission-centric
+        fund is supported by 70 influential investors including First Round Capital,
+        Jerry Yang, Joe Lonsdale, Brad Feld, Laurene Powell Jobs, Naval Ravikant,
+        Bloomberg Beta, Cindy Padnos, Scott & Cyan Banister and Structure Capital.
+        \n\nEntrepreneurial teams should apply here:\u00a0https://www.f6s.com/unshackled1#/apply","high_concept":"A
+        fund for immigrant founders on visa. H1B, F1, OPT, TN","follower_count":483,"company_url":"http://www.unshackled.co","created_at":"2014-07-14T17:41:14Z","updated_at":"2015-04-17T01:47:38Z"}},{"id":1676088,"role":"past_investor","created_at":"2014-09-11T07:22:43Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":437963,"hidden":false,"community_profile":false,"name":"Unshackled","angellist_url":"https://angel.co/unshackled","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/437963-e056325afb1165b03a2d7ba0e9b0340d-medium_jpg.jpg?buster=1424549989","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/437963-e056325afb1165b03a2d7ba0e9b0340d-thumb_jpg.jpg?buster=1424549989","quality":8,"product_desc":"Unshackled
+        is a fund designed to extend the entrepreneurship opportunity to an untapped
+        pool of entrepreneurs in our country \u2014 founders on work visas (H1B, F1,
+        TN, etc.). Unlike traditional funding, Unshackled invests capital by hiring
+        teams and provides them with a salary, benefits, legal services, office space
+        and mentorship. This innovative structure helps inspire, keep and support
+        all immigrant teams, without waiting on immigration reform. \n\nThe mission-centric
+        fund is supported by 70 influential investors including First Round Capital,
+        Jerry Yang, Joe Lonsdale, Brad Feld, Laurene Powell Jobs, Naval Ravikant,
+        Bloomberg Beta, Cindy Padnos, Scott & Cyan Banister and Structure Capital.
+        \n\nEntrepreneurial teams should apply here:\u00a0https://www.f6s.com/unshackled1#/apply","high_concept":"A
+        fund for immigrant founders on visa. H1B, F1, OPT, TN","follower_count":483,"company_url":"http://www.unshackled.co","created_at":"2014-07-14T17:41:14Z","updated_at":"2015-04-17T01:47:38Z"}},{"id":1667715,"role":"past_investor","created_at":"2014-09-08T22:38:36Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":277619,"hidden":false,"community_profile":false,"name":"Navdy","angellist_url":"https://angel.co/navdy","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/277619-179b01e02676e9b573b76a3b8319513e-medium_jpg.jpg?buster=1398375763","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/277619-179b01e02676e9b573b76a3b8319513e-thumb_jpg.jpg?buster=1398375763","quality":9,"product_desc":"Pre-Order
+        your Navdy now at a $200 discount at:   https://www.navdy.com\n\nFumbling
+        around with your phone while driving is at best a bad experience.  \n\nNavdy
+        is a Head-Up Display (HUD) for your car that let''s you use all the apps you
+        love while keeping your eyes on the road.  You can think of it as Google Glass
+        for your car but without the Glasses.  Navdy works in the car you already
+        have, simply place it on your dash and connect wirelessly to your smartphone.","high_concept":"Head-Up
+        Display (HUD) for any car...think Google Glass for your windshield","follower_count":785,"company_url":"https://www.navdy.com","created_at":"2013-10-08T20:17:42Z","updated_at":"2015-01-03T01:00:22Z"}},{"id":1656434,"role":"past_investor","created_at":"2014-09-04T16:19:42Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":378495,"hidden":false,"community_profile":false,"name":"Luxe","angellist_url":"https://angel.co/luxe-1","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/378495-d232d9e07d3ee8c5bb597e8cc4c232ce-medium_jpg.jpg?buster=1406242497","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/378495-d232d9e07d3ee8c5bb597e8cc4c232ce-thumb_jpg.jpg?buster=1406242497","quality":10,"product_desc":"Luxe
+        is the modern solution to parking. Using our iPhone app (Android is on its
+        way), you can have access to on demand valet service. With a $1M general liability
+        insurance policy, trained and vetted valets, and secure parking lots, we''ve
+        got parking covered so you can get on with your day.\n\nDrop a pin where you
+        want to drop off your car. A Luxe valet will meet you there and park your
+        car in one of our secure lots. When you''re ready to get your car back, drop
+        another pin to tell us where you want it delivered. A Luxe valet will deliver
+        it in minutes. \n\nParking has always been a hassle. No one wants to circle
+        the block looking for a spot - we''ve all got things to do! Every day we solve
+        incredibly hard problems to make parking a problem of the past. \n\nLuxe is
+        currently operating in San Francisco and Los Angeles with plans to launch
+        in Chicago, Seattle, and Boston in the near future.\n\nLearn more at www.luxe.com","high_concept":"A
+        parking spot in your pocket","follower_count":254,"company_url":"http://www.luxe.com/","created_at":"2014-04-11T21:14:38Z","updated_at":"2015-04-20T21:01:11Z"}},{"id":1653786,"role":"customer","created_at":"2014-09-03T19:30:28Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":184193,"hidden":false,"community_profile":false,"name":"Underground
+        Cellar","angellist_url":"https://angel.co/underground-cellar","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/184193-beaa8a5db926c5e37937b2d50f123c89-medium_jpg.jpg?buster=1407959161","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/184193-beaa8a5db926c5e37937b2d50f123c89-thumb_jpg.jpg?buster=1407959161","quality":8,"product_desc":"Underground
+        Cellar is a new online wine marketplace for discovering and buying premium
+        wines online.  Buyers love us because every bottle they buy may be randomly
+        upgraded to rare and private-stash bottles from prestigious wineries.\n\nBut
+        our real benefit is that we provide wineries a sustainable sales channel that
+        never uses discounts. This allows them to quickly sell wine without bastardizing
+        their pricing structure or harming their brand image.\n\nUnderground Cellar
+        is the first vertical utilizing our patent-pending \u201creverse-discount\u201d
+        e-commerce platform. \n\nOur plan is to scale within the $5B online wine vertical,
+        capturing $40MM of wine sales by year 3. \n\nFirst we take over wine, then
+        we expand into other luxury verticals...\n* Gift cards\n* Fashion\n* Jewelry\n*
+        Spa services\n* Hotel reservations\n* ...the WORLD.","high_concept":"Online
+        Wine Deals Without Bastardizing Brands","follower_count":330,"company_url":"https://www.undergroundcellar.com","created_at":"2013-03-18T15:29:41Z","updated_at":"2015-03-21T20:03:28Z"}},{"id":1638931,"role":"past_investor","created_at":"2014-08-28T22:05:04Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":66522,"hidden":false,"community_profile":false,"name":"MakeLeaps","angellist_url":"https://angel.co/makeleaps","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/66522-e1b58b3702f437073bef6ceef2867690-medium_jpg.jpg?buster=1364794008","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/66522-e1b58b3702f437073bef6ceef2867690-thumb_jpg.jpg?buster=1364794008","quality":9,"product_desc":"MakeLeaps
+        is the leading provider of online invoicing software in Japan.\n\nOur current
+        target market is Japanese businesses. We started with freelancers, but now
+        we are fielding regular sales calls from Enterprises.\n\nIn Japan, sending
+        invoices is a manual and laborious process done with Microsoft Excel, printers,
+        overworked accounting staff, and physically sending by post. \n\nWe have built
+        a platform perfectly suited to the unique requirements of the Japanese market,
+        right when Japan is opening up to using cloud solutions for business processes.
+        We have strong traction, an experienced team, a well-known brand in Japan,
+        and many famous and well known customers using our software, including Rakuten
+        (the Japanese version of Amazon).\n\nIf this trend continues, in 5 years from
+        now, a majority of Japan''s affluent 5 million businesses will be using cloud
+        solutions for their invoicing requirements, and we are in pole position to
+        be the winner of this space first in Japan, and then in Asia.","high_concept":"Cloud
+        Invoicing for Japan","follower_count":203,"company_url":"http://www.makeleaps.com/en","created_at":"2012-01-31T11:27:37Z","updated_at":"2014-09-07T09:50:22Z"}},{"id":1627170,"role":"past_investor","created_at":"2014-08-25T21:48:07Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":438197,"hidden":false,"community_profile":false,"name":"Haven","angellist_url":"https://angel.co/haven","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/438197-e949dd7e9e066933490e49734445d36d-medium_jpg.jpg?buster=1410341827","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/438197-e949dd7e9e066933490e49734445d36d-thumb_jpg.jpg?buster=1410341827","quality":10,"product_desc":"90%
+        of all physical goods in the world are shipped in a standard steel shipping
+        container, and nearly all of those shipments are arranged via email and phone.
+        Haven is a marketplace that automates ocean freight shipping container reservations
+        by providing direct access to guaranteed capacity and transparent billing.
+        Shippers bid on guaranteed shipping container capacity and receive a more
+        predictable supply chain, while ocean freight carriers receive the best price
+        among bidders.","high_concept":"Marketplace for ocean shipping","follower_count":169,"company_url":"http://www.haveninc.com/","created_at":"2014-07-14T21:25:08Z","updated_at":"2014-12-22T22:33:02Z"}},{"id":1622515,"role":"past_investor","created_at":"2014-08-24T06:57:23Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":65382,"hidden":false,"community_profile":false,"name":"Cambrian
+        Genomics","angellist_url":"https://angel.co/cambrian-genomics","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/65382-c579e95f9dbbb03dfebabf1e39227580-medium_jpg.jpg?buster=1331511117","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/65382-c579e95f9dbbb03dfebabf1e39227580-thumb_jpg.jpg?buster=1331511117","quality":9,"product_desc":"Cambrian
+        Genomics makes the first hardware/systems for laser printing DNA. \n\nResearchers
+        in academia & industry order or clone >$1b/year of DNA. CGI delivers high
+        quality sequence verified DNA to buyers in this existing/growing worldwide
+        market.\n\n\n\nAusten on Bloomberg\nhttp://bit.ly/11lLnFh\n\nAusten on CNN\nhttp://bit.ly/QKJK5h\n\nAusten
+        on TWIST\nhttp://bit.ly/1FxT6E7\n\nGeorge on Colbert Report\nhttp://bit.ly/T9g2WG\n\nResurrection
+        (Neanderthals & Dinosaurs)\nhttp://bit.ly/10FdN28\n\nGlowing Plants\nhttp://kck.st/146llfq\n\nFirst
+        Gene Party\nhttp://bit.ly/1cdM1ux","high_concept":"DNA Laser Printing ","follower_count":1276,"company_url":"http://cambriangenomics.com/","created_at":"2012-01-26T10:49:33Z","updated_at":"2015-04-08T02:32:44Z"}},{"id":1617504,"role":"past_investor","created_at":"2014-08-22T05:42:04Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":303943,"hidden":false,"community_profile":false,"name":"Product
+        Hunt","angellist_url":"https://angel.co/product-hunt","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/303943-1d6fe280010ae474ddd9f37792a6b604-medium_jpg.jpg?buster=1386178935","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/303943-1d6fe280010ae474ddd9f37792a6b604-thumb_jpg.jpg?buster=1386178935","quality":10,"product_desc":"Product
+        Hunt surfaces the best new products, every day. It''s a place for product-loving
+        enthusiasts to share and geek out about the latest mobile apps, websites,
+        hardware projects, and tech creations.","high_concept":"Reddit for Products","follower_count":661,"company_url":"http://producthunt.com","created_at":"2013-12-04T15:36:40Z","updated_at":"2015-01-05T02:42:37Z"}},{"id":1605721,"role":"past_investor","created_at":"2014-08-19T06:14:32Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":33684,"hidden":false,"community_profile":false,"name":"OpenDNS","angellist_url":"https://angel.co/opendns","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/33684-9a9f7b0975a35a844d2444c8a4b102c9-medium_jpg.jpg?buster=1326843860","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/33684-9a9f7b0975a35a844d2444c8a4b102c9-thumb_jpg.jpg?buster=1326843860","quality":9,"product_desc":null,"high_concept":"Cloud-delivered
+        security on any device, anywhere.","follower_count":109,"company_url":"http://www.opendns.com/","created_at":"2012-01-17T23:44:21Z","updated_at":"2014-10-29T23:24:49Z"}},{"id":1587048,"role":"past_investor","created_at":"2014-08-13T00:43:03Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":423850,"hidden":false,"community_profile":false,"name":"Frederick","angellist_url":"https://angel.co/frederick","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/423850-7daf59be690b519482cc308b4b994735-medium_jpg.jpg?buster=1403501199","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/423850-7daf59be690b519482cc308b4b994735-thumb_jpg.jpg?buster=1403501199","quality":8,"product_desc":"Frederick
+        is the fully automated marketing genius for the $600B local services market,
+        powered by big data. \n\nFrederick connects to the cloud services a business
+        already uses (such as the appointment book, CRM, Adwords, and social networks)
+        to automatically do the right marketing to the right customer at the right
+        time. We help businesses such as spas, salons, yoga studios, dentists and
+        chiropractors efficiently fill last-minute openings, drive repeat business,
+        and acquire new customers.\n\nOver time, we will build the largest aggregate
+        data set of back office and customer-level data for the local services market,
+        which will enable us to deliver predictable results with the highest possible
+        ROI.\n\nLearn more at www.hirefrederick.com","high_concept":"Fully automated
+        marketing for local services, powered by big data.","follower_count":186,"company_url":"http://www.hirefrederick.com","created_at":"2014-06-23T05:26:42Z","updated_at":"2015-03-27T04:24:02Z"}},{"id":1568283,"role":"past_investor","created_at":"2014-08-07T00:06:14Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":97349,"hidden":false,"community_profile":false,"name":"Onfleet","angellist_url":"https://angel.co/onfleet","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/97349-5d1351dbdd571dfd2113b980e7f1c9dd-medium_jpg.jpg?buster=1427179750","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/97349-5d1351dbdd571dfd2113b980e7f1c9dd-thumb_jpg.jpg?buster=1427179750","quality":8,"product_desc":"Our
+        mission is to make local delivery efficient and delightful.\n\nOnfleet makes
+        it easy for businesses to manage and analyze their delivery operations. Our
+        product includes a clean web dashboard, rich APIs, out-of-the-box driver apps
+        for iOS and Android, and customer notifications, accurate ETAs and a map that
+        lets recipients track their orders in realtime.\n\nOur customers include food,
+        beverage, and grocery delivery businesses as well as home services and local
+        couriers.\n\nOnfleet is based in San Francisco, California, and was accelerated
+        by StartX.","high_concept":"Delightful Delivery Management","follower_count":567,"company_url":"https://onfleet.com","created_at":"2012-06-15T07:09:02Z","updated_at":"2015-04-17T20:32:47Z"}},{"id":1566872,"role":"past_investor","created_at":"2014-08-06T17:56:42Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":409469,"hidden":false,"community_profile":false,"name":"PreNav","angellist_url":"https://angel.co/prenav","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/409469-9d3c03f46f44b86c44229a99833dc85f-medium_jpg.jpg?buster=1402689932","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/409469-9d3c03f46f44b86c44229a99833dc85f-thumb_jpg.jpg?buster=1402689932","quality":8,"product_desc":"PreNav
+        develops next-gen hardware and software for drones (multi-copters).  We enable
+        precise navigation in complex environments, e.g. near-ground, indoors, or
+        around structures, while avoiding obstacles like trees and buildings.\n\nPreNav
+        unlocks new uses for drones by offering automated, repeatable flight paths.  A
+        few of the applications include:\n* Motion control for aerial cinematographers\n*
+        Inspections of structures like smokestacks, solar panels, and wind turbines\n*
+        Navigation of the last 50 meters in urban/suburban environments for landing,
+        delivery, and recharging\n* And many more applications where the mission can''t
+        be trusted to a human pilot or GPS","high_concept":"Near-ground autonomy for
+        drones","follower_count":394,"company_url":"http://www.prenav.com","created_at":"2014-06-01T08:09:51Z","updated_at":"2015-02-16T05:42:34Z"}},{"id":1552485,"role":"past_investor","created_at":"2014-07-31T21:11:19Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":113995,"hidden":false,"community_profile":false,"name":"LIFX","angellist_url":"https://angel.co/lifx","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/113995-588bb659a29b18f66302f868b502f214-medium_jpg.jpg?buster=1424851572","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/113995-588bb659a29b18f66302f868b502f214-thumb_jpg.jpg?buster=1424851572","quality":10,"product_desc":"LIFX
+        pioneered the smart light in 2012 with the first Wi Fi-enabled, multi-colored
+        LED that\u2019s controllable via a smart device. Designed to last over 22
+        years, LIFX offers the brightest, most flexible smart light for your home
+        or office.\u00a0\u2028It works with Nest and other smart home devices to give
+        consumers an easy way to experience the connected home, without needing additional
+        hardware.\u00a0\n\nHeadquartered in the heart of Silicon Valley, Redwood City,
+        California, LIFX is a global brand with roots in Melbourne, Australia. LIFX
+        products are available online and at select retailers in the US, Australia,
+        and Europe.","high_concept":"Live a more illuminated life.","follower_count":362,"company_url":"http://www.lifx.com","created_at":"2012-08-16T15:28:02Z","updated_at":"2015-04-09T06:14:55Z"}},{"id":1537036,"role":"past_investor","created_at":"2014-07-25T18:04:30Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":348094,"hidden":false,"community_profile":false,"name":"Bonafide","angellist_url":"https://angel.co/bonafide-1","logo_url":"https://angel.co/images/shared/nopic_startup.png","thumb_url":"https://angel.co/images/shared/nopic_startup.png","quality":9,"product_desc":null,"high_concept":"Helping
+        great people find great people","follower_count":52,"company_url":"","created_at":"2014-02-23T03:16:28Z","updated_at":"2014-12-23T05:19:53Z"}},{"id":1483988,"role":"past_investor","created_at":"2014-07-05T19:58:07Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":122077,"hidden":false,"community_profile":false,"name":"Partender","angellist_url":"https://angel.co/partender","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/122077-7d50d23699d6c8d6d1df319b3d284585-medium_jpg.jpg?buster=1415588418","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/122077-7d50d23699d6c8d6d1df319b3d284585-thumb_jpg.jpg?buster=1415588418","quality":9,"product_desc":"Partender
+        is a business tool (currently featured on SpikeTV''s \"Bar Rescue\" every
+        Sunday at 9/8c) that reduces the time it takes owners & managers to do bar
+        inventory from a frustrating 6-24 hours to 15 minutes. We do this by digitizing
+        the crazy, archaic paper-pen-clipboard process into a few taps and swipes
+        on iOS. As a result, you can inventory as often as every day/shift to control
+        your bar, catch and eliminate the industry-average 23% shrinkage (inventory
+        loss due to over-pouring, theft, wastage, etc), and put that money right back
+        in your pocket. \n\nOn average, our 99.2%-accurate system adds $10,000/mo,
+        and improves bottom lines by whole percentages.\n\nAfter every inventory,
+        Partender instantly emails you your Purchase Orders in MS Excel, which you
+        can forward to your reps and be done with inventory AND ordering in 15 mins.\n\nCloud-based
+        data analytics online show you what''s selling the best/worst, what your dead
+        stock is, and what you''re low on, so you never run dry and miss a sale.","high_concept":"Bar
+        Inventory. From 6-24 hours on paper & pen to 15 minutes on iOS. (We do food
+        too!)","follower_count":508,"company_url":"http://www.partender.com","created_at":"2012-09-13T16:53:20Z","updated_at":"2015-03-23T09:56:25Z"}},{"id":1452582,"role":"board_member","created_at":"2014-06-23T19:17:11Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":294920,"hidden":false,"community_profile":false,"name":"Flipagram","angellist_url":"https://angel.co/flipagram","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/294920-175b9df96d521b70d34bb0cea0500b39-medium_jpg.jpg?buster=1384472006","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/294920-175b9df96d521b70d34bb0cea0500b39-thumb_jpg.jpg?buster=1384472006","quality":10,"product_desc":"Flipagram
+        has been on fire... All organic growth, currently a top free app in the U.S.
+        appstore, ahead of SnapChat, YouTube, Facebook, Instagram, Twitter, Vine,
+        What''s App, Pinterest, etc.\n\nInstagram and Vine made short video format
+        popular, but there\u2019s only so much you can do with a few seconds of live
+        video -- you''re stuck in space and time -- which is why you get a lot of
+        silly \u2018fart\u2019 loops.  Flipagram changes the equation by opening up
+        these bite-sized video slots to all your photos and albums -- the best moments
+        of your life --- that are languishing on your camera roll or on flat web-pages
+        like Instagram and Facebook.  \n\nEach Flipagram video can have potentially
+        hundreds of frames (photos). So, there is infinite room for creative expression,
+        through sequencing, repetition, juxtaposition, timing and of course, music
+        selection.  Flipagrams are fun to make and optimized for sharing on existing
+        social networks.","high_concept":"Top Free App in over 150 Countries","follower_count":228,"company_url":"http://flipagram.com","created_at":"2013-11-14T23:33:29Z","updated_at":"2015-04-14T00:43:07Z"}},{"id":1408230,"role":"past_investor","created_at":"2014-06-05T19:34:08Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":363126,"hidden":false,"community_profile":false,"name":"Opendoor","angellist_url":"https://angel.co/opendoor","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/363126-3748f5f5559e7cf9dd989c03904c6ae5-medium_jpg.jpg?buster=1420066787","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/363126-3748f5f5559e7cf9dd989c03904c6ae5-thumb_jpg.jpg?buster=1420066787","quality":10,"product_desc":"Allowing
+        owners to sell their home in a few clicks.\n\n\u2022 Simple: A transparent
+        and simple sales process.\n\u2022 Certain: Full certainty on the price and
+        close date.\n\u2022 Fast: Receive an instant offer online and funding in as
+        soon as three days.","high_concept":"Liquidity for Residential Real Estate","follower_count":222,"company_url":"http://www.opendoor.com/","created_at":"2014-03-19T04:53:54Z","updated_at":"2015-04-14T03:26:32Z"}},{"id":1401271,"role":"advisor","created_at":"2014-06-03T10:14:59Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":223677,"hidden":false,"community_profile":false,"name":"Evolve
+        VC","angellist_url":"https://angel.co/evolve-vc","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/223677-17ab89d210629674dce3d423722da45a-medium_jpg.jpg?buster=1401790979","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/223677-17ab89d210629674dce3d423722da45a-thumb_jpg.jpg?buster=1401790979","quality":7,"product_desc":"By
+        entrepreneurs.  For entrepreneurs.","high_concept":"Seed stage startup fund","follower_count":16,"company_url":"http://www.evolve.vc","created_at":"2013-06-17T07:23:50Z","updated_at":"2014-06-05T09:03:30Z"}},{"id":1348924,"role":"past_investor","created_at":"2014-05-13T17:54:12Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":187453,"hidden":false,"community_profile":false,"name":"Abacus","angellist_url":"https://angel.co/abacus","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/187453-faa67887271a77d7074c0649275c7920-medium_jpg.jpg?buster=1374695329","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/187453-faa67887271a77d7074c0649275c7920-thumb_jpg.jpg?buster=1374695329","quality":10,"product_desc":"We''re
+        making the expense report obsolete.\n\nAbacus is an intuitive way for you
+        to reimburse your team, reconcile corporate cards, and implement your expense
+        policy. By eliminating month-end expense reports, we\u2019re turning the negative
+        feelings associated with submitting expenses into a delightful, collaborative
+        experience.\n\nOur mobile apps help users quickly and accurately submit expenses
+        on the go, while our customizable expense policy builder lets administrators
+        automate rules, warnings and other policy specifics. Abacus also syncs with
+        your corporate cards, syncing transactions to a single dashboard, and with
+        your accounting software, eliminating manual data entry. \n\nCheck it out
+        at www.abacus.com","high_concept":"Making Expense Reports Obsolete","follower_count":491,"company_url":"http://abacus.com","created_at":"2013-03-25T23:03:48Z","updated_at":"2015-04-20T17:21:44Z"}},{"id":1336857,"role":"advisor","created_at":"2014-05-08T09:10:09Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":30837,"hidden":false,"community_profile":false,"name":"Mirror","angellist_url":"https://angel.co/mirror","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/30837-54aa346b7b773808bf048517e65e8a0d-medium_jpg.jpg?buster=1417063518","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/30837-54aa346b7b773808bf048517e65e8a0d-thumb_jpg.jpg?buster=1417063518","quality":9,"product_desc":"Mirror
+        is a smart contracts platform.  We are leveraging blockchain technology to
+        provide hedging and risk management tools that are more accessible, affordable,
+        and globally available than their contemporary counterparts, and with minimized
+        counterparty and clearing risk.  Our vision is to realize the promise of the
+        Bitcoin blockchain as a global, decentralized, cryptographically-assured fiduciary
+        system.  Headquartered in San Francisco, we are making peer-to-peer contracts,
+        available to everyone everywhere.","high_concept":"Peer-to-peer contracts,
+        for everyone everywhere.","follower_count":727,"company_url":"https://mirrorx.com","created_at":"2011-12-26T03:44:39Z","updated_at":"2015-03-19T04:45:30Z"}},{"id":1335063,"role":"past_investor","created_at":"2014-05-07T18:21:00Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":22287,"hidden":false,"community_profile":false,"name":"Tilt","angellist_url":"https://angel.co/tilt-1","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/22287-919326ea5bbae79b4b8744dede3e87d8-medium_jpg.jpg?buster=1406783983","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/22287-919326ea5bbae79b4b8744dede3e87d8-thumb_jpg.jpg?buster=1406783983","quality":10,"product_desc":"Tilt
+        is the easiest way to collect money from your group, fundraise with your crowd,
+        or sell to your community.","high_concept":"Make something happen with your
+        group.","follower_count":801,"company_url":"http://tilt.com","created_at":"2011-08-06T20:50:18Z","updated_at":"2014-12-17T05:10:11Z"}},{"id":1302423,"role":"past_investor","created_at":"2014-04-24T00:54:17Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":314559,"hidden":false,"community_profile":false,"name":"Fieldbook","angellist_url":"https://angel.co/fieldbook","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/314559-0cde7d18c1d33996b9f5926810bb0453-medium_jpg.jpg?buster=1388176231","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/314559-0cde7d18c1d33996b9f5926810bb0453-thumb_jpg.jpg?buster=1388176231","quality":9,"product_desc":"Fieldbook
+        lets anyone create a database, as easily as a spreadsheet. It''s for anyone
+        who is frustrated with using a spreadsheet to run a sales or recruiting pipeline,
+        manage projects, track inventory, plan events, etc.\n\nOur mission is to build
+        the world''s best tool for working with structured data. To do this, we''re
+        rethinking the database and the spreadsheet from the ground up.","high_concept":"Create
+        a database as easily as a spreadsheet","follower_count":86,"company_url":"http://fieldbookapp.com","created_at":"2013-12-27T20:22:12Z","updated_at":"2015-04-16T20:40:46Z"}},{"id":1298038,"role":"past_investor","created_at":"2014-04-22T19:11:41Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":243861,"hidden":false,"community_profile":false,"name":"Framed
+        Data","angellist_url":"https://angel.co/framed-data","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/243861-66d6e179c0c3b0dd5c865b391c1ef2ae-medium_jpg.jpg?buster=1410390325","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/243861-66d6e179c0c3b0dd5c865b391c1ef2ae-thumb_jpg.jpg?buster=1410390325","quality":9,"product_desc":"We''ve
+        built a predictive analytics platform that answers two basic, but fundamental
+        questions for your business: \n\n1) Why are your customers leaving?\n2) When
+        are your customers about to leave?\n\nWe use machine learning and model ensembling
+        techniques to make user predictions, but we abstract all that away behind
+        an easy to use interface and a very opinionated product that only provides
+        dashboards that tell you why users are leaving, and an API that tells you
+        which users are leaving, when they''re estimated to leave, and the reasons
+        why.\n\nEvery day, one of our customers sends their high-risk users to their
+        e-mail service provider and sends a personalized winback e-mail, advertising
+        features they haven''t used yet. Our predictions were responsible for a 3%
+        MRR increase in their revenue with very little effort from either them or
+        us.\n\nMost data analytics companies are great at explaining your past. We''re
+        a data company that predicts your future.","high_concept":"Predict user churn","follower_count":474,"company_url":"http://www.framed.io","created_at":"2013-08-03T20:11:23Z","updated_at":"2014-09-10T23:05:30Z"}},{"id":1268806,"role":"past_investor","created_at":"2014-04-11T00:20:45Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":378011,"hidden":false,"community_profile":false,"name":"Ramen","angellist_url":"https://angel.co/ramen","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/378011-df403cad3e19a97e42b4fac52e2bb417-medium_jpg.jpg?buster=1397175489","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/378011-df403cad3e19a97e42b4fac52e2bb417-thumb_jpg.jpg?buster=1397175489","quality":9,"product_desc":"Ramen
+        is a software product managers best friend. PMs currently use a hodgepodge
+        of tools to get their jobs done. While each of these tools (UserVoice, SurveyMonkey,
+        MixPanel, SalesForce, Intercom, Google Apps) may be built well, they weren''t
+        built with \"Product Success\" in mind. They were built for other functions.
+        As a result, PMs only use a fraction of the functionality that each tool provides,
+        and spread data about their users all over the place in the process. Ramen
+        is the first software platform built from the ground up for product managers.
+        Ramen enables PMs to easily ask their users questions, understand the makeup
+        of their customer base, openly discuss ideas with that community, and communicate
+        all that information back to their team. As a result of doing all this in
+        one place, PMs become more efficient at building products their customers
+        love, and ensure the continued success of their business in the process.\n\nDemo
+        video: https://www.youtube.com/watch?v=LpOI0ftoNMA","high_concept":"A Product
+        Success Platform for Software Teams","follower_count":307,"company_url":"http://ramen.is","created_at":"2014-04-11T00:18:15Z","updated_at":"2015-02-10T16:19:49Z"}},{"id":1247007,"role":"advisor","created_at":"2014-04-02T22:51:55Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":52745,"hidden":false,"community_profile":false,"name":"Status","angellist_url":"https://angel.co/status","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/52745-5741da38a16b404f1cd02d4bd87183bb-medium_jpg.jpg?buster=1422049956","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/52745-5741da38a16b404f1cd02d4bd87183bb-thumb_jpg.jpg?buster=1422049956","quality":10,"product_desc":"Status
+        helps you spend more time with friends.\u00a0It instantly shows you which
+        friends are free, nearby, and allows for easy plan making.\n\nWe do this using
+        ambient sensor technology, to provide rich context on what your contacts are
+        doing.\u00a0It\u2019s designed to be used with folks you interact with regularly,
+        such as your coworkers, best friends or partner, and reduces the need for
+        frequent messaging to find out their status.\n\nWe were #1 on Product Hunt
+        when we launched on Dec 2:\u00a0http://www.producthunt.com/posts/status\n\nThe
+        underlying technology has scope to be used in both the consumer and enterprise
+        markets.","high_concept":"Automatic updates from your phone","follower_count":465,"company_url":"http://www.trystatus.com/","created_at":"2012-01-18T04:12:24Z","updated_at":"2015-03-13T23:03:23Z"}},{"id":1244553,"role":"past_investor","created_at":"2014-04-02T06:23:14Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":137047,"hidden":false,"community_profile":false,"name":"HoneyBook","angellist_url":"https://angel.co/honeybook","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/137047-fc6597464750fabfb0d9d6f76f202025-medium_jpg.jpg?buster=1426435073","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/137047-fc6597464750fabfb0d9d6f76f202025-thumb_jpg.jpg?buster=1426435073","quality":10,"product_desc":"HoneyBook
+        is on a mission to reorganize huge industries starting with events. We''ve
+        built a service we''re proud of and our customers love. Our entire team cares
+        deeply about design, and we are all passionate about creating the most modern,
+        delightful experience possible. For us there\u2019s only one KPI: do users
+        fall in love with our product?","high_concept":"Reorganizing the Events Industry","follower_count":462,"company_url":"http://www.honeybook.com","created_at":"2012-11-13T04:06:20Z","updated_at":"2015-03-15T15:57:57Z"}},{"id":1234813,"role":"advisor","created_at":"2014-03-29T03:29:22Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":159466,"hidden":false,"community_profile":false,"name":"H/F
+        Next Fund","angellist_url":"https://angel.co/h-f-next-fund","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/159466-c304e7d56ff88743deb5f7e9a9254bc2-medium_jpg.jpg?buster=1429232182","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/159466-c304e7d56ff88743deb5f7e9a9254bc2-thumb_jpg.jpg?buster=1429232182","quality":7,"product_desc":"We''re
+        a premier Silicon Valley private equity fund delivering outstanding returns
+        to investors. Capturing phenomenal alpha in our portfolios; via diversification,
+        increased returns, and risk reduction.\n\nThe initial dollars invested into
+        this year''s fund (H/F Next Fund) have tripled in value. The 2013 fund is
+        up 5x, i.e. $1 invested is now worth $6.\n\nThe portfolio from 3 years ago
+        is up 6x.\n\nhttp://hf.cx/invest","high_concept":"The initial dollars invested
+        into this year''s fund (H/F Next Fund) have tripled in value.","follower_count":446,"company_url":"http://hf.cx/invest","created_at":"2013-01-23T19:00:44Z","updated_at":"2015-04-22T22:54:19Z"}},{"id":1233934,"role":"past_investor","created_at":"2014-03-28T19:20:50Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":266966,"hidden":false,"community_profile":false,"name":"Alation","angellist_url":"https://angel.co/alation","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/266966-bc5d9f3ef4336610b5ecd6c3a8b039f0-medium_jpg.jpg?buster=1398901718","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/266966-bc5d9f3ef4336610b5ecd6c3a8b039f0-thumb_jpg.jpg?buster=1398901718","quality":8,"product_desc":null,"high_concept":"Connecting
+        people with the data they need","follower_count":86,"company_url":"http://alation.com","created_at":"2013-09-19T21:23:02Z","updated_at":"2015-02-01T15:37:06Z"}},{"id":1230827,"role":"advisor","created_at":"2014-03-27T17:18:47Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":369072,"hidden":false,"community_profile":false,"name":"Maiden
+        Lane Ventures","angellist_url":"https://angel.co/maiden-lane-ventures","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/369072-618c972ad59094708cd238841f2c9aa8-medium_jpg.jpg?buster=1396982636","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/369072-618c972ad59094708cd238841f2c9aa8-thumb_jpg.jpg?buster=1396982636","quality":10,"product_desc":"Raising
+        seed capital is unnecessarily complicated. Great angel investors have always
+        helped founders cut through the noise. Maiden Lane''s mission is to make partnering
+        with world-class angels more impactful. To do that, we use capital + software
+        to rethink the workflow of seed investing. \n\nAngelList is our operating
+        system. Launched late last year, the Syndicates feature is another step towards
+        unbundling capital from the traditional fund structure.  We will work closely
+        with the AngelList team to rethink how companies raise money and investment
+        decisions are made.","high_concept":"The first investment vehicle built on
+        AngelList","follower_count":400,"company_url":"http://maidenlane.com/","created_at":"2014-03-27T17:17:50Z","updated_at":"2014-07-25T00:32:42Z"}},{"id":1186865,"role":"past_investor","created_at":"2014-03-10T20:49:12Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":197105,"hidden":false,"community_profile":false,"name":"Hitch","angellist_url":"https://angel.co/hitch","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/197105-329daf21906e5e952f7ebc5aec73c302-medium_jpg.jpg?buster=1392242470","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/197105-329daf21906e5e952f7ebc5aec73c302-thumb_jpg.jpg?buster=1392242470","quality":9,"product_desc":"Hitch
+        is the first on-demand multi-pickup solution--an iOS app offering an extremely
+        affordable (50% of an UberX) and convenient transportation solution. Rather
+        than booking an entire car, you only reserve the amount of seats you need,
+        allowing us to pick up other passengers heading the same location you are.
+        Unlike other car-sharing solutions, this all happens in real-time and requires
+        no advance planning on your part. Simply drop two pins, and a car comes to
+        pick you up.\n\nBy sharing the ride, cost is significantly lowered, environmental
+        impact is minimized, and you get to ride to your favorite venue/concert/event
+        with other people with similar interests. And our dynamic re-route algorithm
+        makes sure that your trip duration isn''t significantly affected.\n\nHitch
+        is currently only available in San Francisco with community drivers (4/5 seater),
+        but look out--we''re growing!\n\nWe also developed and maintain \"Corral Rides,\"
+        a ''Kayak for A-to-B'' aggregator for short-distance trips.","high_concept":"A
+        fun and affordable way to get around SF by sharing your ride","follower_count":475,"company_url":"http://www.takehitch.com","created_at":"2013-04-18T07:13:35Z","updated_at":"2014-08-05T19:43:17Z"}},{"id":1184451,"role":"current_investor","created_at":"2014-03-10T01:11:07Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":235924,"hidden":false,"community_profile":false,"name":"Trace","angellist_url":"https://angel.co/traceup","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/235924-0aa207190d341a951f26b4fcc2839569-medium_jpg.jpg?buster=1429106985","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/235924-0aa207190d341a951f26b4fcc2839569-thumb_jpg.jpg?buster=1429106985","quality":9,"product_desc":"Runners
+        / bikers have had gadgets and apps for years that tell them about their progress.
+        Action sports athletes have nothing. We''re building quantified self for the
+        action sports demographic. Companies like GoPro (valued at $2.25B) have shown
+        that this demographic has disposable income and is willing to spend it to
+        improve their experience.\n\nDeep down our core expertise is sensor signal
+        processing. In action sports like surfing, skiing, and skateboarding the interesting
+        data comes from fast, complicated motion that requires more than just GPS.
+        Often times what''s interesting depends not on one''s body, but on what the
+        equipment is doing. \n\nAnd while the thought of tracking G''s may sound cool,
+        that''s not what users want. They want easy to understand, beautifully laid
+        out data. We take data dozens of times a second from 9-axis inertial sensors
+        +  GPS and make it easy to understand. Number of waves caught, number of tricks
+        performed, how well they were landed, what the speed was, etc.","high_concept":"Making
+        action sports measurable, sharable, and comparable.","follower_count":599,"company_url":"http://www.traceup.com/","created_at":"2013-07-17T18:37:01Z","updated_at":"2015-04-15T14:09:48Z"}},{"id":1135761,"role":"past_investor","created_at":"2014-02-18T16:41:02Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":310012,"hidden":false,"community_profile":false,"name":"Korbit","angellist_url":"https://angel.co/korbit","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/310012-a61886ee1ff6366b60f82418328644ba-medium_jpg.jpg?buster=1409504789","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/310012-a61886ee1ff6366b60f82418328644ba-thumb_jpg.jpg?buster=1409504789","quality":8,"product_desc":"Korbit
+        is South Korea''s first and largest bitcoin exchange, wallet and merchant
+        processor.","high_concept":"Korea''s leading bitcoin exchange, wallet and
+        merchant processor","follower_count":120,"company_url":"https://www.korbit.co.kr","created_at":"2013-12-16T12:50:29Z","updated_at":"2014-08-31T17:15:12Z"}},{"id":1126381,"role":"current_investor","created_at":"2014-02-13T23:44:09Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":210523,"hidden":false,"community_profile":false,"name":"Leap
+        Transit","angellist_url":"https://angel.co/leap-transit","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/210523-7003a1db3d1c4ec289ee0c71f5e14d13-medium_jpg.jpg?buster=1369083707","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/210523-7003a1db3d1c4ec289ee0c71f5e14d13-thumb_jpg.jpg?buster=1369083707","quality":10,"product_desc":"We
+        are reinventing the urban daily commute by building a better bus - and the
+        world''s most advanced transit management system in the process. \n\nEvery
+        day, SF MUNI gives 700,000 rides. And 2.2B ride the bus annually in the top
+        20 US markets.\n\nSan Francisco is growing rapidly, and the current infrastructure
+        has not kept up. Leap is a smartphone-powered private bus service, designed
+        to provide better, safer, and more convenient daily transportation to San
+        Francisco residents. \n\nReal time bus tracking, stops and schedules, and
+        cashless payments are all handled through our beautiful iPhone app. We''ve
+        built custom iPad software to manage the check in process on the bus. \n\nWe''re
+        building backend tools to leverage all the data we''re collecting to optimize
+        our operations. \n\nWe''re democratizing the planning process by crowd-sourcing
+        all of our routes.\n\nAnd best of all, federal pre-tax income can be used
+        to pay for commuter costs - up to $245 a month.\n\nLeap is a way of urban
+        living.","high_concept":"Reinventing urban mass transit","follower_count":1146,"company_url":"http://www.leaptransit.com","created_at":"2013-05-20T21:01:52Z","updated_at":"2014-04-24T18:00:38Z"}},{"id":1101648,"role":"past_investor","created_at":"2014-02-04T02:46:22Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":65467,"hidden":false,"community_profile":false,"name":"Crew","angellist_url":"https://angel.co/crew","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/65467-4b3e46561abf4c2727186ffb1aec54cf-medium_jpg.jpg?buster=1397077465","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/65467-4b3e46561abf4c2727186ffb1aec54cf-thumb_jpg.jpg?buster=1397077465","quality":8,"product_desc":"Crew
+        connects vetted projects with a handpicked community of independent designers
+        and developers who have worked on products like Hotel Tonight, Dropbox, and
+        Path.\n\n1. Submit your idea\n2. Get a budget recommendation\n3. Start working
+        with the best maker for your project\n\nWithin a day.\n\nWe are at the start
+        of the most significant economic movement since the Industrial Revolution.
+        With the tools available today, work is being redefined.\n\nWe have more power
+        than ever before to be our own bosses. To stay independent. To develop our
+        own passions. And work from any space, any place, anytime, anywhere.\n\nAt
+        Crew, we''re building a system for this new economy. One that values the results
+        of the work done, not just the dollar price. Where people receive quality
+        results, independent professionals get consistent quality work, and products
+        are created that both client and maker can be proud of.","high_concept":"Creativity
+        on demand.","follower_count":1452,"company_url":"http://pickcrew.com","created_at":"2012-01-26T20:42:31Z","updated_at":"2015-04-24T03:29:00Z"}},{"id":1100304,"role":"past_investor","created_at":"2014-02-03T19:21:46Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":690,"hidden":false,"community_profile":false,"name":"Patients
+        Know Best","angellist_url":"https://angel.co/patients-know-best","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/690-e4b12d4bc2412a8f324b4c0bd3d702b5-medium_jpg.jpg?buster=1383619403","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/690-e4b12d4bc2412a8f324b4c0bd3d702b5-thumb_jpg.jpg?buster=1383619403","quality":9,"product_desc":"Patients
+        Know Best is a highly secure data platform for moving patient medical data
+        between settings, people and connected devices. We were recently recognized
+        as the leader in patient-controlled medical records in a Microsoft-sponsored
+        report commissioned by the UK Department of Health (http://tinyurl.com/pkbpif).
+        \n\nThe problem is that the healthcare landscape is composed of many, many
+        silos (hospitals, physicians'' offices, home healthcare, pharma, government,
+        research, etc.) and putting the patient in control is legally and practically
+        the only way to solve this fragmentation problem in one fell swoop and enable
+        truly integrated, cost-effective care.\n\nFundamentally, we''re solving the
+        data transfer/mobility and interoperability problem. Because it''s such a
+        bedrock problem, we touch on every part of the healthcare economy, which positions
+        us to act as the highly secure data hub that processes every healthcare data
+        transaction.","high_concept":"Digitizing Patient Medical Records","follower_count":644,"company_url":"http://www.patientsknowbest.com","created_at":"2010-10-10T10:20:13Z","updated_at":"2015-02-11T05:03:59Z"}},{"id":1076732,"role":"past_investor","created_at":"2014-01-23T15:54:17Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":137003,"hidden":false,"community_profile":false,"name":"bounce.io","angellist_url":"https://angel.co/bounce-io","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/137003-f5197062dda0c06f91a3d85e7eb70930-medium_jpg.jpg?buster=1391642937","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/137003-f5197062dda0c06f91a3d85e7eb70930-thumb_jpg.jpg?buster=1391642937","quality":9,"product_desc":"We
+        make bounces better.\n\nbounce.io empowers mailbox providers and domain owners
+        to turn their bounced email into recurring revenue, bounce intelligence and
+        anti-spam data. \n\n\n   *  31 billion emails bounce every day\n\n   *  Non-delivery
+        reports (email bounces) get a 60% open rate from the original sender\n\n   *  A
+        unique and significant source of anti-spam & security data\n\nWe are the bounce
+        intelligence company.\n\n   *  Add tasteful sponsorship to administrative
+        bounce notices to create a new \n      recurring revenue stream\n\n   *  Real-time
+        data for network operators to identify bounce trends, bad actors and \n       compromised
+        systems from the bounce traffic\n\n   *  The worlds largest \u201corganic
+        honeypot\u201d for spam data","high_concept":"We make email bounces better","follower_count":224,"company_url":"http://bounce.io","created_at":"2012-11-12T23:44:18Z","updated_at":"2014-05-06T17:20:56Z"}},{"id":1047091,"role":"advisor","created_at":"2014-01-09T00:12:36Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":294920,"hidden":false,"community_profile":false,"name":"Flipagram","angellist_url":"https://angel.co/flipagram","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/294920-175b9df96d521b70d34bb0cea0500b39-medium_jpg.jpg?buster=1384472006","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/294920-175b9df96d521b70d34bb0cea0500b39-thumb_jpg.jpg?buster=1384472006","quality":10,"product_desc":"Flipagram
+        has been on fire... All organic growth, currently a top free app in the U.S.
+        appstore, ahead of SnapChat, YouTube, Facebook, Instagram, Twitter, Vine,
+        What''s App, Pinterest, etc.\n\nInstagram and Vine made short video format
+        popular, but there\u2019s only so much you can do with a few seconds of live
+        video -- you''re stuck in space and time -- which is why you get a lot of
+        silly \u2018fart\u2019 loops.  Flipagram changes the equation by opening up
+        these bite-sized video slots to all your photos and albums -- the best moments
+        of your life --- that are languishing on your camera roll or on flat web-pages
+        like Instagram and Facebook.  \n\nEach Flipagram video can have potentially
+        hundreds of frames (photos). So, there is infinite room for creative expression,
+        through sequencing, repetition, juxtaposition, timing and of course, music
+        selection.  Flipagrams are fun to make and optimized for sharing on existing
+        social networks.","high_concept":"Top Free App in over 150 Countries","follower_count":228,"company_url":"http://flipagram.com","created_at":"2013-11-14T23:33:29Z","updated_at":"2015-04-14T00:43:07Z"}},{"id":1020730,"role":"past_investor","created_at":"2013-12-20T23:23:42Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":29056,"hidden":false,"community_profile":false,"name":"Descomplica","angellist_url":"https://angel.co/descomplica","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/29056-9361a4175fc093fae6e1c0a8a6b152c0-medium_jpg.jpg?buster=1333955420","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/29056-9361a4175fc093fae6e1c0a8a6b152c0-thumb_jpg.jpg?buster=1333955420","quality":9,"product_desc":"Descomplica
+        is the largest online classroom in Brazil. \n\nOur initial market is Brazilian
+        High School students, and to date we have helped millions of students with
+        general curriculum and test prep for university entrance exams. \n\nOur comprehensive
+        curriculum consists of thousands of  videos + live lessons every day (our
+        record class reached more than 100,000 students) + 15,000 questions with real
+        time answers.  We also reached the #1 trending topic on Twitter worldwide
+        ( not just Brazil).\n\nAround 7M Brazilian students take the ENEM every year,
+        Brazil''s #1 university entrance exam. Around 75% of Descomplica''s students
+        scored higher than the national avg. on the exam, and around  30% of Descomplica
+        students got spots in public and private universities.","high_concept":"Brazil''s
+        Largest Online Classroom","follower_count":310,"company_url":"http://www.descomplica.com.br","created_at":"2011-11-22T20:55:22Z","updated_at":"2015-04-25T22:12:08Z"}},{"id":1003767,"role":"advisor","created_at":"2013-12-11T06:32:32Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":306942,"hidden":false,"community_profile":false,"name":"The
+        Human Diagnosis Project","angellist_url":"https://angel.co/the-human-diagnosis-project","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/306942-265aab80db8d13fff984728715ac22f1-medium_jpg.jpg?buster=1386622707","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/306942-265aab80db8d13fff984728715ac22f1-thumb_jpg.jpg?buster=1386622707","quality":10,"product_desc":"The
+        Human Diagnosis Project (also referred to as Human Dx, or the Project) is
+        a global, open medical project that aims to map any health problem to its
+        possible diagnoses. The Project\u2019s mission is to empower anyone, anywhere
+        with the world\u2019s collective medical insight. Human Dx helps humankind
+        understand the fundamental data structure of diagnosis by collecting and interpreting
+        online contributions from members of the medical, patient, and scientific
+        communities. \n\nHuman Dx''s approach sits at the intersection of machine
+        learning, collective intelligence, decentralized ledgers, human-based computation,
+        and Games with a Purpose. By developing the first open diagnostic system,
+        the Project has the potential to considerably alter the cost of, access to,
+        and effectiveness of health care globally.\n\nhttps://www.humandx.org/context/background","high_concept":"Global
+        medical project, creating an open diagnostic system.","follower_count":418,"company_url":"http://www.humandx.org","created_at":"2013-12-09T20:58:30Z","updated_at":"2015-04-19T20:24:38Z"}},{"id":1000907,"role":"past_investor","created_at":"2013-12-10T01:12:38Z","started_at":null,"ended_at":null,"title":null,"confirmed":true,"tagged":{"type":"User","name":"Naval
+        Ravikant","id":155,"bio":"Sweat: @angellist , @venture-hacks @vast @epinions
+        ;  Money: @twitter @heyzap @uber ","follower_count":39528,"angellist_url":"https://angel.co/naval","image":"https://d1qb2nb5cznatu.cloudfront.net/users/155-medium_jpg?1405433037"},"startup":{"id":293697,"hidden":false,"community_profile":false,"name":"JumpCam","angellist_url":"https://angel.co/jumpcam","logo_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/293697-261e3a5aaa093de98060df3e4af575e6-medium_jpg.jpg?buster=1386639159","thumb_url":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/293697-261e3a5aaa093de98060df3e4af575e6-thumb_jpg.jpg?buster=1386639159","quality":9,"product_desc":"JumpCam
+        is a free Android and iOS app that makes it easy to create collaborative videos
+        with friends and family.\n\nJust start a video and invite others to add their
+        own clips. JumpCam instantly stitches everything together into a single, beautiful
+        movie.","high_concept":"Collaborative mobile video app","follower_count":38,"company_url":"http://www.jumpcam.com","created_at":"2013-11-12T22:14:58Z","updated_at":"2013-12-10T02:37:29Z"}}],"total":182,"per_page":50,"page":1,"last_page":4}'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 12:06:14 GMT
+recorded_with: VCR 2.9.3
