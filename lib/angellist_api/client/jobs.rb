@@ -8,7 +8,7 @@ module AngellistApi
       # Returns all jobs that have been posted. Results are paginated and
       # ordered by publish date descending.
       #
-      # @requires_authentication No
+      # @requires_authentication Yes
       # @paginated Yes
       #
       # @param options [Hash] A customizable set of options.
@@ -26,7 +26,7 @@ module AngellistApi
 
       # Shows details for a specific job, including the startup that posted it.
       #
-      # @requires_authentication No
+      # @requires_authentication Yes
       #
       # @param id [Integer] ID of the job to fetch.
       #
@@ -38,7 +38,7 @@ module AngellistApi
 
       # For a given startup id, returns all the jobs that have been posted.
       #
-      # @requires_authentication No
+      # @requires_authentication Yes
       # @paginated No
       #
       # @param id [Integer] ID of the desired startup.
@@ -51,7 +51,7 @@ module AngellistApi
 
       # For a given LocationTag id, returns all jobs posted in that tag.
       #
-      # @requires_authentication No
+      # @requires_authentication Yes
       # @paginated Yes
       #
       # @param id [Integer] ID of the desired tag.

@@ -1,20 +1,21 @@
 require 'spec_helper'
 
-describe AngellistApi::Client::Jobs,
+describe AngellistApi::Client::Jobs, :authenticated,
   :vcr => { :cassette_name => 'jobs' } do
 
   let(:client) { AngellistApi::Client.new }
+  let(:job_id) { 63344 }
 
   it 'gets a listing of jobs' do
-    jobs = client.get_jobs
+    jobs = client.get_jobs.jobs
     jobs.first.should have_key :job_type
     jobs.first.should have_key :startup
   end
 
   it 'gets information about a job' do
-    job = client.get_job(2450)
+    job = client.get_job(job_id)
     job.title.should eq 'Software Engineer'
-    job.startup.name.should eq 'Kloudless'
+    job.startup.name.should eq 'Genetesis'
   end
 
   it 'gets jobs for a given startup' do
@@ -23,10 +24,6 @@ describe AngellistApi::Client::Jobs,
   end
 
   it 'gets jobs for a given LocationTag' do
-    # This returns a job where the only LocationTag is Las Vegas. I've
-    # contacted AngelList to inquire if this is an API bug, doc fault, or?
-    pending 'API bug?'
-
     sf = client.get_tag_jobs(1692)
     sf.jobs.each do |job|
       job.tags.select { |tag| tag.id == 1692 }.should_not be_empty
