@@ -10,264 +10,236 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
+      - AngellistApi Ruby Gem 1.0.7
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
     status:
       code: 200
-      message: !!null 
+      message: OK
     headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Sun, 22 Apr 2012 00:34:46 GMT
-      content-type:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
       - application/json; charset=utf-8
-      transfer-encoding:
-      - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
+      Date:
+      - Sun, 26 Apr 2015 10:46:15 GMT
+      Etag:
+      - '"8044e814fb9de50c9d67053ff14c4f55"'
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Ratelimit-Limit:
       - '1000'
-      x-ratelimit-remaining:
-      - '989'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '405'
-      etag:
-      - ! '"eb949d0fdfdbf08aa93b4b6cebb07a5c"'
-      cache-control:
-      - private, max-age=0, must-revalidate
-    body:
-      encoding: ASCII-8BIT
-      string: ! '{"feed":[{"id":"8cASe","timestamp":"2012-04-22T00:05:48Z","item":{"type":"StatusUpdate","ids":[54892]},"description":"<a
-        href=\"http://angel.co/bizelo\" class=\"feed_link\" data-id=\"76424\" data-type=\"Startup\">Bizelo</a>
-        updated their status","text":"Just launched our new front page of the Bizelo
-        site at http://www.bizelo.com/ - let us know what you think!","actor":{"type":"Startup","id":76424,"name":"Bizelo","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/76424-41488903f1edaecfbdbb83e6efda6706-thumb.png","angellist_url":"http://angel.co/bizelo","tagline":"Simplifying
-        Small Business Apps"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cAPU","timestamp":"2012-04-22T00:01:44Z","item":{"type":"Follow","ids":[4066138]},"description":"<a
-        href=\"http://angel.co/pc0\" class=\"feed_link\" data-id=\"2531\" data-type=\"User\">Pete
-        Cooper</a> followed <a href=\"http://angel.co/pindex\" class=\"feed_link\"
-        data-id=\"84242\" data-type=\"Startup\">Pindex</a>","text":null,"actor":{"type":"User","id":2531,"name":"Pete
-        Cooper","image":"https://s3.amazonaws.com/photos.angel.co/users/2531-medium?1294804141","angellist_url":"http://angel.co/pc0","tagline":"Geek.
-        Finance. Real-time trading technologies."},"target":{"type":"Startup","id":84242,"name":"Pindex","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/84242-e25d59b78d3ae56d951e03ced7782260-thumb.png","angellist_url":"http://angel.co/pindex","tagline":"Free-form
-        geolocation-based tagging."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8czkb","timestamp":"2012-04-21T22:49:29Z","item":{"type":"Follow","ids":[4065834]},"description":"<a
-        href=\"http://angel.co/manuel-roumain\" class=\"feed_link\" data-id=\"111258\"
-        data-type=\"User\">Manuel Roumain</a> followed <a href=\"http://angel.co/thinkfuse\"
-        class=\"feed_link\" data-id=\"79741\" data-type=\"Startup\">Thinkfuse</a>","text":null,"actor":{"type":"User","id":111258,"name":"Manuel
-        Roumain","image":"https://s3.amazonaws.com/photos.angel.co/users/111258-medium?1333002057","angellist_url":"http://angel.co/manuel-roumain","tagline":"Chief
-        Investment Officer at EJS Investment Management SA"},"target":{"type":"Startup","id":79741,"name":"Thinkfuse","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/79741-d9ffe1963dfd8d0f3604df842a3beebd-thumb.gif","angellist_url":"http://angel.co/thinkfuse","tagline":"Share
-        your progress."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8czev","timestamp":"2012-04-21T22:44:25Z","item":{"type":"Follow","ids":[4065746]},"description":"<a
-        href=\"http://angel.co/rick-myers\" class=\"feed_link\" data-id=\"102105\"
-        data-type=\"User\">Rick Myers</a> followed <a href=\"http://angel.co/36kr\"
-        class=\"feed_link\" data-id=\"56604\" data-type=\"Startup\">36Kr</a>","text":null,"actor":{"type":"User","id":102105,"name":"Rick
-        Myers","image":"https://s3.amazonaws.com/photos.angel.co/users/102105-medium?1332685385","angellist_url":"http://angel.co/rick-myers","tagline":"Digital
-        Media & Entertainment"},"target":{"type":"Startup","id":56604,"name":"36Kr","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/56604-36fe76f03975afab7b2c58a2d0ff312b-thumb.","angellist_url":"http://angel.co/36kr","tagline":"\"TechCrunch\"
-        & \"Angellist\" of China"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8czcd","timestamp":"2012-04-21T22:42:49Z","item":{"type":"Follow","ids":[4065743]},"description":"<a
-        href=\"http://angel.co/stevebrotman\" class=\"feed_link\" data-id=\"1971\"
-        data-type=\"User\">Steve Brotman</a> followed <a href=\"http://angel.co/zeel-networks\"
-        class=\"feed_link\" data-id=\"13071\" data-type=\"Startup\">Zeel Networks</a>","text":null,"actor":{"type":"User","id":1971,"name":"Steve
-        Brotman","image":"https://s3.amazonaws.com/photos.angel.co/users/1971-medium?1294804022","angellist_url":"http://angel.co/stevebrotman","tagline":"NYC
-        based Internet 1.0 entrepreneur turned NYC based VC 2.0.  Started own fund,
-        made some good investments.  Making more."},"target":{"type":"Startup","id":13071,"name":"Zeel
-        Networks","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/13071-5b470092a0ee31f5cd35fa692ec224ca-thumb.jpg","angellist_url":"http://angel.co/zeel-networks","tagline":"ZocDoc
-        for alternative healthcare"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cyXr","timestamp":"2012-04-21T22:35:49Z","item":{"type":"StartupRole","ids":[213352]},"description":"<a
-        href=\"http://angel.co/mlarchambault\" class=\"feed_link\" data-id=\"3515\"
-        data-type=\"User\">Martin-Luc Archambault</a> invested in <a href=\"http://angel.co/crowdbase\"
-        class=\"feed_link\" data-id=\"19579\" data-type=\"Startup\">Crowdbase</a>''s
-        previous round","text":null,"actor":{"type":"User","id":3515,"name":"Martin-Luc
-        Archambault","image":"https://s3.amazonaws.com/photos.angel.co/users/3515-medium?1294804363","angellist_url":"http://angel.co/mlarchambault","tagline":"CEO
-        of Wajam, Chairman of Bolidea, Entrepreneur & Angel Investor"},"target":{"type":"Startup","id":19579,"name":"Crowdbase","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19579-996f39adbab0198103fcfd65eb4abd33-thumb.png","angellist_url":"http://angel.co/crowdbase","tagline":"Knowledge
-        management made social and easy."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cyFk","timestamp":"2012-04-21T22:30:17Z","item":{"type":"StartupRole","ids":[213455]},"description":"<a
-        href=\"http://angel.co/ehmoore\" class=\"feed_link\" data-id=\"38597\" data-type=\"User\">Erik
-        Moore</a> invested in <a href=\"http://angel.co/fandeavor\" class=\"feed_link\"
-        data-id=\"82511\" data-type=\"Startup\">Fandeavor</a>''s previous round","text":null,"actor":{"type":"User","id":38597,"name":"Erik
-        Moore","image":"https://s3.amazonaws.com/photos.angel.co/users/38597-medium?1308605845","angellist_url":"http://angel.co/ehmoore","tagline":"Former
-        bond trader (merrill lynch).  \nAmong first to invest in zappos.  \nCo-founded
-        flicklaunch.\nDartmouth BA Wharton MBA\nBest Trade: mentoring inner city kids"},"target":{"type":"Startup","id":82511,"name":"Fandeavor","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/82511-5421dcccf150a780af74c790559bc45b-thumb.jpg","angellist_url":"http://angel.co/fandeavor","tagline":"Exclusive
-        Experiences for Enthusiastic Fans"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cyAB","timestamp":"2012-04-21T22:25:32Z","item":{"type":"Follow","ids":[4065525]},"description":"<a
-        href=\"http://angel.co/davidcohen\" class=\"feed_link\" data-id=\"143\" data-type=\"User\">David
-        Cohen</a> followed <a href=\"http://angel.co/fluent\" class=\"feed_link\"
-        data-id=\"74841\" data-type=\"Startup\">Fluent</a>","text":null,"actor":{"type":"User","id":143,"name":"David
-        Cohen","image":"https://s3.amazonaws.com/photos.angel.co/users/143-medium?1294803546","angellist_url":"http://angel.co/davidcohen","tagline":"Founder/CEO
-        of TechStars. Investor in Amazing Startups. Geeky to the bone.\nhttp://www.davidgcohen.com"},"target":{"type":"Startup","id":74841,"name":"Fluent","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/74841-303b2e81791f47b198a64c841ff32d4f-thumb.png","angellist_url":"http://angel.co/fluent","tagline":"The
-        future of email"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cwRy","timestamp":"2012-04-21T22:20:34Z","item":{"type":"Follow","ids":[4065512]},"description":"<a
-        href=\"http://angel.co/roykaller\" class=\"feed_link\" data-id=\"11175\" data-type=\"User\">Roy
-        Kaller</a> followed <a href=\"http://angel.co/lucky-sort\" class=\"feed_link\"
-        data-id=\"15933\" data-type=\"Startup\">Lucky Sort</a>","text":null,"actor":{"type":"User","id":11175,"name":"Roy
-        Kaller","image":"https://s3.amazonaws.com/photos.angel.co/users/11175-medium?1299548369","angellist_url":"http://angel.co/roykaller","tagline":"Investor
-        in Social Leverage, Gain Technology (Sold in 2002 for $34M)."},"target":{"type":"Startup","id":15933,"name":"Lucky
-        Sort","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/15933-b7bc531fde24e57bfb2718c7a45a8fe2-thumb.jpeg","angellist_url":"http://angel.co/lucky-sort","tagline":"Cloud
-        based platform for visual and statistical text analytics."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cx3S","timestamp":"2012-04-21T22:19:57Z","item":{"type":"Follow","ids":[4065510]},"description":"<a
-        href=\"http://angel.co/danielle-morrill\" class=\"feed_link\" data-id=\"22676\"
-        data-type=\"User\">Danielle Morrill</a> followed <a href=\"http://angel.co/wedgies\"
-        class=\"feed_link\" data-id=\"82357\" data-type=\"Startup\">wedgies</a>","text":null,"actor":{"type":"User","id":22676,"name":"Danielle
-        Morrill","image":"https://s3.amazonaws.com/photos.angel.co/users/22676-medium?1306966196","angellist_url":"http://angel.co/danielle-morrill","tagline":"Director
-        of Marketing at Twilio. 500 Startups Mentor. Forbes 30 Under 30 in Social/Mobile
-        Tech 2011.  Code enough to be dangerous, execute like a freight train."},"target":{"type":"Startup","id":82357,"name":"wedgies","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/82357-b5dbc1ee3a0eb44ecce46fcb837d748a-thumb.jpg","angellist_url":"http://angel.co/wedgies","tagline":"Simple
-        Surveys to Share with Friends"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cwbS","timestamp":"2012-04-21T22:19:21Z","item":{"type":"StartupRole","ids":[213585]},"description":"<a
-        href=\"http://angel.co/roykaller\" class=\"feed_link\" data-id=\"11175\" data-type=\"User\">Roy
-        Kaller</a> invested in <a href=\"http://angel.co/sendhub\" class=\"feed_link\"
-        data-id=\"21042\" data-type=\"Startup\">SendHub</a>''s previous round","text":null,"actor":{"type":"User","id":11175,"name":"Roy
-        Kaller","image":"https://s3.amazonaws.com/photos.angel.co/users/11175-medium?1299548369","angellist_url":"http://angel.co/roykaller","tagline":"Investor
-        in Social Leverage, Gain Technology (Sold in 2002 for $34M)."},"target":{"type":"Startup","id":21042,"name":"SendHub","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/21042-dde51249b559a67e46c013acb1e2168d-thumb.png","angellist_url":"http://angel.co/sendhub","tagline":"SMS
-        for Organizations (YC W12)"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8citm","timestamp":"2012-04-21T22:09:37Z","item":{"type":"Follow","ids":[4065401,4065233,4065110,4065108,4065003,4064904]},"description":"<a
-        href=\"http://angel.co/gonzalo-costa\" class=\"feed_link\" data-id=\"50678\"
-        data-type=\"User\">Gonzalo Costa</a>, <a href=\"http://angel.co/staenman\"
-        class=\"feed_link\" data-id=\"57\" data-type=\"User\">Jon Staenberg</a>, <a
-        href=\"http://angel.co/christian-h-leeb\" class=\"feed_link\" data-id=\"6113\"
-        data-type=\"User\">Christian H. Leeb</a> and 3 others followed <a href=\"http://angel.co/bizelo\"
-        class=\"feed_link\" data-id=\"76424\" data-type=\"Startup\">Bizelo</a>","text":null,"actor":{"type":"User","id":50678,"name":"Gonzalo
-        Costa","image":"https://s3.amazonaws.com/photos.angel.co/users/50678-medium?1313376500","angellist_url":"http://angel.co/gonzalo-costa","tagline":"Co-founder
-        and Director at NXTP Labs"},"target":{"type":"Startup","id":76424,"name":"Bizelo","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/76424-41488903f1edaecfbdbb83e6efda6706-thumb.png","angellist_url":"http://angel.co/bizelo","tagline":"Simplifying
-        Small Business Apps"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cvCW","timestamp":"2012-04-21T21:56:40Z","item":{"type":"StartupRole","ids":[150430]},"description":"<a
-        href=\"http://angel.co/eugene_zhang\" class=\"feed_link\" data-id=\"25906\"
-        data-type=\"User\">Eugene Zhang</a> invested in <a href=\"http://angel.co/netplenish\"
-        class=\"feed_link\" data-id=\"9580\" data-type=\"Startup\">NetPlenish</a>''s
-        previous round","text":null,"actor":{"type":"User","id":25906,"name":"Eugene
-        Zhang","image":"https://s3.amazonaws.com/photos.angel.co/users/25906-medium?1305186975","angellist_url":"http://angel.co/eugene_zhang","tagline":"Head
-        InnoSpring - US-China Startup Incubator; MD TEEC Angel Fund; Founder JEDA;
-        Member of Tsinghua Univ. Entrepreneurs & Executive Club (TEEC)."},"target":{"type":"Startup","id":9580,"name":"NetPlenish","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/9580-369208e3cd79e5b734eca9ef7ea4521a-thumb.jpg","angellist_url":"http://angel.co/netplenish","tagline":"Price
-        comparison meets automatic replenishment on the items you buy over and over
-        again."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cvhG","timestamp":"2012-04-21T21:54:37Z","item":{"type":"Update","ids":[34794]},"description":"<a
-        href=\"http://angel.co/eugene_zhang\" class=\"feed_link\" data-id=\"25906\"
-        data-type=\"User\">Eugene Zhang</a> updated their mini-resume","text":"Head
-        InnoSpring - US-China Startup Incubator; MD TEEC Angel Fund; Founder JEDA;
-        Member of Tsinghua Univ. Entrepreneurs & Executive Club (TEEC).","actor":{"type":"User","id":25906,"name":"Eugene
-        Zhang","image":"https://s3.amazonaws.com/photos.angel.co/users/25906-medium?1305186975","angellist_url":"http://angel.co/eugene_zhang","tagline":"Head
-        InnoSpring - US-China Startup Incubator; MD TEEC Angel Fund; Founder JEDA;
-        Member of Tsinghua Univ. Entrepreneurs & Executive Club (TEEC)."},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cugy","timestamp":"2012-04-21T21:41:31Z","item":{"type":"StartupRole","ids":[213568]},"description":"<a
-        href=\"http://angel.co/kal\" class=\"feed_link\" data-id=\"42\" data-type=\"User\">Kal
-        Vepuri</a> invested in <a href=\"http://angel.co/zenpayroll\" class=\"feed_link\"
-        data-id=\"78720\" data-type=\"Startup\">ZenPayroll</a>''s previous round","text":null,"actor":{"type":"User","id":42,"name":"Kal
-        Vepuri","image":"https://s3.amazonaws.com/photos.angel.co/users/42-medium?1294803469","angellist_url":"http://angel.co/kal","tagline":"Founder
-        and Chairman, The Trisiras Group."},"target":{"type":"Startup","id":78720,"name":"ZenPayroll","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/78720-5fd32474df5e2975289243a099b78635-thumb.png","angellist_url":"http://angel.co/zenpayroll","tagline":"Delightful,
-        modern payroll (YC W12)"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8ctvF","timestamp":"2012-04-21T21:41:20Z","item":{"type":"StartupRole","ids":[213565]},"description":"<a
-        href=\"http://angel.co/kal\" class=\"feed_link\" data-id=\"42\" data-type=\"User\">Kal
-        Vepuri</a> invested in <a href=\"http://angel.co/42floors\" class=\"feed_link\"
-        data-id=\"19928\" data-type=\"Startup\">42Floors</a>''s previous round","text":null,"actor":{"type":"User","id":42,"name":"Kal
-        Vepuri","image":"https://s3.amazonaws.com/photos.angel.co/users/42-medium?1294803469","angellist_url":"http://angel.co/kal","tagline":"Founder
-        and Chairman, The Trisiras Group."},"target":{"type":"Startup","id":19928,"name":"42Floors","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19928-0845bda82c37fb7869e44ce421562049-thumb.png","angellist_url":"http://angel.co/42floors","tagline":"Discover
-        and create your dream office"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8crBv","timestamp":"2012-04-21T21:36:42Z","item":{"type":"Follow","ids":[4065124]},"description":"<a
-        href=\"http://angel.co/faisal-aftab\" class=\"feed_link\" data-id=\"67990\"
-        data-type=\"User\">Faisal Aftab</a> followed <a href=\"http://angel.co/uber\"
-        class=\"feed_link\" data-id=\"19163\" data-type=\"Startup\">Uber</a>","text":null,"actor":{"type":"User","id":67990,"name":"Faisal
-        Aftab","image":"https://s3.amazonaws.com/photos.angel.co/users/67990-medium?1329499997","angellist_url":"http://angel.co/faisal-aftab","tagline":"Media
-        Executive & VC Investor \nCo-Founder & CEO, Pearl Media Group \nPartner, OxonCapital
-        \u25aa\u25ab"},"target":{"type":"Startup","id":19163,"name":"Uber","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19163-40b4beea1245cd9262307cd16d9e2e93-thumb.gif","angellist_url":"http://angel.co/uber","tagline":"Everyone''s
-        Private Driver"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8crv1","timestamp":"2012-04-21T21:36:04Z","item":{"type":"Follow","ids":[4065122]},"description":"<a
-        href=\"http://angel.co/texassuperangel\" class=\"feed_link\" data-id=\"826\"
-        data-type=\"User\">Rudy Garza</a> followed <a href=\"http://angel.co/atavist\"
-        class=\"feed_link\" data-id=\"81380\" data-type=\"Startup\">Atavist</a>","text":null,"actor":{"type":"User","id":826,"name":"Rudy
-        Garza","image":"https://s3.amazonaws.com/photos.angel.co/users/826-medium?1294803783","angellist_url":"http://angel.co/texassuperangel","tagline":"Founder
-        of G51 Capital. Investor in SocialWare, Memeo, Motion Computing, iTaggit/PriceAdvice.com."},"target":{"type":"Startup","id":81380,"name":"Atavist","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/81380-2b682cd6158fef256f2eae5a4ae5d4cb-thumb.jpg","angellist_url":"http://angel.co/atavist","tagline":"Software
-        for publishing anything, everywhere\u2014from a disruptive longform publisher"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8crf4","timestamp":"2012-04-21T21:33:45Z","item":{"type":"StartupRole","ids":[213557]},"description":"<a
-        href=\"http://angel.co/photomatt\" class=\"feed_link\" data-id=\"131\" data-type=\"User\">Matt
-        Mullenweg</a> invested in <a href=\"http://angel.co/enterproid\" class=\"feed_link\"
-        data-id=\"19167\" data-type=\"Startup\">Enterproid</a>''s previous round","text":null,"actor":{"type":"User","id":131,"name":"Matt
-        Mullenweg","image":"https://s3.amazonaws.com/photos.angel.co/users/131-medium?1294803538","angellist_url":"http://angel.co/photomatt","tagline":"WordPress,
-        Automattic, Akismet, Polldaddy, VaultPress, Gravatar...\r\nhttp://ma.tt/"},"target":{"type":"Startup","id":19167,"name":"Enterproid","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19167-e1c54a4d902bbd0bf54855968a8c71d8-thumb.jpeg","angellist_url":"http://angel.co/enterproid","tagline":"Work
-        and personal profiles on a single Android device"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cr2N","timestamp":"2012-04-21T21:33:34Z","item":{"type":"StartupRole","ids":[213556]},"description":"<a
-        href=\"http://angel.co/photomatt\" class=\"feed_link\" data-id=\"131\" data-type=\"User\">Matt
-        Mullenweg</a> invested in <a href=\"http://angel.co/chartbeat\" class=\"feed_link\"
-        data-id=\"79156\" data-type=\"Startup\">Chartbeat</a>''s previous round","text":null,"actor":{"type":"User","id":131,"name":"Matt
-        Mullenweg","image":"https://s3.amazonaws.com/photos.angel.co/users/131-medium?1294803538","angellist_url":"http://angel.co/photomatt","tagline":"WordPress,
-        Automattic, Akismet, Polldaddy, VaultPress, Gravatar...\r\nhttp://ma.tt/"},"target":{"type":"Startup","id":79156,"name":"Chartbeat","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/79156-580f3527243bcb36f275150a69325f38-thumb.png","angellist_url":"http://angel.co/chartbeat","tagline":"Real-time
-        data for front-line doers"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cq5E","timestamp":"2012-04-21T21:33:22Z","item":{"type":"StartupRole","ids":[213555]},"description":"<a
-        href=\"http://angel.co/photomatt\" class=\"feed_link\" data-id=\"131\" data-type=\"User\">Matt
-        Mullenweg</a> invested in <a href=\"http://angel.co/branchout\" class=\"feed_link\"
-        data-id=\"19169\" data-type=\"Startup\">BranchOut</a>''s previous round","text":null,"actor":{"type":"User","id":131,"name":"Matt
-        Mullenweg","image":"https://s3.amazonaws.com/photos.angel.co/users/131-medium?1294803538","angellist_url":"http://angel.co/photomatt","tagline":"WordPress,
-        Automattic, Akismet, Polldaddy, VaultPress, Gravatar...\r\nhttp://ma.tt/"},"target":{"type":"Startup","id":19169,"name":"BranchOut","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19169-a50d499908b3f38fc21e179d5d22a34c-thumb.jpg","angellist_url":"http://angel.co/branchout","tagline":"The
-        largest professional network on Facebook"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cnsY","timestamp":"2012-04-21T21:32:37Z","item":{"type":"StartupRole","ids":[213553]},"description":"<a
-        href=\"http://angel.co/photomatt\" class=\"feed_link\" data-id=\"131\" data-type=\"User\">Matt
-        Mullenweg</a> invested in <a href=\"http://angel.co/munchery\" class=\"feed_link\"
-        data-id=\"2855\" data-type=\"Startup\">Munchery</a>''s previous round","text":null,"actor":{"type":"User","id":131,"name":"Matt
-        Mullenweg","image":"https://s3.amazonaws.com/photos.angel.co/users/131-medium?1294803538","angellist_url":"http://angel.co/photomatt","tagline":"WordPress,
-        Automattic, Akismet, Polldaddy, VaultPress, Gravatar...\r\nhttp://ma.tt/"},"target":{"type":"Startup","id":2855,"name":"Munchery","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/2855-2376eeb4f97b7b354ec623e8de980111-thumb.png","angellist_url":"http://angel.co/munchery","tagline":"Personal
-        chefs for the rest of us"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8ckUQ","timestamp":"2012-04-21T21:29:14Z","item":{"type":"StartupRole","ids":[213547]},"description":"<a
-        href=\"http://angel.co/photomatt\" class=\"feed_link\" data-id=\"131\" data-type=\"User\">Matt
-        Mullenweg</a> invested in <a href=\"http://angel.co/memrise\" class=\"feed_link\"
-        data-id=\"19979\" data-type=\"Startup\">Memrise</a>''s previous round","text":null,"actor":{"type":"User","id":131,"name":"Matt
-        Mullenweg","image":"https://s3.amazonaws.com/photos.angel.co/users/131-medium?1294803538","angellist_url":"http://angel.co/photomatt","tagline":"WordPress,
-        Automattic, Akismet, Polldaddy, VaultPress, Gravatar...\r\nhttp://ma.tt/"},"target":{"type":"Startup","id":19979,"name":"Memrise","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19979-744befd35bdee202e3c1807afccb4e2e-thumb.jpg","angellist_url":"http://angel.co/memrise","tagline":"Super-powered
-        online learning"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8cjgw","timestamp":"2012-04-21T21:18:08Z","item":{"type":"StartupRole","ids":[213531]},"description":"<a
-        href=\"http://angel.co/toddfederman\" class=\"feed_link\" data-id=\"198\"
-        data-type=\"User\">Todd Federman</a> invested in <a href=\"http://angel.co/somolend\"
-        class=\"feed_link\" data-id=\"19586\" data-type=\"Startup\">SoMoLend</a>''s
-        previous round","text":null,"actor":{"type":"User","id":198,"name":"Todd Federman","image":"https://s3.amazonaws.com/photos.angel.co/users/198-medium?1294803577","angellist_url":"http://angel.co/toddfederman","tagline":"Executive
-        Director of North Coast Angel Fund, founder of One With Nature, former consultant
-        with DiamondCluster.  Duke Fuqua MBA."},"target":{"type":"Startup","id":19586,"name":"SoMoLend","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19586-260b7874baa802ca20b1aa6fc1451c5d-thumb.png","angellist_url":"http://angel.co/somolend","tagline":"SoMoLend
-        is a web and mobile based peer to peer lending technology."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"8ciV3","timestamp":"2012-04-21T21:17:33Z","item":{"type":"StartupRole","ids":[213530]},"description":"<a
-        href=\"http://angel.co/toddfederman\" class=\"feed_link\" data-id=\"198\"
-        data-type=\"User\">Todd Federman</a> is advising <a href=\"http://angel.co/somolend\"
-        class=\"feed_link\" data-id=\"19586\" data-type=\"Startup\">SoMoLend</a>","text":null,"actor":{"type":"User","id":198,"name":"Todd
-        Federman","image":"https://s3.amazonaws.com/photos.angel.co/users/198-medium?1294803577","angellist_url":"http://angel.co/toddfederman","tagline":"Executive
-        Director of North Coast Angel Fund, founder of One With Nature, former consultant
-        with DiamondCluster.  Duke Fuqua MBA."},"target":{"type":"Startup","id":19586,"name":"SoMoLend","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/19586-260b7874baa802ca20b1aa6fc1451c5d-thumb.png","angellist_url":"http://angel.co/somolend","tagline":"SoMoLend
-        is a web and mobile based peer to peer lending technology."},"extra":null,"promoted_by":[],"likes":0,"comments":0}],"total":200,"per_page":25,"page":1,"last_page":8}'
-    http_version: !!null 
-  recorded_at: Sun, 22 Apr 2012 00:34:46 GMT
-- request:
-    method: get
-    uri: https://api.angel.co/1/feed/8fCC3
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - AngellistApi Ruby Gem 1.0.1
-  response:
-    status:
-      code: 200
-      message: !!null 
-    headers:
-      server:
-      - nginx/1.0.6
-      date:
-      - Mon, 23 Apr 2012 08:23:49 GMT
-      content-type:
-      - application/json; charset=utf-8
-      transfer-encoding:
+      X-Ratelimit-Remaining:
+      - '997'
+      X-Request-Id:
+      - 73d14ad03a14a3ef7fbd152e72044994
+      X-Runtime:
+      - '0.349632'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Transfer-Encoding:
       - chunked
-      connection:
-      - close
-      vary:
-      - Accept-Encoding, Accept-Encoding
-      status:
-      - '200'
-      x-powered-by:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
-      x-ratelimit-limit:
-      - '1000'
-      x-ratelimit-remaining:
-      - '995'
-      x-thanks:
-      - For using AngelList. Rock on.
-      x-runtime:
-      - '253'
-      etag:
-      - ! '"f1be28c6b52242fc4dcd03f45cff4a5a"'
-      cache-control:
-      - private, max-age=0, must-revalidate
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: ! '{"id":"8fCC3","timestamp":"2012-04-23T05:48:35Z","item":{"type":"StartupRole","ids":[214219]},"description":"<a
-        href=\"http://angel.co/howard-marks-2\" class=\"feed_link\" data-id=\"28282\"
-        data-type=\"User\">Howard Marks</a> invested in <a href=\"http://angel.co/betteryou\"
-        class=\"feed_link\" data-id=\"64292\" data-type=\"Startup\">BetterYou</a>''s
-        previous round","text":null,"actor":{"type":"User","id":28282,"name":"Howard
-        Marks","image":"https://s3.amazonaws.com/photos.angel.co/users/28282-medium?1320429093","angellist_url":"http://angel.co/howard-marks-2","tagline":"co-founder
-        Activision ATVI $14B cap, founder Acclaim Games (sold to Playdom).  Founder
-        and co-chair Start Engine LA''s largest accelerator."},"target":{"type":"Startup","id":64292,"name":"BetterYou","image":"https://s3.amazonaws.com/photos.angel.co/startups/i/64292-1a6b9b3d5bed81266b07ea3c846442b4-thumb.jpg","angellist_url":"http://angel.co/betteryou","tagline":"Elance
-        for Wellness Providers"},"extra":null,"promoted_by":[],"likes":0,"comments":0}'
-    http_version: !!null 
-  recorded_at: Mon, 23 Apr 2012 08:23:49 GMT
-recorded_with: VCR 2.1.0
+      encoding: UTF-8
+      string: '{"feed":[{"id":"2heCKP","timestamp":"2015-04-26T10:22:06Z","item":{"type":"Follow","ids":[41629681,41628055,41624200,41624151,41623872,41623871,41623378,41623359,41623342,41619836,41619834,41619816,41619353,41618947]},"description":"<a
+        href=\"https://angel.co/mayankagrawal\" class=\"feed_link\" data-id=\"734459\"
+        data-type=\"User\">Mayank Agrawal</a> followed <a href=\"https://angel.co/boingo-wireless\"
+        class=\"feed_link\" data-id=\"33078\" data-type=\"Startup\">Boingo Wireless</a>,
+        <a href=\"https://angel.co/zesty-1\" class=\"feed_link\" data-id=\"126085\"
+        data-type=\"Startup\">Zesty</a>, <a href=\"https://angel.co/twinword\" class=\"feed_link\"
+        data-id=\"671606\" data-type=\"Startup\">Twinword</a> and 11 other companies","text":null,"actor":{"type":"User","id":734459,"name":"Mayank
+        Agrawal","image":"https://d1qb2nb5cznatu.cloudfront.net/users/734459-medium_jpg?1409403051","angellist_url":"https://angel.co/mayankagrawal","system_user?":false,"tagline":"An
+        Enterpreneur with interest in Investing, Business management and startup building"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heLmb","timestamp":"2015-04-26T10:12:35Z","item":{"type":"Answer","ids":[1534]},"description":"<a
+        href=\"https://angel.co/dmitrii-beliakov\" class=\"feed_link\" data-id=\"745235\"
+        data-type=\"User\">Dmitrii Beliakov</a> answered the following question about
+        <a href=\"https://angel.co/suitestory-inc\" class=\"feed_link\" data-id=\"641030\"
+        data-type=\"Startup\">SuiteStory Inc.</a>","text":"Dear Matt,\n\nSorry for
+        the delay, for some reason angel.co did not notify me.\nThank you for your
+        interest and for the introduction.\n\nWe are currently raising $500K in convertible
+        notes. We have pilot hotels, working backend and part of frontend of the website,
+        very strong connections with big chain hotels (Starwood, Mariott, Four Seasons)
+        thanks to previous experience in this industry. We will be launching around
+        September in New York with further expansion across US.\nWe a looking for
+        the money for the marketing budget and hiring sales personnel.\n\nIf you think
+        this might be interesting to you, let me know. I would be happy to meet and
+        tell you more about the project.\nIf that''s not you investment profile (as
+        I would gess from you Linkedin page) may be you could recommend someone, who
+        invests with similar risk profile?\n\nBest regards,\nDmitrii","actor":{"type":"User","id":745235,"name":"Dmitrii
+        Beliakov","image":"https://d1qb2nb5cznatu.cloudfront.net/users/745235-medium_jpg?1410026356","angellist_url":"https://angel.co/dmitrii-beliakov","system_user?":false,"tagline":"Serial
+        entrepreneur with 15 years of exec. management experience. Cross-industry
+        experience in management, startups. Strong IT skills. EMBA CBS, dean''s list."},"target":{"type":"Startup","id":641030,"name":"SuiteStory
+        Inc.","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/641030-6c88234c05361fe0f643d2482c09dd61-thumb_jpg.jpg?buster=1426614779","angellist_url":"https://angel.co/suitestory-inc","system_user?":null,"tagline":"Changing
+        the way how people search, discover and book luxury suites"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heKPM","timestamp":"2015-04-26T09:13:28Z","item":{"type":"Press","ids":[238376]},"description":"<a
+        href=\"https://angel.co/leizhan-paper-machinery-co\" class=\"feed_link\" data-id=\"584062\"
+        data-type=\"Startup\">Leizhan Paper Machinery Co</a> added press from mobile.leizhanchina.com","text":"<a
+        href=\"http://mobile.leizhanchina.com/faq/pulp-refining-machines-for-pulp-processing-system/\"
+        rel=\"nofollow\" target=\"_blank\">DD refiner for Pulp Refining System</a>","actor":{"type":"Startup","id":584062,"name":"Leizhan
+        Paper Machinery Co","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/584062-5cc3086657a199d6a7443861132b38b2-thumb_jpg.jpg?buster=1421735135","angellist_url":"https://angel.co/leizhan-paper-machinery-co","system_user?":null,"tagline":"paper
+        and pulp making machinery"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heKKp","timestamp":"2015-04-26T09:06:05Z","item":{"type":"Follow","ids":[41627623]},"description":"<a
+        href=\"https://angel.co/jcoustaury\" class=\"feed_link\" data-id=\"120737\"
+        data-type=\"User\">Julien Coustaury</a> followed <a href=\"https://angel.co/abc-accelerator\"
+        class=\"feed_link\" data-id=\"633766\" data-type=\"Startup\">ABC Accelerator</a>","text":null,"actor":{"type":"User","id":120737,"name":"Julien
+        Coustaury","image":"https://d1qb2nb5cznatu.cloudfront.net/users/120737-medium_jpg?1405527111","angellist_url":"https://angel.co/jcoustaury","system_user?":false,"tagline":"Dream
+        big or go home !"},"target":{"type":"Startup","id":633766,"name":"ABC Accelerator","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/633766-faa60b3854ec5b3378eb11e443410726-thumb_jpg.jpg?buster=1425979547","angellist_url":"https://angel.co/abc-accelerator","system_user?":null,"tagline":"Accelerator
+        to aid start-ups in South Eastern Europe"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heGUp","timestamp":"2015-04-26T08:40:42Z","item":{"type":"Follow","ids":[41627398,41626918,41624240]},"description":"<a
+        href=\"https://angel.co/usmananzaar\" class=\"feed_link\" data-id=\"343075\"
+        data-type=\"User\">Othoman Anzer</a>, <a href=\"https://angel.co/prasadm\"
+        class=\"feed_link\" data-id=\"407804\" data-type=\"User\">Prasad Mahendra</a>
+        and <a href=\"https://angel.co/raphael-leiteritz\" class=\"feed_link\" data-id=\"165334\"
+        data-type=\"User\">Raphael Leiteritz</a> followed <a href=\"https://angel.co/flight-vc-consumer-syndicate\"
+        class=\"feed_link\" data-id=\"658877\" data-type=\"Startup\">Flight.vc Consumer
+        Syndicate</a>","text":null,"actor":{"type":"User","id":343075,"name":"Othoman
+        Anzer","image":"https://d1qb2nb5cznatu.cloudfront.net/users/343075-medium_jpg?1405638103","angellist_url":"https://angel.co/usmananzaar","system_user?":false,"tagline":"Lazy,
+        lazy investor"},"target":{"type":"Startup","id":658877,"name":"Flight.vc Consumer
+        Syndicate","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/658877-89ccd88502db9d964a651ecba6f86d9d-thumb_jpg.jpg?buster=1428097264","angellist_url":"https://angel.co/flight-vc-consumer-syndicate","system_user?":null,"tagline":"Investing
+        in the Top Consumer Companies and Entrepreneurs"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heJqM","timestamp":"2015-04-26T08:33:49Z","item":{"type":"Answer","ids":[1533]},"description":"<a
+        href=\"https://angel.co/agris-kipurs\" class=\"feed_link\" data-id=\"663571\"
+        data-type=\"User\">Agris Kipurs</a> answered the following question about
+        <a href=\"https://angel.co/airdog\" class=\"feed_link\" data-id=\"437414\"
+        data-type=\"Startup\">Airdog</a>","text":"In order to track agile and speedy
+        motion with the precision required in action sports we use sensor fusion technology.
+        Instead of relying purely on GPS we put readings from accelerometer, gyroscope,
+        barometric air pressure sensor and magnetometer in the equation as well. Companies
+        that are looking to enabled purely GPS based following capability are: PlexiDrone,
+        EHANG (GHOST), 3D Robotics (IRIS+). IRIS+ is a two man operation. Airdog has
+        a dedicated tracking device, irreplaceable when it comes to water sports and
+        otherwise demanding conditions. ","actor":{"type":"User","id":663571,"name":"Agris
+        Kipurs","image":"https://d1qb2nb5cznatu.cloudfront.net/users/663571-medium_jpg?1421121816","angellist_url":"https://angel.co/agris-kipurs","system_user?":false,"tagline":"Founder
+        and COO @Helico Aerospace Industries; Founder @JIC business incubator"},"target":{"type":"Startup","id":437414,"name":"Airdog","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/437414-599b32acbc0a5342ffeaa5cf1f898594-thumb_jpg.jpg?buster=1405293270","angellist_url":"https://angel.co/airdog","system_user?":null,"tagline":"Auto-follow
+        drone for action sports"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heJks","timestamp":"2015-04-26T08:23:01Z","item":{"type":"StatusUpdate","ids":[184619]},"description":"<a
+        href=\"https://angel.co/pitchxo\" class=\"feed_link\" data-id=\"319588\" data-type=\"Startup\">pitchXO</a>
+        updated their status","text":"Instant feedback on your presentations can be
+        more than \"it looks good\" http://pitchxo.com/goodies/you-made-a-presentation-but-how-does-it-perform","actor":{"type":"Startup","id":319588,"name":"pitchXO","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/319588-2c50a976e58ec0be38cbc28b24af356c-thumb_jpg.jpg?buster=1389158252","angellist_url":"https://angel.co/pitchxo","system_user?":null,"tagline":"Know
+        who views your slides ( great for investor pages )"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heJih","timestamp":"2015-04-26T08:17:31Z","item":{"type":"Follow","ids":[41627189,41627133]},"description":"<a
+        href=\"https://angel.co/playethic-hotmail-com\" class=\"feed_link\" data-id=\"400342\"
+        data-type=\"User\">Sajid Rahman</a> followed <a href=\"https://angel.co/kartrocket\"
+        class=\"feed_link\" data-id=\"241036\" data-type=\"Startup\">KartRocket</a>
+        and <a href=\"https://angel.co/the-elastic-platform\" class=\"feed_link\"
+        data-id=\"91315\" data-type=\"Startup\">The Elastic platform</a>","text":null,"actor":{"type":"User","id":400342,"name":"Sajid
+        Rahman","image":"https://d1qb2nb5cznatu.cloudfront.net/users/400342-medium_jpg?1413078594","angellist_url":"https://angel.co/playethic-hotmail-com","system_user?":false,"tagline":"Investor
+        at over 60 startups. Board Director and advidor at start ups. Director Bangladesh
+        @founder-institute "},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heJeD","timestamp":"2015-04-26T07:54:34Z","item":{"type":"Follow","ids":[41626930]},"description":"<a
+        href=\"https://angel.co/pjkershaw\" class=\"feed_link\" data-id=\"399598\"
+        data-type=\"User\">Patrick Kershaw</a> followed <a href=\"https://angel.co/realcrowd\"
+        class=\"feed_link\" data-id=\"163519\" data-type=\"Startup\">RealCrowd</a>","text":null,"actor":{"type":"User","id":399598,"name":"Patrick
+        Kershaw","image":"https://d1qb2nb5cznatu.cloudfront.net/users/399598-medium_jpg?1405659843","angellist_url":"https://angel.co/pjkershaw","system_user?":false,"tagline":"Early
+        Stage Investor / Proud New Zealander / Asia Focus / Singapore Based "},"target":{"type":"Startup","id":163519,"name":"RealCrowd","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/163519-76337ac7facd2a1ebdf2abc87f571179-thumb_jpg.jpg?buster=1360966462","angellist_url":"https://angel.co/realcrowd","system_user?":null,"tagline":"Platform
+        For Accredited Crowd Investing in Commercial Real Estate "},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heJdx","timestamp":"2015-04-26T07:51:59Z","item":{"type":"Follow","ids":[41626925,41626926]},"description":"<a
+        href=\"https://angel.co/prasadm\" class=\"feed_link\" data-id=\"407804\" data-type=\"User\">Prasad
+        Mahendra</a> followed <a href=\"https://angel.co/newswhip\" class=\"feed_link\"
+        data-id=\"139516\" data-type=\"Startup\">NewsWhip</a> and <a href=\"https://angel.co/flight-vc-uk\"
+        class=\"feed_link\" data-id=\"553664\" data-type=\"Startup\">Flight.vc UK</a>","text":null,"actor":{"type":"User","id":407804,"name":"Prasad
+        Mahendra","image":"https://d1qb2nb5cznatu.cloudfront.net/users/407804-medium_jpg?1405633596","angellist_url":"https://angel.co/prasadm","system_user?":false,"tagline":"Co-founder
+        / Founding engineer @ Gimzo5 Inc (Acquired by Google), Director of Software
+        Engineering @ Evidence.com, Angel Investor - Tuition.io"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heJb5","timestamp":"2015-04-26T07:43:49Z","item":{"type":"Question","ids":[3422]},"description":"<a
+        href=\"https://angel.co/pjkershaw\" class=\"feed_link\" data-id=\"399598\"
+        data-type=\"User\">Patrick Kershaw</a> asked a question about <a href=\"https://angel.co/realcrowd\"
+        class=\"feed_link\" data-id=\"163519\" data-type=\"Startup\">RealCrowd</a>","text":"Can
+        you please send me the deck. patrick@melrosecapital.asia","actor":{"type":"User","id":399598,"name":"Patrick
+        Kershaw","image":"https://d1qb2nb5cznatu.cloudfront.net/users/399598-medium_jpg?1405659843","angellist_url":"https://angel.co/pjkershaw","system_user?":false,"tagline":"Early
+        Stage Investor / Proud New Zealander / Asia Focus / Singapore Based "},"target":{"type":"Startup","id":163519,"name":"RealCrowd","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/163519-76337ac7facd2a1ebdf2abc87f571179-thumb_jpg.jpg?buster=1360966462","angellist_url":"https://angel.co/realcrowd","system_user?":null,"tagline":"Platform
+        For Accredited Crowd Investing in Commercial Real Estate "},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heHp9","timestamp":"2015-04-26T07:35:18Z","item":{"type":"Press","ids":[238368]},"description":"<a
+        href=\"https://angel.co/wayray\" class=\"feed_link\" data-id=\"199659\" data-type=\"Startup\">WayRay</a>
+        added press from geektime.com","text":"<a href=\"http://www.geektime.com/2015/03/22/easing-you-into-the-drivers-seat-four-ways-the-connected-car-could-improve-your-ride/\"
+        rel=\"nofollow\" target=\"_blank\">Four ways the connected car could improve
+        your ride</a>","actor":{"type":"Startup","id":199659,"name":"WayRay","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/199659-adf370377ba4c74ddcdf546edddfa554-thumb_jpg.jpg?buster=1425862234","angellist_url":"https://angel.co/wayray","system_user?":null,"tagline":"The
+        world''s first holographic navigation system. "},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heHoB","timestamp":"2015-04-26T07:33:58Z","item":{"type":"Press","ids":[238367]},"description":"<a
+        href=\"https://angel.co/wayray\" class=\"feed_link\" data-id=\"199659\" data-type=\"Startup\">WayRay</a>
+        added press from forbes.com","text":"<a href=\"http://www.forbes.com/sites/ilyapozin/2015/03/13/6-tech-companies-disrupting-the-daily-drive/\"
+        rel=\"nofollow\" target=\"_blank\">6 Tech Companies Disrupting The Daily Drive
+        - Forbes</a>","actor":{"type":"Startup","id":199659,"name":"WayRay","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/199659-adf370377ba4c74ddcdf546edddfa554-thumb_jpg.jpg?buster=1425862234","angellist_url":"https://angel.co/wayray","system_user?":null,"tagline":"The
+        world''s first holographic navigation system. "},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heHjK","timestamp":"2015-04-26T07:24:14Z","item":{"type":"Follow","ids":[41625345,41625342]},"description":"<a
+        href=\"https://angel.co/chandra-kalle\" class=\"feed_link\" data-id=\"20111\"
+        data-type=\"User\">Chandra Kalle</a> followed <a href=\"https://angel.co/red-clay\"
+        class=\"feed_link\" data-id=\"82275\" data-type=\"Startup\">Red Clay</a> and
+        <a href=\"https://angel.co/the-happy-home-company\" class=\"feed_link\" data-id=\"381539\"
+        data-type=\"Startup\">The Happy Home Company</a>","text":null,"actor":{"type":"User","id":20111,"name":"Chandra
+        Kalle","image":"https://d1qb2nb5cznatu.cloudfront.net/users/20111-medium_jpg?1405450114","angellist_url":"https://angel.co/chandra-kalle","system_user?":false,"tagline":"Founding
+        Team  @collegefeed-acquired-by-aftercollege, Product @various, Engineering
+        @symantec. Product Builder."},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heGWE","timestamp":"2015-04-26T06:48:13Z","item":{"type":"Follow","ids":[41624349]},"description":"<a
+        href=\"https://angel.co/jason-lankow\" class=\"feed_link\" data-id=\"113549\"
+        data-type=\"User\">Jason Lankow</a> followed <a href=\"https://angel.co/boomtown-accelerator\"
+        class=\"feed_link\" data-id=\"331404\" data-type=\"Startup\">Boomtown Accelerator</a>","text":null,"actor":{"type":"User","id":113549,"name":"Jason
+        Lankow","image":"https://d1qb2nb5cznatu.cloudfront.net/users/113549-medium_jpg?1405524841","angellist_url":"https://angel.co/jason-lankow","system_user?":false,"tagline":"CEO/Cofounder
+        at @visage. Prev. CEO/Cofounder, @column-five. Adjunct Professor, Visualization
+        of Information at @columbia-university-1."},"target":{"type":"Startup","id":331404,"name":"Boomtown
+        Accelerator","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/331404-9e314a716b35ecf475af2b8b711ffad5-thumb_jpg.jpg?buster=1400459127","angellist_url":"https://angel.co/boomtown-accelerator","system_user?":null,"tagline":"Startup
+        accelerator focusing on adtech, IoT, media and marketing startups"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heGVq","timestamp":"2015-04-26T06:36:23Z","item":{"type":"Press","ids":[238365]},"description":"<a
+        href=\"https://angel.co/rocket-fizz\" class=\"feed_link\" data-id=\"90823\"
+        data-type=\"Startup\">Rocket Fizz</a> added press from stltoday.com","text":"<a
+        href=\"http://www.stltoday.com/best-candy-shop/article_45dee4fd-de3d-514d-bb7d-b420c544b0f9.html\"
+        rel=\"nofollow\" target=\"_blank\">Best candy shop</a>","actor":{"type":"Startup","id":90823,"name":"Rocket
+        Fizz","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/90823-6c344e3bf1202569652653c5e5cceb17-thumb_jpg.jpg?buster=1337222489","angellist_url":"https://angel.co/rocket-fizz","system_user?":null,"tagline":"Candy
+        and soda franchisor & store operator with 65 stores"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heGMc","timestamp":"2015-04-26T06:12:32Z","item":{"type":"Follow","ids":[41623842]},"description":"<a
+        href=\"https://angel.co/chintaka-ranatunga\" class=\"feed_link\" data-id=\"381898\"
+        data-type=\"User\">Chintaka Ranatunga</a> followed <a href=\"https://angel.co/flight-vc-uk\"
+        class=\"feed_link\" data-id=\"553664\" data-type=\"Startup\">Flight.vc UK</a>","text":null,"actor":{"type":"User","id":381898,"name":"Chintaka
+        Ranatunga","image":"https://d1qb2nb5cznatu.cloudfront.net/users/381898-medium_jpg?1405652884","angellist_url":"https://angel.co/chintaka-ranatunga","system_user?":false,"tagline":"Seed
+        investor in software startups in SE Asia, India, Australia & New Zealand.
+        Venture Partner at Sparkbox Ventures.\n"},"target":{"type":"Startup","id":553664,"name":"Flight.vc
+        UK","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/553664-25191c23d72a1e410e4199559bba26a2-thumb_jpg.jpg?buster=1418159101","angellist_url":"https://angel.co/flight-vc-uk","system_user?":null,"tagline":"Investing
+        in early stage companies "},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heG2f","timestamp":"2015-04-26T05:17:33Z","item":{"type":"Follow","ids":[41622216]},"description":"<a
+        href=\"https://angel.co/davidjrodriguez\" class=\"feed_link\" data-id=\"5743\"
+        data-type=\"User\">David Rodriguez</a> followed <a href=\"https://angel.co/notation-capital\"
+        class=\"feed_link\" data-id=\"538576\" data-type=\"Startup\">Notation Capital</a>","text":null,"actor":{"type":"User","id":5743,"name":"David
+        Rodriguez","image":"https://d1qb2nb5cznatu.cloudfront.net/users/5743-medium_jpg?1405438522","angellist_url":"https://angel.co/davidjrodriguez","system_user?":false,"tagline":"Ops
+        and finance at @livefyre; Venture Associate at @greycroftvc; former strategy
+        consultant and engineer; @dukeu alum; lover of the interwebs"},"target":{"type":"Startup","id":538576,"name":"Notation
+        Capital","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/538576-381b1b5ea5667b8784c91c41fdbf9cb1-thumb_jpg.jpg?buster=1416438539","angellist_url":"https://angel.co/notation-capital","system_user?":null,"tagline":"Pre-Seed
+        Venture Capital Firm in Brooklyn, NY."},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heFVx","timestamp":"2015-04-26T05:03:56Z","item":{"type":"Follow","ids":[41621905]},"description":"<a
+        href=\"https://angel.co/armando-biondi\" class=\"feed_link\" data-id=\"9242\"
+        data-type=\"User\">Armando Biondi</a> followed <a href=\"https://angel.co/kamila-dmowska-1\"
+        class=\"feed_link\" data-id=\"175088\" data-type=\"Startup\">Kamila Dmowska</a>","text":null,"actor":{"type":"User","id":9242,"name":"Armando
+        Biondi","image":"https://d1qb2nb5cznatu.cloudfront.net/users/9242-medium_jpg?1405441888","angellist_url":"https://angel.co/armando-biondi","system_user?":false,"tagline":"Cofounder
+        @adespresso & 5 more tech/non-tech companies before. Angel investor in @mattermark
+        + other 20 startups. Also: proud #500strong, former Radio Speaker."},"target":{"type":"Startup","id":175088,"name":"Kamila
+        Dmowska","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/175088-d3726d7f82c4203d9b4d081a3981f9c6-thumb_jpg.jpg?buster=1361924479","angellist_url":"https://angel.co/kamila-dmowska-1","system_user?":null,"tagline":"A
+        cross of Warby Parker and Barneys"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heFRh","timestamp":"2015-04-26T04:51:44Z","item":{"type":"Press","ids":[238364]},"description":"<a
+        href=\"https://angel.co/quantomic\" class=\"feed_link\" data-id=\"401077\"
+        data-type=\"Startup\">Quantomic</a> added press from austin.com","text":"<a
+        href=\"http://austin.com/this-austin-startup-will-get-you-paid-for-sharing-pics-of-your-favorite-stuff/\"
+        rel=\"nofollow\" target=\"_blank\">This Austin Startup Will Get You PAID For
+        Sharing Pics Of Your Favorite Stuff!</a>","actor":{"type":"Startup","id":401077,"name":"Quantomic","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/401077-6d6439fde689216013d35ce39c39cf2d-thumb_jpg.jpg?buster=1400519552","angellist_url":"https://angel.co/quantomic","system_user?":null,"tagline":"Disruptive,
+        Unorthodox Software Development"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heFQM","timestamp":"2015-04-26T04:47:52Z","item":{"type":"Follow","ids":[41621752]},"description":"<a
+        href=\"https://angel.co/pramod-rustagi\" class=\"feed_link\" data-id=\"754424\"
+        data-type=\"User\">Pramod Rustagi</a> followed <a href=\"https://angel.co/groundfloor\"
+        class=\"feed_link\" data-id=\"272374\" data-type=\"Startup\">GROUNDFLOOR</a>","text":null,"actor":{"type":"User","id":754424,"name":"Pramod
+        Rustagi","image":"https://d1qb2nb5cznatu.cloudfront.net/users/754424-medium_jpg?1410478938","angellist_url":"https://angel.co/pramod-rustagi","system_user?":false,"tagline":"MS
+        Computer Science from Ohio State University. Software Engineer at SGI, Sun,
+        Intel."},"target":{"type":"Startup","id":272374,"name":"GROUNDFLOOR","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/272374-6035f7a48d1cc7dba769677635280e1d-thumb_jpg.jpg?buster=1392567031","angellist_url":"https://angel.co/groundfloor","system_user?":null,"tagline":"Taking
+        private lending public"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heFoy","timestamp":"2015-04-26T04:17:11Z","item":{"type":"Follow","ids":[41621069,41620514]},"description":"<a
+        href=\"https://angel.co/rob-ness\" class=\"feed_link\" data-id=\"19350\" data-type=\"User\">Rob
+        Ness</a> followed <a href=\"https://angel.co/irisvr\" class=\"feed_link\"
+        data-id=\"370143\" data-type=\"Startup\">IrisVR</a> and <a href=\"https://angel.co/ad-and-marketing-tech-syndicate\"
+        class=\"feed_link\" data-id=\"524505\" data-type=\"Startup\">Ad and Marketing
+        Tech Syndicate</a>","text":null,"actor":{"type":"User","id":19350,"name":"Rob
+        Ness","image":"https://d1qb2nb5cznatu.cloudfront.net/users/19350-medium_jpg?1411854279","angellist_url":"https://angel.co/rob-ness","system_user?":false,"tagline":"1st
+        career as strategist @BoozAllen; 2nd founding successful real estate fund.
+        Loving career #3 as angel investor. Served time @harvard, @berkeley.\n\n\n"},"target":null,"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heFqL","timestamp":"2015-04-26T04:02:48Z","item":{"type":"Answer","ids":[1532]},"description":"<a
+        href=\"https://angel.co/pushpinder-singh\" class=\"feed_link\" data-id=\"305713\"
+        data-type=\"User\">Pushpinder Singh</a> answered the following question about
+        <a href=\"https://angel.co/travelkhana\" class=\"feed_link\" data-id=\"209159\"
+        data-type=\"Startup\">Travelkhana</a>","text":"Vipul. My e-mail id is Pushpinder@travelkhana.com
+        . Can I have your e-mail / contact information so I can send the information
+        there? We are not active on Angellist. \n","actor":{"type":"User","id":305713,"name":"Pushpinder
+        Singh","image":"https://d1qb2nb5cznatu.cloudfront.net/users/305713-medium_jpg?1405622784","angellist_url":"https://angel.co/pushpinder-singh","system_user?":false,"tagline":null},"target":{"type":"Startup","id":209159,"name":"Travelkhana","image":"https://d1qb2nb5cznatu.cloudfront.net/startups/i/209159-1ddf086c3cae0531d22aa7fec76e25cf-thumb_jpg.jpg?buster=1369069096","angellist_url":"https://angel.co/travelkhana","system_user?":null,"tagline":"Quality
+        food on board for Indian long distance train travelers"},"extra":null,"promoted_by":[],"likes":0,"comments":0},{"id":"2heFmP","timestamp":"2015-04-26T03:49:27Z","item":{"type":"Follow","ids":[41620429]},"description":"<a
+        href=\"https://angel.co/ping-wu\" class=\"feed_link\" data-id=\"405805\" data-type=\"User\">Ping
+        Wu</a> followed <a href=\"https://angel.co/candy-house-inc\" class=\"feed_link\"
+        data-id=\"508306\" data-type=\"Startup\">CANDY HOUSE Inc.</a>","text":null,"actor":{"type":"User","id":405805,"name":"Ping
+        Wu","image":"https://d1qb2nb5cznatu.cloudfront.net/users/405805-medium_jpg?1405662163","angellist_url":"https://angel.co/ping-wu","system_user?":false,"tagline":"Engineering
+        Manager @ Google on Mobile Monetization. Worked at IBM Research and Microsoft
+        Research. PhD from UCSB. "},"target":{"type":"Startup","id":508306,"name":"CANDY
+        HOUSE Inc.","image":"https://angel.co/images/shared/nopic_startup.png","angellist_url":"https://angel.co/candy-house-inc","system_user?":null,"tagline":""},"extra":null,"promoted_by":[],"likes":0,"comments":0}],"total":100,"per_page":25,"page":1,"last_page":4}'
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 10:46:17 GMT
+recorded_with: VCR 2.9.3
