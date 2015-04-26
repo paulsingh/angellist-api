@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'multi_json', '~> 1.0'
 
   s.add_development_dependency "rdiscount", "~> 2.0"
-  s.add_development_dependency "rspec",     "~> 2.7"
+  s.add_development_dependency "rspec",     "~> 3.2"
   s.add_development_dependency "simplecov", "~> 0.7"
   s.add_development_dependency "timecop",   "~> 0.6"
   s.add_development_dependency "vcr",       "~> 2.1"

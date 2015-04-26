@@ -31,11 +31,11 @@ describe AngellistApi do
 
   describe ".respond_to?" do
     it "returns true if AngellistApi::Client responds to the method" do
-      AngellistApi.respond_to?(:startup_search).should be_true
+      AngellistApi.respond_to?(:startup_search).should be true
     end
 
     it "returns false if AngellistApi::Client does not respond to the method" do
-      AngellistApi.respond_to?(:some_unknown_method).should be_false
+      AngellistApi.respond_to?(:some_unknown_method).should be false
     end
   end
 

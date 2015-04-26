@@ -14,7 +14,7 @@ describe AngellistApi::Authentication do
     context "without auth variables defined" do
       it "returns a hash with nil values" do
         a = BasicClass.new
-        a.send(:authentication).values.any?.should be_false
+        a.send(:authentication).values.any?.should be false
       end
     end
 
@@ -22,12 +22,12 @@ describe AngellistApi::Authentication do
       let(:a) { FullClass.new }
 
       it "returns a hash with nil values if auth variables are not set" do
-        a.send(:authentication).values.all?.should be_false
+        a.send(:authentication).values.all?.should be false
       end
 
       it "returns a hash with nil values if auth variables are set" do
         a.access_token = "token"
-        a.send(:authentication).values.all?.should be_true
+        a.send(:authentication).values.all?.should be true
       end
     end
   end
@@ -37,12 +37,12 @@ describe AngellistApi::Authentication do
 
     it "returns false if authentication has any nil values" do
       a.should_receive(:authentication).and_return({:access_token=>nil})
-      a.send(:authenticated?).should be_false
+      a.send(:authenticated?).should be false
     end
 
     it "returns true if authentication has no nil values" do
       a.should_receive(:authentication).and_return({:access_token=>"1"})
-      a.send(:authenticated?).should be_true
+      a.send(:authenticated?).should be true
     end
   end
 end
