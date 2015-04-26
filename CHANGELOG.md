@@ -1,5 +1,19 @@
 ## Master
 
+## 1.1.0 - 26 April, 2015
+
+- **Breaking**: The `feed_item` client method to retrieve a single activity feed
+  entry has been removed, because the endpoint was apparently removed by
+  AngelList (see [the API doc page][api-activity-feeds]).
+
+    Apologies for the breaking change in a minor version bump, but really removing
+    an endpoint should have prompted AngelList to bump *their* API version :-(
+- The Jobs endpoints now all require authentication.
+- Of note for contributors: the test suite should now work with Faraday 0.9, as
+  we claim to support in our dependency declarations. Be warned that Faraday's
+  maintainers have slated it for the chopping block, we will be looking at
+  alternatives for the future of this gem.
+
 ## 1.0.7 - 18 October, 2013
 
 - Load Gemfile.local for optional development support libraries ([Rahil Sondhi])
@@ -53,6 +67,7 @@
 - Relax Hashie dependency, in particular to avoid dep conflict with
   omniauth-angellist.
 
+[api-activity-feeds]: https://angel.co/api/spec/activity_feeds
 
 [Paul Singh]: https://github.com/paulsingh
 [Ches Martin]: https://github.com/ches
