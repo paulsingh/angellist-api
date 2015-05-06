@@ -1,10 +1,11 @@
 require 'spec_helper'
 
 describe AngellistApi::Client::Users,
-  :vcr => { :cassette_name => 'users' } do
+  :vcr => { :cassette_name => 'users', :record => :new_episodes } do
 
   let(:client) { AngellistApi::Client.new }
   let(:user_id) { 155 }  # Naval
+  let(:tag_id) { 1654 }  # Louisville tag
 
   it 'gets info for a user' do
     user = client.get_user(user_id)
@@ -27,6 +28,20 @@ describe AngellistApi::Client::Users,
     roles.startup_roles.each do |relationship|
       ROLES.should include relationship.role
     end
+  end
+  
+  it 'gets the investors that are tagged with the given tag' do
+    investors = client.user_tags(tag_id, :investor => 'by_residence')
+    
+    # Get the first investor user profile
+    user = client.get_user(investors.users[0].id)
+    
+    # Check his locations tags
+    location_match = false
+    user.locations.each do |location|
+      location_match = true if location.id == tag_id
+    end
+    location_match.should == true
   end
 end
 

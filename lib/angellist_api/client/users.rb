@@ -70,6 +70,32 @@ module AngellistApi
       def user_roles(id, options={})
         get("1/users/#{id}/roles", options)
       end
+      
+      # Returns users that are tagged with the given tag, either a LocationTag or
+      # MarketTag. Results are paginated and ordered from highest quality to lowest quality.
+      #
+      # @requires_authentication No
+      # @paginated Yes
+      #
+      # @param [Integer] id ID of the desired tag either a LocationTag or MarketTag.
+      # @option options [Integer] :include_children Set to 1 if you'd like the results
+      #   to also include child tags. For example, if you pass in California but want
+      #   to also see users tagged with San Francisco and Los Angeles.
+      #   Cannot be combined with include_parents..
+      # @option options [Integer] :include_parents Set to 1 if you'd like the results
+      #   to also include parent tags. For example, if you pass in San Francisco,
+      #   but also want to see investors who follow Silicon Valley, California and
+      #   the US. Cannot be combined with include_children.
+      # @option options [String] :investors May be either by_residence or by_activity.
+      #   Narrows the results to only return investors. by_residence will only return
+      #   investors who reside in the given tag. by_activity will only return investors
+      #   who invest in the given tag.
+      #
+      # @example Get users tagged with Louisville tag (1654) and all its children's tag.
+      #   AngellistApi.user_tags(1654, :include_children => 1)
+      def user_tags(id, options={})
+        get("1/tags/#{id}/users", options)
+      end
     end
   end
 end
