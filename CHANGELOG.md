@@ -1,5 +1,8 @@
 ## Master
 
+- Add endpoint for users by tag, to get users for a particular location or
+  market ([Stéphane Juban])
+
 ## 1.1.0 - 26 April, 2015
 
 - **Breaking**: The `feed_item` client method to retrieve a single activity feed
@@ -75,6 +78,7 @@
 [Pedro Freitas]: https://github.com/pelf
 [Rahil Sondhi]: https://github.com/rahilsondhi
 [Michael Revell]: https://github.com/MichaelRevell
+[Stéphane Juban]: https://github.com/StephaneJuban
 
 <!-- vim: set tw=80 :-->
 
