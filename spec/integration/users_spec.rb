@@ -31,7 +31,7 @@ describe AngellistApi::Client::Users,
   end
 
   it 'gets the investors that are tagged with the given tag' do
-    investors = client.user_tags(tag_id, :investor => 'by_residence')
+    investors = client.get_tag_users(tag_id, :investor => 'by_residence')
     user = client.get_user(investors.users.first.id)
     user.locations.any? { |loc| loc.id == tag_id  }.should be true
   end

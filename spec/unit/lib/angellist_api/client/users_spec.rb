@@ -35,5 +35,13 @@ describe AngellistApi::Client::Users do
       client.me.should == "success"
     end
   end
+
+  describe '#get_tag_users' do
+    it 'gets 1/tags/<id>/users' do
+      id = "123"
+      client.should_receive(:get).with("1/tags/#{id}/users", {}).and_return("success")
+      client.get_tag_users(id).should == "success"
+    end
+  end
 end
 
