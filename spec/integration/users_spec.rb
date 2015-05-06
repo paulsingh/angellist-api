@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe AngellistApi::Client::Users,
-  :vcr => { :cassette_name => 'users', :record => :new_episodes } do
+  :vcr => { :cassette_name => 'users' } do
 
   let(:client) { AngellistApi::Client.new }
   let(:user_id) { 155 }  # Naval
